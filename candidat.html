@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fiche candidat – Municipales Corse 2026</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="./assets/france3corse-viastella.png" alt="France 3 Corse Via Stella" />
+      <a href="./index.html" id="homeLink">Municipales Corse 2026</a>
+    </div>
+  </header>
+
+  <main style="max-width:980px;margin:0 auto;padding:14px;">
+    <div class="panel-card" id="card">
+      <div id="content" class="empty">Chargement…</div>
+    </div>
+  </main>
+
+  <script>
+    function getParam(k){
+      const u = new URL(window.location.href);
+      return u.searchParams.get(k);
+    }
+    function esc(s){
+      return String(s||"").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+    function badgeHtml(label, value){
+      const v = (value === true) ? "oui" : (value === false) ? "non" : "?";
+      const cls = (v === "oui") ? "badge blue-dark" : (v === "non") ? "badge blue" : "badge";
+      return '<span class="'+cls+'">'+esc(label)+' : '+esc(v)+'</span>';
+    }
+
+    async function main(){
+      const id = getParam("id");
+      if(!id){
+        document.getElementById("content").innerHTML = "ID manquant.";
+        return;
+      }
+      const [cands, communes] = await Promise.all([
+        fetch("./data/candidats.json").then(r=>r.json()),
+        fetch("./data/communes_meta.json").then(r=>r.json())
+      ]);
+      const cand = cands.find(x=>x.id===id);
+      if(!cand){
+        document.getElementById("content").innerHTML = "Candidat introuvable.";
+        return;
+      }
+      const commune = communes.find(c=>c.insee===cand.commune_insee);
+
+      const backCommune = commune ? ('./index.html?commune='+encodeURIComponent(commune.insee)) : './index.html';
+      const photo = cand.photo ? '<div class="commune-photo" style="width:92px;height:92px;"><img src="'+esc(cand.photo)+'" alt="Photo"></div>' : '';
+
+      document.title = "Fiche – " + cand.name + " (" + cand.commune + ")";
+
+      const html = `
+        <div style="display:flex;gap:12px;align-items:flex-start;">
+          ${photo}
+          <div style="flex:1;min-width:0;">
+            <h1 style="margin:0 0 6px 0;font-size:22px;line-height:1.15;">${esc(cand.name)}</h1>
+            <div style="color:var(--muted);font-size:13px;">
+              ${esc(cand.commune)} • ${esc(cand.dept || "")}
+            </div>
+            <div class="badges">
+              ${badgeHtml("Maire sortant", cand.is_maire_sortant)}
+              ${badgeHtml("Candidat", true)}
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px;">
+          <div class="kv">
+            <div class="k">Intercommunalité</div><div class="v">${esc(cand.epci || "—")}</div>
+            <div class="k">Population (commune)</div><div class="v">${commune && commune.habitants ? esc(commune.habitants.toLocaleString("fr-FR")) : "—"}</div>
+          </div>
+        </div>
+
+        ${cand.articles ? `<div style="margin-top:12px;border-top:1px solid var(--line);padding-top:12px;">
+          <div style="font-weight:700;margin-bottom:6px;">Liens / articles</div>
+          <div style="font-size:13px;white-space:pre-wrap;">${esc(cand.articles)}</div>
+        </div>` : ""}
+
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+          <a class="badge blue" href="${backCommune}">← Retour à la commune</a>
+          <a class="badge" href="./index.html">← Accueil</a>
+        </div>
+      `;
+      document.getElementById("content").innerHTML = html;
+    }
+    main().catch(err=>{
+      document.getElementById("content").innerHTML = "Erreur de chargement.";
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

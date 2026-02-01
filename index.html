@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Municipales Corse 2026</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="./assets/france3corse-viastella.png" alt="France 3 Corse Via Stella" />
+      <a href="./index.html" id="homeLink">Municipales Corse 2026</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+
+        <div class="panel-card">
+          <div class="switch" role="tablist" aria-label="Choix de vue">
+            <button id="btnVueCommune" class="active" type="button">Vue par commune</button>
+            <button id="btnVueCandidat" type="button">Vue par candidats</button>
+          </div>
+
+          <div class="controls">
+            <div class="control-row">
+              <label for="searchBox">Recherche</label>
+              <input id="searchBox" type="search" placeholder="Rechercher une commune ou un candidat" list="suggestions" autocomplete="off" />
+              <datalist id="suggestions"></datalist>
+            </div>
+
+            <div class="control-row">
+              <label for="deptSelect">Département</label>
+              <select id="deptSelect"></select>
+            </div>
+
+            <div class="control-row">
+              <label for="epciSelect">Communauté de communes / d'agglomération</label>
+              <select id="epciSelect"></select>
+            </div>
+
+            <div class="control-row" id="communeFilterRow" style="display:none;">
+              <label for="communeSelect">Commune</label>
+              <select id="communeSelect"></select>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div id="statsText">–</div>
+            <div class="pill" id="statsPill">–</div>
+          </div>
+        </div>
+
+        <div class="list" id="list"></div>
+
+        <div class="footer-note">
+          Données : compilation interne (candidats déclarés) + contours communaux.
+          <br/>Fond cartographique : Plan IGN v2.
+        </div>
+      </div>
+    </aside>
+
+    <section class="mapwrap">
+      <div id="map" aria-label="Carte de la Corse"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
