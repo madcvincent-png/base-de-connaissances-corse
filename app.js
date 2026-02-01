@@ -97,7 +97,8 @@ function fitToCommune(commId){
   const feat = state.communesGeo.features.find(f => f.properties.id === commId);
   if (!feat) return;
   const layer = L.geoJSON(feat);
-  map.fitBounds(layer.getBounds(), {padding:[30,30]});
+  const b = layer.getBounds().pad(0.35);
+  map.fitBounds(b, {padding:[40,40], maxZoom: 11});
 }
 
 /* --- EPCI layer --- */
@@ -108,10 +109,10 @@ function renderEpci(){
       const epci = feat.properties.epci || "";
       return {
         color: hashColor(epci),
-        weight: 2,
-        opacity: 0.55,
+        weight: 3,
+        opacity: 0.85,
         fillColor: hashColor(epci),
-        fillOpacity: 0.06
+        fillOpacity: 0.18
       };
     },
     interactive: false
@@ -311,7 +312,16 @@ function candidateBadges({isMaireSortant, isCandidat}){
 
 function renderCommuneCard(c){
   const candNames = splitCandidates(c.candidats);
-  const candLines = candNames.map(n => `<div>• ${escapeHtml(n)}</div>`).join("");
+  const candLines = candNames.map(n => {
+    const cand = state.candidats.find(x =>
+      normalize(x.name) === normalize(n) &&
+      normalize((x.commune || x.maire_sortant_de || "")) === normalize(c.nom)
+    );
+    if (cand){
+      return `<div>• <a href="candidat.html?id=${encodeURIComponent(cand.id)}" class="cand-link" onclick="event.stopPropagation()">${escapeHtml(n)}</a></div>`;
+    }
+    return `<div>• ${escapeHtml(n)}</div>`;
+  }).join("");
   const img = c.photo_asset ? c.photo_asset : "";
   const imgRemote = c.photo_url || "";
   const imgHtml = (img || imgRemote) ? `
@@ -353,7 +363,7 @@ function renderCandidateCard(cand){
 
   const ms = cand.maire_sortant_de ? "oui" : "non";
   // on ne sait pas toujours s'il est candidat si l'info manque -> "?"
-  const isCandidat = ""; // pas fourni dans ce CSV : on laisse "?"
+  const isCandidat = (cand.commune ? "oui" : (cand.maire_sortant_de ? "oui" : "?"));
   return `
   <div class="card" data-cand="${escapeHtml(cand.id)}">
     <div class="comm-head">
@@ -376,7 +386,9 @@ function renderCandidateCard(cand){
 function updateKPI(listCommunes, listCands){
   const x = listCommunes.length;
   const y = listCands.length;
-  $("kpiLine").textContent = `${x} communes • ${y} candidats affichés`;
+  $("kpiLine").textContent = (state.view==="candidat")
+    ? `${x} communes • ${y} candidats et maires sortants affichés`
+    : `${x} communes • ${y} candidats affichés`;
 }
 
 /* --- Core update --- */
