@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Municipales Corse 2026</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Retour à l'accueil">
+      <img src="assets/france3corse-viastella.png" alt="France 3 Corse Via Stella" class="logo" />
+      <a class="brand-title" href="./">Municipales Corse 2026</a>
+    </a>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="segmented" role="tablist" aria-label="Choix de vue">
+            <button id="btnViewCommune" class="seg active" type="button">Vue par commune</button>
+            <button id="btnViewCandidat" class="seg" type="button">Vue par candidats</button>
+          </div>
+
+          <div class="kpi" id="kpiLine">—</div>
+
+          <label class="lbl">Recherche</label>
+          <div class="search-wrap">
+            <input id="searchInput" class="input" type="search" placeholder="Rechercher une commune ou un candidat" autocomplete="off" />
+            <div id="autocomplete" class="autocomplete" hidden></div>
+          </div>
+
+          <label class="lbl">Département</label>
+          <select id="deptSelect" class="select">
+            <option value="">Tous</option>
+            <option value="Corse-du-Sud">Corse-du-Sud</option>
+            <option value="Haute-Corse">Haute-Corse</option>
+          </select>
+
+          <label class="lbl" id="epciLabel">Communauté de communes / d'agglomération</label>
+          <select id="epciSelect" class="select">
+            <option value="">Toutes</option>
+          </select>
+
+          <label class="lbl" id="communeLabel" style="display:none;">Commune</label>
+          <select id="communeSelect" class="select" style="display:none;">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div id="list" class="list"></div>
+      </div>
+
+      <div class="footer-note">
+        <div>Données : compilation interne (candidats déclarés) + contours communaux.</div>
+        <div>Fond cartographique : Plan IGN v2 (via data.geopf.fr) / secours OSM.</div>
+      </div>
+    </aside>
+
+    <section class="mapwrap">
+      <div id="map" class="map"></div>
+      <div id="mapHint" class="map-hint" hidden>Fond IGN indisponible — affichage du fond de secours.</div>
+      <div class="attribution">© IGN – Plan IGN v2</div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
