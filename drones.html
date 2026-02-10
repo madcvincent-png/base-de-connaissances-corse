@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>France 3 Corse — Carte des drones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    #map { height: 100vh; }
+    .panel { position:absolute; top:64px; left:12px; z-index:1000; background:#fff; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,.15); width:320px; max-width:90vw; }
+    .panel header { padding:10px 12px; font-weight:700; border-bottom:1px solid #eee; }
+    .panel .body { padding:10px 12px; }
+    .chip { display:inline-block; padding:4px 8px; border-radius:999px; background:#e6eefc; color:#0b2e7a; font-size:12px; margin-right:6px; }
+    .filter { margin-bottom:8px; }
+  </style>
+</head>
+<body>
+  <nav class="topnav">
+    <a href="index.html">Municipales</a>
+    <a class="active" href="drones.html">Carte des drones</a>
+  </nav>
+
+  <div id="map"></div>
+
+  <aside class="panel">
+    <header>Carte des drones</header>
+    <div class="body">
+      <div class="filter">
+        <label>Recherche</label>
+        <input id="q" type="search" placeholder="Lieu, type, date…" />
+      </div>
+      <div class="filter">
+        <label>Filtres</label><br/>
+        <span class="chip">Vue aérienne</span>
+        <span class="chip">Littoral</span>
+        <span class="chip">Montagne</span>
+      </div>
+      <small>Sources : France 3 Corse • Archives drones</small>
+    </div>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+  <script src="drones.js"></script>
+</body>
+</html>
