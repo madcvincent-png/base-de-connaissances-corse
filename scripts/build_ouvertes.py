@@ -334,7 +334,7 @@ def reperes_wikidata(personnes):
 RUBRIQUES = [  # (préfixes de rubrique ICPE, catégorie)
     (("2760", "3540"), "Stockage de déchets"),
     (("2771", "3520"), "Incinération de déchets"),
-    (("2710", "2711", "2713", "2714", "2716", "2718", "2791", "2790"), "Tri, transit et traitement de déchets"),
+    (("2710", "2711", "2713", "2714", "2716", "2718", "2791", "2790"), "Tri et traitement de déchets"),
     (("2780", "2781", "3532"), "Compostage et méthanisation"),
     (("4734", "4718", "1434", "4330", "4331", "1412", "1414"), "Hydrocarbures et gaz"),
     (("2910", "3110", "2931"), "Production d'énergie"),
