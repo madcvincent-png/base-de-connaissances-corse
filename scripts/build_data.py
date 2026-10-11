@@ -336,6 +336,31 @@ def construire(raw):
         if txt(r.get("Type")) != "Modèle"
     ]
     kb["notes"].sort(key=lambda n: n["arreteAu"], reverse=True)
+
+    # Documents de référence : études et documents officiels, publics par nature
+    kb["documents"] = sorted(
+        (
+            {
+                "id": pid(r["url"]),
+                "titre": txt(r.get("Titre")),
+                "producteur": txt(r.get("Producteur")),
+                "type": txt(r.get("Type")),
+                "collection": txt(r.get("Collection")),
+                "numero": txt(r.get("Numéro")),
+                "date": date(r, "Date de publication"),
+                "themes": multi(r.get("Thèmes")),
+                "resume": txt(r.get("Résumé")),
+                "chiffres": txt(r.get("Chiffres clés")),
+                "statut": txt(r.get("Statut")),
+                "lien": txt(r.get("Lien")),
+                "dossiers": rel(r.get("Dossiers")),
+                "verifieLe": date(r, "Vérifié le"),
+            }
+            for r in raw.get("documents", [])
+        ),
+        key=lambda d: d["date"] or "0000",
+        reverse=True,
+    )
     return kb
 
 
@@ -367,6 +392,7 @@ CHAMPS_PUBLICS = {
                  "communes", "dossiers", "personnes"],
     "notes": [],  # documents internes : aucun
     "drones": ["code", "titre", "date", "lieu", "duree"],
+    "documents": None,  # documents officiels publiés : tous les champs
 }
 
 
@@ -389,6 +415,7 @@ def profil_public(kb):
         "articles": lambda a: a["rubrique"] not in RUBRIQUES_EXCLUES and propre(a["titre"]),
         "notes": lambda n: False,
         "drones": lambda d: True,
+        "documents": lambda d: True,
     }
     out = {}
     for base, lignes in kb.items():

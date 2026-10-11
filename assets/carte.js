@@ -150,7 +150,8 @@
     if (!visibles.length)
       el.innerHTML = `<div class="vide">${c ? `${co.aucun} à ${K.esc(c.nom)} avec ces filtres.` : `${co.aucun} avec ces filtres.`}</div>`;
     else K.listeRepliable(el, visibles, co.rendu, 25);
-    K.etatUrl({ couche: etat.couche === "faits" ? "" : etat.couche, rub: etat.rub, de: etat.de, a: etat.a, commune: etat.commune });
+    K.etatUrl({ couche: etat.couche === "faits" ? "" : etat.couche, rub: etat.rub, de: etat.de, a: etat.a, commune: etat.commune, sites: carte.hasLayer(sites) ? "1" : "" });
+    legendeSites();
   }
 
   function choisir(code) {
@@ -194,6 +195,29 @@
     polygones.setStyle(style);
   });
   $("#epci").addEventListener("change", (e) => (e.target.checked ? epci.addTo(carte) : epci.remove()));
+
+  // ------------------------------------------------------------ sites et équipements (données ouvertes)
+  const sites = L.layerGroup();
+  K.SITES.forEach((x) => {
+    if (!x.lat) return;
+    L.circleMarker([x.lat, x.lon], { radius: x.seveso ? 6.5 : 5, weight: x.seveso ? 2 : 1, color: x.seveso ? "#202020" : "#fff", fillOpacity: 0.95, className: "marqueur-site s-" + (K.familleSite[x.categorie] || "") })
+      .bindTooltip(`<b>${K.esc(x.nom)}</b><small>${K.esc(x.categorie)}${x.seveso ? " — " + K.esc(x.seveso) : ""} — ${K.esc((K.I.commune.get(x.commune) || {}).nom || "")}</small>`, { className: "info", direction: "top" })
+      .on("click", (e) => { L.DomEvent.stopPropagation(e); choisir(x.commune); })
+      .addTo(sites);
+  });
+  const legendeSites = () => {
+    const l = $("#legende .legende-sites");
+    if (l) l.remove();
+    if (!carte.hasLayer(sites)) return;
+    $("#legende").insertAdjacentHTML("beforeend", `<div class="legende-sites"><b>Sites et équipements</b>${Object.entries(K.FAMILLES_SITES).map(([k, f]) => `<span><i class="pastille-site" data-s="${k}"></i>${K.esc(f.nom)}</span>`).join("")}<span><i class="pastille-site seveso"></i>Seveso (cerclé de noir)</span></div>`);
+  };
+  const afficherSites = (oui) => {
+    oui ? sites.addTo(carte) : sites.remove();
+    $("#sites").checked = oui;
+    legendeSites();
+  };
+  if (!K.SITES.length) $("#sites").closest("label").hidden = true;
+  $("#sites").addEventListener("change", (e) => { afficherSites(e.target.checked); dessiner(); });
   window.addEventListener("resize", () => carte.invalidateSize());
 
   // ------------------------------------------------------------ volet : tirette et carte seule
@@ -255,6 +279,7 @@
   });
   tirette.addEventListener("click", (e) => { if (e.detail === 0) replier(!pageCarte.classList.contains("volet-ferme")); }); // Entrée ou Espace
 
+  if (K.param("sites") === "1" && K.SITES.length) sites.addTo(carte), ($("#sites").checked = true);
   dessinerFiltres();
   dessiner();
   if (etat.commune) {

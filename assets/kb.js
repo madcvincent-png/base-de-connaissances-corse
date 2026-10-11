@@ -65,8 +65,10 @@
     note: parId(D.notes),
     role: parId(D.roles),
     agenda: parId(D.agenda),
+    document: parId(D.documents || []),
   };
-  const vide = () => ({ faits: [], articles: [], agenda: [], roles: [], notes: [], drones: [], dossiers: [], personnes: [] });
+  D.documents = D.documents || [];
+  const vide = () => ({ faits: [], articles: [], agenda: [], roles: [], notes: [], drones: [], dossiers: [], personnes: [], documents: [] });
   const R = { dossier: new Map(), personne: new Map(), commune: new Map(), article: new Map() };
   const lie = (carte, cle, champ, objet) => {
     if (!carte.has(cle)) carte.set(cle, vide());
@@ -78,6 +80,7 @@
     ["agenda", D.agenda],
     ["roles", D.roles],
     ["notes", D.notes],
+    ["documents", D.documents],
   ];
   for (const [champ, lignes] of BASES) {
     for (const l of lignes) {
@@ -120,7 +123,9 @@
     const m = p.nom.match(/^((?:[A-ZÀ-ÖØ-Þ'’\-]{2,}\s?)+)\s+(.+)$/);
     if (!m) return p.nom;
     const nom = m[1].trim().toLowerCase().replace(/(^|[\s\-'’])(\p{L})/gu, (x, a, b) => a + b.toUpperCase())
-      .replace(/^(De|Du|Des|D['’])(?=[\s\p{L}])/u, (x) => x.toLowerCase()); // « de La Foata », « d'Ornano »
+      .replace(/^(?:(De|Du|Des)(?=\s)|D['’](?=\p{L}))/u, (x) => x.toLowerCase())
+      .replace(/(?<=\s)D(?=['’]\p{L})/gu, "d") // « Colonna d'Istria »
+      .replace(/(?<=\s)(Di|Da|Della|Delle|De|Du)(?=\s)/gu, (x) => x.toLowerCase()); // « Pozzo di Borgo » // « de La Foata », « d'Ornano », mais « Deconstanza »
     return `${m[2]} ${nom}`;
   }
 
@@ -226,6 +231,63 @@
       im.aValider ? `<br><span class="a-valider">Rapprochement automatique avec Wikidata, à vérifier</span>` : ""}</figcaption>`;
   }
 
+  // ------------------------------------------------------------ données ouvertes (data/ouvertes.js)
+  // Produit par scripts/build_ouvertes.py dans GitHub Actions : Répertoire national des élus,
+  // Géorisques, Wikidata. Facultatif : sans lui, les blocs correspondants ne s'affichent pas.
+  const O = window.KB_OUV || {};
+  const ELUS = O.elus || { communes: {}, effectifs: {}, institutions: {} };
+  const SITES = O.sites || [];
+  const LIEUX = O.lieux || [];
+  const OUV_PERS = O.personnes || {};
+  const sitesDe = new Map(), lieuxDe = new Map();
+  SITES.forEach((x) => (sitesDe.get(x.commune) || sitesDe.set(x.commune, []).get(x.commune)).push(x));
+  LIEUX.forEach((x) => (lieuxDe.get(x.commune) || lieuxDe.set(x.commune, []).get(x.commune)).push(x));
+  /** « Ca Du Pays Ajaccien » (graphie du RNE) -> « CA du Pays Ajaccien ». */
+  const epciNom = (x) => String(x || "").trim().replace(/^(Ca|Cc|Cu)\b/, (m) => m.toUpperCase())
+    .replace(/(?<=\s)(?:(De|Du|Des|La|Le|Les|Et)(?=\s)|(D'|L')(?=\p{L}))/gu, (m) => m.toLowerCase());
+  /** « 2ème adjoint au Maire » -> « 2e adjoint au maire ». */
+  const fonctionRne = (f) => String(f || "").replace(/(\d+)\s*(?:ème|eme|Ème)/g, "$1e").replace(/(\d+)\s*(?:ère|Ère|ere)/g, "$1re").replace(/au Maire\b/, "au maire");
+  /** Un élu du RNE (« SBRAGGIA », « Stéphane ») a-t-il une fiche dans le répertoire ? */
+  const indexNoms = new Map(D.personnes.filter((p) => p.nature === "Personne").map((p) => [norm(p.nom), p]));
+  const ficheElu = (e) => indexNoms.get(norm(`${e.nom} ${e.prenom}`)) || null;
+  const nomElu = (e) => {
+    const p = ficheElu(e);
+    const n = nomAffiche({ nature: "Personne", nom: `${e.nom} ${e.prenom}` });
+    return p ? `<a href="${url.personne(p.id)}">${esc(n)}</a>` : esc(n);
+  };
+  const circoDe = new Map((ELUS.institutions["Députés"] || []).map((d) => [norm(`${d.nom} ${d.prenom}`), d.circonscription]));
+
+  const FAMILLES_SITES = {
+    energie: { nom: "Énergie et hydrocarbures", categories: ["Hydrocarbures et gaz", "Site Seveso", "Centrale électrique", "Barrage", "Production d'énergie"] },
+    dechets: { nom: "Déchets", categories: ["Tri et traitement de déchets", "Stockage de déchets", "Compostage et méthanisation", "Décharge"] },
+    carrieres: { nom: "Carrières et matériaux", categories: ["Carrières et matériaux"] },
+    transports: { nom: "Ports, aéroports, phares", categories: ["Port", "Aéroport", "Phare"] },
+    publics: { nom: "Équipements publics", categories: ["Hôpital", "Prison", "Palais de justice", "Université", "Stade"] },
+  };
+  const familleSite = {};
+  Object.entries(FAMILLES_SITES).forEach(([k, f]) => f.categories.forEach((c) => (familleSite[c] = k)));
+  const etatSite = (x) => (x.etat || "").replace(/ avec titre$/, "");
+  function rangSite(x, opt = {}) {
+    return `<div class="rang"><div class="quand"><span class="pastille-site" data-s="${familleSite[x.categorie] || ""}"></span>${esc(x.categorie)}</div><div class="quoi">
+      <div class="intitule">${x.lien ? `<a href="${esc(x.lien)}" target="_blank" rel="noopener">${esc(x.nom)}</a>` : esc(x.nom)}</div>
+      <div class="meta">${x.seveso ? `<span class="etiq alerte">${esc(x.seveso)}</span>` : ""}${x.regime ? `<span class="etiq">${esc(x.regime)}</span>` : ""}
+        ${etatSite(x) && etatSite(x) !== "En exploitation" ? `<span class="etiq attention">${esc(etatSite(x))}</span>` : ""}
+        ${(x.autres || []).length ? `<span>Aussi : ${x.autres.map(esc).join(", ")}</span>` : ""}
+        ${opt.sansLieu ? "" : `<span>${lienCommune(x.commune)}</span>`}<span class="discret">Source : ${esc(x.source)}</span></div></div></div>`;
+  }
+  function rangDocument(d, opt = {}) {
+    const titre = d.lien ? `<a href="${esc(d.lien)}" target="_blank" rel="noopener">${esc(d.titre)}</a>` : esc(d.titre);
+    const ref = [d.collection, d.numero].filter(Boolean).join(" n° ");
+    return `<div class="rang"><div class="quand">${d.date ? esc(dateFr(d.date)) : "Non daté"}</div><div class="quoi">
+      <div class="intitule">${titre}</div>
+      ${d.resume ? `<div class="complement">${riche(d.resume)}</div>` : ""}
+      ${d.chiffres ? `<div class="complement chiffres-cles"><b>Chiffres à retenir :</b> ${riche(d.chiffres)}</div>` : ""}
+      <div class="meta"><b>${esc(d.producteur)}</b>${d.type ? `<span class="etiq">${esc(d.type)}</span>` : ""}${ref ? `<span>${esc(ref)}</span>` : ""}
+        ${d.statut && d.statut !== "En vigueur" && d.statut !== "Publié" ? `<span class="etiq attention">${esc(d.statut)}</span>` : ""}
+        ${(d.themes || []).map((t) => `<span class="etiq">${esc(t)}</span>`).join("")}
+        ${opt.sansDossier ? "" : (d.dossiers || []).map(lienDossier).filter(Boolean).join(" ; ")}</div></div></div>`;
+  }
+
   // ------------------------------------------------------------ frise chronologique
   /** Points placés à l'échelle du temps ; survol = titre et date. */
   function frise(faits, opt = {}) {
@@ -329,9 +391,12 @@
     ["agenda.html", "Agenda"],
     ["dossiers.html", "Dossiers"],
     ["repertoire.html", "Répertoire"],
+    ["elus.html", "Élus"],
+    ["sites.html", "Sites"],
+    ["documents.html", "Documents"],
     ["articles.html", "Articles"],
     ["notes.html", "Notes"],
-    ["drones.html", "Images drone"],
+    ["drones.html", "Drones"],
     ["a-propos.html", "Méthode"],
   ];
   function entete() {
@@ -341,7 +406,7 @@
     const h = document.createElement("header");
     h.className = "entete";
     h.innerHTML = `<a class="marque" href="index.html"><img src="assets/france3corse-viastella.png" alt="France 3 Corse ViaStella"><span class="marque-titre">Base de connaissances Corse</span></a>
-      <nav class="nav" aria-label="Rubriques du site">${PAGES.filter(([p]) => p !== "notes.html" || D.notes.length)
+      <nav class="nav" aria-label="Rubriques du site">${PAGES.filter(([p]) => (p !== "notes.html" || D.notes.length) && (p !== "elus.html" || O.elus) && (p !== "sites.html" || SITES.length))
         .map(([p, t]) => `<a href="${p}"${p === actif ? ' aria-current="page"' : ""}>${t}</a>`)
         .join("")}</nav>
       <div class="recherche" role="search"><label class="sr" for="q-globale">Chercher dans toute la base</label>
@@ -381,6 +446,7 @@
   }
 
   const contient = (texte, mots) => mots.every((m) => texte.includes(m));
+  const ELUS_PLATS = Object.entries(ELUS.communes || {}).flatMap(([code, l]) => l.map((x) => ({ ...x, code })));
   function chercher(q, max = 5) {
     const mots = norm(q).split(" ").filter(Boolean);
     if (!mots.length) return [];
@@ -389,6 +455,9 @@
       ["Répertoire", D.personnes, (p) => `${p.nom} ${p.variantes || ""} ${p.fonction} ${p.rattachement}`, (p) => [url.personne(p.id), p.nom, p.fonction]],
       ["Dossiers", D.dossiers, (d) => `${d.titre} ${d.motsCles || ""} ${d.resume}`, (d) => [url.dossier(d.id), d.titre, d.rubrique]],
       ["Notes", D.notes, (n) => n.titre, (n) => [url.note(n.id), n.titre, n.type]],
+      ["Maires et adjoints", ELUS_PLATS, (x) => `${x.nom} ${x.prenom}`, (x) => [url.commune(x.code), nomAffiche({ nature: "Personne", nom: `${x.nom} ${x.prenom}` }), `${fonctionRne(x.fonction)}, ${(I.commune.get(x.code) || {}).nom || ""}`]],
+      ["Documents de référence", D.documents, (d) => `${d.titre} ${d.producteur} ${d.numero} ${(d.themes || []).join(" ")}`, (d) => [`documents.html?q=${encodeURIComponent(q)}`, d.titre, `${d.producteur}${d.date ? ", " + dateFr(d.date) : ""}`]],
+      ["Sites et équipements", SITES, (x) => `${x.nom} ${x.categorie} ${(I.commune.get(x.commune) || {}).nom || ""}`, (x) => [`sites.html?q=${encodeURIComponent(q)}`, x.nom, `${x.categorie}, ${(I.commune.get(x.commune) || {}).nom || ""}`]],
       ["Faits datés", D.faits, (f) => f.titre, (f) => [`chronologie.html?q=${encodeURIComponent(q)}`, f.titre, dateFr(f.date, f.precision)]],
       ["Articles", D.articles, (a) => `${a.titre} ${a.retenir || ""}`, (a) => [`articles.html?q=${encodeURIComponent(q)}`, a.titre, `${a.source}${a.date ? ", " + dateFr(a.date) : ""}`]],
     ];
@@ -457,6 +526,8 @@
     rangFait, rangArticle, rangAgenda, rangRole, rangPersonne, rangDrone, carteDossier, listeRepliable,
     parDate, parDateCroissante, contient, etatUrl, etiqFiabilite, entete,
     image, vignette, credit, frise, ouvrirPanneau, fermerPanneau, MOIS,
+    O, ELUS, SITES, LIEUX, OUV_PERS, sitesDe, lieuxDe, epciNom, fonctionRne, nomElu, ficheElu, circoDe,
+    FAMILLES_SITES, familleSite, etatSite, rangSite, rangDocument,
   };
   entete();
 })();

@@ -171,7 +171,7 @@ def rne(communes_pop):
             e = {"cat": cat, "nom": g("nom"), "prenom": g("prenom"), "fonction": g("fonction"),
                  "debutMandat": date_iso(g("debutMandat")), "debutFonction": date_iso(g("debutFonction")),
                  "commune": g("commune"), "circo": g("circo"), "epci": g("epci"), "nuance": g("nuance"),
-                 "_naissance": g("naissance")}
+                 "libDep": g("libDep"), "_naissance": g("naissance")}
             if e["commune"] and len(e["commune"]) < 5 and dep:
                 e["commune"] = (dep + e["commune"].zfill(3))[-5:]
             tous.append(e)
@@ -182,14 +182,13 @@ def rne(communes_pop):
                     out["communes"].setdefault(e["commune"], []).append(public)
             elif cat == "epci":
                 if norm(e["fonction"]).startswith("president"):
-                    out["institutions"]["Intercommunalités"].append({**public, "epci": e["epci"]})
+                    out["institutions"]["Intercommunalités"].append({**public, "epci": epci_nom(e["epci"])})
             elif cat == "cac":
                 out["institutions"]["Assemblée de Corse"].append(public)
             elif cat == "dep":
-                circo = re.sub(r"(\d)(?:ère|Ère|ere)\b", r"\1re", re.sub(r"(\d)(?:ème|Ème|eme)\b", r"\1e", e["circo"])).lower()
-                out["institutions"]["Députés"].append({**public, "circonscription": f"{circo} de {g('libDep').replace('-Du-', '-du-')}".strip()})
+                out["institutions"]["Députés"].append({**public, "circonscription": circonscription(e["circo"], e["libDep"])})
             elif cat == "sen":
-                out["institutions"]["Sénateurs"].append(public)
+                out["institutions"]["Sénateurs"].append({**public, "departement": departement(e["libDep"])})
         log(f"  {cat} : {n} lignes pour la Corse")
 
     ordre = lambda f: (0 if norm(f.get("fonction", "")).startswith("maire") else 1, int((re.findall(r"\d+", f.get("fonction", "")) or [99])[0]))
@@ -200,6 +199,22 @@ def rne(communes_pop):
     for nom, l in out["institutions"].items():
         log(f"RNE : {nom} : {len(l)}")
     return out, tous
+
+
+def departement(lib):
+    return (lib or "").replace("-Du-", "-du-").strip()
+
+
+def circonscription(circo, lib_dep):
+    """« 1Ère Circonscription » + « Corse-Du-Sud » -> « 1re circonscription de Corse-du-Sud »."""
+    c = re.sub(r"(\d)(?:ère|Ère|ere)\b", r"\1re", re.sub(r"(\d)(?:ème|Ème|eme)\b", r"\1e", circo or "")).lower()
+    return f"{c} de {departement(lib_dep)}".strip() if lib_dep else c
+
+
+def epci_nom(x):
+    """« Ca Du Pays Ajaccien » -> « CA du Pays Ajaccien »."""
+    x = re.sub(r"^(Ca|Cc|Cu|Cte)\b", lambda m: m.group(1).upper(), (x or "").strip())
+    return re.sub(r"(?<=\s)(?:(De|Du|Des|La|Le|Les|Et)(?=\s)|(D'|L')(?=\w))", lambda m: m.group(0).lower(), x)
 
 
 # ===================================================================== personnes du répertoire
@@ -226,8 +241,9 @@ def mandats_rne(personnes, tous):
             continue
         lib = {"cm": "Conseil municipal", "epci": "Intercommunalité", "cac": "Assemblée de Corse", "dep": "Assemblée nationale", "sen": "Sénat"}
         out[p["id"]] = [{"institution": lib[l["cat"]], "fonction": l["fonction"] or ("Député" if l["cat"] == "dep" else "Sénateur" if l["cat"] == "sen" else "Conseiller"),
-                         "commune": l["commune"] if l["cat"] == "cm" else "", "epci": l["epci"] if l["cat"] == "epci" else "",
-                         "circonscription": l["circo"] if l["cat"] == "dep" else "", "debutMandat": l["debutMandat"], "debutFonction": l["debutFonction"]} for l in lignes]
+                         "commune": l["commune"] if l["cat"] == "cm" else "", "epci": epci_nom(l["epci"]) if l["cat"] == "epci" else "",
+                         "circonscription": circonscription(l["circo"], l["libDep"]) if l["cat"] == "dep" else "",
+                         "departement": departement(l["libDep"]) if l["cat"] == "sen" else "", "debutMandat": l["debutMandat"], "debutFonction": l["debutFonction"]} for l in lignes]
     log(f"Répertoire : mandats RNE trouvés pour {len(out)} fiches ; homonymes écartés : {ambigus} ; fiches non élues portant le nom d'un élu (non rattachées) : {ecartes}")
     return out
 

@@ -470,7 +470,7 @@ body.sans-defilement { overflow: hidden; }
   .mini-chiffres div:nth-child(3) { border-left: 0; }
   .mini-chiffres div:nth-child(n + 3) { border-top: 1px solid var(--filet-2); }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1500px) {
   :root { --entete: 96px; }
   .entete { flex-wrap: wrap; gap: 0 12px; padding: 8px 14px 0; align-content: flex-start; }
   .recherche { flex: 1 1 200px; }
@@ -493,3 +493,61 @@ body.sans-defilement { overflow: hidden; }
 }
 @media print { .haut, .tirette, .panneau, .voile { display: none; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+/* ------------------------------------------------------------ données ouvertes : élus, sites, documents */
+:root {
+  --s-energie: #d2561c;
+  --s-dechets: #7a5230;
+  --s-carrieres: #8a8a8a;
+  --s-transports: #1f6fc4;
+  --s-publics: #7a4aa6;
+  --s-patrimoine: #2f7d4f;
+}
+.pastille-site { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0; background: var(--encre-3); flex: none; }
+.pastille-site[data-s="energie"] { background: var(--s-energie); }
+.pastille-site[data-s="dechets"] { background: var(--s-dechets); }
+.pastille-site[data-s="carrieres"] { background: var(--s-carrieres); }
+.pastille-site[data-s="transports"] { background: var(--s-transports); }
+.pastille-site[data-s="publics"] { background: var(--s-publics); }
+.pastille-site[data-s="patrimoine"] { background: var(--s-patrimoine); }
+.pastille-site.seveso { background: #fff; box-shadow: inset 0 0 0 2px var(--encre); }
+.leaflet-interactive.marqueur-site { fill: var(--encre-3); }
+.leaflet-interactive.s-energie { fill: var(--s-energie); }
+.leaflet-interactive.s-dechets { fill: var(--s-dechets); }
+.leaflet-interactive.s-carrieres { fill: var(--s-carrieres); }
+.leaflet-interactive.s-transports { fill: var(--s-transports); }
+.leaflet-interactive.s-publics { fill: var(--s-publics); }
+.leaflet-interactive.s-patrimoine { fill: var(--s-patrimoine); }
+.legende-sites { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.84rem; color: var(--encre-2); padding: 10px 14px; }
+.legende .legende-sites { padding: 8px 0 0; margin-top: 8px; border-top: 1px solid var(--filet-2); }
+.legende-sites b { flex-basis: 100%; }
+.legende-sites span { display: inline-flex; align-items: center; }
+.carte-sites { height: 460px; background: #dde5ec; }
+.fiche.large-carte { grid-template-columns: minmax(0, 1fr) minmax(320px, 40%); }
+.fiche.large-carte aside { position: sticky; top: 12px; }
+.segments + .filtres { margin-top: 12px; }
+main > .segments { max-width: 640px; margin-bottom: 4px; }
+
+.executif { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.executif th, .executif td { text-align: left; padding: 7px 16px; border-top: 1px solid var(--filet-2); vertical-align: top; }
+.executif tr:first-child th, .executif tr:first-child td { border-top: 0; }
+.executif th { font-weight: 600; color: var(--encre-2); font-stretch: 90%; width: 34%; }
+.executif tr.maire th, .executif tr.maire td { font-weight: 700; color: var(--encre); background: var(--granit-2); }
+.executif td.discret { white-space: nowrap; text-align: right; font-size: 0.85rem; }
+.source-bloc { margin: 0; padding: 8px 16px 12px; font-size: 0.82rem; color: var(--encre-3); border-top: 1px solid var(--filet-2); line-height: 1.4; }
+.noms-colonnes { columns: 3 200px; column-gap: 20px; margin: 0; padding: 10px 16px 12px 32px; font-size: 0.93rem; }
+.noms-colonnes li { break-inside: avoid; padding: 2px 0; }
+.fonctions { margin: 2px 0 0; padding-left: 18px; font-weight: 450; }
+.fonctions li { padding: 1px 0; }
+.chiffres-cles { background: var(--mer-clair); padding: 6px 10px; border-left: 3px solid var(--mer); }
+@media (max-width: 980px) {
+  .fiche.large-carte { grid-template-columns: 1fr; }
+  .fiche.large-carte aside { position: static; order: -1; }
+  .carte-sites { height: 320px; }
+  .executif td.discret { white-space: normal; }
+}
+@media (max-width: 560px) {
+  .executif th, .executif td { display: block; width: auto; padding: 3px 16px; border: 0; }
+  .executif tr { display: block; border-top: 1px solid var(--filet-2); padding: 6px 0; }
+  .executif td.discret { text-align: left; }
+}

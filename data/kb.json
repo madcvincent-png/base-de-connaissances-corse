@@ -11,6 +11,7 @@
    "dossiers": 59,
    "articles": 654,
    "notes": 0,
+   "documents": 17,
    "drones": 198
   },
   "compteursBase": {
@@ -22,6 +23,7 @@
    "dossiers": 92,
    "articles": 949,
    "notes": 9,
+   "documents": 17,
    "drones": 198
   }
  },
@@ -19150,6 +19152,350 @@
   }
  ],
  "notes": [],
+ "documents": [
+  {
+   "id": "3f6cf61fb4e781afbafaf4e711c333d4",
+   "titre": "Suites réservées au rapport d'observations définitives de la chambre régionale des comptes",
+   "producteur": "Collectivité de Corse",
+   "type": "Rapport à l'Assemblée de Corse",
+   "collection": "",
+   "numero": "2026/E4/137",
+   "date": "2026-06-25",
+   "themes": [
+    "Finances publiques",
+    "Institutions"
+   ],
+   "resume": "Rapport du président du Conseil exécutif présentant les mesures prises après les 9 recommandations et 5 rappels au droit de la chambre régionale des comptes. Séance des 25 et 26 juin 2026 (4e session extraordinaire).",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.isula.corsica/assemblea/docs/rapports/2026E4137.pdf",
+   "dossiers": [],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78185aeb5d8e3476a0544",
+   "titre": "Projet de loi constitutionnelle pour une Corse autonome au sein de la République",
+   "producteur": "Sénat",
+   "type": "Texte législatif",
+   "collection": "",
+   "numero": "Texte n° 782 (2025-2026)",
+   "date": "2026-06-24",
+   "themes": [
+    "Institutions",
+    "Politique"
+   ],
+   "resume": "Texte adopté par l'Assemblée nationale le 23 juin 2026, transmis au Sénat le 24 juin et renvoyé à la commission des lois. Il crée un article 72-5 de la Constitution donnant un statut d'autonomie à la Corse.",
+   "chiffres": "",
+   "statut": "En discussion",
+   "lien": "https://www.senat.fr/leg/pjl25-782.html",
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781369545c1aa9364e140",
+   "titre": "Rapport sur le projet de loi constitutionnelle pour une Corse autonome au sein de la République",
+   "producteur": "Assemblée nationale",
+   "type": "Rapport parlementaire",
+   "collection": "Commission des lois",
+   "numero": "2865 (XVIIe législature)",
+   "date": "2026-06-03",
+   "themes": [
+    "Institutions",
+    "Politique"
+   ],
+   "resume": "Rapport de Florent Boudié, au nom de la commission des lois, sur le projet de loi constitutionnelle n° 2697 issu du processus de Beauvau.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.assemblee-nationale.fr/dyn/docs/RAPPANR5L17B2865.pdf",
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e7815f918bfefce2d707c7",
+   "titre": "Une fécondité historiquement basse mais une population toujours en hausse",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Analyses Corse",
+   "numero": "67",
+   "date": "2026-04-16",
+   "themes": [
+    "Démographie",
+    "Société"
+   ],
+   "resume": "La fécondité corse tombe à son plus bas niveau ; la population continue de croître grâce aux arrivées.",
+   "chiffres": "Indicateur conjoncturel de fécondité en 2025 : 1,12 enfant par femme. Population au 1er janvier 2026 : 365 600 habitants.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8973577",
+   "dossiers": [
+    "3f4cf61fb4e781b4a007df39f96f061e"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781438612f651a739617e",
+   "titre": "Ralentissement de l'activité économique en Corse — bilan économique 2025",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "59",
+   "date": "2026-04-09",
+   "themes": [
+    "Économie",
+    "Social"
+   ],
+   "resume": "Synthèse annuelle : l'activité cesse de progresser en 2025, l'emploi privé recule, la construction et l'industrie faiblissent, le tourisme progresse.",
+   "chiffres": "Heures rémunérées 2025 : -0,1 % (après +0,3 % en 2024). Emploi salarié fin 2025 : 128 980 (-0,4 % sur un an). Taux de chômage fin 2025 : 6,8 % (+0,5 point).",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8905336",
+   "dossiers": [
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781428aecc990862183d2",
+   "titre": "La Corse a le deuxième PIB par habitant des îles de Méditerranée",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Analyses Corse",
+   "numero": "66",
+   "date": "2026-04-02",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Comparaison des économies des îles de Méditerranée : la Corse se classe deuxième pour le PIB par habitant.",
+   "chiffres": "PIB de la Corse en 2022 : 11,5 milliards d'euros. PIB par habitant en 2022 : 29 500 SPA, derrière les Baléares (34 300 SPA). Attention : le résumé de la publication indique 27 300 SPA, le corps du texte et le tableau 29 500 SPA.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8960479",
+   "dossiers": [],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781a28c79d93a06eb1367",
+   "titre": "En Corse, l'immigration étrangère répond aux besoins de main d'œuvre",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Flash Corse",
+   "numero": "103",
+   "date": "2026-03-24",
+   "themes": [
+    "Économie",
+    "Société",
+    "Démographie"
+   ],
+   "resume": "Place des immigrés étrangers dans la population en âge de travailler et dans les secteurs en tension.",
+   "chiffres": "En 2022, environ 21 500 immigrés étrangers de 15 à 64 ans vivent en Corse, soit 10 % de la population insulaire en âge de travailler.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8887049",
+   "dossiers": [
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781d8a3f3d6710896cacf",
+   "titre": "Un propriétaire de logements corses sur deux est multipropriétaire",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Analyses Corse",
+   "numero": "65",
+   "date": "2026-02-10",
+   "themes": [
+    "Logement"
+   ],
+   "resume": "La propriété des logements en Corse est concentrée entre les mains de multipropriétaires. Mise à jour le 17 février 2026.",
+   "chiffres": "En 2023, 227 000 propriétaires personnes physiques détiennent 234 000 logements. Les multipropriétaires détiennent 74 % des logements possédés par des personnes physiques.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8734781",
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78181b9ccd4e309e96030",
+   "titre": "En 2026, 500 femmes de plus doivent intégrer les conseils municipaux de Corse",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Analyses Corse",
+   "numero": "64",
+   "date": "2026-02-03",
+   "themes": [
+    "Politique",
+    "Institutions"
+   ],
+   "resume": "Effet de l'extension de la parité aux communes de moins de 1 000 habitants sur les conseils municipaux élus en 2026.",
+   "chiffres": "38 % de femmes parmi les élus municipaux de Corse en 2025. Environ 12 % des maires sont des femmes.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8732398",
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781f2b7a5e6b9bddef8c1",
+   "titre": "Programmation pluriannuelle de l'énergie : carte des formations aux métiers de la transition énergétique",
+   "producteur": "Collectivité de Corse",
+   "type": "Rapport à l'Assemblée de Corse",
+   "collection": "",
+   "numero": "2025/E2/130",
+   "date": "2025-05-22",
+   "themes": [
+    "Énergie",
+    "Éducation"
+   ],
+   "resume": "Volet emploi et formation de la PPE de la Corse : évolution de la carte des formations et recherche de financements (PTIC, FEDER). Séance des 22 et 23 mai 2025.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.isula.corsica/assemblea/docs/rapports/2025E2130e.pdf",
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781ef8821d869cfd59cd9",
+   "titre": "Rapport d'observations définitives sur la situation financière de la Collectivité de Corse",
+   "producteur": "Chambre régionale des comptes",
+   "type": "Rapport de contrôle",
+   "collection": "",
+   "numero": "",
+   "date": "2025-04-01",
+   "themes": [
+    "Finances publiques",
+    "Institutions"
+   ],
+   "resume": "Contrôle des comptes et de la gestion de la Collectivité de Corse sur 2019-2023. Rapport daté du 1er avril 2025, présenté à l'Assemblée de Corse le 27 juin 2025. Titre exact à confirmer sur le site des juridictions financières ; le lien renvoie à un compte rendu de presse.",
+   "chiffres": "Dette fin 2023 : environ 1,04 milliard d'euros (+32 % depuis 790 millions), soit 3 047 € par habitant, le niveau le plus élevé de France. Charges de gestion : +4,25 % par an, plus d'un milliard en 2023. 5 046 postes permanents dont 926 vacants et non budgétés. 9 recommandations et 5 rappels au droit.",
+   "statut": "En vigueur",
+   "lien": "https://www.corsenetinfos.corsica/Finances-de-la-Collectivite-de-Corse-La-Cour-des-comptes-tire-la-sonnette-d-alarme-Gilles-Simeoni-reagit_a85199.html",
+   "dossiers": [],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78105873ffa5636f18bcc",
+   "titre": "Vulnérabilité du littoral méditerranéen aux risques liés à la mer — enquête des juridictions financières",
+   "producteur": "Cour des comptes",
+   "type": "Rapport de contrôle",
+   "collection": "",
+   "numero": "",
+   "date": "2025-01-24",
+   "themes": [
+    "Environnement"
+   ],
+   "resume": "Enquête de la Cour des comptes avec les chambres régionales des comptes de Corse, PACA et Occitanie : les collectivités insulaires sous-estiment les risques d'inondation et d'érosion côtière. Titre exact à confirmer ; le lien renvoie à un compte rendu de presse.",
+   "chiffres": "Le plan de prévention du risque inondation du sud de Bastia n'est pas achevé ; peu de communes utilisent les cartes de recul du trait de côte prévues par la loi Climat et Résilience de 2021.",
+   "statut": "En vigueur",
+   "lien": "https://www.corsenetinfos.corsica/Changement-climatique-la-Cour-des-comptes-alerte-sur-la-vulnerabilite-du-littoral-corse_a82616.html",
+   "dossiers": [
+    "3f4cf61fb4e7816b8102e38412b173c0"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e7810488becf1cfcf2c8d0",
+   "titre": "Plan territorial de prévention et de gestion des déchets (PTPGD)",
+   "producteur": "Collectivité de Corse",
+   "type": "Plan ou schéma",
+   "collection": "",
+   "numero": "",
+   "date": "2024-07-25",
+   "themes": [
+    "Déchets",
+    "Environnement"
+   ],
+   "resume": "Plan adopté par l'Assemblée de Corse le 25 juillet 2024, annulé par le tribunal administratif de Bastia (jugement relayé le 10 juillet 2026) : informations environnementales insuffisantes à l'enquête publique, inventaire des déchets peu fiable, objectifs réglementaires non respectés. Le lien renvoie au compte rendu de l'annulation ; le texte du plan est à rattacher.",
+   "chiffres": "",
+   "statut": "Annulé",
+   "lien": "https://www.corsenetinfos.corsica/Le-tribunal-administratif-de-Bastia-annule-le-plan-territorial-de-gestion-des-dechets-de-Corse_a91634.html",
+   "dossiers": [
+    "3f4cf61fb4e781aebd63f16c3f992b32"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78157ba42e4a55e58d293",
+   "titre": "Une conjoncture économique morose en fin d'année — 4e trimestre 2025",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Note de conjoncture régionale",
+   "numero": "",
+   "date": "",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Note trimestrielle sur la conjoncture corse au 4e trimestre 2025. Date de parution à vérifier.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8899567",
+   "dossiers": [],
+   "verifieLe": ""
+  },
+  {
+   "id": "3f6cf61fb4e7819bb2c9c934593fd037",
+   "titre": "Une activité économique encore dynamique dans un marché du travail en berne — 3e trimestre 2025",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Note de conjoncture régionale",
+   "numero": "",
+   "date": "",
+   "themes": [
+    "Économie",
+    "Social"
+   ],
+   "resume": "Note trimestrielle sur la conjoncture corse au 3e trimestre 2025. Date de parution à vérifier.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8682331",
+   "dossiers": [],
+   "verifieLe": ""
+  },
+  {
+   "id": "3f6cf61fb4e781da8d31c382065cb982",
+   "titre": "Tableau de bord de la conjoncture en Corse",
+   "producteur": "Insee",
+   "type": "Données",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "",
+   "date": "",
+   "themes": [
+    "Économie",
+    "Social"
+   ],
+   "resume": "Indicateurs conjoncturels régionaux mis à jour chaque trimestre : emploi, chômage, construction, tourisme, créations d'entreprises.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/2122216",
+   "dossiers": [],
+   "verifieLe": ""
+  },
+  {
+   "id": "3f6cf61fb4e781eeae46f21f74d9b495",
+   "titre": "Fin du remplacement des chaudières au fioul : 2 700 ménages concernés en Corse",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Flash Corse",
+   "numero": "",
+   "date": "",
+   "themes": [
+    "Énergie",
+    "Logement"
+   ],
+   "resume": "Ménages corses chauffés au fioul concernés par la fin du remplacement des chaudières. Numéro et date à vérifier.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8723383",
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "verifieLe": ""
+  }
+ ],
  "drones": [
   {
    "code": "2A103",

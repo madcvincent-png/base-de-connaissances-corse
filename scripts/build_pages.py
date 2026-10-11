@@ -5,6 +5,7 @@
 
 Chaque page porte un data-page qui indique à assets/pages.js quelle rubrique rendre.
 La carte d'accueil (index.html) est gérée par assets/carte.js.
+data/ouvertes.js (élus, sites, monuments) est facultatif : sans lui, les blocs correspondants disparaissent.
 """
 import os
 
@@ -20,6 +21,9 @@ PAGES = [
     ("dossiers.html", "dossiers", "Dossiers", False, False),
     ("dossier.html", "dossier", "Fiche dossier", False, False),
     ("repertoire.html", "repertoire", "Répertoire", False, False),
+    ("elus.html", "elus", "Élus", False, False),
+    ("sites.html", "sites", "Sites et équipements", True, False),
+    ("documents.html", "documents", "Documents de référence", False, False),
     ("personne.html", "personne", "Fiche personne", False, False),
     ("articles.html", "articles", "Articles", False, False),
     ("notes.html", "notes", "Notes et synthèses", False, False),
@@ -52,6 +56,7 @@ CARTE = """<main id="page" class="carte-page">
       <button type="button" class="outil" id="plein" aria-pressed="false">Carte seule</button>
       <label><input id="fond" type="checkbox" checked>Fond IGN</label>
       <label><input id="epci" type="checkbox">Intercommunalités</label>
+      <label><input id="sites" type="checkbox">Sites et équipements</label>
     </div>
     <div id="legende" class="legende"></div>
   </section>
@@ -61,7 +66,7 @@ CARTE = """<main id="page" class="carte-page">
 def page(fichier, data_page, titre, leaflet, carte):
     corps = CARTE if carte else '<main id="page" class="page"></main>'
     css_leaflet = '<link rel="stylesheet" href="vendor/leaflet/leaflet.css">' if leaflet else ""
-    scripts = ['<script src="data/kb.js"></script>', '<script src="data/images.js"></script>',
+    scripts = ['<script src="data/kb.js"></script>', '<script src="data/images.js"></script>', '<script src="data/ouvertes.js"></script>',
                '<script src="data/geo.js"></script>' if (leaflet or carte) else ""]
     if leaflet or carte:
         scripts.append('<script src="vendor/leaflet/leaflet.js"></script>')

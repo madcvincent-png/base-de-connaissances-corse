@@ -5,7 +5,7 @@ name: Données ouvertes (élus, sites, lieux)
 on:
   push:
     branches: [refonte-base-connaissances]
-    paths: [scripts/build_ouvertes.py, .github/workflows/ouvertes.yml]
+    paths: [scripts/build_ouvertes.py, scripts/notion_communes.py, .github/workflows/ouvertes.yml]
   workflow_dispatch:
   schedule:
     - cron: "23 5 1 * *"
@@ -30,6 +30,12 @@ jobs:
           python-version: "3.12"
       - run: pip install requests==2.32.3
       - run: python scripts/build_ouvertes.py
+      # Reporte maires et adjoints dans Notion si le secret NOTION_TOKEN existe.
+      - name: Mettre à jour les fiches communes dans Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        if: env.NOTION_TOKEN != ''
+        run: python scripts/notion_communes.py
       - name: Déposer les données
         run: |
           git config user.name "github-actions[bot]"
