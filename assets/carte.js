@@ -196,6 +196,65 @@
   $("#epci").addEventListener("change", (e) => (e.target.checked ? epci.addTo(carte) : epci.remove()));
   window.addEventListener("resize", () => carte.invalidateSize());
 
+  // ------------------------------------------------------------ volet : tirette et carte seule
+  const pageCarte = $(".carte-page"), tirette = $("#tirette"), plein = $("#plein");
+  const LARGEUR_MIN = 300, LARGEUR_MAX = 680;
+  const lire = (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  const ecrire = (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* stockage indisponible : réglage non retenu */ } };
+  const recaler = () => setTimeout(() => carte.invalidateSize({ pan: false }), 230);
+  const largeur = Number(lire("kb-volet")) || 0;
+  if (largeur >= LARGEUR_MIN && largeur <= LARGEUR_MAX) pageCarte.style.setProperty("--volet", largeur + "px");
+  const replier = (ferme) => {
+    pageCarte.classList.toggle("volet-ferme", ferme);
+    tirette.setAttribute("aria-expanded", String(!ferme));
+    recaler();
+  };
+  const carteSeule = (oui) => {
+    document.body.classList.toggle("carte-seule", oui);
+    plein.setAttribute("aria-pressed", String(oui));
+    plein.textContent = oui ? "Revenir au volet" : "Carte seule";
+    recaler();
+  };
+  plein.addEventListener("click", () => carteSeule(!document.body.classList.contains("carte-seule")));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && document.body.classList.contains("carte-seule")) carteSeule(false);
+  });
+  // Glisser la tirette règle la largeur du volet ; un clic sans glisser le replie ou le déplie.
+  let depart = null;
+  tirette.addEventListener("pointerdown", (e) => {
+    if (window.matchMedia("(max-width: 980px)").matches) return;
+    depart = { x: e.clientX, l: $(".volet").getBoundingClientRect().width, bouge: false };
+    tirette.setPointerCapture(e.pointerId);
+  });
+  tirette.addEventListener("pointermove", (e) => {
+    if (!depart) return;
+    const dx = e.clientX - depart.x;
+    if (Math.abs(dx) < 4 && !depart.bouge) return;
+    depart.bouge = true;
+    pageCarte.classList.add("glisse");
+    if (pageCarte.classList.contains("volet-ferme")) replier(false);
+    const l = Math.min(LARGEUR_MAX, Math.max(LARGEUR_MIN, depart.l + dx));
+    pageCarte.style.setProperty("--volet", l + "px");
+    carte.invalidateSize({ pan: false });
+  });
+  tirette.addEventListener("pointerup", () => {
+    if (!depart) return;
+    if (depart.bouge) ecrire("kb-volet", parseInt(getComputedStyle(pageCarte).getPropertyValue("--volet"), 10) || "");
+    else replier(!pageCarte.classList.contains("volet-ferme"));
+    pageCarte.classList.remove("glisse");
+    depart = null;
+  });
+  tirette.addEventListener("keydown", (e) => {
+    // Au clavier : flèches pour la largeur, Entrée ou Espace pour replier
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    const l = Math.min(LARGEUR_MAX, Math.max(LARGEUR_MIN, $(".volet").getBoundingClientRect().width + (e.key === "ArrowRight" ? 30 : -30)));
+    pageCarte.style.setProperty("--volet", l + "px");
+    ecrire("kb-volet", l);
+    recaler();
+  });
+  tirette.addEventListener("click", (e) => { if (e.detail === 0) replier(!pageCarte.classList.contains("volet-ferme")); }); // Entrée ou Espace
+
   dessinerFiltres();
   dessiner();
   if (etat.commune) {

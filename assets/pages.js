@@ -19,6 +19,8 @@
   };
   const ecoute = (ids, f) => ids.forEach((i) => $("#" + i) && $("#" + i).addEventListener($("#" + i).type === "search" ? "input" : "change", f));
   const mots = (q) => K.norm(q).split(" ").filter(Boolean);
+  /** Coupe un texte au dernier mot entier, avec points de suspension. */
+  const court = (t, n) => { t = String(t || ""); return t.length <= n ? t : t.slice(0, n).replace(/[\s,;:(]+\S*$/, "") + "…"; };
 
   const PAGES = {
     // ---------------------------------------------------------------- communes
@@ -45,9 +47,11 @@
           const l = stats(c);
           const d = [[l.roles.length, "mandat ou rôle", "mandats ou rôles"], [l.faits.length, "fait daté", "faits datés"], [l.agenda.length, "événement à venir", "événements à l'agenda"], [l.articles.length, "article"], [l.drones.length, "séquence drone", "séquences drone"]]
             .filter(([n]) => n).map(([n, u, p]) => `<span>${K.pluriel(n, u, p)}</span>`).join("");
-          return `<div class="rang"><div class="quand num">${c.pop != null ? c.pop.toLocaleString("fr-FR") + " hab." : ""}</div><div class="quoi">
+          const im = K.image("commune", c.code);
+          return `<div class="rang"><div class="quand num">${c.pop != null ? c.pop.toLocaleString("fr-FR") + " hab." : ""}</div><div class="quoi avec-vignette">
+            ${im ? `<img class="vignette m carre" src="${e(im.src)}" alt="" loading="lazy" decoding="async">` : `<span class="vignette m carre initiales" data-n="commune" aria-hidden="true">${e(c.code)}</span>`}<div>
             <div class="intitule"><a href="${K.url.commune(c.code)}">${e(c.nom)}</a></div>
-            <div class="meta"><span class="etiq">${e(c.code)}</span><span>${e(c.dep)}</span><span>${e(c.epci)}</span>${d || "<span>Rien dans la base</span>"}</div></div></div>`;
+            <div class="meta"><span>${e(c.dep)}</span><span>${e(c.epci)}</span>${d || "<span>Rien dans la base</span>"}</div></div></div></div>`;
         }, 40);
         K.etatUrl({ q: s.q, dep: s.dep, epci: s.epci, doc: s.doc ? "1" : "", tri: s.tri === "pop" ? "" : s.tri });
       };
@@ -75,6 +79,7 @@
           ${bloc("Articles", l.articles.length, "articles")}
           ${l.drones.length ? bloc("Images drone", l.drones.length, "drones") : ""}
         </div><aside>
+          ${(() => { const im = K.image("commune", c.code); return im ? `<figure class="bloc photo"><img src="${e(im.src)}" alt="${e(c.nom)}" decoding="async">${K.credit(im)}</figure>` : ""; })()}
           <section class="bloc"><div class="mini-carte" id="mini"></div>
             <dl class="reperes">${repere("Code Insee", e(c.code))}${repere("Département", e(c.dep))}${repere("Intercommunalité", e(c.epci))}
               ${repere("Population", c.pop != null ? c.pop.toLocaleString("fr-FR") + " habitants" : "")}${repere("Codes postaux", e(c.cp))}
@@ -99,30 +104,98 @@
 
     // ---------------------------------------------------------------- chronologie
     chronologie() {
-      const s = { q: K.param("q"), rub: K.param("rub"), type: K.param("type"), dossier: K.param("dossier"), jalons: K.param("jalons") === "1" };
+      const s = { q: K.param("q"), rub: K.param("rub"), type: K.param("type"), dossier: K.param("dossier"), jalons: K.param("jalons") === "1", de: K.param("de"), a: K.param("a") };
       const dossiers = D.dossiers.filter((d) => K.liens("dossier", d.id).faits.length);
+      // Ligne de temps : un cran par mois qui compte au moins un fait daté. Une échelle linéaire
+      // de 1967 à aujourd'hui écraserait les mois récents, où se trouvent presque tous les faits.
+      const mois = (iso) => { const [y, m] = iso.slice(0, 7).split("-").map(Number); return y * 12 + m - 1; };
+      const isoMois = (i) => `${Math.floor(i / 12)}-${String((i % 12) + 1).padStart(2, "0")}`;
+      const libMois = (i) => `${K.MOIS[i % 12]} ${Math.floor(i / 12)}`;
+      const M = [...new Set(D.faits.filter((f) => f.date).map((f) => mois(f.date)))].sort((x, y) => x - y);
+      const N = M.length, DERNIER = N - 1;
+      const cran = (v, def) => { if (!/^\d{4}-\d{2}$/.test(v || "")) return def; const i = M.findIndex((x) => x >= mois(v)); return i < 0 ? DERNIER : i; };
+      let de = cran(s.de, 0), a = Math.max(de, s.a ? (() => { const v = mois(s.a); let i = DERNIER; while (i > 0 && M[i] > v) i--; return i; })() : DERNIER);
+      const place = (i) => `calc(10px + (100% - 20px) * ${N > 1 ? i / DERNIER : 0.5})`;
       main.innerHTML = `<div class="titre-page"><h1>Chronologie</h1><span class="compte" id="n"></span></div>
         <p class="chapo">Les faits datés relevés dans la presse, du plus récent au plus ancien. La date est celle du fait, jamais celle de l'article. Le losange jaune signale un jalon majeur.</p>
         <div class="filtres">${texte("q", "Mot du titre", s.q, "Simeoni, Sénat, grève")}
           ${liste("rub", "Rubrique", uniques(D.faits, (f) => f.rubrique), s.rub, "Toutes")}
           ${liste("type", "Nature du fait", uniques(D.faits, (f) => f.type), s.type, "Toutes")}
           ${champ("dossier", "Dossier", `<select id="dossier"><option value="">Tous</option>${dossiers.map((d) => `<option value="${d.id}"${d.id === s.dossier ? " selected" : ""}>${e(d.titre)}</option>`).join("")}</select>`)}
-          ${caseA("jalons", "Jalons majeurs seulement", s.jalons)}</div><div id="liste"></div>`;
+          ${caseA("jalons", "Jalons majeurs seulement", s.jalons)}</div>
+        <section class="temps" aria-label="Période affichée">
+          <div class="temps-tete"><b id="periode"></b><button type="button" class="lien-bouton" id="toute">Toute la période</button></div>
+          <div class="histo" id="histo"></div>
+          <div class="double-curseur">
+            <label class="sr" for="t-de">Début de la période</label><input id="t-de" type="range" min="0" max="${DERNIER}" step="1" value="${de}">
+            <label class="sr" for="t-a">Fin de la période</label><input id="t-a" type="range" min="0" max="${DERNIER}" step="1" value="${a}">
+          </div>
+          <div class="temps-annees" id="annees"></div>
+        </section><div id="liste"></div>`;
+      const histo = () => {
+        // Faits par mois, pour ceux qui passent les autres filtres : on voit où se placer.
+        const m = mots(s.q), n = {};
+        D.faits.forEach((f) => {
+          if (f.date && (!s.rub || f.rubrique === s.rub) && (!s.type || f.type === s.type) && (!s.dossier || f.dossiers.includes(s.dossier)) && (!s.jalons || f.jalon) && K.contient(K.norm(f.titre), m))
+            n[mois(f.date)] = (n[mois(f.date)] || 0) + 1;
+        });
+        const max = Math.max(1, ...Object.values(n));
+        $("#histo").innerHTML = M.map((x, i) => {
+          const v = n[x] || 0;
+          return `<button type="button" class="barre${i >= de && i <= a ? " dans" : ""}${v ? "" : " nulle"}" data-cran="${i}"
+            style="left:${place(i)};width:calc((100% - 20px) / ${Math.max(N, 2)} - 2px);--h:${v ? Math.max(10, (v / max) * 100) : 3}%"
+            title="${libMois(x)} : ${K.pluriel(v, "fait", "faits")}" aria-label="${libMois(x)}, ${K.pluriel(v, "fait", "faits")}"></button>`;
+        }).join("");
+      };
+      // Repères d'années sous la barre, sans chevauchement
+      let derniere = -1, an = "";
+      $("#annees").innerHTML = M.map((x, i) => {
+        const y = String(Math.floor(x / 12));
+        if (y === an) return "";
+        an = y;
+        const pc = N > 1 ? i / DERNIER : 0.5;
+        if (derniere >= 0 && pc - derniere < 0.07) return "";
+        derniere = pc;
+        return `<span style="left:${place(i)}">${y}</span>`;
+      }).join("");
+      const pose = () => {
+        $("#t-de").value = de; $("#t-a").value = a;
+        $(".double-curseur").style.setProperty("--g", place(de));
+        $(".double-curseur").style.setProperty("--d", place(a));
+        // Curseurs superposés : celui du début passe devant s'il est dans la moitié droite, sinon il serait bloqué
+        $("#t-de").style.zIndex = de > DERNIER / 2 ? 3 : 1;
+        const toute = de === 0 && a === DERNIER;
+        $("#periode").textContent = toute ? `Toute la période, de ${libMois(M[0])} à ${libMois(M[DERNIER])}` : de === a ? libMois(M[de]) : `De ${libMois(M[de])} à ${libMois(M[a])}`;
+        $("#toute").hidden = toute;
+      };
+      $("#t-de").addEventListener("input", (ev) => { de = Math.min(Number(ev.target.value), a); pose(); maj(); });
+      $("#t-a").addEventListener("input", (ev) => { a = Math.max(Number(ev.target.value), de); pose(); maj(); });
+      $("#toute").onclick = () => { de = 0; a = DERNIER; pose(); maj(); };
+      $("#histo").addEventListener("click", (ev) => {
+        const b = ev.target.closest(".barre");
+        if (!b) return;
+        de = a = Number(b.dataset.cran);
+        pose(); maj();
+      });
       const maj = () => {
         Object.assign(s, { q: $("#q").value, rub: $("#rub").value, type: $("#type").value, dossier: $("#dossier").value, jalons: $("#jalons").checked });
-        const m = mots(s.q);
-        const r = D.faits.filter((f) => (!s.rub || f.rubrique === s.rub) && (!s.type || f.type === s.type) && (!s.dossier || f.dossiers.includes(s.dossier)) && (!s.jalons || f.jalon) && K.contient(K.norm(f.titre), m)).sort(K.parDate);
+        const m = mots(s.q), toute = de === 0 && a === DERNIER;
+        const r = D.faits.filter((f) => (!s.rub || f.rubrique === s.rub) && (!s.type || f.type === s.type) && (!s.dossier || f.dossiers.includes(s.dossier)) && (!s.jalons || f.jalon) && K.contient(K.norm(f.titre), m)
+          && (toute || (f.date && mois(f.date) >= M[de] && mois(f.date) <= M[a]))).sort(K.parDate);
+        histo();
         $("#n").textContent = `${K.pluriel(r.length, "fait daté", "faits datés")} sur ${D.faits.length}`;
+        s.de = toute ? "" : isoMois(M[de]); s.a = toute ? "" : isoMois(M[a]);
         let an = "", h = "";
         r.forEach((f) => {
           const a = (f.date || "").slice(0, 4) || "Sans date";
           if (a !== an) { h += `<div class="annee">${a}</div>`; an = a; }
           h += K.rangFait(f);
         });
-        $("#liste").innerHTML = r.length ? `<div class="liste">${h}</div>` : `<div class="vide">Aucun fait daté ne correspond à ces filtres.</div>`;
-        K.etatUrl({ q: s.q, rub: s.rub, type: s.type, dossier: s.dossier, jalons: s.jalons ? "1" : "" });
+        $("#liste").innerHTML = r.length ? `<div class="liste">${h}</div>` : `<div class="vide">Aucun fait daté ne correspond à ces filtres sur cette période.</div>`;
+        K.etatUrl({ q: s.q, rub: s.rub, type: s.type, dossier: s.dossier, jalons: s.jalons ? "1" : "", de: s.de, a: s.a });
       };
       ecoute(["q", "rub", "type", "dossier", "jalons"], maj);
+      pose();
       maj();
     },
 
@@ -158,10 +231,26 @@
           ${liste("rub", "Rubrique", uniques(D.dossiers, (d) => d.rubrique), s.rub, "Toutes")}
           ${liste("type", "Type de dossier", uniques(D.dossiers, (d) => d.type), s.type, "Tous")}
           ${aVeille ? liste("veille", "Niveau de veille", uniques(D.dossiers, (d) => d.veille), s.veille, "Tous") : ""}</div><div id="liste"></div>`;
+      let courant = [];
+      const ouvrir = (id) => {
+        const i = courant.findIndex((d) => d.id === id), d = courant[i];
+        if (!d) return;
+        const p = K.ouvrirPanneau(apercuDossier(d, i, courant.length), `Aperçu du dossier ${d.titre}`);
+        p.querySelector("[data-pas='-1']")?.addEventListener("click", () => ouvrir(courant[i - 1].id));
+        p.querySelector("[data-pas='1']")?.addEventListener("click", () => ouvrir(courant[i + 1].id));
+      };
+      $("#liste").addEventListener("click", (ev) => {
+        const c = ev.target.closest("a.carte-dossier");
+        if (!c || ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button) return; // clic modifié : ouverture directe
+        ev.preventDefault();
+        ouvrir(c.dataset.dossier);
+      });
       const maj = () => {
         Object.assign(s, { q: $("#q").value, rub: $("#rub").value, type: $("#type").value, veille: aVeille ? $("#veille").value : "" });
         const m = mots(s.q);
         const r = D.dossiers.filter((d) => (!s.rub || d.rubrique === s.rub) && (!s.type || d.type === s.type) && (!s.veille || d.veille === s.veille) && K.contient(K.norm(`${d.titre} ${d.motsCles || ""} ${d.resume}`), m));
+        // l'ordre de navigation suit l'ordre d'affichage, famille par famille
+        courant = Object.keys(K.FAMILLES).flatMap((k) => r.filter((d) => K.familleDe[d.rubrique] === k));
         $("#n").textContent = `${K.pluriel(r.length, "dossier")} sur ${D.dossiers.length}`;
         $("#liste").innerHTML = r.length
           ? Object.entries(K.FAMILLES).map(([k, f]) => {
@@ -200,8 +289,9 @@
             ${repere("Mots-clés et variantes", e(d.motsCles))}${repere("Archives images", e(d.archivesImages))}</dl>
             ${!periode && !d.echeance && !d.motsCles ? `<div class="vide">Aucun repère saisi.</div>` : ""}</section>
           <section class="bloc"><h2>Protagonistes <span class="compte">${gens.length}</span></h2>
-            ${gens.length ? `<dl class="reperes">${gens.map((p) => `<div><dd><a href="${K.url.personne(p.id)}">${e(K.nomAffiche(p))}</a></dd><dt>${e((p.fonction || p.nature).slice(0, 120))}</dt></div>`).join("")}</dl>` : `<div class="vide">Aucun protagoniste désigné.</div>`}</section>
+            ${gens.length ? `<ul class="gens">${gens.map((p) => `<li><a href="${K.url.personne(p.id)}">${K.vignette(p, "s")}<span><b>${e(K.nomAffiche(p))}</b><small>${e(court(p.fonction || p.nature, 120))}</small></span></a></li>`).join("")}</ul>` : `<div class="vide">Aucun protagoniste désigné.</div>`}</section>
         </aside></div>`;
+      if (K.frise(l.faits)) $("#faits").insertAdjacentHTML("beforebegin", `<div class="frise-zone">${K.frise(l.faits)}</div>`);
       if (l.notes.length) $("#notes").innerHTML = `<div class="liste">${l.notes.map(rangNote).join("")}</div>`;
       K.listeRepliable($("#faits"), l.faits.slice().sort(K.parDateCroissante), (f) => K.rangFait(f, { sansDossier: true }), 30);
       if (l.agenda.length) K.listeRepliable($("#agenda"), l.agenda.slice().sort(K.parDateCroissante), (x) => K.rangAgenda(x, { sansDossier: true }));
@@ -243,9 +333,10 @@
       const roles = l.roles.slice().sort((a, b) => Number(b.actuel) - Number(a.actuel) || (b.debut || "").localeCompare(a.debut || ""));
       const vigilance = roles.some((r) => r.definitif && r.definitif.startsWith("Non"));
       main.innerHTML = `<p class="fil"><a href="repertoire.html">Répertoire</a> / ${e(p.nature)}</p>
-        <div class="fiche-entete"><div class="sur"><span class="etiq plein">${e(p.nature)}</span>${p.qualite.map((q) => `<span class="etiq">${e(q)}</span>`).join("")}
+        <div class="fiche-entete avec-portrait"><figure class="portrait">${K.vignette(p, "l")}${K.credit(K.image("fiche", p.id))}</figure><div>
+          <div class="sur"><span class="etiq plein">${e(p.nature)}</span>${p.qualite.map((q) => `<span class="etiq">${e(q)}</span>`).join("")}
           ${p.verifieLe ? `<span class="etiq ok">Fiche vérifiée le ${K.dateCourte(p.verifieLe)}</span>` : `<span class="etiq attention">Fiche non vérifiée</span>`}</div>
-          <h1>${e(nom)}</h1>${p.fonction ? `<p class="sous">${K.riche(p.fonction)}</p>` : ""}</div>
+          <h1>${e(nom)}</h1>${p.fonction ? `<p class="sous">${K.riche(p.fonction)}</p>` : ""}</div></div>
         ${vigilance ? `<p class="avertissement rouge">Une procédure judiciaire est en cours et aucune décision définitive n'a été rendue : la personne est présumée innocente. Reprendre la formulation pour l'antenne indiquée ci-dessous.</p>` : ""}
         ${!p.verifieLe ? `<p class="avertissement">La fonction indiquée a été relevée dans la presse et n'a pas été contrôlée. La vérifier avant tout synthé ou lancement.</p>` : ""}
         <div class="fiche"><div>
@@ -376,6 +467,7 @@
             <p>Un article n'est rattaché à une commune que si le champ « Lieux » de sa fiche porte le nom exact de cette commune. Les mentions « Balagne », « Cap Corse » ou « Plaine orientale » ne sont rattachées à aucune commune.</p></div></section>
           <section class="bloc"><h2>D'où viennent les données</h2><div class="corps texte">
             <p>Les fiches sont saisies dans Notion, dans l'espace « Documentation — Revue de presse Corse ». Ce site n'en est qu'une copie en lecture : rien ne s'y modifie. Un script exporte les bases et reconstruit les pages ; la date du dernier export figure en bas de chaque page.</p>
+            <p>Les photos et logos viennent de Wikimedia Commons, sous licence libre ; l'auteur et la licence figurent sous chaque image. Une commune est rapprochée de Wikidata par son code Insee. Une personne ne reçoit une photo que si un seul homonyme lié à la Corse existe sur Wikidata : ce rapprochement automatique reste à vérifier, et la fiche l'indique. À défaut, la fiche affiche les initiales.</p>
             <p>Les contours des communes et des intercommunalités viennent de l'IGN (Admin Express), les populations et codes postaux du découpage administratif publié par Etalab. Les maires sortants cités dans les fiches communes viennent d'une compilation de la rédaction arrêtée en février 2026, avant les élections municipales.</p></div></section>
         </div><aside>
           <section class="bloc"><h2>Cette version</h2><dl class="reperes">${repere("Profil", complet ? "Complet, à usage interne" : "Publiable")}${repere("Export de Notion", K.dateFr(m.exporteLe))}</dl>
@@ -385,6 +477,33 @@
         </aside></div>`;
     },
   };
+
+  /** Vue étendue d'un dossier, ouverte dans le panneau latéral avant d'aller sur sa page. */
+  function apercuDossier(d, i, total) {
+    const l = K.liens("dossier", d.id);
+    const gens = (d.personnes || []).map((x) => K.I.personne.get(x)).filter(Boolean);
+    const periode = d.debut ? (d.fin ? `${K.dateFr(d.debut)} – ${K.dateFr(d.fin)}` : `depuis le ${K.dateFr(d.debut)}`) : "";
+    const venir = l.agenda.filter((x) => (x.date || "").slice(0, 10) >= K.aujourdHui()).sort(K.parDateCroissante).slice(0, 2);
+    const faits = l.faits.slice().sort(K.parDate).slice(0, 4);
+    const arts = l.articles.slice().sort(K.parDate).slice(0, 4);
+    const chiffre = (n, un, plusieurs) => `<div><strong>${n}</strong><span>${K.pluriel(n, un, plusieurs).replace(/^\S+\s/, "")}</span></div>`;
+    return `<article class="apercu" data-f="${K.familleDe[d.rubrique] || ""}">
+      <div class="apercu-nav"><span class="discret">${i + 1} / ${total}</span>
+        <span><button type="button" class="bouton second" data-pas="-1"${i ? "" : " disabled"}>← Précédent</button>
+        <button type="button" class="bouton second" data-pas="1"${i < total - 1 ? "" : " disabled"}>Suivant →</button></span></div>
+      <div class="sur">${K.rub(d.rubrique)}<span class="etiq">${e(d.type)}</span>${d.veille === "Veille active" ? `<span class="etiq plein">Veille active</span>` : ""}</div>
+      <h2>${e(d.titre)}</h2>
+      ${d.resume ? `<p class="sous">${e(d.resume)}</p>` : ""}
+      ${periode ? `<p class="discret">Période couverte : ${e(periode)}</p>` : ""}
+      <div class="mini-chiffres">${chiffre(l.articles.length, "article")}${chiffre(l.faits.length, "fait daté", "faits datés")}${chiffre(gens.length, "protagoniste")}${chiffre(l.agenda.length, "échéance", "échéances")}</div>
+      ${K.frise(l.faits) ? `<h3>Frise</h3>${K.frise(l.faits)}` : ""}
+      ${venir.length ? `<h3>À venir</h3><div class="liste">${venir.map((x) => K.rangAgenda(x, { sansDossier: true })).join("")}</div>` : ""}
+      ${faits.length ? `<h3>Derniers faits datés</h3><div class="liste">${faits.map((f) => K.rangFait(f, { sansDossier: true })).join("")}</div>` : ""}
+      ${gens.length ? `<h3>Protagonistes</h3><ul class="gens">${gens.map((p) => `<li><a href="${K.url.personne(p.id)}">${K.vignette(p, "s")}<span><b>${e(K.nomAffiche(p))}</b><small>${e(court(p.fonction || p.nature, 90))}</small></span></a></li>`).join("")}</ul>` : ""}
+      ${arts.length ? `<h3>Derniers articles</h3><div class="liste">${arts.map((a) => K.rangArticle(a, { sansDossier: true })).join("")}</div>` : ""}
+      <div class="apercu-pied"><a class="bouton" href="${K.url.dossier(d.id)}">Ouvrir le dossier complet</a></div>
+    </article>`;
+  }
 
   function rangNote(n) {
     return `<div class="rang"><div class="quand">${n.arreteAu ? K.dateFr(n.arreteAu) : ""}<br><span class="discret">arrêtée au</span></div><div class="quoi">

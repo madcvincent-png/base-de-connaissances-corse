@@ -119,7 +119,8 @@
     if (p.nature !== "Personne") return p.nom;
     const m = p.nom.match(/^((?:[A-ZÀ-ÖØ-Þ'’\-]{2,}\s?)+)\s+(.+)$/);
     if (!m) return p.nom;
-    const nom = m[1].trim().toLowerCase().replace(/(^|[\s\-'’])(\p{L})/gu, (x, a, b) => a + b.toUpperCase());
+    const nom = m[1].trim().toLowerCase().replace(/(^|[\s\-'’])(\p{L})/gu, (x, a, b) => a + b.toUpperCase())
+      .replace(/^(De|Du|Des|D['’])(?=[\s\p{L}])/u, (x) => x.toLowerCase()); // « de La Foata », « d'Ornano »
     return `${m[2]} ${nom}`;
   }
 
@@ -202,23 +203,93 @@
       </div></div>`;
   }
 
+  // ------------------------------------------------------------ images (Wikimedia Commons)
+  // data/images.js est produit par scripts/build_images.py ; sans lui, le site affiche des initiales.
+  const IMG = window.KB_IMG || { communes: {}, fiches: {} };
+  const image = (type, id) => (type === "commune" ? IMG.communes : IMG.fiches)[id] || null;
+  const NATURES = { Personne: "personne", "Parti / mouvement": "parti", "Club / association": "club", Entreprise: "entreprise", Institution: "institution", Organisation: "organisation" };
+  function initiales(p) {
+    const n = nomAffiche(p).replace(/\(.*?\)/g, "").trim();
+    const mots = n.split(/[\s\-']+/).filter((w) => /^\p{Lu}/u.test(w));
+    return (mots.length > 1 ? mots[0][0] + mots[mots.length - 1][0] : n.slice(0, 2)).toUpperCase();
+  }
+  /** Photo ou logo d'une fiche du répertoire ; à défaut, ses initiales sur une pastille de couleur. */
+  function vignette(p, taille = "m") {
+    const im = image("fiche", p.id), n = NATURES[p.nature] || "organisation";
+    return im
+      ? `<img class="vignette ${taille} ${n === "personne" ? "" : "logo"}" src="${esc(im.src)}" alt="" loading="lazy" decoding="async">`
+      : `<span class="vignette ${taille} initiales" data-n="${n}" aria-hidden="true">${esc(initiales(p))}</span>`;
+  }
+  function credit(im) {
+    if (!im) return "";
+    return `<figcaption class="credit">${im.auteur ? esc(im.auteur) + ", " : ""}${im.page ? `<a href="${esc(im.page)}" target="_blank" rel="noopener">${esc(im.licence || "licence libre")}</a>` : esc(im.licence || "")}, Wikimedia Commons${
+      im.aValider ? `<br><span class="a-valider">Rapprochement automatique avec Wikidata, à vérifier</span>` : ""}</figcaption>`;
+  }
+
+  // ------------------------------------------------------------ frise chronologique
+  /** Points placés à l'échelle du temps ; survol = titre et date. */
+  function frise(faits, opt = {}) {
+    const d = faits.filter((f) => f.date).sort(parDateCroissante);
+    if (d.length < 2) return "";
+    const t = (iso) => new Date(iso.slice(0, 10)).getTime();
+    const a = t(d[0].date), b = t(d[d.length - 1].date), span = b - a || 1;
+    const points = d.map((f) => `<a class="point${f.jalon ? " jalon" : ""}" style="left:${(((t(f.date) - a) / span) * 100).toFixed(2)}%" data-f="${familleDe[f.rubrique] || ""}"
+        ${opt.lien ? `href="${opt.lien(f)}"` : 'tabindex="0"'} title="${esc(dateFr(f.date, f.precision))} — ${esc(f.titre)}"><span class="sr">${esc(dateFr(f.date, f.precision))} : ${esc(f.titre)}</span></a>`).join("");
+    return `<div class="frise" role="group" aria-label="Frise de ${d.length} faits datés"><div class="frise-axe">${points}</div>
+      <div class="frise-bornes"><span>${esc(dateFr(d[0].date, d[0].precision))}</span><span>${esc(dateFr(d[d.length - 1].date, d[d.length - 1].precision))}</span></div></div>`;
+  }
+
+  // ------------------------------------------------------------ panneau latéral (aperçu)
+  let panneauRetour = null;
+  function fermerPanneau() {
+    const p = document.querySelector(".panneau");
+    if (!p) return;
+    p.classList.remove("ouvert");
+    document.querySelector(".voile")?.classList.remove("ouvert");
+    setTimeout(() => { p.remove(); document.querySelector(".voile")?.remove(); }, 220);
+    document.body.classList.remove("sans-defilement");
+    panneauRetour?.focus();
+  }
+  function ouvrirPanneau(contenu, titre) {
+    fermerPanneau();
+    panneauRetour = document.activeElement;
+    const v = document.createElement("div");
+    v.className = "voile";
+    v.onclick = fermerPanneau;
+    const p = document.createElement("aside");
+    p.className = "panneau";
+    p.setAttribute("role", "dialog");
+    p.setAttribute("aria-modal", "true");
+    p.setAttribute("aria-label", titre);
+    p.innerHTML = `<button class="fermer" type="button" aria-label="Fermer l'aperçu">×</button><div class="panneau-corps">${contenu}</div>`;
+    document.body.append(v, p);
+    document.body.classList.add("sans-defilement");
+    requestAnimationFrame(() => { v.classList.add("ouvert"); p.classList.add("ouvert"); });
+    p.querySelector(".fermer").onclick = fermerPanneau;
+    p.querySelector(".fermer").focus();
+    return p;
+  }
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") fermerPanneau(); });
+
   function rangPersonne(p) {
     return `<div class="rang">
       <div class="quand">${esc(p.nature)}</div>
-      <div class="quoi">
+      <div class="quoi avec-vignette">${vignette(p)}<div>
         <div class="intitule"><a href="${url.personne(p.id)}">${esc(p.nom)}</a></div>
         ${p.fonction ? `<div class="complement">${riche(p.fonction)}</div>` : ""}
         <div class="meta">${(p.qualite || []).map((q) => `<span class="etiq">${esc(q)}</span>`).join("")}
           ${p.rattachement ? `<span>${esc(p.rattachement)}</span>` : ""}
           ${p.pron ? `<span>Se prononce : ${esc(p.pron)}</span>` : ""}
           ${p.verifieLe ? `<span class="etiq ok">Vérifiée le ${esc(dateCourte(p.verifieLe))}</span>` : `<span class="etiq attention">Fiche non vérifiée</span>`}</div>
-      </div></div>`;
+      </div></div></div>`;
   }
 
   function carteDossier(d) {
     const l = liens("dossier", d.id);
-    return `<a class="carte-dossier" data-f="${familleDe[d.rubrique] || ""}" href="${url.dossier(d.id)}">
+    const gens = (d.personnes || []).map((i) => I.personne.get(i)).filter(Boolean).slice(0, 5);
+    return `<a class="carte-dossier" data-f="${familleDe[d.rubrique] || ""}" data-dossier="${d.id}" href="${url.dossier(d.id)}">
       <b>${esc(d.titre)}</b><span class="res">${esc(d.resume)}</span>
+      ${gens.length ? `<span class="pile">${gens.map((p) => vignette(p, "s")).join("")}</span>` : ""}
       <span class="bas"><span>${esc(d.type)}</span><span>${pluriel(l.articles.length, "article")}</span>${
         l.faits.length ? `<span>${pluriel(l.faits.length, "fait daté", "faits datés")}</span>` : ""
       }${d.veille === "Veille active" ? `<span class="etiq plein">Veille active</span>` : ""}</span></a>`;
@@ -286,6 +357,27 @@
       <span>${m.profil === "public" ? "Version publiable : justice, faits divers et notes internes exclus." : "Version complète, à usage interne : ne pas publier."}</span>
       <span><a href="a-propos.html">Méthode et limites</a></span>`;
     document.body.append(p);
+
+    // Retour en haut, sur les pages longues
+    const haut = document.createElement("button");
+    haut.type = "button";
+    haut.className = "haut";
+    haut.setAttribute("aria-label", "Revenir en haut de la page");
+    haut.innerHTML = "↑";
+    haut.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+    document.body.append(haut);
+    const suivre = () => haut.classList.toggle("visible", window.scrollY > 700);
+    window.addEventListener("scroll", suivre, { passive: true });
+    suivre();
+
+    // « / » place le curseur dans la recherche, comme sur la plupart des outils documentaires
+    document.addEventListener("keydown", (e) => {
+      const t = e.target;
+      if (e.key !== "/" || e.ctrlKey || e.metaKey || /^(INPUT|SELECT|TEXTAREA)$/.test(t.tagName) || t.isContentEditable) return;
+      e.preventDefault();
+      h.querySelector("#q-globale").focus();
+    });
+    h.querySelector("#q-globale").setAttribute("placeholder", "Chercher (raccourci : /)");
   }
 
   const contient = (texte, mots) => mots.every((m) => texte.includes(m));
@@ -364,6 +456,7 @@
     FAMILLES, RUBRIQUES, familleDe, rub, url, lienCommune, lienPersonne, lienDossier, nomAffiche,
     rangFait, rangArticle, rangAgenda, rangRole, rangPersonne, rangDrone, carteDossier, listeRepliable,
     parDate, parDateCroissante, contient, etatUrl, etiqFiabilite, entete,
+    image, vignette, credit, frise, ouvrirPanneau, fermerPanneau, MOIS,
   };
   entete();
 })();

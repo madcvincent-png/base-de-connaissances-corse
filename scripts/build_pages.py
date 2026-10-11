@@ -29,7 +29,7 @@ PAGES = [
 ]
 
 CARTE = """<main id="page" class="carte-page">
-  <aside class="volet" aria-label="Filtres de la carte">
+  <aside class="volet" id="volet" aria-label="Filtres de la carte">
     <div class="volet-haut">
       <h1>Carte thématique</h1>
       <p class="chapo">Choisissez ce qui se colore, puis affinez par rubrique et par période. Cliquez une commune pour voir ce qui lui est rattaché.</p>
@@ -45,8 +45,11 @@ CARTE = """<main id="page" class="carte-page">
     <div id="liste" class="volet-liste"></div>
   </aside>
   <section class="zone-carte">
+    <button type="button" class="tirette" id="tirette" aria-controls="volet" aria-expanded="true"
+      title="Glisser pour élargir le volet, cliquer pour le replier"><span class="sr">Replier ou déplier le volet</span></button>
     <div id="carte" role="region" aria-label="Carte thématique de la Corse"></div>
     <div class="outils-carte">
+      <button type="button" class="outil" id="plein" aria-pressed="false">Carte seule</button>
       <label><input id="fond" type="checkbox" checked>Fond IGN</label>
       <label><input id="epci" type="checkbox">Intercommunalités</label>
     </div>
@@ -58,7 +61,8 @@ CARTE = """<main id="page" class="carte-page">
 def page(fichier, data_page, titre, leaflet, carte):
     corps = CARTE if carte else '<main id="page" class="page"></main>'
     css_leaflet = '<link rel="stylesheet" href="vendor/leaflet/leaflet.css">' if leaflet else ""
-    scripts = ['<script src="data/kb.js"></script>', '<script src="data/geo.js"></script>' if (leaflet or carte) else ""]
+    scripts = ['<script src="data/kb.js"></script>', '<script src="data/images.js"></script>',
+               '<script src="data/geo.js"></script>' if (leaflet or carte) else ""]
     if leaflet or carte:
         scripts.append('<script src="vendor/leaflet/leaflet.js"></script>')
     scripts.append('<script src="assets/kb.js"></script>')
