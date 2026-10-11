@@ -1,0 +1,26 @@
+{
+  "_lisez-moi": "Flux lus par scripts/veille.py. « source » doit être une option existante du champ Source de la base Articles (sinon « Autre »). « agregateur » : la source réelle est lue dans chaque entrée (Google Actualités). « verifie » : flux contrôlé avant mise en service. Mettre « actif » à false pour suspendre un flux sans le supprimer.",
+  "flux": [
+    {
+      "nom": "Corse Net Infos",
+      "url": "https://www.corsenetinfos.corsica/xml/syndication.rss",
+      "source": "Corse Net Infos",
+      "type": "Site d'information",
+      "verifie": "2026-10-11"
+    },
+    {
+      "nom": "Corsica Infurmazione",
+      "url": "https://www.corsicainfurmazione.org/feed/",
+      "source": "Autre",
+      "type": "Presse d'opinion",
+      "verifie": "2026-10-11"
+    },
+    {
+      "nom": "Collectivité de Corse",
+      "url": "https://www.isula.corsica/xml/syndication.rss",
+      "source": "Autre",
+      "type": "Document officiel / communiqué",
+      "verifie": "adresse relevée sur isula.corsica/feeds, contenu non contrôlé"
+    }
+  ]
+}
