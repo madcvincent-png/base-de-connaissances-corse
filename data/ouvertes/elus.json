@@ -11051,12 +11051,14 @@
    {
     "nom": "PANUNZI",
     "prenom": "Jean-Jacques",
-    "debutMandat": "2020-10-01"
+    "debutMandat": "2020-10-01",
+    "departement": "Corse-du-Sud"
    },
    {
     "nom": "PARIGI",
     "prenom": "Paul Toussaint",
-    "debutMandat": "2020-10-01"
+    "debutMandat": "2020-10-01",
+    "departement": "Haute-Corse"
    }
   ],
   "Intercommunalités": [
@@ -11066,7 +11068,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-31",
-    "epci": "Cc De La Pieve De L'Ornano"
+    "epci": "CC de la Pieve de l'Ornano"
    },
    {
     "nom": "ANGELINI",
@@ -11074,7 +11076,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-30",
-    "epci": "Cc Du Sud Corse"
+    "epci": "CC du Sud Corse"
    },
    {
     "nom": "COLONNA",
@@ -11082,7 +11084,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-04-17",
     "debutFonction": "2026-04-17",
-    "epci": "Cc Spelunca-Liamone"
+    "epci": "CC Spelunca-Liamone"
    },
    {
     "nom": "MARCELLESI",
@@ -11090,7 +11092,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-04-09",
     "debutFonction": "2026-04-09",
-    "epci": "Cc De L'Alta Rocca"
+    "epci": "CC de l'Alta Rocca"
    },
    {
     "nom": "LIVRELLI",
@@ -11098,7 +11100,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-11",
-    "epci": "Cc Celavu-Prunelli"
+    "epci": "CC Celavu-Prunelli"
    },
    {
     "nom": "SBRAGGIA",
@@ -11106,7 +11108,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-22",
     "debutFonction": "2026-04-04",
-    "epci": "Ca Du Pays Ajaccien"
+    "epci": "CA du Pays Ajaccien"
    },
    {
     "nom": "LEANDRI",
@@ -11114,7 +11116,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-08",
-    "epci": "Cc Du Sartenais Valinco Taravo"
+    "epci": "CC du Sartenais Valinco Taravo"
    },
    {
     "nom": "ALESSANDRINI",
@@ -11122,7 +11124,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-22",
     "debutFonction": "2026-04-24",
-    "epci": "Cc De L'Oriente"
+    "epci": "CC de l'Oriente"
    },
    {
     "nom": "GIUDICI",
@@ -11130,7 +11132,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-02",
-    "epci": "Cc Fium'Orbu Castellu"
+    "epci": "CC Fium'Orbu Castellu"
    },
    {
     "nom": "NICOLAÏ",
@@ -11138,7 +11140,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-30",
-    "epci": "Cc De La Costa Verde"
+    "epci": "CC de la Costa Verde"
    },
    {
     "nom": "DOMINICI",
@@ -11146,7 +11148,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-31",
-    "epci": "Cc De Marana-Golo"
+    "epci": "CC de Marana-Golo"
    },
    {
     "nom": "SANGUINETTI",
@@ -11154,7 +11156,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-10",
-    "epci": "Cc Du Cap Corse"
+    "epci": "CC du Cap Corse"
    },
    {
     "nom": "MORTINI",
@@ -11162,7 +11164,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-21",
     "debutFonction": "2026-04-04",
-    "epci": "Cc De L'Ile-Rousse-Balagne"
+    "epci": "CC de l'Ile-Rousse-Balagne"
    },
    {
     "nom": "LECCIA",
@@ -11170,7 +11172,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-07",
-    "epci": "Cc Nebbiu-Conca D'Oro"
+    "epci": "CC Nebbiu-Conca d'Oro"
    },
    {
     "nom": "GUIDICELLI",
@@ -11178,7 +11180,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-21",
     "debutFonction": "2026-03-31",
-    "epci": "Cc Pasquale Paoli"
+    "epci": "CC Pasquale Paoli"
    },
    {
     "nom": "POLI",
@@ -11186,7 +11188,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-28",
-    "epci": "Cc De La Castagniccia-Casinca"
+    "epci": "CC de la Castagniccia-Casinca"
    },
    {
     "nom": "POZZO DI BORGO",
@@ -11194,7 +11196,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-30",
-    "epci": "Ca De Bastia"
+    "epci": "CA de Bastia"
    },
    {
     "nom": "MAROSELLI",
@@ -11202,7 +11204,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-04",
-    "epci": "Cc Du Centre Corse"
+    "epci": "CC du Centre Corse"
    },
    {
     "nom": "MARCHETTI",
@@ -11210,7 +11212,7 @@
     "fonction": "Président du conseil communautaire",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-04-11",
-    "epci": "Cc De Calvi Balagne"
+    "epci": "CC de Calvi Balagne"
    }
   ]
  }
