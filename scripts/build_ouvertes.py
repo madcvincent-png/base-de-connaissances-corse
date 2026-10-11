@@ -71,6 +71,7 @@ FICHIERS = [  # (catégorie, mots qui doivent figurer dans le titre de la ressou
     ("epci", ["communautaires"]),
     ("cac", ["statut particulier"]),
     ("cac", ["assemblee de corse"]),
+    ("cac", ["membres assemblee"]),
     ("cac", ["conseillers regionaux"]),
     ("dep", ["deputes"]),
     ("sen", ["senateurs"]),
@@ -186,7 +187,7 @@ def rne(communes_pop):
                 out["institutions"]["Assemblée de Corse"].append(public)
             elif cat == "dep":
                 circo = re.sub(r"(\d)(?:ère|Ère|ere)\b", r"\1re", re.sub(r"(\d)(?:ème|Ème|eme)\b", r"\1e", e["circo"])).lower()
-                out["institutions"]["Députés"].append({**public, "circonscription": f"{circo} de {g('libDep')}".strip()})
+                out["institutions"]["Députés"].append({**public, "circonscription": f"{circo} de {g('libDep').replace('-Du-', '-du-')}".strip()})
             elif cat == "sen":
                 out["institutions"]["Sénateurs"].append(public)
         log(f"  {cat} : {n} lignes pour la Corse")
