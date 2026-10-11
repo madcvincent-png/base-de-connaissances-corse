@@ -7,13 +7,15 @@ Chaque page porte un data-page qui indique à assets/pages.js quelle rubrique re
 La carte d'accueil (index.html) est gérée par assets/carte.js.
 data/ouvertes.js (élus, sites, monuments) est facultatif : sans lui, les blocs correspondants disparaissent.
 """
+import html
 import os
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 PAGES = [
     # fichier, data-page, titre, leaflet, carte
-    ("index.html", "carte", "Carte", True, True),
+    ("index.html", "accueil", "Accueil", False, False),
+    ("carte.html", "carte", "Carte", True, True),
     ("communes.html", "communes", "Communes", False, False),
     ("commune.html", "commune", "Fiche commune", True, False),
     ("chronologie.html", "chronologie", "Chronologie", False, False),
@@ -31,6 +33,19 @@ PAGES = [
     ("drones.html", "drones", "Images drone", False, False),
     ("a-propos.html", "apropos", "Méthode et limites", False, False),
 ]
+
+DESCRIPTIONS = {
+    "accueil": "Base de connaissances de la documentation de France 3 Corse ViaStella : dossiers, faits datés, élus, documents officiels et revue de presse sur la Corse, avec leurs sources.",
+    "carte": "Carte des communes de Corse selon ce que contient la base : faits datés, articles, agenda, images drone, sites et équipements.",
+    "communes": "Les 360 communes de Corse : élus, faits datés, sites, monuments et articles rattachés.",
+    "elus": "Élus de Corse : Assemblée de Corse par groupe politique, parlementaires, présidents d'intercommunalité et maires, d'après le Répertoire national des élus.",
+    "sites": "Sites et équipements de Corse : installations classées, sites Seveso, centrales, déchets, ports et aéroports, monuments protégés.",
+    "documents": "Documents de référence sur la Corse : études de l'Insee, rapports de contrôle, textes de la Collectivité de Corse et du Parlement.",
+    "articles": "Revue de presse sur la Corse fichée par la documentation, avec l'état de traitement de chaque article.",
+    "dossiers": "Dossiers suivis par la documentation : chronologie, protagonistes, articles et documents.",
+    "chronologie": "Chronologie des faits datés relevés sur la Corse, avec leur source et leur niveau de fiabilité.",
+}
+
 
 CARTE = """<main id="page" class="carte-page">
   <aside class="volet" id="volet" aria-label="Filtres de la carte">
@@ -75,17 +90,25 @@ def page(fichier, data_page, titre, leaflet, carte):
     scripts.append('<script src="assets/kb.js"></script>')
     scripts.append('<script src="assets/carte.js"></script>' if carte else '<script src="assets/pages.js"></script>')
     scripts = "\n  ".join(s for s in scripts if s)
+    titre_page = "Base de connaissances Corse" if data_page == "accueil" else f"{titre} — Base de connaissances Corse"
+    description = html.escape(DESCRIPTIONS.get(data_page, DESCRIPTIONS["accueil"]))
     return f"""<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{titre} — Base de connaissances Corse</title>
+  <title>{titre_page}</title>
+  <meta name="description" content="{description}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{titre_page}">
+  <meta property="og:description" content="{description}">
+  <meta property="og:locale" content="fr_FR">
   <link rel="icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="assets/kb.css">
   {css_leaflet}
 </head>
 <body data-page="{data_page}">
+  <noscript><p class="noscript">Cette base de connaissances s'affiche avec JavaScript, qui semble désactivé dans votre navigateur. Activez-le pour consulter les fiches.</p></noscript>
   {corps}
   {scripts}
 </body>

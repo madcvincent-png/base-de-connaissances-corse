@@ -17,7 +17,7 @@ Règles de rapprochement
                 (siège ou localisation dans une commune corse, ou description), logo de préférence.
 
 Les rapprochements de personnes sont marqués « à valider » : une personne de la documentation
-doit les contrôler avant tout usage à l'antenne.
+doit les contrôler avant toute réutilisation.
 
 Ce script tourne dans GitHub Actions (.github/workflows/images.yml) : l'environnement de travail
 de Claude n'a pas accès à Wikimedia.

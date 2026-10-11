@@ -41,6 +41,37 @@
   };
   const joursAvant = (iso) => Math.round((new Date(iso.slice(0, 10)) - new Date(aujourdHui())) / 86400000);
 
+  // ------------------------------------------------------------ glossaire
+  /** Les mots du métier, expliqués au survol (ou au focus clavier) et rassemblés sur la page Méthode. */
+  const GLOSSAIRE = {
+    "Fait daté": "Un événement daté au jour, au mois ou à l'année, relevé dans une source. La date est celle de l'événement, pas de l'article.",
+    "Recoupé": "Le fait est confirmé par au moins deux sources indépendantes.",
+    "Source unique": "Le fait ne repose que sur une source : il n'est pas faux, mais il n'est pas confirmé.",
+    "À vérifier": "L'information est signalée comme douteuse ou incomplète : à contrôler avant toute réutilisation.",
+    "Titre seul": "L'article n'est connu que par son titre : il n'a pas été lu ni résumé. Il sert à retrouver un sujet, pas à l'affirmer.",
+    "Dépouillé": "L'article a été lu, résumé et rattaché à ses dossiers, personnes et communes.",
+    "Fiche vérifiée": "La fonction de la personne a été contrôlée à la date indiquée. Une fonction change : la date compte.",
+    "Fiche non vérifiée": "La fonction a été relevée dans la presse sans contrôle à la source.",
+    "Source primaire": "Le document a été consulté chez son producteur (Insee, Assemblée de Corse, Parlement…).",
+    "Source secondaire": "Le contenu du document est connu par un compte rendu de presse, pas par le document lui-même.",
+    "Jalon majeur": "Une date qui figurerait dans une chronologie courte du sujet.",
+    "Seveso": "Classement européen des sites industriels présentant des risques d'accident majeur (seuil bas ou seuil haut).",
+    "Intercommunalité": "Communauté de communes (CC) ou communauté d'agglomération (CA) qui regroupe plusieurs communes.",
+    "Dossier": "Un sujet suivi dans la durée : il réunit articles, faits datés, protagonistes et notes.",
+    "Veille active": "Le dossier est suivi au jour le jour par la documentation.",
+  };
+  const terme = (mot, texte, classe = "") =>
+    GLOSSAIRE[mot] ? `<span class="terme ${classe}" tabindex="0" data-def="${esc(GLOSSAIRE[mot])}">${texte != null ? texte : esc(mot)}</span>` : (texte != null ? texte : esc(mot));
+  /** Niveau de preuve d'un document : consulté chez son producteur, ou connu par la presse. */
+  const PRIMAIRES = /(^|\.)(insee\.fr|isula\.corsica|senat\.fr|assemblee-nationale\.fr|ccomptes\.fr|legifrance\.gouv\.fr|corse\.gouv\.fr|prefectures-regions\.gouv\.fr|data\.gouv\.fr|georisques\.gouv\.fr)$/;
+  const niveauSource = (lien) => {
+    try { return PRIMAIRES.test(new URL(lien).hostname) ? "Source primaire" : "Source secondaire"; } catch (e) { return ""; }
+  };
+  const etiqNiveau = (lien) => {
+    const n = niveauSource(lien);
+    return n ? terme(n, `<span class="etiq ${n === "Source primaire" ? "ok" : "attention"}">${n === "Source primaire" ? "Source primaire" : "Source presse"}</span>`) : "";
+  };
+
   // ------------------------------------------------------------ rubriques
   const FAMILLES = {
     publique: { nom: "Vie publique", rubriques: ["Politique", "Institutions"] },
@@ -133,7 +164,7 @@
 
   // ------------------------------------------------------------ rangs de liste
   const etiqFiabilite = (f) =>
-    !f ? "" : f === "Recoupé" ? `<span class="etiq ok">Recoupé</span>` : `<span class="etiq attention">${esc(f)}</span>`;
+    !f ? "" : terme(f, f === "Recoupé" ? `<span class="etiq ok">Recoupé</span>` : `<span class="etiq attention">${esc(f)}</span>`);
 
   function rangFait(f, opt = {}) {
     const lieux = (f.communes || []).map(lienCommune).filter(Boolean).join(", ");
@@ -165,8 +196,7 @@
         ${a.retenir ? `<div class="complement">${riche(a.retenir)}</div>` : ""}
         <div class="meta"><b>${esc(a.source)}</b>${a.auteur ? `<span>${esc(a.auteur)}</span>` : ""}${rub(a.rubrique)}
           ${a.genre ? `<span class="etiq">${esc(a.genre)}</span>` : ""}
-          ${a.traitement === "À dépouiller" ? `<span class="etiq attention">Titre seul, non dépouillé</span>` : ""}
-          ${a.traitement === "Vérifié" ? `<span class="etiq ok">Vérifié</span>` : ""}
+          ${a.traitement === "À dépouiller" ? terme("Titre seul", `<span class="etiq attention">Titre seul, non lu</span>`) : a.traitement ? terme("Dépouillé", `<span class="etiq ok">Dépouillé</span>`) : ""}
           ${(a.lieux || []).length ? `<span>${a.lieux.map(esc).join(", ")}</span>` : ""}${dos ? `<span>${dos}</span>` : ""}</div>
       </div></div>`;
   }
@@ -200,7 +230,6 @@
       <div class="quoi">
         <div class="intitule">${qui ? qui + " — " : ""}${esc(intitule)}</div>
         ${r.chefs ? `<div class="complement">${riche(r.chefs)}</div>` : ""}
-        ${r.antenne ? `<p class="antenne"><b>Formulation pour l'antenne</b>${esc(r.antenne)}</p>` : ""}
         <div class="meta"><span class="etiq${judiciaire ? " alerte" : ""}">${esc(r.categorie)}</span>
           ${r.definitif && r.definitif.startsWith("Non") ? `<span class="etiq alerte">Décision non définitive : présomption d'innocence</span>` : ""}
           ${etiqFiabilite(r.fiabilite)}${r.instance ? `<span>${esc(r.instance)}</span>` : ""}
@@ -272,7 +301,7 @@
   function rangSite(x, opt = {}) {
     return `<div class="rang"><div class="quand"><span class="pastille-site" data-s="${familleSite[x.categorie] || ""}"></span>${esc(x.categorie)}</div><div class="quoi">
       <div class="intitule">${x.lien ? `<a href="${esc(x.lien)}" target="_blank" rel="noopener">${esc(x.nom)}</a>` : esc(x.nom)}</div>
-      <div class="meta">${x.seveso ? `<span class="etiq alerte">${esc(x.seveso)}</span>` : ""}${x.regime ? `<span class="etiq">${esc(x.regime)}</span>` : ""}
+      <div class="meta">${x.seveso ? terme("Seveso", `<span class="etiq alerte">${esc(x.seveso)}</span>`) : ""}${x.regime ? `<span class="etiq">${esc(x.regime)}</span>` : ""}
         ${etatSite(x) && etatSite(x) !== "En exploitation" ? `<span class="etiq attention">${esc(etatSite(x))}</span>` : ""}
         ${(x.autres || []).length ? `<span>Aussi : ${x.autres.map(esc).join(", ")}</span>` : ""}
         ${opt.sansLieu ? "" : `<span>${lienCommune(x.commune)}</span>`}<span class="discret">Source : ${esc(x.source)}</span></div></div></div>`;
@@ -284,7 +313,7 @@
       <div class="intitule">${titre}</div>
       ${d.resume ? `<div class="complement">${riche(d.resume)}</div>` : ""}
       ${d.chiffres ? `<div class="complement chiffres-cles"><b>Chiffres à retenir :</b> ${riche(d.chiffres)}</div>` : ""}
-      <div class="meta"><b>${esc(d.producteur)}</b>${d.type ? `<span class="etiq">${esc(d.type)}</span>` : ""}${ref ? `<span>${esc(ref)}</span>` : ""}
+      <div class="meta"><b>${esc(d.producteur)}</b>${etiqNiveau(d.lien)}${d.type ? `<span class="etiq">${esc(d.type)}</span>` : ""}${ref ? `<span>${esc(ref)}</span>` : ""}
         ${d.statut && d.statut !== "En vigueur" && d.statut !== "Publié" ? `<span class="etiq attention">${esc(d.statut)}</span>` : ""}
         ${(d.themes || []).map((t) => `<span class="etiq">${esc(t)}</span>`).join("")}
         ${opt.sansDossier ? "" : (d.dossiers || []).map(lienDossier).filter(Boolean).join(" ; ")}
@@ -344,8 +373,8 @@
         ${p.fonction ? `<div class="complement">${riche(p.fonction)}</div>` : ""}
         <div class="meta">${(p.qualite || []).map((q) => `<span class="etiq">${esc(q)}</span>`).join("")}
           ${p.rattachement ? `<span>${esc(p.rattachement)}</span>` : ""}
-          ${p.pron ? `<span>Se prononce : ${esc(p.pron)}</span>` : ""}
-          ${p.verifieLe ? `<span class="etiq ok">Vérifiée le ${esc(dateCourte(p.verifieLe))}</span>` : `<span class="etiq attention">Fiche non vérifiée</span>`}</div>
+
+          ${p.verifieLe ? terme("Fiche vérifiée", `<span class="etiq ok">Vérifiée le ${esc(dateCourte(p.verifieLe))}</span>`) : terme("Fiche non vérifiée", `<span class="non-verifie">non vérifiée</span>`)}</div>
       </div></div></div>`;
   }
 
@@ -562,8 +591,8 @@
   // ------------------------------------------------------------ en-tête, pied, recherche
   // Le bandeau ne garde que quatre entrées ; les rubriques se rangent dans trois menus.
   const MENUS = [
-    { titre: "Carte", page: "index.html" },
     { titre: "Territoire", pages: [
+      ["carte.html", "Carte", "Ce que la base contient, commune par commune"],
       ["communes.html", "Communes", "Les 360 communes, leurs élus, sites et monuments"],
       ["elus.html", "Élus", "Assemblée de Corse, parlementaires, maires"],
       ["sites.html", "Sites et patrimoine", "Installations sensibles, équipements, monuments"],
@@ -574,7 +603,7 @@
       ["agenda.html", "Agenda", "Échéances et rendez-vous à préparer"],
       ["articles.html", "Articles", "La revue de presse fichée"],
     ] },
-    { titre: "Ressources", pages: [
+    { titre: "Documentation", pages: [
       ["repertoire.html", "Répertoire", "Personnes et organisations, fonctions vérifiées"],
       ["documents.html", "Documents", "Insee, contrôles financiers, textes officiels"],
       ["notes.html", "Notes de synthèse", "Les synthèses de la documentation"],
@@ -584,7 +613,7 @@
   ];
   function entete() {
     const ici = (location.pathname.split("/").pop() || "index.html").replace(/^$/, "index.html");
-    const famille = { "commune.html": "communes.html", "personne.html": "repertoire.html", "dossier.html": "dossiers.html", "note.html": "notes.html" };
+    const famille = { "index.html": "", "commune.html": "communes.html", "personne.html": "repertoire.html", "dossier.html": "dossiers.html", "note.html": "notes.html" };
     const actif = famille[ici] || ici;
     const presente = ([p]) => (p !== "notes.html" || D.notes.length) && (p !== "elus.html" || O.elus) && (p !== "sites.html" || SITES.length);
     const h = document.createElement("header");
@@ -597,7 +626,7 @@
           <button type="button" class="nav-bouton" aria-expanded="false" aria-controls="menu-${i}">${m.titre}<span class="chevron" aria-hidden="true"></span></button>
           <div class="menu" id="menu-${i}" hidden>${pages.map(([p, t, d]) => `<a href="${p}"${p === actif ? ' aria-current="page"' : ""}><b>${t}</b><small>${d}</small></a>`).join("")}</div></div>`;
       }).join("")}</nav>
-      <div class="recherche" role="search"><label class="sr" for="q-globale">Chercher dans toute la base</label>
+      <div class="recherche" role="search" aria-label="Recherche rapide"><label class="sr" for="q-globale">Chercher dans toute la base</label>
         <input id="q-globale" type="search" placeholder="Chercher un nom, une commune, un dossier" autocomplete="off">
         <div class="resultats" hidden></div></div>`;
     // Menus : clic ou survol (souris), Échap pour refermer, flèches pour parcourir
@@ -739,6 +768,8 @@
     image, vignette, credit, frise, ouvrirPanneau, fermerPanneau, MOIS,
     O, ELUS, SITES, LIEUX, OUV_PERS, sitesDe, lieuxDe, epciNom, fonctionRne, nomElu, ficheElu, circoDe,
     FAMILLES_SITES, familleSite, etatSite, rangSite, rangDocument, carrousel, initCarrousels, explorateur, notesDuDocument,
+    GLOSSAIRE, terme, niveauSource, etiqNiveau,
+    recherche,
   };
   entete();
 })();

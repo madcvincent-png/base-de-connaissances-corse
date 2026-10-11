@@ -208,8 +208,6 @@ button, input, select { font: inherit; color: inherit; }
 .reperes div:first-child { border-top: 0; }
 .reperes dt { font-size: 0.82rem; color: var(--encre-3); font-weight: 600; font-stretch: 90%; }
 .reperes dd { margin: 0; font-weight: 550; overflow-wrap: anywhere; }
-.antenne { margin: 8px 0 0; padding: 9px 12px; border-left: 4px solid var(--avert); background: var(--avert-clair); font-size: 0.98rem; }
-.antenne b { font-stretch: 88%; font-size: 0.82rem; display: block; color: var(--avert-texte); }
 .avertissement { margin: 0 0 18px; padding: 12px 14px; border-left: 5px solid var(--avert); background: var(--avert-clair); color: #3d3000; }
 .avertissement.rouge { border-left-color: var(--alerte); background: var(--alerte-clair); color: #5c1a15; }
 .plus { display: block; width: 100%; padding: 10px; border: 0; border-top: 1px solid var(--filet-2); background: var(--granit-2); color: var(--mer); font-weight: 600; cursor: pointer; }
@@ -329,7 +327,7 @@ img.vignette:not(.logo):not(.carre) { object-position: 50% 18%; } /* portraits :
 .vignette.initiales[data-n="personne"] { background: var(--mer); }
 .vignette.initiales[data-n="parti"] { background: var(--f-publique); border-radius: 6px; }
 .vignette.initiales[data-n="club"] { background: var(--f-societe); border-radius: 6px; }
-.vignette.initiales[data-n="entreprise"] { background: var(--f-economie); border-radius: 6px; }
+.vignette.initiales[data-n="entreprise"] { background: #8a5f0b; border-radius: 6px; } /* plus sombre que la rubrique : contraste 4,5:1 sur le blanc */
 .vignette.initiales[data-n="institution"], .vignette.initiales[data-n="organisation"] { background: var(--encre-2); border-radius: 6px; }
 .vignette.initiales[data-n="commune"] { background: var(--granit); color: var(--encre-3); font-size: 0.68rem; font-stretch: 85%; }
 .avec-vignette { display: flex; gap: 12px; align-items: flex-start; }
@@ -587,7 +585,7 @@ main > .segments { max-width: 640px; margin-bottom: 4px; }
 .carrousel { margin: 6px 0 22px; }
 .carrousel-tete { display: flex; align-items: baseline; gap: 12px; margin-bottom: 8px; }
 .carrousel-tete h2 { font-size: 1.3rem; }
-.lien-tout { font-size: 0.92rem; font-weight: 600; color: var(--mer); }
+.lien-tout { font-size: 0.92rem; font-weight: 600; color: var(--mer-fonce); }
 .carrousel-boutons { margin-left: auto; display: flex; gap: 6px; }
 .car-bouton { width: 34px; height: 34px; border: 1px solid var(--filet); border-radius: 50%; background: #fff; color: var(--encre); font-size: 1.3rem; line-height: 1; cursor: pointer; }
 .car-bouton:hover:not(:disabled) { border-color: var(--mer); color: var(--mer); }
@@ -720,10 +718,55 @@ main > .segments { max-width: 640px; margin-bottom: 4px; }
 .carte-note b a:hover { color: var(--mer); text-decoration: underline; }
 .carte-note small { color: var(--encre-2); font-size: 0.94rem; }
 .carte-note .car-bas { margin-top: auto; display: flex; gap: 8px 12px; flex-wrap: wrap; font-size: 0.86rem; color: var(--encre-3); }
-.lien-note { color: var(--mer) !important; text-decoration: none; background: var(--mer-clair); border-color: #b9d3f0; }
+.lien-note { color: var(--mer-fonce) !important; text-decoration: none; background: var(--mer-clair); border-color: #b9d3f0; }
 
 .vf-voir, .vf-voile { display: none; }
 @media (max-width: 980px) {
   .filtres-ouverts .vf-voile { display: block; position: fixed; inset: 0; z-index: 1399; background: rgba(16, 28, 40, 0.42); }
   .filtres-ouverts .vf-voir { display: flex; justify-content: center; position: sticky; bottom: 0; width: 100%; margin-top: 14px; box-shadow: 0 -8px 12px #fff; }
 }
+
+
+/* ------------------------------------------------------------ glossaire au survol */
+.terme { position: relative; cursor: help; display: inline-flex; }
+.terme:not(:has(.etiq)) { text-decoration: underline dotted var(--encre-3); text-underline-offset: 3px; }
+.terme::after {
+  content: attr(data-def); position: absolute; left: 0; bottom: calc(100% + 6px); z-index: 900; width: max-content; max-width: min(280px, 70vw);
+  padding: 7px 9px; background: var(--encre); color: #fff; font-size: 0.82rem; font-weight: 450; font-stretch: 100%; line-height: 1.35; text-transform: none; letter-spacing: 0;
+  border-radius: 3px; white-space: normal; pointer-events: none; display: none;
+}
+/* affichée seulement au survol ou au focus : cachée, elle ne doit pas élargir la page sur mobile */
+.terme:hover::after, .terme:focus-visible::after { display: block; }
+.terme:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.non-verifie { font-size: 0.84rem; color: var(--encre-3); }
+.non-verifie::before { content: "○ "; }
+.glossaire dt { font-size: 0.95rem; color: var(--encre); }
+.glossaire dd { font-weight: 450; color: var(--encre-2); }
+
+/* ------------------------------------------------------------ accueil */
+.accueil-tete { padding: 8px 0 18px; }
+.accueil-tete h1 { font-size: clamp(2rem, 4vw, 3rem); }
+.accueil-recherche { margin: 14px 0 0; max-width: 680px; flex: none; }
+.accueil-recherche input { height: 48px; font-size: 1.05rem; background: #fff; color: var(--encre); border: 2px solid var(--encre); }
+.accueil-recherche input::placeholder { color: var(--encre-3); }
+.accueil-recherche .resultats { left: 0; right: auto; top: 54px; }
+.accueil-grille { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 18px; align-items: start; margin-top: 10px; }
+.bloc > h2 .lien-tout { margin-left: auto; }
+.chiffres-cles-liste { list-style: none; margin: 0; padding: 0; }
+.chiffres-cles-liste li { display: grid; padding: 10px 16px; border-top: 1px solid var(--filet-2); }
+.chiffres-cles-liste li:first-child { border-top: 0; }
+.chiffres-cles-liste strong { font-size: 1.9rem; font-stretch: 72%; font-weight: 800; line-height: 1.05; font-variant-numeric: tabular-nums; }
+.chiffres-cles-liste span { color: var(--encre-2); }
+.chiffres-cles-liste small { color: var(--encre-3); font-size: 0.82rem; }
+.chiffres-cles-liste small a { color: var(--encre-2); }
+.entrees { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 30px; }
+.entree { background: var(--papier); border: 1px solid var(--filet); border-top: 4px solid var(--encre); padding: 14px 16px; }
+.entree h3 { font-size: 1.25rem; font-stretch: 80%; }
+.entree p { color: var(--encre-2); margin: 4px 0 8px; font-size: 0.95rem; }
+.entree ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.entree a { font-weight: 600; color: var(--mer-fonce); }
+@media (max-width: 980px) { .accueil-grille, .entrees { grid-template-columns: 1fr; } }
+.hemi svg:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.hemi circle.courant { stroke: var(--encre); stroke-width: 3; }
+.noscript { max-width: 640px; margin: 40px auto; padding: 16px; background: var(--avert-clair); border-left: 5px solid var(--avert); }
+.rang .meta .etiq { white-space: normal; max-width: 100%; overflow-wrap: anywhere; }

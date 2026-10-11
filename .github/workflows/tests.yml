@@ -1,0 +1,29 @@
+name: Tests du site
+
+# À chaque envoi : le convertisseur Notion, puis chaque page dans Chromium
+# (erreurs JavaScript, contenu, défilement horizontal sur mobile, accessibilité axe-core).
+on:
+  push:
+    branches: [refonte-base-connaissances]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install pytest==8.3.3 playwright==1.47.0 requests==2.32.3
+      - run: python -m playwright install --with-deps chromium
+      - run: npm install --no-save axe-core@4.10.2
+      - run: python -m pytest -q tests/

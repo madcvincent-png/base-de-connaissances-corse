@@ -15,7 +15,7 @@
   const bloc = (titre, n, id) => `<section class="bloc"><h2>${titre}${n != null ? ` <span class="compte">${n}</span>` : ""}</h2><div id="${id}"></div></section>`;
   const repere = (dt, dd) => (dd ? `<div><dt>${dt}</dt><dd>${dd}</dd></div>` : "");
   const introuvable = (quoi) => {
-    main.innerHTML = `<div class="vide">${quoi} est introuvable dans cette version de la base. <a href="index.html">Revenir à la carte</a></div>`;
+    main.innerHTML = `<h1>Fiche introuvable</h1><div class="vide">${quoi} est introuvable dans cette version de la base : elle a pu être retirée, ou n'est pas encore publiée. <a href="index.html">Revenir à l'accueil</a></div>`;
   };
   const ecoute = (ids, f) => ids.forEach((i) => $("#" + i) && $("#" + i).addEventListener($("#" + i).type === "search" ? "input" : "change", f));
   const mots = (q) => K.norm(q).split(" ").filter(Boolean);
@@ -23,6 +23,58 @@
   const court = (t, n) => { t = String(t || ""); return t.length <= n ? t : t.slice(0, n).replace(/[\s,;:(]+\S*$/, "") + "…"; };
 
   const PAGES = {
+    // ---------------------------------------------------------------- accueil
+    accueil() {
+      const auj = K.aujourdHui();
+      const venir = D.agenda.filter((x) => (x.date || "").slice(0, 10) >= auj).sort(K.parDateCroissante).slice(0, 4);
+      const faits = D.faits.filter((f) => f.date && f.date.slice(0, 10) <= auj).sort(K.parDate).slice(0, 6);
+      // Dossiers vivants : ceux dont un fait ou un article daté est le plus récent
+      const dernier = (d) => { const l = K.liens("dossier", d.id); return [...l.faits, ...l.articles].map((x) => (x.date || "").slice(0, 10)).filter((x) => x && x <= auj).sort().pop() || ""; };
+      const vivants = D.dossiers.map((d) => ({ d, t: dernier(d) })).filter((x) => x.t).sort((a, b) => b.t.localeCompare(a.t)).slice(0, 6);
+      const docs = D.documents.filter((d) => d.date).sort(K.parDate).slice(0, 4);
+      const CHIFFRES = [
+        ["365 600", "habitants au 1er janvier 2026", "3f6cf61fb4e7815f918bfefce2d707c7"],
+        ["6,9 %", "de chômage au 2e trimestre 2026 (France : 8,3 %)", "3f6cf61fb4e781af9a0bed7129127e31"],
+        ["129 300", "emplois salariés fin juin 2026", "3f6cf61fb4e781af9a0bed7129127e31"],
+        ["1,12", "enfant par femme en 2025, le plus bas de France", "3f6cf61fb4e7815f918bfefce2d707c7"],
+      ].map(([v, l, id]) => ({ v, l, d: K.I.document.get(id) })).filter((c) => c.d);
+      const art = D.articles, lus = art.filter((a) => a.traitement && a.traitement !== "À dépouiller").length;
+      const ENTREES = [
+        ["Territoire", "Communes, élus, sites et patrimoine, carte", [["communes.html", "Communes"], ["elus.html", "Élus"], ["sites.html", "Sites et patrimoine"], ["carte.html", "Carte"]]],
+        ["Actualité", "Dossiers suivis, faits datés, échéances, revue de presse", [["dossiers.html", "Dossiers"], ["chronologie.html", "Chronologie"], ["agenda.html", "Agenda"], ["articles.html", "Articles"]]],
+        ["Documentation", "Personnes, documents officiels, notes, images", [["repertoire.html", "Répertoire"], ["documents.html", "Documents"], ...(D.notes.length ? [["notes.html", "Notes de synthèse"]] : []), ["drones.html", "Images drone"]]],
+      ];
+      document.title = "Base de connaissances Corse";
+      main.innerHTML = `<section class="accueil-tete">
+          <h1>Base de connaissances Corse</h1>
+          <p class="chapo">La documentation de France 3 Corse ViaStella rassemble ici ce qu'elle sait de l'île : dossiers suivis, faits datés, élus, documents officiels et revue de presse. Chaque information dit d'où elle vient et si elle a été vérifiée.</p>
+          <div class="recherche accueil-recherche" role="search" aria-label="Recherche dans toute la base"><label class="sr" for="q-accueil">Chercher dans toute la base</label>
+            <input id="q-accueil" type="search" placeholder="Chercher une commune, une personne, un dossier, un document" autocomplete="off"><div class="resultats" hidden></div></div>
+        </section>
+        <div class="accueil-grille">
+          <div>
+            <section class="bloc"><h2>À venir <a class="lien-tout" href="agenda.html">Tout l'agenda</a></h2>${venir.length ? `<div class="liste">${venir.map((x) => K.rangAgenda(x)).join("")}</div>` : `<div class="vide">Aucune échéance saisie.</div>`}</section>
+            <section class="bloc"><h2>Derniers faits datés <a class="lien-tout" href="chronologie.html">Toute la chronologie</a></h2>${faits.length ? `<div class="liste">${faits.map((f) => K.rangFait(f)).join("")}</div>` : `<div class="vide">Aucun fait daté.</div>`}</section>
+          </div>
+          <aside>
+            ${CHIFFRES.length ? `<section class="bloc"><h2>Chiffres clés</h2><ul class="chiffres-cles-liste">${CHIFFRES.map((c) => `<li><strong>${e(c.v)}</strong><span>${e(c.l)}</span>
+              <small>${c.d.lien ? `<a href="${e(c.d.lien)}" target="_blank" rel="noopener">${e(c.d.producteur)}${c.d.collection ? ", " + e(c.d.collection) : ""}${c.d.numero ? " n° " + e(c.d.numero) : ""}</a>` : e(c.d.producteur)}</small></li>`).join("")}</ul></section>` : ""}
+            <section class="bloc"><h2>État de la base</h2><dl class="reperes">
+              ${art.some((a) => a.traitement) ? repere(K.terme("Dépouillé", "Articles lus et résumés"), `${lus} sur ${art.length}`) : repere("Articles", String(art.length))}
+              ${repere(K.terme("Fait daté", "Faits datés"), `${D.faits.length}, dont ${D.faits.filter((f) => f.fiabilite === "Recoupé").length} recoupés`)}
+              ${repere(K.terme("Fiche vérifiée", "Fiches vérifiées"), `${D.personnes.filter((p) => p.verifieLe).length} sur ${D.personnes.length}`)}
+              ${repere("Documents de référence", String(D.documents.length))}
+              ${repere("Export de Notion", K.dateFr(D.meta.exporteLe))}</dl>
+              <div class="corps"><a href="a-propos.html">Ce que ces chiffres veulent dire</a></div></section>
+          </aside>
+        </div>
+        ${vivants.length ? `<div class="groupe-titre"><h2>Dossiers qui ont bougé récemment</h2><a class="lien-tout" href="dossiers.html">Tous les dossiers</a></div><div class="grille">${vivants.map(({ d }) => K.carteDossier(d)).join("")}</div>` : ""}
+        ${docs.length ? `<div class="groupe-titre"><h2>Derniers documents de référence</h2><a class="lien-tout" href="documents.html">Tous les documents</a></div><div class="liste">${docs.map((d) => K.rangDocument(d)).join("")}</div>` : ""}
+        <div class="groupe-titre"><h2>Parcourir la base</h2></div>
+        <div class="entrees">${ENTREES.map(([t, d, l]) => `<section class="entree"><h3>${t}</h3><p>${d}</p><ul>${l.map(([h, x]) => `<li><a href="${h}">${x}</a></li>`).join("")}</ul></section>`).join("")}</div>`;
+      K.recherche($("#q-accueil"), main.querySelector(".accueil-recherche .resultats"));
+    },
+
     // ---------------------------------------------------------------- communes
     communes() {
       const s = { q: K.param("q"), dep: K.param("dep"), epci: K.param("epci"), doc: K.param("doc") === "1", tri: K.param("tri") || "pop" };
@@ -73,7 +125,7 @@
       main.innerHTML = `<p class="fil"><a href="communes.html">Communes</a> / ${e(c.epci)}</p>
         <div class="fiche-entete"><div class="sur"><span class="etiq plein">${e(c.code)}</span><span class="etiq">${e(c.dep)}</span><span class="etiq">${e(c.epci)}</span></div>
           <h1>${e(c.nom)}</h1>
-          <p class="sous">${c.pop != null ? c.pop.toLocaleString("fr-FR") + " habitants" : ""}${c.nomCorse ? `. En corse : ${e(c.nomCorse)}` : ""}${c.pron ? `. Se prononce ${e(c.pron)}` : ""}${
+          <p class="sous">${c.pop != null ? c.pop.toLocaleString("fr-FR") + " habitants" : ""}${c.nomCorse ? `. En corse : ${e(c.nomCorse)}` : ""}${
             maire ? `. Maire : ${maire.personnes.map(K.lienPersonne).join(", ")}` : maireRne ? `. Maire : ${K.nomElu(maireRne)}` : ""}</p></div>
         <div class="fiche"><div>
           ${executif.length ? `<section class="bloc"><h2>Exécutif municipal <span class="compte">${executif.length}</span></h2>
@@ -91,9 +143,9 @@
           <section class="bloc"><div class="mini-carte" id="mini"></div>
             <dl class="reperes">${repere("Code Insee", e(c.code))}${repere("Département", e(c.dep))}${repere("Intercommunalité", e(c.epci))}
               ${repere("Population", c.pop != null ? c.pop.toLocaleString("fr-FR") + " habitants" : "")}${repere("Codes postaux", e(c.cp))}
-              ${repere("Nom corse", e(c.nomCorse) || '<span class="discret">Non renseigné</span>')}${repere("Prononciation pour l'antenne", e(c.pron) || '<span class="discret">Non renseignée</span>')}
+              ${repere("Nom corse", e(c.nomCorse) || '<span class="discret">Non renseigné</span>')}
               ${repere("Centre géographique", `${c.lat.toFixed(4)}, ${c.lon.toFixed(4)}`)}</dl>
-            <div class="corps"><a class="bouton second" href="index.html?commune=${c.code}">Voir sur la carte</a></div></section>
+            <div class="corps"><a class="bouton second" href="carte.html?commune=${c.code}">Voir sur la carte</a></div></section>
           ${c.maireSortant2026 && !maire ? `<section class="bloc"><h2>Archive des municipales</h2><div class="corps"><p>Maire sortant à la veille du scrutin de mars 2026 : <b>${e(c.maireSortant2026)}</b>.</p>
             <p class="discret">${maireRne ? "Compilation de la rédaction arrêtée en février 2026, avant le scrutin. Le maire en fonction est celui du Répertoire national des élus, ci-contre." : "Compilation de la rédaction arrêtée en février 2026. Le maire élu en 2026 n'est pas encore renseigné dans la base : ne pas reprendre ce nom au présent sans vérifier."}</p></div></section>` : ""}
         </aside></div>`;
@@ -102,6 +154,9 @@
       if (l.agenda.length) K.listeRepliable($("#agenda"), l.agenda.slice().sort(K.parDateCroissante), (x) => K.rangAgenda(x), 10);
       K.listeRepliable($("#articles"), l.articles.slice().sort(K.parDate), (a) => K.rangArticle(a), 10);
       if (l.drones.length) K.listeRepliable($("#drones"), l.drones.slice().sort(K.parDate), (d) => K.rangDrone(d, { sansLieu: true }), 8);
+      const releve = K.O.genere ? `, relevé le ${K.dateFr(K.O.genere)}` : "";
+      if (sites.length) $("#sites").insertAdjacentHTML("afterend", `<p class="source-bloc">Installations classées : Géorisques ; équipements : Wikidata${releve}. Wikidata peut être incomplet.</p>`);
+      if (lieux.length) $("#lieux").insertAdjacentHTML("afterend", `<p class="source-bloc">Monuments protégés et patrimoine inventorié : Wikidata${releve}.</p>`);
       if (sites.length) K.listeRepliable($("#sites"), sites.slice().sort((a, b) => (b.seveso ? 1 : 0) - (a.seveso ? 1 : 0) || a.categorie.localeCompare(b.categorie, "fr")), (x) => K.rangSite(x, { sansLieu: true }), 8);
       if (lieux.length) K.listeRepliable($("#lieux"), lieux.slice().sort((a, b) => a.nom.localeCompare(b.nom, "fr")), rangLieu, 8);
       if (!roles.length) $("#roles").innerHTML = `<div class="vide">Aucun mandat ni rôle rattaché à cette commune. La base n'en compte encore que ${D.roles.length} pour toute la Corse.</div>`;
@@ -317,7 +372,7 @@
       const s = { q: K.param("q"), nature: K.param("nature"), qualite: K.param("qualite"), av: K.param("av") === "1" };
       const variantes = D.personnes.some((p) => "variantes" in p);
       main.innerHTML = `<div class="titre-page"><h1>Répertoire</h1><span class="compte" id="n"></span></div>
-        <p class="chapo">Personnes et organisations citées dans la base, avec l'intitulé exact de leur fonction${variantes ? ", les graphies fautives à éviter" : ""} et la date du dernier contrôle de la fiche. Une fonction change : une fiche non vérifiée ne se reprend pas à l'antenne sans contrôle.</p>
+        <p class="chapo">Personnes et organisations citées dans la base, avec l'intitulé exact de leur fonction${variantes ? ", les graphies fautives à éviter" : ""} et la date du dernier contrôle de la fiche. Une fonction change : une fiche non vérifiée se contrôle avant d'être reprise.</p>
         <div class="filtres">${texte("q", variantes ? "Nom, variante ou fonction" : "Nom ou fonction", s.q, "Simeoni, préfet, Corsica Linea")}
           ${liste("nature", "Nature", uniques(D.personnes, (p) => p.nature), s.nature, "Toutes")}
           ${liste("qualite", "Qualité", uniques(D.personnes, (p) => p.qualite), s.qualite, "Toutes")}
@@ -353,8 +408,8 @@
           <div class="sur"><span class="etiq plein">${e(p.nature)}</span>${p.qualite.map((q) => `<span class="etiq">${e(q)}</span>`).join("")}
           ${p.verifieLe ? `<span class="etiq ok">Fiche vérifiée le ${K.dateCourte(p.verifieLe)}</span>` : `<span class="etiq attention">Fiche non vérifiée</span>`}</div>
           <h1>${e(nom)}</h1>${p.fonction ? `<p class="sous">${K.riche(p.fonction)}</p>` : ""}</div></div>
-        ${vigilance ? `<p class="avertissement rouge">Une procédure judiciaire est en cours et aucune décision définitive n'a été rendue : la personne est présumée innocente. Reprendre la formulation pour l'antenne indiquée ci-dessous.</p>` : ""}
-        ${!p.verifieLe ? `<p class="avertissement">La fonction indiquée a été relevée dans la presse et n'a pas été contrôlée. La vérifier avant tout synthé ou lancement.</p>` : ""}
+        ${vigilance ? `<p class="avertissement rouge">Une procédure judiciaire est en cours et aucune décision définitive n'a été rendue : la personne est présumée innocente.</p>` : ""}
+        ${!p.verifieLe ? `<p class="avertissement">La fonction indiquée a été relevée dans la presse et n'a pas été contrôlée. Elle est à contrôler avant d'être reprise.</p>` : ""}
         <div class="fiche"><div>
           ${rne.length ? `<section class="bloc"><h2>Mandats en cours <span class="compte">${rne.length}</span></h2>
             <div class="liste">${rne.map(rangMandatRne).join("")}</div>
@@ -366,7 +421,6 @@
         </div><aside>
           ${wd ? blocWikidata(wd, p) : ""}
           <section class="bloc"><h2>Repères</h2><dl class="reperes">${repere("Nom dans la base", e(p.nom))}${repere("Rattachement", e(p.rattachement))}
-            ${"pron" in p ? repere("Prononciation pour l'antenne", e(p.pron) || '<span class="discret">Non renseignée</span>') : ""}
             ${repere("Variantes et erreurs fréquentes", K.riche(p.variantes))}${repere("Repères biographiques", K.riche(p.reperes))}</dl></section>
           <section class="bloc"><h2>Dossiers <span class="compte">${dossiers.length}</span></h2>
             ${dossiers.length ? `<dl class="reperes">${dossiers.map((d) => `<div><dd>${K.lienDossier(d.id)}</dd><dt>${e(d.rubrique)}</dt></div>`).join("")}</dl>` : `<div class="vide">Aucun dossier.</div>`}</section>
@@ -383,13 +437,12 @@
     // ---------------------------------------------------------------- articles
     articles() {
       const aTraitement = D.articles.some((a) => a.traitement);
-      const recents = D.articles.filter((a) => a.date).slice().sort(K.parDate).slice(0, 10);
       const suivis = D.dossiers.map((d) => ({ d, n: K.liens("dossier", d.id).articles.length })).filter((x) => x.n).sort((a, b) => b.n - a.n).slice(0, 10);
       main.innerHTML = `<div class="titre-page"><h1>Articles</h1><span class="compte">${K.pluriel(D.articles.length, "article")}</span></div>
-        <p class="chapo">La revue de presse fichée dans la base. Entrez par une famille de rubriques, puis affinez par source, année ou dossier. Le titre ouvre l'article chez son éditeur.</p>
-        ${K.carrousel("Derniers parus", recents.map(carteArticle), { compte: recents.length })}
-        ${K.carrousel("Dossiers les plus documentés", suivis.map(({ d, n }) => ({ f: K.familleDe[d.rubrique] || "", html: `<span class="car-role">${e(d.rubrique)}</span><b><a href="${K.url.dossier(d.id)}">${e(d.titre)}</a></b><small>${K.pluriel(n, "article")}</small>` })), { lien: ["dossiers.html", "Tous les dossiers"] })}
-        <section class="bloc-explo"><h2 class="titre-section">Tous les articles</h2><div id="explo"></div></section>`;
+        <p class="chapo">La revue de presse fichée dans la base. Entrez par une famille de rubriques, puis affinez par source, année ou dossier. Le titre ouvre l'article chez son éditeur.
+          ${aTraitement ? `<b>${D.articles.filter((a) => a.traitement && a.traitement !== "À dépouiller").length} articles sur ${D.articles.length} ont été lus et résumés</b> ; les autres sont des ${K.terme("Titre seul", "titres seuls")}, signalés comme tels.` : ""}</p>
+        <section class="bloc-explo"><div id="explo"></div></section>
+        ${K.carrousel("Dossiers les plus documentés", suivis.map(({ d, n }) => ({ f: K.familleDe[d.rubrique] || "", html: `<span class="car-role">${e(d.rubrique)}</span><b><a href="${K.url.dossier(d.id)}">${e(d.titre)}</a></b><small>${K.pluriel(n, "article")}</small>` })), { lien: ["dossiers.html", "Tous les dossiers"] })}`;
       K.initCarrousels(main);
       const nomFamille = (r) => (K.FAMILLES[K.familleDe[r]] || {}).nom || "Sans rubrique";
       const famDe = Object.fromEntries(Object.entries(K.FAMILLES).map(([k, f]) => [f.nom, k]));
@@ -405,7 +458,7 @@
           { cle: "an", titre: "Année de parution", valeurs: (a) => (a.date || "").slice(0, 4) || "Non datée", ordre: parAnnee, max: 6 },
           { cle: "genre", titre: "Genre", valeurs: (a) => a.genre },
           { cle: "dossier", titre: "Dossier", valeurs: (a) => (a.dossiers || []).map((i) => (K.I.dossier.get(i) || {}).titre).filter(Boolean), max: 6 },
-          ...(aTraitement ? [{ cle: "lu", titre: "Traitement", valeurs: (a) => (a.traitement === "À dépouiller" ? "Titre seul" : "Dépouillé") }] : []),
+          ...(aTraitement ? [{ cle: "lu", titre: "Traitement", valeurs: (a) => (a.traitement === "À dépouiller" ? "Titre seul, non lu" : "Lu et résumé") }] : []),
         ],
         tris: [{ cle: "date", libelle: "Plus récents", f: K.parDate }, { cle: "source", libelle: "Source", f: (a, b) => a.source.localeCompare(b.source, "fr") || K.parDate(a, b) }],
         compte: (n, t) => `${K.pluriel(n, "article")} sur ${t}`,
@@ -454,7 +507,7 @@
         <p class="chapo">Les séquences aériennes archivées, rattachées à leur commune. ${K.pluriel(D.drones.length, "séquence")} sur ${K.pluriel(nbCommunes, "commune")}.</p>
         <div class="filtres">${texte("q", "Commune, lieu ou titre", s.q, "Riventosa, Bonifacio")}
           ${liste("an", "Année de diffusion", annees, s.an, "Toutes")}
-          <a class="bouton" href="index.html?couche=drones">Voir sur la carte</a></div><div id="liste"></div>`;
+          <a class="bouton" href="carte.html?couche=drones">Voir sur la carte</a></div><div id="liste"></div>`;
       const maj = () => {
         Object.assign(s, { q: $("#q").value, an: $("#an").value });
         const m = mots(s.q);
@@ -490,10 +543,10 @@
         figure(maireDe("2B033"), "Maire de Bastia", ""),
       ].filter(Boolean);
       main.innerHTML = `<div class="titre-page"><h1>Élus</h1><span class="compte">${K.pluriel(maires.length, "maire")}, ${ADC ? ADC.sieges : adc.length} sièges à l'Assemblée de Corse</span></div>
-        <p class="chapo">Les élus en fonction selon le Répertoire national des élus du ministère de l'Intérieur${E.miseAJour ? `, mis à jour le ${K.dateFr(E.miseAJour)}` : ""}, et la composition des groupes publiée par l'Assemblée de Corse. Un nom souligné a une fiche dans le répertoire. Les intitulés officiels sont au masculin : vérifier le féminin avant un synthé.</p>
+        <p class="chapo">Les élus en fonction selon le Répertoire national des élus du ministère de l'Intérieur${E.miseAJour ? `, mis à jour le ${K.dateFr(E.miseAJour)}` : ""}, et la composition des groupes publiée par l'Assemblée de Corse. Un nom souligné a une fiche dans le répertoire. Les intitulés officiels sont au masculin, quel que soit le sexe de l'élu.</p>
         ${K.carrousel("Figures de la vie publique", cartes, { compte: cartes.length })}
         ${ADC ? `<section class="bloc hemi-bloc"><h2>Assemblée de Corse <span class="compte">${ADC.sieges} sièges</span></h2>
-          <div class="hemi-grille"><div><div class="hemi" id="hemi"></div><p class="hemi-info" id="hemi-info" aria-live="polite">Survoler ou toucher un siège pour lire le nom.</p></div>
+          <div class="hemi-grille"><div><div class="hemi" id="hemi"></div><p class="hemi-info" id="hemi-info" aria-live="polite"></p></div>
           <div class="hemi-legende" id="hemi-legende"></div></div>
           <p class="source-bloc">Groupes politiques d'après les <a href="${e(ADC.source)}" target="_blank" rel="noopener">pages de l'Assemblée de Corse</a>, relevées le ${K.dateFr(ADC.releve)} ; chaque groupe indique la date de mise à jour de sa page. Les groupes sont rangés par effectif, la majorité à gauche : cet ordre ne figure pas une position politique, et les couleurs sont celles du site, pas celles des mouvements. Les membres du Conseil exécutif ne siègent pas à l'Assemblée.</p></section>` : ""}
         <section class="bloc-explo"><h2 class="titre-section">Maires et exécutifs municipaux</h2><div id="explo"></div></section>
@@ -535,7 +588,7 @@
       const nomC = (code) => (K.I.commune.get(code) || {}).nom || "";
       const nSeveso = K.SITES.filter((x) => x.seveso).length;
       main.innerHTML = `<div class="titre-page"><h1>Sites et équipements</h1><span class="compte" id="n"></span></div>
-        <p class="chapo">Les installations qui font l'actualité : dépôts pétroliers et sites Seveso, centrales, barrages, traitement et stockage des déchets, carrières, ports et aéroports, prisons, hôpitaux. Et le patrimoine protégé, commune par commune. ${nSeveso} sites relèvent de la directive Seveso.</p>
+        <p class="chapo">Les installations qui font l'actualité : dépôts pétroliers et sites Seveso, centrales, barrages, traitement et stockage des déchets, carrières, ports et aéroports, prisons, hôpitaux. Et le patrimoine protégé, commune par commune. ${nSeveso} sites relèvent de la directive ${K.terme("Seveso")}. Sources : Géorisques et Wikidata${K.O.genere ? `, relevés le ${K.dateFr(K.O.genere)}` : ""}.</p>
         <div class="segments" role="group" aria-label="Vue"><button type="button" data-vue="sites" aria-pressed="${s.vue === "sites"}">Installations et équipements (${K.SITES.length})</button><button type="button" data-vue="patrimoine" aria-pressed="${s.vue === "patrimoine"}">Monuments et patrimoine (${K.LIEUX.length})</button></div>
         <div class="filtres" id="filtres"></div>
         <div class="fiche large-carte"><div><div id="liste"></div></div><aside><section class="bloc"><div class="carte-sites" id="carte-sites"></div><div class="legende-sites" id="legende-sites"></div></section></aside></div>`;
@@ -604,15 +657,13 @@
 
     // ---------------------------------------------------------------- documents de référence
     documents() {
-      const recents = D.documents.filter((d) => d.date).sort(K.parDate).slice(0, 8);
       const notes = D.notes.filter((n) => n.type === "Note de synthèse");
       const FAMILLE_PROD = { Insee: "Statistique publique", "Chambre régionale des comptes": "Contrôle et évaluation", "Cour des comptes": "Contrôle et évaluation", "Collectivité de Corse": "Collectivité de Corse", "Assemblée nationale": "Parlement et État", Sénat: "Parlement et État", "Préfecture de Corse": "Parlement et État", "Tribunal administratif": "Contrôle et évaluation" };
       const famille = (d) => FAMILLE_PROD[d.producteur] || "Autres";
       main.innerHTML = `<div class="titre-page"><h1>Documents de référence</h1><span class="compte">${K.pluriel(D.documents.length, "document")}</span></div>
         <p class="chapo">Études, statistiques, rapports de contrôle et textes officiels sur la Corse. On entre par la famille de producteur, puis on affine. Chaque fiche dit ce qu'il faut en retenir et renvoie au document chez son producteur.</p>
-        ${K.carrousel("Notes de synthèse", notes.map(carteNote), { compte: notes.length, lien: ["notes.html", "Toutes les notes"] })}
-        ${K.carrousel("Derniers parus", recents.map(carteDocument), { compte: recents.length })}
-        <section class="bloc-explo"><h2 class="titre-section">Tous les documents</h2><div id="explo"></div></section>`;
+        <section class="bloc-explo"><div id="explo"></div></section>
+        ${K.carrousel("Notes de synthèse tirées de ces documents", notes.map(carteNote), { compte: notes.length, lien: ["notes.html", "Toutes les notes"] })}`;
       K.initCarrousels(main);
       K.explorateur($("#explo"), {
         id: "docs", lignes: D.documents,
@@ -625,6 +676,7 @@
           { cle: "type", titre: "Type", valeurs: (d) => d.type },
           { cle: "an", titre: "Année", valeurs: (d) => (d.date || "").slice(0, 4) || "Non daté", ordre: parAnnee },
           { cle: "statut", titre: "Statut", valeurs: (d) => d.statut },
+          { cle: "niveau", titre: "Niveau de source", valeurs: (d) => K.niveauSource(d.lien) || "Sans lien" },
         ],
         tris: [{ cle: "date", libelle: "Plus récents", f: K.parDate }, { cle: "titre", libelle: "Titre", f: (a, b) => a.titre.localeCompare(b.titre, "fr") }],
         compte: (n, t) => `${K.pluriel(n, "document")} sur ${t}`,
@@ -647,7 +699,7 @@
         <div class="fiche"><div>
           <section class="bloc"><h2>Ce qu'on peut reprendre, et ce qu'on ne peut pas</h2><div class="corps texte">
             <ul>
-              ${complet ? `<li><b>${lus} articles sur ${art.length} ont été lus et dépouillés</b> (${pc(lus, art.length)}). Les autres ne sont connus que par leur titre : ils servent à retrouver un sujet, pas à l'affirmer.</li>` : ""}
+              ${art.some((a) => a.traitement) ? `<li><b>${lus} articles sur ${art.length} ont été lus et dépouillés</b> (${pc(lus, art.length)}). Les autres ne sont connus que par leur titre : ils servent à retrouver un sujet, pas à l'affirmer.</li>` : ""}
               <li><b>${dates} articles sur ${art.length} portent une date de parution</b> (${pc(dates, art.length)}). Les autres sont classés par date de saisie, ce qui ne dit rien de leur ancienneté.</li>
               <li><b>${verif} fiches du répertoire sur ${D.personnes.length} ont été contrôlées</b> (${pc(verif, D.personnes.length)}). Une fonction relevée dans la presse il y a six mois peut être fausse aujourd'hui.</li>
               <li><b>${recoupes} faits datés sur ${D.faits.length} sont recoupés</b> par au moins deux sources (${pc(recoupes, D.faits.length)}). Les autres reposent sur une source unique ou restent à vérifier, et la fiche le dit.</li>
@@ -662,10 +714,11 @@
             <p>Les photos et logos viennent de Wikimedia Commons, sous licence libre ; l'auteur et la licence figurent sous chaque image. Une commune est rapprochée de Wikidata par son code Insee. Une personne ne reçoit une photo que si un seul homonyme lié à la Corse existe sur Wikidata : ce rapprochement automatique reste à vérifier, et la fiche l'indique. À défaut, la fiche affiche les initiales.</p>
             <p>Les élus en fonction viennent du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/" target="_blank" rel="noopener">Répertoire national des élus</a> du ministère de l'Intérieur${K.ELUS.miseAJour ? `, mis à jour le ${K.dateFr(K.ELUS.miseAJour)}` : ""} : maire et adjoints de chaque commune, effectif du conseil, Assemblée de Corse, parlementaires, présidents d'intercommunalité. Seuls le nom, la fonction et les dates de mandat sont repris. Un élu n'est rattaché à une fiche du répertoire que si la fiche est marquée « Élu » ou « Ancien élu » et qu'aucun homonyme n'existe.</p>
             <p>La composition des groupes politiques de l'Assemblée de Corse est relevée à la main sur le site de l'Assemblée${window.KB_ADC ? `, le ${K.dateFr(window.KB_ADC.releve)}` : ""} : le Répertoire national des élus ne donne pas l'appartenance politique. Elle est à revoir à chaque changement de groupe.</p>
-            <p>Les notes de synthèse sont rédigées par la documentation dans Notion. Seules figurent sur la version publiable celles marquées « Publiable », c'est-à-dire établies uniquement à partir de sources publiques ; leur état de relecture est affiché sur chaque note.</p>
+            <p>Les notes de synthèse sont rédigées par la documentation dans Notion. Une note ne figure sur la version publiable que si elle remplit deux conditions : être marquée « Publiable », c'est-à-dire établie uniquement à partir de sources publiques, et être à l'état « Livrée », c'est-à-dire relue par une seconde personne. Une note « À relire » reste dans Notion.</p>
             <p>Les installations classées viennent de <a href="https://www.georisques.gouv.fr/" target="_blank" rel="noopener">Géorisques</a> (ministère de la Transition écologique) : seules sont retenues les familles utiles à l'actualité (hydrocarbures, Seveso, déchets, carrières, énergie). Un exploitant personne physique n'est pas nommé. Les grands équipements (ports, aéroports, phares, barrages, centrales, prisons, hôpitaux, stades) et les monuments protégés viennent de Wikidata, qui peut être incomplet ou en retard.</p>
             <p>Les repères biographiques publics (année et lieu de naissance, partis, fonctions) viennent de Wikidata, pour les fiches dont le rapprochement est sans ambiguïté. Ils sont signalés comme tels et ne remplacent pas la fonction vérifiée par la documentation.${K.O.genere ? ` Dernière collecte : ${K.dateFr(K.O.genere)}.` : ""}</p>
             <p>Les contours des communes et des intercommunalités viennent de l'IGN (Admin Express), les populations et codes postaux du découpage administratif publié par Etalab. Les maires sortants cités dans les fiches communes viennent d'une compilation de la rédaction arrêtée en février 2026, avant les élections municipales.</p></div></section>
+          <section class="bloc" id="glossaire"><h2>Glossaire</h2><dl class="reperes glossaire">${Object.entries(K.GLOSSAIRE).map(([m, d]) => repere(e(m), e(d))).join("")}</dl></section>
         </div><aside>
           <section class="bloc"><h2>Cette version</h2><dl class="reperes">${repere("Profil", complet ? "Complet, à usage interne" : "Publiable")}${repere("Export de Notion", K.dateFr(m.exporteLe))}</dl>
             <div class="corps">${complet
@@ -723,7 +776,7 @@
       return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rs.toFixed(1)}" fill="${g.couleur}" data-g="${g.id}" data-nom="${e(nom)}" data-gnom="${e(g.nom)}" tabindex="-1"><title>${e(nom)} — ${e(g.nom)}</title></circle>`;
     })).join("");
     const majorite = Math.floor(N / 2) + 1;
-    el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Hémicycle de l'Assemblée de Corse : ${groupes.map((g) => `${g.nom}, ${g.sieges.length} sièges`).join(" ; ")}">
+    el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" tabindex="0" role="img" aria-describedby="hemi-info" aria-label="Hémicycle de l'Assemblée de Corse : ${groupes.map((g) => `${g.nom}, ${g.sieges.length} sièges`).join(" ; ")}">
       <line x1="${cx}" y1="${cy - R - rs - 2}" x2="${cx}" y2="${cy - R0 * R + rs + 2}" class="hemi-axe"/>
       ${cercles}
       <text x="${cx}" y="${cy - 8}" text-anchor="middle" class="hemi-total">${N}</text>
@@ -735,7 +788,21 @@
         <a href="${e(g.source)}" target="_blank" rel="noopener">Source : Assemblée de Corse</a></details></li>`).join("")}</ul>
       ${groupes[0].sieges.length >= majorite ? `<p class="hemi-note">${e(groupes[0].nom)} détient à lui seul la majorité absolue (${groupes[0].sieges.length} sièges sur ${N}).</p>` : ""}`;
     const svg = el.querySelector("svg");
-    const montrer = (c) => { info.innerHTML = c ? `<b>${c.dataset.nom}</b> · ${c.dataset.gnom}` : "Survoler ou toucher un siège pour lire le nom."; };
+    const AIDE = "Survoler ou toucher un siège pour lire le nom ; au clavier, flèches gauche et droite.";
+    const montrer = (c) => { info.innerHTML = c ? `<b>${c.dataset.nom}</b> · ${c.dataset.gnom}` : AIDE; };
+    montrer(null);
+    // Clavier : les flèches parcourent les sièges de gauche à droite, Début et Fin vont aux extrémités
+    const ronds = [...svg.querySelectorAll("circle")];
+    let pos = -1;
+    svg.addEventListener("keydown", (ev) => {
+      const pas = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[ev.key];
+      if (pas == null && ev.key !== "Home" && ev.key !== "End") return;
+      ev.preventDefault();
+      pos = ev.key === "Home" ? 0 : ev.key === "End" ? ronds.length - 1 : Math.min(ronds.length - 1, Math.max(0, pos + pas));
+      ronds.forEach((c, i) => c.classList.toggle("courant", i === pos));
+      montrer(ronds[pos]);
+    });
+    svg.addEventListener("blur", () => ronds.forEach((c) => c.classList.remove("courant")));
     svg.addEventListener("pointerover", (ev) => { if (ev.target.tagName === "circle") montrer(ev.target); });
     svg.addEventListener("click", (ev) => { if (ev.target.tagName === "circle") montrer(ev.target); });
     let choisi = "";

@@ -3,47 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carte — Base de connaissances Corse</title>
+  <title>Base de connaissances Corse</title>
+  <meta name="description" content="Base de connaissances de la documentation de France 3 Corse ViaStella : dossiers, faits datés, élus, documents officiels et revue de presse sur la Corse, avec leurs sources.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Base de connaissances Corse">
+  <meta property="og:description" content="Base de connaissances de la documentation de France 3 Corse ViaStella : dossiers, faits datés, élus, documents officiels et revue de presse sur la Corse, avec leurs sources.">
+  <meta property="og:locale" content="fr_FR">
   <link rel="icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="assets/kb.css">
-  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  
 </head>
-<body data-page="carte">
-  <main id="page" class="carte-page">
-  <aside class="volet" id="volet" aria-label="Filtres de la carte">
-    <div class="volet-haut">
-      <h1>Carte thématique</h1>
-      <p class="chapo">Choisissez ce qui se colore, puis affinez par rubrique et par période. Cliquez une commune pour voir ce qui lui est rattaché.</p>
-      <div id="couches" class="segments" role="group" aria-label="Couche affichée"></div>
-      <div id="rubriques" class="pastilles" role="group" aria-label="Rubriques"></div>
-      <div class="ligne-filtres">
-        <div class="champ"><label for="de">Du</label><select id="de"></select></div>
-        <div class="champ"><label for="a">Au</label><select id="a"></select></div>
-      </div>
-    </div>
-    <div id="etat" class="volet-etat" aria-live="polite"></div>
-    <div id="commune" class="commune-choisie" hidden></div>
-    <div id="liste" class="volet-liste"></div>
-  </aside>
-  <section class="zone-carte">
-    <button type="button" class="tirette" id="tirette" aria-controls="volet" aria-expanded="true"
-      title="Glisser pour élargir le volet, cliquer pour le replier"><span class="sr">Replier ou déplier le volet</span></button>
-    <div id="carte" role="region" aria-label="Carte thématique de la Corse"></div>
-    <div class="outils-carte">
-      <button type="button" class="outil" id="plein" aria-pressed="false">Carte seule</button>
-      <label><input id="fond" type="checkbox" checked>Fond IGN</label>
-      <label><input id="epci" type="checkbox">Intercommunalités</label>
-      <label><input id="sites" type="checkbox">Sites et équipements</label>
-    </div>
-    <div id="legende" class="legende"></div>
-  </section>
-</main>
+<body data-page="accueil">
+  <noscript><p class="noscript">Cette base de connaissances s'affiche avec JavaScript, qui semble désactivé dans votre navigateur. Activez-le pour consulter les fiches.</p></noscript>
+  <main id="page" class="page"></main>
   <script src="data/kb.js"></script>
   <script src="data/images.js"></script>
   <script src="data/ouvertes.js"></script>
-  <script src="data/geo.js"></script>
-  <script src="vendor/leaflet/leaflet.js"></script>
   <script src="assets/kb.js"></script>
-  <script src="assets/carte.js"></script>
+  <script src="assets/pages.js"></script>
 </body>
 </html>

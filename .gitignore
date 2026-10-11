@@ -1,3 +1,5 @@
 prive/
 __pycache__/
 *.pyc
+node_modules/
+.pytest_cache/

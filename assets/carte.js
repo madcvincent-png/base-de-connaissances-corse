@@ -17,8 +17,11 @@
   const classe = (n) => (n < 1 ? -1 : SEUILS.filter((s) => n >= s).length - 1);
   const VILLES = ["2A004", "2B033", "2B096", "2A247", "2B050", "2A272", "2A041", "2B134", "2A249", "2B123"];
 
+  const localises = (l) => l.filter((x) => (x.communes || (x.code ? [x.code] : [])).length).length;
+  const DEFAUT = localises(D.faits) >= 60 ? "faits" : "articles";
   const etat = {
-    couche: COUCHES[K.param("couche")] ? K.param("couche") : "faits",
+    // Par défaut la couche la plus fournie : avec quelques dizaines de faits localisés, la carte des faits paraîtrait vide
+    couche: COUCHES[K.param("couche")] ? K.param("couche") : DEFAUT,
     rub: K.param("rub") ? K.param("rub").split("|") : [],
     de: K.param("de"),
     a: K.param("a"),
@@ -150,7 +153,7 @@
     if (!visibles.length)
       el.innerHTML = `<div class="vide">${c ? `${co.aucun} à ${K.esc(c.nom)} avec ces filtres.` : `${co.aucun} avec ces filtres.`}</div>`;
     else K.listeRepliable(el, visibles, co.rendu, 25);
-    K.etatUrl({ couche: etat.couche === "faits" ? "" : etat.couche, rub: etat.rub, de: etat.de, a: etat.a, commune: etat.commune, sites: carte.hasLayer(sites) ? "1" : "" });
+    K.etatUrl({ couche: etat.couche === DEFAUT ? "" : etat.couche, rub: etat.rub, de: etat.de, a: etat.a, commune: etat.commune, sites: carte.hasLayer(sites) ? "1" : "" });
     legendeSites();
   }
 

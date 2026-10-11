@@ -88,12 +88,35 @@ def _inline(s, titres):
     return re.sub(r"&lt;mention-page url=\"([^\"]+)\"\s*/&gt;", mention, s)
 
 
+# Le site ne reprend aucun conseil d'expression orale (prononciation, formulation, lancement, synthé).
+ORAL = re.compile(r"antenne|lancement|synth[ée]\b|prononc|ce qu.il faut dire", re.I)
+
+
+def retirer_oral(lignes):
+    """Retire les sections dont le titre relève de l'oral, et les lignes isolées qui en parlent."""
+    out, niveau = [], None
+    for l in lignes:
+        t = re.match(r"\s*(#{1,3}) ", l)
+        if t:
+            if niveau is not None and len(t.group(1)) <= niveau:
+                niveau = None
+            if niveau is None and ORAL.search(l):
+                niveau = len(t.group(1))
+                continue
+        if niveau is not None:
+            continue
+        if ORAL.search(l) and not l.strip().startswith("<"):
+            continue
+        out.append(l)
+    return out
+
+
 def note_html(texte, titres):
     """Convertit le texte d'une page Notion (titres, paragraphes, listes, encadrés, tableaux)."""
     if not texte:
         return ""
     out, liste, i = [], False, 0
-    lignes = texte.split("\n")
+    lignes = retirer_oral(texte.split("\n"))
 
     def fin_liste():
         nonlocal liste
@@ -111,7 +134,7 @@ def note_html(texte, titres):
             while i < len(lignes) and lignes[i].strip() != "</callout>":
                 corps.append(lignes[i].strip())
                 i += 1
-            out.append('<aside class="avertissement">' + _inline(" ".join(corps), titres) + "</aside>")
+            out.append('<div class="avertissement" role="note">' + _inline(" ".join(corps), titres) + "</div>")
         elif s.startswith("<table"):
             fin_liste()
             rangs, rang = [], None
@@ -132,7 +155,7 @@ def note_html(texte, titres):
             out.append("".join(t) + "</table></div>")
         elif re.match(r"#{1,3} ", s):
             fin_liste()
-            n = min(len(s.split(" ")[0]) + 1, 4)
+            n = min(len(s.split(" ")[0]), 4)  # « ## » devient h2 : la note suit directement le h1 de la page
             out.append(f"<h{n}>{_inline(s.split(' ', 1)[1], titres)}</h{n}>")
         elif s.startswith("- "):
             if not liste:
@@ -163,7 +186,6 @@ def construire(raw):
             "lat": r.get("Latitude"),
             "lon": r.get("Longitude"),
             "nomCorse": txt(r.get("Nom corse")),
-            "pron": txt(r.get("Prononciation")),
         }
         code_de[pid(r["url"])] = c["code"]
         communes.append(c)
@@ -229,7 +251,6 @@ def construire(raw):
             "actuel": oui(r.get("Statut actuel")),
             "definitif": txt(r.get("Décision définitive")),
             "chefs": txt(r.get("Chefs ou peine")),
-            "antenne": txt(r.get("Formulation pour l'antenne")),
             "fiabilite": txt(r.get("Fiabilité")),
             "verifieLe": date(r, "Vérifié le"),
             "sourceHorsBase": txt(r.get("Source hors base")),
@@ -252,7 +273,6 @@ def construire(raw):
                 "rattachement": txt(r.get("Rattachement")),
                 "reperes": txt(r.get("Repères biographiques")),
                 "variantes": txt(r.get("Variantes et erreurs fréquentes")),
-                "pron": txt(r.get("Prononciation")),
                 "verifieLe": date(r, "Fiche vérifiée le"),
             }
             for r in raw["repertoire"]
@@ -386,12 +406,13 @@ CHAMPS_PUBLICS = {
               "communes", "dossiers", "personnes", "sources"],
     "agenda": ["id", "titre", "date", "dateFin", "type", "rubrique", "certitude", "communes", "lieu",
                "lien", "dossiers", "personnes"],
-    "roles": ["id", "titre", "categorie", "mandat", "instance", "debut", "fin", "actuel", "antenne",
+    "roles": ["id", "titre", "categorie", "mandat", "instance", "debut", "fin", "actuel",
               "fiabilite", "verifieLe", "personnes", "dossiers", "communes", "sources"],
-    "personnes": ["id", "nom", "nature", "qualite", "fonction", "rattachement", "pron", "verifieLe"],
+    "personnes": ["id", "nom", "nature", "qualite", "fonction", "rattachement", "verifieLe"],
     "dossiers": ["id", "titre", "type", "rubrique", "resume", "debut", "fin", "personnes"],
+    # « traitement » reste public : un titre jamais lu ne doit pas passer pour une fiche dépouillée
     "articles": ["id", "titre", "source", "typeSource", "date", "lien", "genre", "rubrique", "lieux",
-                 "communes", "dossiers", "personnes"],
+                 "communes", "dossiers", "personnes", "traitement"],
     # notes : seules celles marquées « Publiable » dans Notion, qui ne reposent que sur des sources publiques
     "notes": ["id", "titre", "type", "etat", "arreteAu", "dossiers", "sources", "documents", "html"],
     "drones": ["code", "titre", "date", "lieu", "duree"],
@@ -409,14 +430,15 @@ def profil_public(kb):
         "faits": lambda f: f["rubrique"] not in RUBRIQUES_EXCLUES and f["type"] not in TYPES_FAITS_EXCLUS
         and propre(f["titre"]),
         "agenda": lambda e: e["rubrique"] not in RUBRIQUES_EXCLUES and propre(e["titre"]),
-        "roles": lambda r: r["categorie"] in ("Mandat électif", "Fonction") and propre(r["titre"], r["antenne"]),
+        "roles": lambda r: r["categorie"] in ("Mandat électif", "Fonction") and propre(r["titre"]),
         "personnes": lambda p: propre(p["fonction"], p["rattachement"])
         and not (set(p["qualite"]) & QUALITES_EXCLUES)
         and (p["nature"] != "Personne" or bool(set(p["qualite"]) & QUALITES_PUBLIQUES)),
         "dossiers": lambda d: d["rubrique"] not in RUBRIQUES_EXCLUES and d["type"] not in TYPES_DOSSIERS_EXCLUS
         and propre(d["titre"], d["resume"]),
         "articles": lambda a: a["rubrique"] not in RUBRIQUES_EXCLUES and propre(a["titre"]),
-        "notes": lambda n: n.get("diffusion") == "Publiable",
+        # une note ne sort qu'après relecture : publiable ET livrée
+        "notes": lambda n: n.get("diffusion") == "Publiable" and n.get("etat") == "Livrée",
         "drones": lambda d: True,
         "documents": lambda d: True,
     }
