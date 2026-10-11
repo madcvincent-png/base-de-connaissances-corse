@@ -315,6 +315,7 @@ body.carte-seule .volet, body.carte-seule .tirette, body.carte-seule .pied { dis
 
 /* ------------------------------------------------------------ vignettes : photos, logos, initiales */
 .vignette { flex: none; display: inline-block; width: 44px; height: 44px; border-radius: 50%; object-fit: cover; background: var(--granit-2); }
+img.vignette:not(.logo):not(.carre) { object-position: 50% 18%; } /* portraits : garder le visage dans le cercle */
 .vignette.s { width: 30px; height: 30px; }
 .vignette.l { width: 128px; height: 128px; }
 .vignette.carre { border-radius: 6px; }
