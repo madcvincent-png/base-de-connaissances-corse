@@ -10,8 +10,8 @@
    "personnes": 80,
    "dossiers": 59,
    "articles": 654,
-   "notes": 0,
-   "documents": 17,
+   "notes": 7,
+   "documents": 24,
    "drones": 198
   },
   "compteursBase": {
@@ -22,8 +22,8 @@
    "personnes": 209,
    "dossiers": 92,
    "articles": 949,
-   "notes": 9,
-   "documents": 17,
+   "notes": 16,
+   "documents": 24,
    "drones": 198
   }
  },
@@ -19151,8 +19151,268 @@
    "personnes": []
   }
  ],
- "notes": [],
+ "notes": [
+  {
+   "id": "3f6cf61fb4e781bf8be2ed3edb9e1029",
+   "titre": "Note de synthèse — Économie et emploi : cinq trimestres de conjoncture, de l'été 2025 au printemps 2026",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e7816aad7ceb107ab27ea0",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e7819bb2c9c934593fd037",
+    "3f6cf61fb4e78157ba42e4a55e58d293",
+    "3f6cf61fb4e781438612f651a739617e",
+    "3f6cf61fb4e78130bacec0020897a9cb",
+    "3f6cf61fb4e781af9a0bed7129127e31",
+    "3f6cf61fb4e781da8d31c382065cb982",
+    "3f6cf61fb4e781428aecc990862183d2"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>L'économie corse sort de l'année 2025 à l'arrêt et oscille depuis autour de zéro : l'activité a reculé au 4e trimestre 2025 et au 1er trimestre 2026, puis s'est redressée légèrement au printemps grâce au tourisme. La construction est le point faible constant. Le chômage reste inférieur à la moyenne nationale mais monte lentement, de 6,6 % à 6,9 % en trois trimestres.</p>\n<h3>Les chiffres trimestre par trimestre</h3>\n<div class=\"tableau\"><table><tr><th>Période</th><th>Activité (heures rémunérées, sur un an)</th><th>Emploi salarié</th><th>Chômage</th><th>Source</th></tr><tr><td>3e trimestre 2025</td><td>+0,5 % (France −0,3 %)</td><td>129 200</td><td>6,6 % (France 7,7 %)</td><td><a href=\"https://www.insee.fr/fr/statistiques/8682331\" rel=\"noopener\">Insee Conjoncture Corse n° 57</a>, 12 janvier 2026</td></tr><tr><td>4e trimestre 2025</td><td>−0,6 %</td><td>129 000</td><td>6,8 % (France 7,9 %)</td><td><a href=\"https://www.insee.fr/fr/statistiques/8899567\" rel=\"noopener\">n° 58</a>, 9 avril 2026</td></tr><tr><td>Année 2025</td><td>−0,1 % (après +0,3 % en 2024)</td><td>128 980 fin 2025 (−0,4 % sur un an)</td><td>6,8 % fin 2025</td><td><a href=\"https://www.insee.fr/fr/statistiques/8905336\" rel=\"noopener\">n° 59, bilan 2025</a>, 9 avril 2026</td></tr><tr><td>1er trimestre 2026</td><td>−0,7 % (France −0,5 %)</td><td>128 700</td><td>6,8 % (France 8,1 %)</td><td><a href=\"https://www.insee.fr/fr/statistiques/9006917\" rel=\"noopener\">n° 60</a>, 6 juillet 2026</td></tr><tr><td>2e trimestre 2026</td><td>+0,3 % (France −0,7 %)</td><td>129 300</td><td>6,9 % (France 8,3 %)</td><td><a href=\"https://www.insee.fr/fr/statistiques/9051935\" rel=\"noopener\">n° 61</a>, 24 septembre 2026</td></tr></table></div>\n<h3>Ce qui pèse : la construction</h3>\n<ul>\n<li>Au 1er trimestre 2026, les heures rémunérées dans la construction chutent de 5,5 % sur un an. Ce secteur fait 14,5 % des heures rémunérées de l'île : à lui seul, il explique le recul régional. Il a perdu 550 emplois en un an (−4,8 %) et les mises en chantier tombent à 1 800 logements sur douze mois (−21,7 %), leur plus bas niveau (<a href=\"https://www.insee.fr/fr/statistiques/9006917\" rel=\"noopener\">n° 60</a>).</li>\n<li>Le repli se poursuit au 2e trimestre : −2,7 % d'heures rémunérées (<a href=\"https://www.insee.fr/fr/statistiques/9051935\" rel=\"noopener\">n° 61</a>).</li>\n</ul>\n<h3>Ce qui soutient : le tourisme et les services</h3>\n<ul>\n<li>Au 2e trimestre 2026, les heures rémunérées progressent de 3,0 % dans l'hébergement-restauration. Les nuitées hôtelières augmentent de 3,1 %, tirées par la clientèle étrangère (+9,4 %) (<a href=\"https://www.insee.fr/fr/statistiques/9051935\" rel=\"noopener\">n° 61</a>).</li>\n<li>Au 3e trimestre 2025, environ 4,2 millions de passagers ont transité par les ports et aéroports (+1,3 %) (<a href=\"https://www.insee.fr/fr/statistiques/8682331\" rel=\"noopener\">n° 57</a>).</li>\n</ul>\n<h3>Entreprises</h3>\n<ul>\n<li>Fin 2025 : 470 défaillances sur douze mois (+4,2 %) et 1 680 créations au 4e trimestre (<a href=\"https://www.insee.fr/fr/statistiques/8899567\" rel=\"noopener\">n° 58</a>).</li>\n<li>1 920 créations au 2e trimestre 2026, selon le <a href=\"https://www.insee.fr/fr/statistiques/2122216\" rel=\"noopener\">tableau de bord de la conjoncture</a> mis à jour le 6 octobre 2026.</li>\n</ul>\n<h3>Repère de long terme</h3>\n<p>En 2022, le PIB de la Corse atteint 11,5 milliards d'euros. Rapporté à l'habitant, il place l'île au deuxième rang des îles de Méditerranée, derrière les Baléares (<a href=\"https://www.insee.fr/fr/statistiques/8960479\" rel=\"noopener\">Insee Analyses Corse n° 66</a>). Attention : le résumé de la publication donne 27 300 SPA par habitant, le corps du texte et le tableau 29 500 SPA. Citer plutôt le rang que la valeur.</p>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>Dire « l'activité » et préciser qu'il s'agit des heures rémunérées : c'est l'indicateur de l'Insee, pas le PIB.</li>\n<li>Toujours donner la comparaison nationale avec le taux de chômage : 6,9 % en Corse contre 8,3 % en France au 2e trimestre 2026.</li>\n<li>L'emploi salarié se compte en milliers : 129 300 fin juin 2026, en hausse de 0,1 % seulement.</li>\n</ul>\n<h3>Ce qui manque</h3>\n<p>Le bilan de la saison d'été 2026 (3e trimestre) n'est pas encore publié : l'Insee le donnera dans sa note de conjoncture de janvier 2027, si le calendrier habituel est tenu.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781f6b8a4c4eb9f0db1b4",
+   "titre": "Note de synthèse — Population, territoires et conditions de vie : ce que disent les études de l'Insee en 2026",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e781b4a007df39f96f061e",
+    "3f4cf61fb4e7815b90f5ce553ac62289",
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e7815f918bfefce2d707c7",
+    "3f6cf61fb4e78128a348e56fecb1edb9",
+    "3f6cf61fb4e781d8a3f3d6710896cacf",
+    "3f6cf61fb4e781a28c79d93a06eb1367",
+    "3f6cf61fb4e7815a9dc0e4831b432442"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>La Corse gagne des habitants uniquement par les arrivées : les naissances sont au plus bas et les décès les dépassent. La population se concentre autour d'Ajaccio et de Bastia, tandis que l'intérieur garde une majorité de résidences secondaires. La propriété des logements est très concentrée. Les ménages agricoles sont deux fois plus souvent pauvres que dans l'Hexagone.</p>\n<h3>Démographie</h3>\n<div class=\"tableau\"><table><tr><th>Indicateur</th><th>Valeur</th><th>Source</th></tr><tr><td>Population au 1er janvier 2026</td><td>365 600 habitants</td><td><a href=\"https://www.insee.fr/fr/statistiques/8973577\" rel=\"noopener\">Insee Analyses Corse n° 67</a>, 16 avril 2026</td></tr><tr><td>Croissance en 2025</td><td>+0,9 % ; +1,0 % par an de 2016 à 2026 (France : +0,4 %)</td><td>n° 67</td></tr><tr><td>Fécondité en 2025</td><td>1,12 enfant par femme, le plus bas de France (France : 1,56)</td><td>n° 67</td></tr><tr><td>Naissances et décès en 2025</td><td>2 300 naissances (−7,1 %), 3 500 décès : solde naturel −1 200</td><td>n° 67</td></tr><tr><td>Solde migratoire apparent</td><td>+4 583</td><td>n° 67</td></tr><tr><td>Part des 65 ans ou plus</td><td>25 %, contre 20 % vingt ans plus tôt</td><td>n° 67</td></tr></table></div>\n<h3>Cinq profils de communes</h3>\n<p>L'Insee et l'Agence d'urbanisme et d'énergie classent les 360 communes en cinq profils selon le relief, la population, le marché immobilier et l'accès aux services (<a href=\"https://www.insee.fr/fr/statistiques/8991868\" rel=\"noopener\">Insee Analyses Corse n° 68</a>, 8 juin 2026).</p>\n<ul>\n<li>Ajaccio et Bastia comptent 123 000 habitants, un Corse sur trois.</li>\n<li>Les résidences secondaires font 36,8 % des logements de l'île, et 61,5 % dans les communes de montagne.</li>\n<li>En montagne, 80,1 % des résidences principales sont sous-occupées, contre 65,9 % en moyenne régionale.</li>\n<li>En 2022, trois nouveaux arrivants sur quatre étaient en âge de travailler.</li>\n</ul>\n<h3>Propriété des logements</h3>\n<p>En 2023, 227 000 personnes physiques possèdent 234 000 des 264 000 logements de l'île. Une sur deux est multipropriétaire, et les multipropriétaires détiennent 74 % de ces logements, contre 64 % en France métropolitaine. Quatre propriétaires sur dix vivent hors de Corse (<a href=\"https://www.insee.fr/fr/statistiques/8734781\" rel=\"noopener\">Insee Analyses Corse n° 65</a>, 10 février 2026).</p>\n<h3>Immigration et travail</h3>\n<p>En 2022, 21 500 immigrés étrangers de 15 à 64 ans vivent en Corse, soit 10 % de la population en âge de travailler, 4 points de plus que dans la France de province. 43 % de ceux qui travaillent sont dans la construction, contre 17 % en province. 60 % viennent de l'Union européenne, d'abord du Portugal (34 %) (<a href=\"https://www.insee.fr/fr/statistiques/8887049\" rel=\"noopener\">Insee Flash Corse n° 103</a>, 24 mars 2026).</p>\n<h3>Pauvreté des ménages agricoles</h3>\n<p>En 2020, 30,4 % des personnes vivant dans un ménage agricole corse sont sous le seuil de pauvreté, contre 16,2 % en France métropolitaine. Le niveau de vie médian y est de 1 630 euros par mois, le plus bas des régions métropolitaines. Dans les ménages composés uniquement d'agriculteurs, le taux de pauvreté atteint 54,2 % (<a href=\"https://www.insee.fr/fr/statistiques/9000367\" rel=\"noopener\">Insee Analyses Corse n° 69</a>, 8 juin 2026, avec la DRAAF).</p>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>« La population augmente » est exact ; « la Corse fait plus d'enfants » est faux. La croissance vient des arrivées.</li>\n<li>Les chiffres de pauvreté agricole datent de 2020 : le dire.</li>\n<li>Ne pas confondre immigrés étrangers (21 500 en âge de travailler) et étrangers ou immigrés au total.</li>\n</ul>"
+  },
+  {
+   "id": "3f6cf61fb4e78167a3e3ee05e88d1b39",
+   "titre": "Note de synthèse — Finances et gestion de la Collectivité de Corse : ce que disent les contrôles de la chambre régionale des comptes",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781288a6ad84a87ecc094"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e781ef8821d869cfd59cd9",
+    "3f6cf61fb4e781afbafaf4e711c333d4",
+    "3f6cf61fb4e78173b9bedf12afc2d5d2"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>La chambre régionale des comptes a contrôlé deux fois la Collectivité de Corse récemment : sa situation financière sur 2019-2023, puis ses investissements routiers. Dans les deux cas, la Collectivité a présenté ses réponses à l'Assemblée de Corse. Elle ne déclare qu'une recommandation entièrement appliquée sur les neuf du premier rapport ; les autres sont en cours ou partielles.</p>\n<h3>1. Situation financière, 2019-2023</h3>\n<p>Rapport d'observations définitives daté du 1er avril 2025, présenté à l'Assemblée de Corse le 27 juin 2025. Chiffres repris d'un <a href=\"https://www.corsenetinfos.corsica/Finances-de-la-Collectivite-de-Corse-La-Cour-des-comptes-tire-la-sonnette-d-alarme-Gilles-Simeoni-reagit_a85199.html\" rel=\"noopener\">compte rendu de Corse Net Infos</a>, le rapport lui-même n'ayant pas pu être consulté sur le site des juridictions financières :</p>\n<ul>\n<li>dette d'environ 1,04 milliard d'euros fin 2023, contre 790 millions auparavant (+32 %), soit 3 047 euros par habitant, le niveau le plus élevé de France ;</li>\n<li>charges de gestion en hausse de 4,25 % par an, au-delà du milliard d'euros en 2023 ;</li>\n<li>5 046 postes permanents, dont 926 vacants et non budgétés ;</li>\n<li>9 recommandations et 5 rappels au droit.</li>\n</ul>\n<h3>2. Les suites données, juin 2026</h3>\n<p>Rapport n° 2026/E4/137 du président du Conseil exécutif, séance des 25 et 26 juin 2026 (<a href=\"https://www.isula.corsica/assemblea/docs/rapports/2026E4137.pdf\" rel=\"noopener\">texte du rapport</a>).</p>\n<div class=\"tableau\"><table><tr><th>Point</th><th>État déclaré par la Collectivité</th></tr><tr><td>Convention de partenariat avec le payeur de Corse (recommandation 3)</td><td>Signée le 28 mai 2026, en service depuis le 1er juin</td></tr><tr><td>Inventaire des équipements concédés, ports et aéroports (recommandation 1)</td><td>Partiel</td></tr><tr><td>Contrats d'objectifs et de performance avec les agences et offices (recommandation 4)</td><td>Partiel : un seul contrat adopté, en avril 2024</td></tr><tr><td>Revue générale des dépenses (recommandation 9)</td><td>Partielle : première étape d'avril à mai 2025</td></tr><tr><td>Rapports d'étape sur les programmes d'investissement transports et collèges-lycées (recommandation 6)</td><td>Non engagé, « cadrage » annoncé</td></tr><tr><td>Autres recommandations et les 5 rappels au droit</td><td>En cours</td></tr></table></div>\n<p>Le rapport ne donne pas d'étiquette officielle à chaque point : ces états sont lus dans son texte. Il annonce, au 31 décembre 2025, une capacité de désendettement de 6,19 années et un taux d'épargne brute de 14,69 %, ainsi qu'une baisse de 4,17 % des charges à caractère général et de 1,47 % des charges de personnel dans le compte financier 2025. Il ne donne pas l'encours de la dette.</p>\n<h3>3. Investissements routiers</h3>\n<p>Rapport n° 2026/O2/230, réunion des 1er et 2 octobre 2026 (<a href=\"https://www.isula.corsica/assemblea/docs/rapports/2026O2230.pdf\" rel=\"noopener\">texte du rapport</a>). La Collectivité gère près de 5 000 km de routes et y investit en moyenne 80 millions d'euros par an, plus environ 9 millions de fonctionnement. La chambre formule un rappel au droit, mis en œuvre avec le règlement de voirie adopté le 26 juin 2026, et six recommandations : quatre sont déclarées en cours (trois pour fin 2026, une pour 2027) et deux doivent être appliquées « de manière adaptée ».</p>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>La chambre régionale des comptes n'est pas la Cour des comptes, même si le compte rendu cité plus haut titre sur « la Cour des comptes ».</li>\n<li>Le chiffre de dette (1,04 milliard) date de fin 2023. Aucun encours plus récent ne figure dans les documents de la base.</li>\n<li>« Une recommandation sur neuf appliquée » est une lecture du rapport de la Collectivité elle-même, pas un constat de la chambre.</li>\n</ul>\n<h3>Ce qui manque</h3>\n<p>Le texte du rapport de 2025 sur le site des juridictions financières, et le rapport de suivi qu'elles doivent publier.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781c8b938f7fef7243a4a",
+   "titre": "Note de synthèse — Autonomie de la Corse : où en est la révision constitutionnelle",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e781369545c1aa9364e140",
+    "3f6cf61fb4e78185aeb5d8e3476a0544"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>Le projet de loi constitutionnelle « pour une Corse autonome au sein de la République » a été adopté par l'Assemblée nationale le 23 juin 2026. Il est au Sénat, où sa discussion en séance publique est inscrite le 26 octobre 2026. Il crée un article 72-5 de la Constitution donnant à la Corse un statut d'autonomie.</p>\n<h3>Les étapes</h3>\n<div class=\"tableau\"><table><tr><th>Date</th><th>Étape</th><th>Référence</th></tr><tr><td>30 juillet 2025</td><td>Premier dépôt du projet au Sénat</td><td>Texte n° 869 (2024-2025)</td></tr><tr><td>27 avril 2026</td><td>Ce premier texte est retiré par le Premier ministre ; le projet est déposé à l'Assemblée nationale</td><td>Texte n° 2697</td></tr><tr><td>3 juin 2026</td><td>Rapport de Florent Boudié au nom de la commission des lois</td><td><a href=\"https://www.assemblee-nationale.fr/dyn/docs/RAPPANR5L17B2865.pdf\" rel=\"noopener\">Rapport n° 2865</a></td></tr><tr><td>23 juin 2026</td><td>Adoption par l'Assemblée nationale</td><td>Texte adopté n° 318</td></tr><tr><td>24 juin 2026</td><td>Transmission au Sénat, renvoi à la commission des lois</td><td><a href=\"https://www.senat.fr/dossier-legislatif/pjl24-869.html\" rel=\"noopener\">Texte n° 782 (2025-2026)</a></td></tr><tr><td>26 octobre 2026</td><td>Discussion en séance publique au Sénat (inscrite)</td><td>Dossier législatif du Sénat, mis à jour le 23 septembre 2026</td></tr></table></div>\n<h3>La suite de la procédure</h3>\n<p>Une révision de la Constitution suppose que les deux assemblées adoptent le même texte, mot pour mot. Si le Sénat le modifie, la navette reprend. Voté dans les mêmes termes, un projet de révision est ensuite soumis au référendum, sauf si le président de la République décide de le soumettre au Parlement réuni en Congrès, où il doit recueillir les trois cinquièmes des suffrages exprimés (article 89 de la Constitution).</p>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>Dire « adopté par l'Assemblée nationale », pas « adopté » tout court : le texte n'est pas définitif.</li>\n<li>L'agenda de la base annonce un examen au Sénat le 21 octobre, d'après la presse ; le dossier législatif du Sénat indique la séance publique le 26 octobre. Les deux dates peuvent correspondre à la commission puis à la séance : vérifier avant d'annoncer.</li>\n<li>Le dossier législatif du Sénat ne mentionnait pas encore de rapporteur au 23 septembre 2026.</li>\n</ul>\n<h3>Ce qui manque</h3>\n<p>Le rapport de la commission des lois du Sénat, le résultat du scrutin du 23 juin à l'Assemblée nationale et le texte des amendements adoptés : ces documents ne sont pas encore dans la base.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781c89c77fc72cfdbdc1b",
+   "titre": "Note de synthèse — Municipales 2026 : la parité dans les conseils, pas dans les mairies",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e78181b9ccd4e309e96030",
+    "3f6cf61fb4e781998176e2977ca0362e"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>La parité imposée à toutes les listes, y compris dans les communes de moins de 1 000 habitants, a fait entrer 454 femmes de plus dans les conseils municipaux corses en mars 2026. L'Insee en attendait environ 500. Mais la part de femmes maires a baissé : 37 maires sur 360, soit 10 %.</p>\n<h3>Prévision et résultat</h3>\n<div class=\"tableau\"><table><tr><th>Indicateur</th><th>Avant le scrutin</th><th>Après le scrutin</th></tr><tr><td>Femmes parmi les conseillers municipaux</td><td>38 % en 2025 (<a href=\"https://www.insee.fr/fr/statistiques/8732398\" rel=\"noopener\">Insee Analyses Corse n° 64</a>, 3 février 2026)</td><td>47 %, +9 points (<a href=\"https://www.insee.fr/fr/statistiques/9042337\" rel=\"noopener\">Insee Flash Corse n° 104</a>, 15 septembre 2026)</td></tr><tr><td>Élues supplémentaires</td><td>Environ 500 attendues</td><td>454</td></tr><tr><td>Femmes maires</td><td>Environ 12 % (n° 64)</td><td>10 %, soit 37 maires, −1,4 point (n° 104)</td></tr></table></div>\n<h3>Les autres enseignements du scrutin</h3>\n<ul>\n<li>Dans les communes de moins de 1 000 habitants, la part de femmes gagne 13 points, à 46 %.</li>\n<li>Les femmes maires gouvernent 5 % de la population de l'île, contre 19 % sur le continent. En France métropolitaine, 23 % des maires sont des femmes.</li>\n<li>Quatre maires corses sur cinq ont été réélus, contre trois sur cinq sur le continent. La plupart des femmes maires de 2025 ne se sont pas représentées.</li>\n<li>La part des élus de 60 ans ou plus passe de 48 % à 39 %.</li>\n</ul>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>« Presque autant de femmes que d'hommes dans les conseils, mais un maire sur dix seulement est une femme » : formulation exacte selon l'Insee.</li>\n<li>L'écart entre 12 % et 10 % de femmes maires mêle deux sources ; la baisse officielle est de 1,4 point (n° 104).</li>\n<li>La page Élus du site, tirée du Répertoire national des élus, permet de vérifier commune par commune qui est maire.</li>\n</ul>"
+  },
+  {
+   "id": "3f6cf61fb4e7817c8bd2ee5afab00876",
+   "titre": "Note de synthèse — Énergie, déchets et littoral : les documents de référence",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e781aebd63f16c3f992b32",
+    "3f4cf61fb4e7816b8102e38412b173c0"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e781eeae46f21f74d9b495",
+    "3f6cf61fb4e781f2b7a5e6b9bddef8c1",
+    "3f6cf61fb4e7810488becf1cfcf2c8d0",
+    "3f6cf61fb4e78105873ffa5636f18bcc"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>Trois dossiers où la Corse dépend de décisions publiques fragiles : une production d'électricité encore très liée au fioul, un plan des déchets annulé par la justice administrative, un littoral dont les risques sont jugés sous-estimés. Les documents de la base sont de solidité inégale : la note le signale à chaque fois.</p>\n<h3>Énergie</h3>\n<ul>\n<li>Environ 2 700 ménages se chauffaient encore au fioul en 2022, soit 1,7 % des résidences principales, contre 8,5 % en France métropolitaine. Leur nombre a baissé de 60 % depuis 2006. L'électricité chauffe 69,4 % des ménages (<a href=\"https://www.insee.fr/fr/statistiques/8723383\" rel=\"noopener\">Insee Flash Corse n° 102</a>, 13 janvier 2026).</li>\n<li>La même publication rappelle que la production d'électricité dépend encore du fioul pour environ la moitié de l'approvisionnement de l'île.</li>\n<li>Le volet emploi et formation de la programmation pluriannuelle de l'énergie a été présenté à l'Assemblée de Corse les 22 et 23 mai 2025 (rapport n° 2025/E2/130). La base n'en contient pas encore les chiffres.</li>\n</ul>\n<h3>Déchets</h3>\n<p>Le plan territorial de prévention et de gestion des déchets, adopté par l'Assemblée de Corse le 25 juillet 2024, a été annulé par le tribunal administratif de Bastia ; le jugement a été relayé par la presse le 10 juillet 2026. Motifs rapportés : information environnementale insuffisante lors de l'enquête publique, inventaire des déchets peu fiable, objectifs réglementaires non respectés. Le jugement lui-même n'est pas dans la base : seule source, <a href=\"https://www.corsenetinfos.corsica/Le-tribunal-administratif-de-Bastia-annule-le-plan-territorial-de-gestion-des-dechets-de-Corse_a91634.html\" rel=\"noopener\">Corse Net Infos</a>.</p>\n<p>La page Sites du site recense, d'après Géorisques, 15 installations de tri et traitement et 6 de stockage de déchets.</p>\n<h3>Littoral</h3>\n<p>Une enquête de la Cour des comptes et des chambres régionales de Corse, de Provence-Alpes-Côte d'Azur et d'Occitanie, publiée le 24 janvier 2025, juge que les collectivités sous-estiment les risques d'inondation et d'érosion côtière. Pour la Corse, elle relève que le plan de prévention du risque inondation du sud de Bastia n'est pas achevé et que peu de communes utilisent les cartes de recul du trait de côte prévues par la loi Climat et Résilience de 2021. Source : <a href=\"https://www.corsenetinfos.corsica/Changement-climatique-la-Cour-des-comptes-alerte-sur-la-vulnerabilite-du-littoral-corse_a82616.html\" rel=\"noopener\">compte rendu de Corse Net Infos</a> ; le titre exact du rapport reste à confirmer.</p>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>Le chiffre « 2 700 ménages » date de 2022.</li>\n<li>Plan des déchets : dire « annulé par le tribunal administratif », et vérifier si un appel a été formé avant d'en parler au présent.</li>\n</ul>\n<h3>Ce qui manque</h3>\n<p>Le jugement du tribunal administratif, le rapport de la Cour des comptes sur le littoral et les chiffres de la programmation de l'énergie, à rattacher à la base.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781dcbf2df6b406e9886b",
+   "titre": "Note de synthèse — Enseignement de la langue corse : la convention 2026-2030",
+   "type": "Note de synthèse",
+   "etat": "À relire",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e78163a97be814a16c04d4"
+   ],
+   "html": "<aside class=\"avertissement\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</aside>\n<h3>L'essentiel</h3>\n<p>L'Assemblée de Corse a été saisie, les 30 et 31 juillet 2026, d'une convention pluriannuelle avec l'État pour 2026-2030 sur l'enseignement du corse : 5,8 millions d'euros sur quatre années scolaires. Le bilan de la première année montre une formation des enseignants qui avance et des postes de remplaçants difficiles à pourvoir (<a href=\"https://www.isula.corsica/assemblea/docs/rapports/2026E5204.pdf\" rel=\"noopener\">rapport n° 2026/E5/204</a>).</p>\n<h3>Bilan 2025-2026</h3>\n<ul>\n<li>La Collectivité a financé seule la convention, pour environ 1,3 million d'euros.</li>\n<li>Douze postes de remplaçants ont été pourvus sur les vingt prévus ; près de 300 000 euros non dépensés ont été en partie réorientés vers les ressources pédagogiques.</li>\n<li>259 professeurs des écoles ont été formés au corse ; environ 300 demandes sont déjà enregistrées pour 2026-2027.</li>\n<li>97 indemnités pour mission particulière ont été attribuées pour l'immersion ; onze assistants de langue ont travaillé dans les écoles de janvier à juin 2026, avec l'Université de Corse.</li>\n</ul>\n<h3>La convention 2026-2030</h3>\n<div class=\"tableau\"><table><tr><th>Poste</th><th>Par année scolaire</th></tr><tr><td>Formation des professeurs des écoles</td><td>1 080 000 €</td></tr><tr><td>Formation en immersion hors temps scolaire</td><td>57 000 €</td></tr><tr><td>Déploiement de l'immersion (indemnités et assistants)</td><td>212 500 €</td></tr><tr><td>Ressources pédagogiques, premier et second degrés</td><td>100 000 €</td></tr><tr><td>Total</td><td>1 449 500 €, soit 5 798 000 € sur 2026-2030</td></tr></table></div>\n<p>Au moins quarante nouvelles classes immersives sont prévues à la rentrée 2026. Le rapport propose d'autoriser des transferts entre lignes jusqu'à 20 % de l'enveloppe annuelle.</p>\n<h3>Pour l'antenne</h3>\n<ul>\n<li>Le rapport demande l'approbation de la convention : vérifier le vote de l'Assemblée et la signature par l'État avant de la présenter comme acquise.</li>\n<li>« Quarante classes immersives » est un minimum annoncé, pas un constat de rentrée.</li>\n</ul>"
+  }
+ ],
  "documents": [
+  {
+   "id": "3f6cf61fb4e781da8d31c382065cb982",
+   "titre": "Tableau de bord de la conjoncture en Corse",
+   "producteur": "Insee",
+   "type": "Données",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "",
+   "date": "2026-10-06",
+   "themes": [
+    "Économie",
+    "Social"
+   ],
+   "resume": "Indicateurs conjoncturels régionaux mis à jour chaque trimestre : emploi, chômage, construction, tourisme, créations d'entreprises.",
+   "chiffres": "Édition du 6 octobre 2026 : chômage 6,9 % (2e trimestre 2026) ; emploi salarié 129 300 (2e trimestre 2026) ; 140 logements autorisés (août 2026) ; 580 000 nuitées hôtelières (juillet 2026) ; 1 920 créations d'entreprises (2e trimestre 2026). Chaque indicateur a sa propre date de mise à jour.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/2122216",
+   "dossiers": [],
+   "verifieLe": ""
+  },
+  {
+   "id": "3f6cf61fb4e78173b9bedf12afc2d5d2",
+   "titre": "Rapport d'observations définitives de la chambre régionale des comptes relatif aux investissements dans le domaine routier",
+   "producteur": "Collectivité de Corse",
+   "type": "Rapport à l'Assemblée de Corse",
+   "collection": "",
+   "numero": "2026/O2/230",
+   "date": "2026-10-01",
+   "themes": [
+    "Transports",
+    "Finances publiques"
+   ],
+   "resume": "Rapport du président du Conseil exécutif soumettant au débat le contrôle de la CRC sur la compétence voirie (exercices 2020 et suivants) et les réponses de la Collectivité. Réunion des 1er et 2 octobre 2026 (2e session ordinaire).",
+   "chiffres": "Près de 5 000 km de routes. En moyenne 80 M€ d'investissement et environ 9 M€ de fonctionnement par an. Un rappel au droit (mis en œuvre : règlement de voirie adopté le 26 juin 2026) et six recommandations, dont quatre en cours.",
+   "statut": "En vigueur",
+   "lien": "https://www.isula.corsica/assemblea/docs/rapports/2026O2230.pdf",
+   "dossiers": [
+    "3f4cf61fb4e781288a6ad84a87ecc094",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781af9a0bed7129127e31",
+   "titre": "La fréquentation touristique de mai 2026 soutient l'activité économique régionale",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "61",
+   "date": "2026-09-24",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Note de conjoncture régionale du 2e trimestre 2026 : l'activité progresse légèrement, portée par l'hébergement-restauration et le tourisme de mai, tandis que la construction recule.",
+   "chiffres": "Heures rémunérées +0,3 % sur un an (France : -0,7 %). Emploi salarié +0,1 %, 129 300 emplois fin juin 2026. Construction : heures rémunérées -2,7 %. Chômage 6,9 % (+0,1 point ; France 8,3 %). Nuitées hôtelières +3,1 % sur le trimestre. Mai : le texte donne +8,5 % de passagers, le tableau +8,6 %.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/9051935",
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e781998176e2977ca0362e",
+   "titre": "En 2026, plus de femmes élues dans les conseils municipaux, mais moins dans la fonction de maire",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Flash Corse",
+   "numero": "104",
+   "date": "2026-09-15",
+   "themes": [
+    "Politique",
+    "Institutions",
+    "Société"
+   ],
+   "resume": "Bilan des municipales de 2026 : la parité des listes, étendue à toutes les communes, fait entrer massivement les femmes dans les conseils, mais la part de femmes maires recule. Fait suite à l'Insee Analyses Corse n° 64, qui anticipait environ 500 élues de plus.",
+   "chiffres": "47 % de femmes parmi les conseillers municipaux (+9 points) ; 454 élues de plus. Communes de moins de 1 000 habitants : 46 % (+13 points). Femmes maires : 10 % (37 maires, -1,4 point), contre 23 % en France métropolitaine. Quatre maires sur cinq réélus en Corse, trois sur cinq sur le continent.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/9042337",
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78163a97be814a16c04d4",
+   "titre": "Convention pluriannuelle d'objectifs et de moyens entre l'État et la Collectivité de Corse 2026-2030 pour le développement de l'enseignement de la langue corse",
+   "producteur": "Collectivité de Corse",
+   "type": "Rapport à l'Assemblée de Corse",
+   "collection": "",
+   "numero": "2026/E5/204",
+   "date": "2026-07-30",
+   "themes": [
+    "Langue corse",
+    "Éducation"
+   ],
+   "resume": "Bilan de la première année (2025-2026) de la convention État–Collectivité et proposition d'une convention 2026-2030. Réunion des 30 et 31 juillet 2026 (5e session extraordinaire).",
+   "chiffres": "2025-2026 : environ 1,3 M€ financés par la Collectivité ; 12 postes de remplaçants pourvus sur 20 ; 259 professeurs des écoles formés. 2026-2030 : 1 449 500 € par année scolaire, 5 798 000 € au total ; au moins 40 nouvelles classes immersives à la rentrée 2026.",
+   "statut": "En vigueur",
+   "lien": "https://www.isula.corsica/assemblea/docs/rapports/2026E5204.pdf",
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78130bacec0020897a9cb",
+   "titre": "L'activité régionale reste atone, freinée par la construction",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "60",
+   "date": "2026-07-06",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Note de conjoncture régionale du 1er trimestre 2026 : recul de l'activité, entièrement expliqué par la construction.",
+   "chiffres": "Heures rémunérées -0,7 % sur un an (France : -0,5 %). Construction -5,5 %, soit 14,5 % des heures rémunérées ; 550 emplois perdus sur un an (-4,8 %). Emploi salarié stable à 128 700. Mises en chantier au plus bas : 1 800 logements (-21,7 %). Chômage 6,8 % (+0,5 point sur un an ; France 8,1 %).",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/9006917",
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "verifieLe": "2026-10-11"
+  },
   {
    "id": "3f6cf61fb4e781afbafaf4e711c333d4",
    "titre": "Suites réservées au rapport d'observations définitives de la chambre régionale des comptes",
@@ -19166,7 +19426,7 @@
     "Institutions"
    ],
    "resume": "Rapport du président du Conseil exécutif présentant les mesures prises après les 9 recommandations et 5 rappels au droit de la chambre régionale des comptes. Séance des 25 et 26 juin 2026 (4e session extraordinaire).",
-   "chiffres": "",
+   "chiffres": "Une recommandation sur neuf déclarée entièrement mise en œuvre (convention avec le payeur de Corse signée le 28 mai 2026) ; les autres en cours ou partiellement. Au 31 décembre 2025 : capacité de désendettement 6,19 années, taux d'épargne brute 14,69 %. Compte financier 2025 : charges à caractère général -4,17 % (3,92 M€), charges de personnel -1,47 % (3,59 M€). Statuts lus dans le texte du rapport, non étiquetés par la Collectivité.",
    "statut": "En vigueur",
    "lien": "https://www.isula.corsica/assemblea/docs/rapports/2026E4137.pdf",
    "dossiers": [],
@@ -19184,12 +19444,56 @@
     "Institutions",
     "Politique"
    ],
-   "resume": "Texte adopté par l'Assemblée nationale le 23 juin 2026, transmis au Sénat le 24 juin et renvoyé à la commission des lois. Il crée un article 72-5 de la Constitution donnant un statut d'autonomie à la Corse.",
+   "resume": "Texte adopté par l'Assemblée nationale le 23 juin 2026, transmis au Sénat le 24 juin et renvoyé à la commission des lois. Il crée un article 72-5 de la Constitution donnant un statut d'autonomie à la Corse. Discussion en séance publique au Sénat inscrite le 26 octobre 2026 (dossier législatif mis à jour le 23 septembre 2026). Un premier dépôt au Sénat (n° 869, 30 juillet 2025) avait été retiré le 27 avril 2026.",
    "chiffres": "",
    "statut": "En discussion",
-   "lien": "https://www.senat.fr/leg/pjl25-782.html",
+   "lien": "https://www.senat.fr/dossier-legislatif/pjl24-869.html",
    "dossiers": [
     "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e7815a9dc0e4831b432442",
+   "titre": "En Corse, les ménages agricoles sont plus souvent exposés à la pauvreté que dans l'Hexagone",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Analyses Corse",
+   "numero": "69",
+   "date": "2026-06-08",
+   "themes": [
+    "Agriculture",
+    "Social"
+   ],
+   "resume": "Étude Insee et DRAAF sur le niveau de vie des ménages agricoles en 2020 : un tiers vit sous le seuil de pauvreté, deux fois plus que dans l'Hexagone.",
+   "chiffres": "Taux de pauvreté des ménages agricoles : 30,4 % (France métropolitaine : 16,2 %). Niveau de vie médian : 1 630 € par mois (1 900 €). Ménages composés uniquement d'agriculteurs : 54,2 % de pauvres. Les bénéfices agricoles font 19 % du revenu des ménages (34 % au niveau national). Données 2020.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/9000367",
+   "dossiers": [
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78128a348e56fecb1edb9",
+   "titre": "Entre concentration urbaine et isolement rural, les communes corses se répartissent en cinq profils",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Analyses Corse",
+   "numero": "68",
+   "date": "2026-06-08",
+   "themes": [
+    "Démographie",
+    "Logement"
+   ],
+   "resume": "Typologie des 360 communes en cinq profils (relief, population, marché immobilier, accès à l'emploi et aux services), réalisée avec l'Agence d'urbanisme et d'énergie de la Corse.",
+   "chiffres": "Ajaccio et Bastia : 123 000 habitants, un sur trois. Population : +1 % par an de 2011 à 2022. Résidences secondaires : 36,8 % des logements, 61,5 % en montagne. Sous-occupation : 80,1 % des résidences principales en montagne (65,9 % en moyenne).",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8991868",
+   "dossiers": [
+    "3f4cf61fb4e781b4a007df39f96f061e",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
    ],
    "verifieLe": "2026-10-11"
   },
@@ -19255,6 +19559,24 @@
     "3f4cf61fb4e7816aad7ceb107ab27ea0"
    ],
    "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f6cf61fb4e78157ba42e4a55e58d293",
+   "titre": "Une conjoncture économique morose en fin d'année — 4e trimestre 2025",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "58",
+   "date": "2026-04-09",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Note de conjoncture régionale du 4e trimestre 2025 : recul de l'activité, premier repli de l'emploi tertiaire marchand depuis début 2024, emploi salarié tenu par l'emploi public.",
+   "chiffres": "Heures rémunérées -0,6 % sur un an. Emploi salarié stable à 129 000 (public +0,7 %, privé -0,4 %). Chômage 6,8 % (+0,5 point sur un an ; France 7,9 %). 470 défaillances d'entreprises sur douze mois (+4,2 %). 1 680 créations d'entreprises au 4e trimestre.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8899567",
+   "dossiers": [],
+   "verifieLe": ""
   },
   {
    "id": "3f6cf61fb4e781428aecc990862183d2",
@@ -19338,6 +19660,46 @@
    "verifieLe": "2026-10-11"
   },
   {
+   "id": "3f6cf61fb4e781eeae46f21f74d9b495",
+   "titre": "Fin du remplacement des chaudières au fioul : 2 700 ménages concernés en Corse",
+   "producteur": "Insee",
+   "type": "Étude statistique",
+   "collection": "Insee Flash Corse",
+   "numero": "102",
+   "date": "2026-01-13",
+   "themes": [
+    "Énergie",
+    "Logement"
+   ],
+   "resume": "Ménages corses encore chauffés au fioul, concernés par la fin des aides au remplacement des chaudières.",
+   "chiffres": "Environ 2 700 ménages chauffés au fioul en 2022 (2 688 dans le tableau), soit 1,7 % des résidences principales (France métropolitaine : 8,5 %). Recul de 60 % depuis 2006. Centre-Corse : 3,9 %. Électricité : chauffage principal de 69,4 % des ménages. La production d'électricité dépend encore du fioul pour environ la moitié.",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8723383",
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "verifieLe": ""
+  },
+  {
+   "id": "3f6cf61fb4e7819bb2c9c934593fd037",
+   "titre": "Une activité économique encore dynamique dans un marché du travail en berne — 3e trimestre 2025",
+   "producteur": "Insee",
+   "type": "Note de conjoncture",
+   "collection": "Insee Conjoncture Corse",
+   "numero": "57",
+   "date": "2026-01-12",
+   "themes": [
+    "Économie",
+    "Social"
+   ],
+   "resume": "Note de conjoncture régionale du 3e trimestre 2025 : activité en hausse portée par l'hébergement-restauration et les transports, emploi stable, chômage en hausse.",
+   "chiffres": "Heures rémunérées +0,5 % sur un an (France -0,3 %). Environ 4,2 millions de passagers (+1,3 %). Emploi salarié 129 200. Chômage 6,6 % (+0,2 point ; France 7,7 %).",
+   "statut": "En vigueur",
+   "lien": "https://www.insee.fr/fr/statistiques/8682331",
+   "dossiers": [],
+   "verifieLe": ""
+  },
+  {
    "id": "3f6cf61fb4e781f2b7a5e6b9bddef8c1",
    "titre": "Programmation pluriannuelle de l'énergie : carte des formations aux métiers de la transition énergétique",
    "producteur": "Collectivité de Corse",
@@ -19417,83 +19779,6 @@
     "3f4cf61fb4e781aebd63f16c3f992b32"
    ],
    "verifieLe": "2026-10-11"
-  },
-  {
-   "id": "3f6cf61fb4e78157ba42e4a55e58d293",
-   "titre": "Une conjoncture économique morose en fin d'année — 4e trimestre 2025",
-   "producteur": "Insee",
-   "type": "Note de conjoncture",
-   "collection": "Note de conjoncture régionale",
-   "numero": "",
-   "date": "",
-   "themes": [
-    "Économie"
-   ],
-   "resume": "Note trimestrielle sur la conjoncture corse au 4e trimestre 2025. Date de parution à vérifier.",
-   "chiffres": "",
-   "statut": "En vigueur",
-   "lien": "https://www.insee.fr/fr/statistiques/8899567",
-   "dossiers": [],
-   "verifieLe": ""
-  },
-  {
-   "id": "3f6cf61fb4e7819bb2c9c934593fd037",
-   "titre": "Une activité économique encore dynamique dans un marché du travail en berne — 3e trimestre 2025",
-   "producteur": "Insee",
-   "type": "Note de conjoncture",
-   "collection": "Note de conjoncture régionale",
-   "numero": "",
-   "date": "",
-   "themes": [
-    "Économie",
-    "Social"
-   ],
-   "resume": "Note trimestrielle sur la conjoncture corse au 3e trimestre 2025. Date de parution à vérifier.",
-   "chiffres": "",
-   "statut": "En vigueur",
-   "lien": "https://www.insee.fr/fr/statistiques/8682331",
-   "dossiers": [],
-   "verifieLe": ""
-  },
-  {
-   "id": "3f6cf61fb4e781da8d31c382065cb982",
-   "titre": "Tableau de bord de la conjoncture en Corse",
-   "producteur": "Insee",
-   "type": "Données",
-   "collection": "Insee Conjoncture Corse",
-   "numero": "",
-   "date": "",
-   "themes": [
-    "Économie",
-    "Social"
-   ],
-   "resume": "Indicateurs conjoncturels régionaux mis à jour chaque trimestre : emploi, chômage, construction, tourisme, créations d'entreprises.",
-   "chiffres": "",
-   "statut": "En vigueur",
-   "lien": "https://www.insee.fr/fr/statistiques/2122216",
-   "dossiers": [],
-   "verifieLe": ""
-  },
-  {
-   "id": "3f6cf61fb4e781eeae46f21f74d9b495",
-   "titre": "Fin du remplacement des chaudières au fioul : 2 700 ménages concernés en Corse",
-   "producteur": "Insee",
-   "type": "Étude statistique",
-   "collection": "Insee Flash Corse",
-   "numero": "",
-   "date": "",
-   "themes": [
-    "Énergie",
-    "Logement"
-   ],
-   "resume": "Ménages corses chauffés au fioul concernés par la fin du remplacement des chaudières. Numéro et date à vérifier.",
-   "chiffres": "",
-   "statut": "En vigueur",
-   "lien": "https://www.insee.fr/fr/statistiques/8723383",
-   "dossiers": [
-    "3f4cf61fb4e78147baa0fa79d06de179"
-   ],
-   "verifieLe": ""
   }
  ],
  "drones": [

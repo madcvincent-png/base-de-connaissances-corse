@@ -330,6 +330,8 @@ def construire(raw):
             "destination": txt(r.get("Destination")),
             "dossiers": rel(r.get("Dossier")),
             "sources": rel(r.get("Sources mobilisées")),
+            "documents": rel(r.get("Documents mobilisés")),
+            "diffusion": txt(r.get("Diffusion")) or "Interne",
             "html": note_html(r.get("__contenu") or "", titres),
         }
         for r in raw["productions"]
@@ -390,7 +392,8 @@ CHAMPS_PUBLICS = {
     "dossiers": ["id", "titre", "type", "rubrique", "resume", "debut", "fin", "personnes"],
     "articles": ["id", "titre", "source", "typeSource", "date", "lien", "genre", "rubrique", "lieux",
                  "communes", "dossiers", "personnes"],
-    "notes": [],  # documents internes : aucun
+    # notes : seules celles marquées « Publiable » dans Notion, qui ne reposent que sur des sources publiques
+    "notes": ["id", "titre", "type", "etat", "arreteAu", "dossiers", "sources", "documents", "html"],
     "drones": ["code", "titre", "date", "lieu", "duree"],
     "documents": None,  # documents officiels publiés : tous les champs
 }
@@ -413,7 +416,7 @@ def profil_public(kb):
         "dossiers": lambda d: d["rubrique"] not in RUBRIQUES_EXCLUES and d["type"] not in TYPES_DOSSIERS_EXCLUS
         and propre(d["titre"], d["resume"]),
         "articles": lambda a: a["rubrique"] not in RUBRIQUES_EXCLUES and propre(a["titre"]),
-        "notes": lambda n: False,
+        "notes": lambda n: n.get("diffusion") == "Publiable",
         "drones": lambda d: True,
         "documents": lambda d: True,
     }

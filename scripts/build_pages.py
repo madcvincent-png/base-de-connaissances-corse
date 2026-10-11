@@ -26,7 +26,7 @@ PAGES = [
     ("documents.html", "documents", "Documents de référence", False, False),
     ("personne.html", "personne", "Fiche personne", False, False),
     ("articles.html", "articles", "Articles", False, False),
-    ("notes.html", "notes", "Notes et synthèses", False, False),
+    ("notes.html", "notes", "Notes de synthèse", False, False),
     ("note.html", "note", "Note", False, False),
     ("drones.html", "drones", "Images drone", False, False),
     ("a-propos.html", "apropos", "Méthode et limites", False, False),
@@ -70,6 +70,8 @@ def page(fichier, data_page, titre, leaflet, carte):
                '<script src="data/geo.js"></script>' if (leaflet or carte) else ""]
     if leaflet or carte:
         scripts.append('<script src="vendor/leaflet/leaflet.js"></script>')
+    if data_page == "elus":
+        scripts.append('<script src="data/assemblee.js"></script>')
     scripts.append('<script src="assets/kb.js"></script>')
     scripts.append('<script src="assets/carte.js"></script>' if carte else '<script src="assets/pages.js"></script>')
     scripts = "\n  ".join(s for s in scripts if s)
