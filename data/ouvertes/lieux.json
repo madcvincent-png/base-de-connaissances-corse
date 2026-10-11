@@ -1,0 +1,4018 @@
+[
+ {
+  "nom": "église Saint-Césaire de Grosseto",
+  "commune": "2A130",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.869701,
+  "lon": 8.962709,
+  "wikidata": "Q38478150"
+ },
+ {
+  "nom": "couvent Saint-Dominique de Corbara",
+  "commune": "2B093",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.603020404,
+  "lon": 8.91201602,
+  "wikidata": "Q22996394"
+ },
+ {
+  "nom": "statue-menhir de Tavera",
+  "commune": "2A324",
+  "protection": "monument historique classé",
+  "lat": 42.0692,
+  "lon": 8.9868,
+  "wikidata": "Q22996372"
+ },
+ {
+  "nom": "église Saint-Aurèle de Cannelle",
+  "commune": "2A060",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.048717,
+  "lon": 8.821211,
+  "wikidata": "Q38426573"
+ },
+ {
+  "nom": "église Saint-Nicolas d'Arro",
+  "commune": "2A022",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.093053,
+  "lon": 8.814402,
+  "wikidata": "Q41754220"
+ },
+ {
+  "nom": "monument torréen de Foce",
+  "commune": "2A021",
+  "protection": "monument historique classé",
+  "lat": 41.82875,
+  "lon": 9.02277778,
+  "wikidata": "Q109045439"
+ },
+ {
+  "nom": "église Saint-Laurent de Campo",
+  "commune": "2A056",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.890975,
+  "lon": 9.004095,
+  "wikidata": "Q38654532"
+ },
+ {
+  "nom": "église de l'Annonciation de Calcatoggio",
+  "commune": "2A048",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.02833,
+  "lon": 8.76635,
+  "wikidata": "Q41754234"
+ },
+ {
+  "nom": "palais épiscopal d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.9175,
+  "lon": 8.7395,
+  "wikidata": "Q22949590"
+ },
+ {
+  "nom": "tour de Campomoro",
+  "commune": "2A035",
+  "protection": "monument historique inscrit",
+  "lat": 41.6389,
+  "lon": 8.80722,
+  "wikidata": "Q3379510"
+ },
+ {
+  "nom": "citadelle d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.91666667,
+  "lon": 8.74027778,
+  "wikidata": "Q5122393"
+ },
+ {
+  "nom": "hôtel Cyrnos Palace",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.91706,
+  "lon": 8.728702,
+  "wikidata": "Q22949693"
+ },
+ {
+  "nom": "château de Baricci",
+  "commune": "2A115",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.60288,
+  "lon": 9.00988,
+  "wikidata": "Q70472575"
+ },
+ {
+  "nom": "baptistère Saint-Jean d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.929,
+  "lon": 8.738,
+  "wikidata": "Q22996367"
+ },
+ {
+  "nom": "fontaine de Neptune de Ghisoni",
+  "commune": "2B124",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.102819444,
+  "lon": 9.210872222,
+  "wikidata": "Q106936411"
+ },
+ {
+  "nom": "église Saint-Jacques de Marignana",
+  "commune": "2A154",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.23411,
+  "lon": 8.80106,
+  "wikidata": "Q38620051"
+ },
+ {
+  "nom": "palais Lantivy",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.9197,
+  "lon": 8.7361,
+  "wikidata": "Q3360879"
+ },
+ {
+  "nom": "église Saint-Pierre de Forciolo",
+  "commune": "2A117",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.853073,
+  "lon": 9.009637,
+  "wikidata": "Q41754258"
+ },
+ {
+  "nom": "hôtel de ville d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.919299,
+  "lon": 8.738986,
+  "wikidata": "Q22949675"
+ },
+ {
+  "nom": "église Saint-Cyprien d'Evisa",
+  "commune": "2A108",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.251758,
+  "lon": 8.792308,
+  "wikidata": "Q68571050"
+ },
+ {
+  "nom": "chapelle des Grecs",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.908903,
+  "lon": 8.71918,
+  "wikidata": "Q22949574"
+ },
+ {
+  "nom": "église Sainte-Marie de Carpineto",
+  "commune": "2B067",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.357834,
+  "lon": 9.37919,
+  "wikidata": "Q38523242"
+ },
+ {
+  "nom": "tour de Capitello",
+  "commune": "2A130",
+  "protection": "monument historique inscrit",
+  "lat": 41.9042,
+  "lon": 8.79917,
+  "wikidata": "Q3379494"
+ },
+ {
+  "nom": "palais des Gouverneurs",
+  "commune": "2B033",
+  "protection": "",
+  "lat": 42.693611111,
+  "lon": 9.451111111,
+  "wikidata": "Q86733476"
+ },
+ {
+  "nom": "église San Michele de Castirla",
+  "commune": "2B083",
+  "protection": "monument historique classé",
+  "lat": 42.37233,
+  "lon": 9.14725,
+  "wikidata": "Q22949839"
+ },
+ {
+  "nom": "immeuble",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.918146,
+  "lon": 8.738766,
+  "wikidata": "Q22949708"
+ },
+ {
+  "nom": "statue du cardinal Fesch",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.9183,
+  "lon": 8.7386,
+  "wikidata": "Q56560958"
+ },
+ {
+  "nom": "oratoire Saint-Roch d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.9217,
+  "lon": 8.7381,
+  "wikidata": "Q22949589"
+ },
+ {
+  "nom": "Lazaret d'Aspretto",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.9282,
+  "lon": 8.7588,
+  "wikidata": "Q22949583"
+ },
+ {
+  "nom": "maison des Milelli",
+  "commune": "2A004",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.93839,
+  "lon": 8.71879,
+  "wikidata": "Q22949584"
+ },
+ {
+  "nom": "église Saint-Sébastien d'Arbellara",
+  "commune": "2A018",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.681797,
+  "lon": 8.991559,
+  "wikidata": "Q41754214"
+ },
+ {
+  "nom": "ancien couvent d'Oveglia",
+  "commune": "2B046",
+  "protection": "monument historique inscrit",
+  "lat": 42.8853,
+  "lon": 9.4238,
+  "wikidata": "Q22950093"
+ },
+ {
+  "nom": "château Conti",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.91829,
+  "lon": 8.73181,
+  "wikidata": "Q22949582"
+ },
+ {
+  "nom": "palais Fesch",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.921666666,
+  "lon": 8.738333333,
+  "wikidata": "Q13377667"
+ },
+ {
+  "nom": "Sampiero Corso",
+  "commune": "2A031",
+  "protection": "monument historique inscrit",
+  "lat": 42.0009,
+  "lon": 9.0498,
+  "wikidata": "Q17347209"
+ },
+ {
+  "nom": "église Saint-Jean de Sevendentro de Marignana",
+  "commune": "2A154",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q68571211"
+ },
+ {
+  "nom": "église Saint-Nicolas de Marignana",
+  "commune": "2A154",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q68571421"
+ },
+ {
+  "nom": "chapelle de la confrérie de la Sainte-Croix de Ghisoni",
+  "commune": "2B124",
+  "protection": "monument historique inscrit",
+  "lat": 42.10341,
+  "lon": 9.21237,
+  "wikidata": "Q22949869"
+ },
+ {
+  "nom": "cimetière militaire allemand de Bastia",
+  "commune": "2B033",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.669277777,
+  "lon": 9.438444444,
+  "wikidata": "Q59911960"
+ },
+ {
+  "nom": "chapelle funéraire de la famille Sampolo de Gentile",
+  "commune": "2A048",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.034237,
+  "lon": 8.762187,
+  "wikidata": "Q92185416"
+ },
+ {
+  "nom": "château de la Punta",
+  "commune": "2A006",
+  "protection": "monument historique classé ; monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2018)",
+  "lat": 41.9567,
+  "lon": 8.7083,
+  "wikidata": "Q2971348"
+ },
+ {
+  "nom": "église Saint-Martin d'Évisa",
+  "commune": "2A108",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.253039,
+  "lon": 8.802676,
+  "wikidata": "Q41754254"
+ },
+ {
+  "nom": "maison Bonaparte",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.91803,
+  "lon": 8.73857,
+  "wikidata": "Q33707161"
+ },
+ {
+  "nom": "église Saint-Côme-et-Saint-Damien d'Ambiegna",
+  "commune": "2A014",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.083624,
+  "lon": 8.791503,
+  "wikidata": "Q38490356"
+ },
+ {
+  "nom": "moulin de Guardienna",
+  "commune": "2A247",
+  "protection": "monument historique inscrit",
+  "lat": 41.57919,
+  "lon": 9.24799,
+  "wikidata": "Q22949656"
+ },
+ {
+  "nom": "pont génois d'Asco",
+  "commune": "2B023",
+  "protection": "monument historique inscrit",
+  "lat": 42.4466,
+  "lon": 9.0313,
+  "wikidata": "Q22949750"
+ },
+ {
+  "nom": "couvent de Caccia",
+  "commune": "2B080",
+  "protection": "monument historique classé",
+  "lat": 42.4967,
+  "lon": 9.1161,
+  "wikidata": "Q22949833"
+ },
+ {
+  "nom": "chapelle San'Petru di Panicala",
+  "commune": "2A117",
+  "protection": "monument historique inscrit",
+  "lat": 41.85475,
+  "lon": 8.99452778,
+  "wikidata": "Q19965868"
+ },
+ {
+  "nom": "église de l'Annonciation de Corbara",
+  "commune": "2B093",
+  "protection": "monument historique classé",
+  "lat": 42.6151,
+  "lon": 8.9069,
+  "wikidata": "Q3585652"
+ },
+ {
+  "nom": "chapelle funéraire Pozzo di Borgo",
+  "commune": "2A006",
+  "protection": "monument historique inscrit",
+  "lat": 41.959,
+  "lon": 8.7168,
+  "wikidata": "Q22996373"
+ },
+ {
+  "nom": "phare des îles Sanguinaires",
+  "commune": "2A004",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.8786,
+  "lon": 8.59417,
+  "wikidata": "Q2413347"
+ },
+ {
+  "nom": "menhir de Capo-di-Luogo",
+  "commune": "2A035",
+  "protection": "monument historique classé",
+  "lat": 41.63472,
+  "lon": 8.83554,
+  "wikidata": "Q22949596"
+ },
+ {
+  "nom": "chapelle Saint-Érasme d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.916624,
+  "lon": 8.738559,
+  "wikidata": "Q22949578"
+ },
+ {
+  "nom": "jardin Romieu",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6941,
+  "lon": 9.4513,
+  "wikidata": "Q56560172"
+ },
+ {
+  "nom": "église Notre-Dame-de-l'Assomption de Cozzano",
+  "commune": "2A099",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.935417,
+  "lon": 9.153703,
+  "wikidata": "Q38389733"
+ },
+ {
+  "nom": "tour de Losso",
+  "commune": "2B046",
+  "protection": "monument historique inscrit",
+  "lat": 42.8611,
+  "lon": 9.48083,
+  "wikidata": "Q7826917"
+ },
+ {
+  "nom": "église de l'Annonciation de Casabianca",
+  "commune": "2B069",
+  "protection": "monument historique inscrit",
+  "lat": 42.44602,
+  "lon": 9.36446,
+  "wikidata": "Q22996398"
+ },
+ {
+  "nom": "monument à Napoléon et ses frères",
+  "commune": "2A004",
+  "protection": "monument historique classé ; objet classé monument historique",
+  "lat": 41.9176,
+  "lon": 8.7362,
+  "wikidata": "Q20807009"
+ },
+ {
+  "nom": "maison de Tino Rossi",
+  "commune": "2A004",
+  "protection": "maisons des Illustres",
+  "lat": 41.90583,
+  "lon": 8.6749,
+  "wikidata": "Q110928938"
+ },
+ {
+  "nom": "chapelle Sainte-Marie de Casalta",
+  "commune": "2B072",
+  "protection": "monument historique classé",
+  "lat": 42.4373,
+  "lon": 9.4094,
+  "wikidata": "Q22949809"
+ },
+ {
+  "nom": "couvent Saint-Antoine de la Casabianca",
+  "commune": "2B069",
+  "protection": "monument historique inscrit",
+  "lat": 42.451756,
+  "lon": 9.363793,
+  "wikidata": "Q1131573"
+ },
+ {
+  "nom": "église de l'Assomption de Cateri",
+  "commune": "2B084",
+  "protection": "monument historique classé",
+  "lat": 42.5711,
+  "lon": 8.8929,
+  "wikidata": "Q22949844"
+ },
+ {
+  "nom": "chapelle Impériale d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.921734,
+  "lon": 8.738315,
+  "wikidata": "Q1062697"
+ },
+ {
+  "nom": "église Saint-Fructueux d'Ortale",
+  "commune": "2B046",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.8751,
+  "lon": 9.43078,
+  "wikidata": "Q38583190"
+ },
+ {
+  "nom": "musée de la Maison Bonaparte",
+  "commune": "2A004",
+  "protection": "maisons des Illustres",
+  "lat": 41.9179,
+  "lon": 8.7383,
+  "wikidata": "Q3124818"
+ },
+ {
+  "nom": "chapelle Notre-Dame de Lazio",
+  "commune": "2B093",
+  "protection": "monument historique inscrit",
+  "lat": 42.6018,
+  "lon": 8.9102,
+  "wikidata": "Q22949845"
+ },
+ {
+  "nom": "pont de Spina-Cavallu",
+  "commune": "2A018",
+  "protection": "monument historique classé",
+  "lat": 41.6557,
+  "lon": 8.9811,
+  "wikidata": "Q16942947"
+ },
+ {
+  "nom": "maison Peraldi",
+  "commune": "2A004",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.91677,
+  "lon": 8.73841,
+  "wikidata": "Q22949587"
+ },
+ {
+  "nom": "site archéologique de Castiglione",
+  "commune": "2A130",
+  "protection": "monument historique inscrit",
+  "lat": 41.8873,
+  "lon": 8.82166,
+  "wikidata": "Q22949651"
+ },
+ {
+  "nom": "tour d'Ancone",
+  "commune": "2A048",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.0422,
+  "lon": 8.72639,
+  "wikidata": "Q7826828"
+ },
+ {
+  "nom": "pont de Zaglia",
+  "commune": "2A108",
+  "protection": "monument historique classé",
+  "lat": 42.25013,
+  "lon": 8.77614,
+  "wikidata": "Q22949641"
+ },
+ {
+  "nom": "cathédrale Notre-Dame-de-l'Assomption d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.917495,
+  "lon": 8.737961,
+  "wikidata": "Q2437680"
+ },
+ {
+  "nom": "oratoire Saint-Jean-Baptiste d'Ajaccio",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.9178,
+  "lon": 8.7382,
+  "wikidata": "Q22949588"
+ },
+ {
+  "nom": "boutique Mattei",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6978,
+  "lon": 9.4506,
+  "wikidata": "Q56560066"
+ },
+ {
+  "nom": "église de l'Annonciation de Casalta",
+  "commune": "2B072",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.441464,
+  "lon": 9.410295,
+  "wikidata": "Q41754366"
+ },
+ {
+  "nom": "église Saint-Siméon de Marignana",
+  "commune": "2A154",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.18786,
+  "lon": 8.65786,
+  "wikidata": "Q62130628"
+ },
+ {
+  "nom": "chapelle Notre-Dame-des-Sept-Douleurs de Corbara",
+  "commune": "2B093",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.61432,
+  "lon": 8.90295,
+  "wikidata": "Q60361781"
+ },
+ {
+  "nom": "manufacture Alban",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.9292,
+  "lon": 8.7388,
+  "wikidata": "Q22949717"
+ },
+ {
+  "nom": "statue du général Abbatucci",
+  "commune": "2A004",
+  "protection": "monument historique classé",
+  "lat": 41.9218,
+  "lon": 8.7384,
+  "wikidata": "Q56561269"
+ },
+ {
+  "nom": "église Saint-Nicolas d'Aullène",
+  "commune": "2A024",
+  "protection": "monument historique inscrit",
+  "lat": 41.76902,
+  "lon": 9.07949,
+  "wikidata": "Q22949676"
+ },
+ {
+  "nom": "église Saint-Thomas de Belgodère",
+  "commune": "2B034",
+  "protection": "monument historique inscrit",
+  "lat": 42.5862,
+  "lon": 9.0177,
+  "wikidata": "Q22949772"
+ },
+ {
+  "nom": "hôtel de la Collectivité de Corse",
+  "commune": "2A004",
+  "protection": "monument historique inscrit",
+  "lat": 41.918733,
+  "lon": 8.7325,
+  "wikidata": "Q22949689"
+ },
+ {
+  "nom": "palais épiscopal d'Accia",
+  "commune": "2B072",
+  "protection": "monument historique classé",
+  "lat": 42.4374,
+  "lon": 9.4091,
+  "wikidata": "Q22949812"
+ },
+ {
+  "nom": "église Saint-Pancrace de Castellare-di-Casinca",
+  "commune": "2B077",
+  "protection": "monument historique inscrit",
+  "lat": 42.47102,
+  "lon": 9.48619,
+  "wikidata": "Q1396285"
+ },
+ {
+  "nom": "pont génois de Zippitoli",
+  "commune": "2A031",
+  "protection": "monument historique classé",
+  "lat": 41.96111,
+  "lon": 9.00222,
+  "wikidata": "Q22949601"
+ },
+ {
+  "nom": "église Saint-Jean de Carbini",
+  "commune": "2A061",
+  "protection": "monument historique classé",
+  "lat": 41.67957,
+  "lon": 9.14743,
+  "wikidata": "Q22949636"
+ },
+ {
+  "nom": "église Saint-Sébastien de Castellare-di-Casinca",
+  "commune": "2B077",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.46772,
+  "lon": 9.47401,
+  "wikidata": "Q60392272"
+ },
+ {
+  "nom": "tombeau Benedetti",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.686791,
+  "lon": 9.445005,
+  "wikidata": "Q110463398"
+ },
+ {
+  "nom": "église Sainte-Catherine d'Albitreccia",
+  "commune": "2A008",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.863956,
+  "lon": 8.945841,
+  "wikidata": "Q38507746"
+ },
+ {
+  "nom": "chapelle Notre-Dame de Montserato",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6906,
+  "lon": 9.4382,
+  "wikidata": "Q22975970"
+ },
+ {
+  "nom": "maison Castagnola",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6966,
+  "lon": 9.4494,
+  "wikidata": "Q22968828"
+ },
+ {
+  "nom": "fort de Matra",
+  "commune": "2B009",
+  "protection": "monument historique classé",
+  "lat": 42.104507,
+  "lon": 9.511178,
+  "wikidata": "Q3078204"
+ },
+ {
+  "nom": "église Saint-Marcel d'Aléria",
+  "commune": "2B009",
+  "protection": "monument historique inscrit",
+  "lat": 42.10456,
+  "lon": 9.51171,
+  "wikidata": "Q22949730"
+ },
+ {
+  "nom": "nécropole nationale des îles Lavezzi",
+  "commune": "2A041",
+  "protection": "monument historique classé",
+  "lat": 41.339942,
+  "lon": 9.249593,
+  "wikidata": "Q20750482"
+ },
+ {
+  "nom": "église Notre-Dame-des-Victoires de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6807,
+  "lon": 9.4412,
+  "wikidata": "Q22996390"
+ },
+ {
+  "nom": "église Saint-Dominique de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique classé",
+  "lat": 41.387,
+  "lon": 9.15567,
+  "wikidata": "Q3581384"
+ },
+ {
+  "nom": "Araguina-Sennola",
+  "commune": "2A041",
+  "protection": "monument historique classé",
+  "lat": 41.392138888,
+  "lon": 9.16575,
+  "wikidata": "Q4783746"
+ },
+ {
+  "nom": "église Sainte-Marie de Sartène",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.62123,
+  "lon": 8.97221,
+  "wikidata": "Q22949665"
+ },
+ {
+  "nom": "phare des Îles Lavezzi",
+  "commune": "2A041",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.3344,
+  "lon": 9.25889,
+  "wikidata": "Q3378512"
+ },
+ {
+  "nom": "maison Charles de Rocca Serra",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.6201,
+  "lon": 8.9719,
+  "wikidata": "Q59275607"
+ },
+ {
+  "nom": "église Saint-Jacques de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.3869,
+  "lon": 9.15658,
+  "wikidata": "Q22969240"
+ },
+ {
+  "nom": "escalier du roi d'Aragon",
+  "commune": "2A041",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.3862,
+  "lon": 9.15559,
+  "wikidata": "Q1162474"
+ },
+ {
+  "nom": "statue de Napoleon Ier",
+  "commune": "2B033",
+  "protection": "monument historique classé",
+  "lat": 42.6998,
+  "lon": 9.4509,
+  "wikidata": "Q22996389"
+ },
+ {
+  "nom": "thermes romains de Santa Laurina",
+  "commune": "2B009",
+  "protection": "monument historique inscrit",
+  "lat": 42.1052,
+  "lon": 9.5156,
+  "wikidata": "Q22996382"
+ },
+ {
+  "nom": "tour de Roccapina",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.4956,
+  "lon": 8.92889,
+  "wikidata": "Q3379542"
+ },
+ {
+  "nom": "église Saint-Étienne",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.7024,
+  "lon": 9.4275,
+  "wikidata": "Q22968826"
+ },
+ {
+  "nom": "oratoire Saint-Roch de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique classé",
+  "lat": 42.6983,
+  "lon": 9.4503,
+  "wikidata": "Q22996384"
+ },
+ {
+  "nom": "puits Saint-Barthélémy",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.38662,
+  "lon": 9.1534,
+  "wikidata": "Q22969248"
+ },
+ {
+  "nom": "phare de Senetosa",
+  "commune": "2A272",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.5583,
+  "lon": 8.79417,
+  "wikidata": "Q3378382"
+ },
+ {
+  "nom": "ville antique d'Aléria",
+  "commune": "2B009",
+  "protection": "monument historique classé",
+  "lat": 42.1027,
+  "lon": 9.5097,
+  "wikidata": "Q22950092"
+ },
+ {
+  "nom": "carrière romaine de l'île de Cavallo",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.36106,
+  "lon": 9.26045,
+  "wikidata": "Q22949727"
+ },
+ {
+  "nom": "hôtel de ville de Sartène",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.6211,
+  "lon": 8.97194,
+  "wikidata": "Q17347077"
+ },
+ {
+  "nom": "alignement de Rinaghju",
+  "commune": "2A272",
+  "protection": "monument historique classé",
+  "lat": 41.52666667,
+  "lon": 8.92138889,
+  "wikidata": "Q917914"
+ },
+ {
+  "nom": "église Saint-Érasme de Bonifacio",
+  "commune": "2A041",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.3878869,
+  "lon": 9.1613602,
+  "wikidata": "Q38565222"
+ },
+ {
+  "nom": "dolmen de Fontanaccia",
+  "commune": "2A272",
+  "protection": "monument historique classé",
+  "lat": 41.52944444,
+  "lon": 8.91805556,
+  "wikidata": "Q1235923"
+ },
+ {
+  "nom": "caserne génoise de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.38672,
+  "lon": 9.15482,
+  "wikidata": "Q22969244"
+ },
+ {
+  "nom": "maison Doria",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.3868,
+  "lon": 9.1591,
+  "wikidata": "Q22949615"
+ },
+ {
+  "nom": "maison Philippe de Rocca Serra",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.6215,
+  "lon": 8.9731,
+  "wikidata": "Q59275440"
+ },
+ {
+  "nom": "église Sainte-Marie-Madeleine de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.38743,
+  "lon": 9.15383,
+  "wikidata": "Q22969242"
+ },
+ {
+  "nom": "palais Caraffa",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.695,
+  "lon": 9.4479,
+  "wikidata": "Q22996392"
+ },
+ {
+  "nom": "église Sainte-Croix de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique classé",
+  "lat": 42.69234,
+  "lon": 9.45211,
+  "wikidata": "Q3584983"
+ },
+ {
+  "nom": "église Saint-Barthélemy de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.38708,
+  "lon": 9.15318,
+  "wikidata": "Q22969238"
+ },
+ {
+  "nom": "église de la Conception de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique classé",
+  "lat": 42.6974,
+  "lon": 9.4501,
+  "wikidata": "Q22949764"
+ },
+ {
+  "nom": "site archéologique de Piantarella",
+  "commune": "2A041",
+  "protection": "monument historique classé",
+  "lat": 41.37148,
+  "lon": 9.22185,
+  "wikidata": "Q22949633"
+ },
+ {
+  "nom": "nécropole préromaine d'Aléria",
+  "commune": "2B009",
+  "protection": "monument historique classé",
+  "lat": 42.084,
+  "lon": 9.5,
+  "wikidata": "Q22949736"
+ },
+ {
+  "nom": "couvent Saint-Dominique de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.387,
+  "lon": 9.15569,
+  "wikidata": "Q22949680"
+ },
+ {
+  "nom": "couvent Saint-François du Bozio",
+  "commune": "2B005",
+  "protection": "monument historique inscrit",
+  "lat": 42.307193,
+  "lon": 9.296585,
+  "wikidata": "Q22975969"
+ },
+ {
+  "nom": "maison de Charles Quint",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.3869,
+  "lon": 9.1576,
+  "wikidata": "Q22949627"
+ },
+ {
+  "nom": "citadelle de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.38778,
+  "lon": 9.15946,
+  "wikidata": "Q22949605"
+ },
+ {
+  "nom": "tour de Senetosa",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.5642,
+  "lon": 8.79861,
+  "wikidata": "Q7826904"
+ },
+ {
+  "nom": "église Sainte-Marie-Majeure de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique classé",
+  "lat": 41.38714,
+  "lon": 9.15934,
+  "wikidata": "Q3585162"
+ },
+ {
+  "nom": "fortin de Tizzano",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.54226,
+  "lon": 8.84679,
+  "wikidata": "Q22949666"
+ },
+ {
+  "nom": "pro-cathédrale Sainte-Marie de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique classé",
+  "lat": 42.692361111,
+  "lon": 9.451666666,
+  "wikidata": "Q3406130"
+ },
+ {
+  "nom": "U Frate è a Sora",
+  "commune": "2A272",
+  "protection": "monument historique classé",
+  "lat": 41.64680556,
+  "lon": 8.94777778,
+  "wikidata": "Q1514781"
+ },
+ {
+  "nom": "couvent Saint-François de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.38624,
+  "lon": 9.15025,
+  "wikidata": "Q22949607"
+ },
+ {
+  "nom": "couvent Saint-Julien de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.38909,
+  "lon": 9.1847,
+  "wikidata": "Q22949614"
+ },
+ {
+  "nom": "palais de justice de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6952,
+  "lon": 9.446,
+  "wikidata": "Q22949769"
+ },
+ {
+  "nom": "Saint-Jean-d'Ortolo",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.5785,
+  "lon": 9.02669,
+  "wikidata": "Q22996369"
+ },
+ {
+  "nom": "église Saint-Charles-Borromée de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.6953,
+  "lon": 9.4476,
+  "wikidata": "Q22996383"
+ },
+ {
+  "nom": "phare de la Chiappa",
+  "commune": "2A247",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.5953,
+  "lon": 9.36556,
+  "wikidata": "Q3378470"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de Bastia",
+  "commune": "2B033",
+  "protection": "monument historique classé",
+  "lat": 42.697,
+  "lon": 9.45035,
+  "wikidata": "Q3581914"
+ },
+ {
+  "nom": "Stantari",
+  "commune": "2A272",
+  "protection": "monument historique classé",
+  "lat": 41.53027778,
+  "lon": 8.92138889,
+  "wikidata": "Q10964453"
+ },
+ {
+  "nom": "citadelle et palais du Gouverneur",
+  "commune": "2B033",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.692,
+  "lon": 9.452,
+  "wikidata": "Q22949758"
+ },
+ {
+  "nom": "phare de Pertusato",
+  "commune": "2A041",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.3675,
+  "lon": 9.18444,
+  "wikidata": "Q3378330"
+ },
+ {
+  "nom": "église de la Très-Sainte-Trinité de Bonifacio",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.40568,
+  "lon": 9.12371,
+  "wikidata": "Q31045961"
+ },
+ {
+  "nom": "Palaghju",
+  "commune": "2A272",
+  "protection": "monument historique classé",
+  "lat": 41.557123,
+  "lon": 8.886791,
+  "wikidata": "Q2068480"
+ },
+ {
+  "nom": "échauguette de Sartène",
+  "commune": "2A272",
+  "protection": "monument historique inscrit",
+  "lat": 41.62077,
+  "lon": 8.97122,
+  "wikidata": "Q22949664"
+ },
+ {
+  "nom": "maison, rue Longue",
+  "commune": "2A041",
+  "protection": "monument historique inscrit",
+  "lat": 41.387378,
+  "lon": 9.159832,
+  "wikidata": "Q22949617"
+ },
+ {
+  "nom": "bergerie de Murzo",
+  "commune": "2A174",
+  "protection": "",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q124743812"
+ },
+ {
+  "nom": "église Saint-Sylvestre de Centuri",
+  "commune": "2B086",
+  "protection": "monument historique inscrit",
+  "lat": 42.96,
+  "lon": 9.3693,
+  "wikidata": "Q22996378"
+ },
+ {
+  "nom": "église Saint-Nicolas de Corrano",
+  "commune": "2A094",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.888814,
+  "lon": 9.064198,
+  "wikidata": "Q41754247"
+ },
+ {
+  "nom": "chapelle Saint-Michel de Pianelli",
+  "commune": "2B195",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.45496,
+  "lon": 9.348,
+  "wikidata": "Q60383851"
+ },
+ {
+  "nom": "tour génoise de San Pellegrino",
+  "commune": "2B207",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.450278,
+  "lon": 9.541111,
+  "wikidata": "Q7826897"
+ },
+ {
+  "nom": "chapelle à Pietrosella",
+  "commune": "2A228",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.837923,
+  "lon": 8.843935,
+  "wikidata": "Q73637363"
+ },
+ {
+  "nom": "église Sainte-Lucie de Sainte-Lucie-de-Tallano",
+  "commune": "2A308",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.697425,
+  "lon": 9.063402,
+  "wikidata": "Q38518479"
+ },
+ {
+  "nom": "église San-Martino de Sisco",
+  "commune": "2B281",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.81656,
+  "lon": 9.42973,
+  "wikidata": "Q41754541"
+ },
+ {
+  "nom": "église de l'Assomption de Pruno",
+  "commune": "2B252",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.41608,
+  "lon": 9.43982,
+  "wikidata": "Q60384123"
+ },
+ {
+  "nom": "tour de Colomba",
+  "commune": "2A118",
+  "protection": "monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2023) ; monument historique inscrit",
+  "lat": 41.69767,
+  "lon": 9.00087,
+  "wikidata": "Q22949646"
+ },
+ {
+  "nom": "phare de la Revellata",
+  "commune": "2B050",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.5831,
+  "lon": 8.72444,
+  "wikidata": "Q3378495"
+ },
+ {
+  "nom": "cavités de Laninca",
+  "commune": "2B137",
+  "protection": "monument historique classé",
+  "lat": 42.3711,
+  "lon": 9.2354,
+  "wikidata": "Q57594901"
+ },
+ {
+  "nom": "viaduc sur le Vecchio",
+  "commune": "2B341",
+  "protection": "monument historique inscrit",
+  "lat": 42.1929,
+  "lon": 9.1658,
+  "wikidata": "Q25675350"
+ },
+ {
+  "nom": "église San Michele de Penta-di-Casinca",
+  "commune": "2B207",
+  "protection": "monument historique inscrit",
+  "lat": 42.46744,
+  "lon": 9.45973,
+  "wikidata": "Q22950098"
+ },
+ {
+  "nom": "château Stoppielle",
+  "commune": "2B086",
+  "protection": "monument historique inscrit",
+  "lat": 42.9708,
+  "lon": 9.3603,
+  "wikidata": "Q22996396"
+ },
+ {
+  "nom": "chapelle Sainte-Lucie de Santa-Maria-Siche",
+  "commune": "2A312",
+  "protection": "monument historique inscrit",
+  "lat": 41.87485,
+  "lon": 8.97667,
+  "wikidata": "Q22949662"
+ },
+ {
+  "nom": "ancienne église Sainte-Lucie de Monacia-d'Orezza",
+  "commune": "2B164",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.38209,
+  "lon": 9.39858,
+  "wikidata": "Q68165016"
+ },
+ {
+  "nom": "église Saint-Barthélémy de Monacia-d'Orezza",
+  "commune": "2B164",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.38102,
+  "lon": 9.42431,
+  "wikidata": "Q66684982"
+ },
+ {
+  "nom": "maison Santelli",
+  "commune": "2B033",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.697713,
+  "lon": 9.450777,
+  "wikidata": "Q126019564"
+ },
+ {
+  "nom": "pro-cathédrale Saint-Jean-Baptiste de Calvi",
+  "commune": "2B050",
+  "protection": "monument historique classé",
+  "lat": 42.568333333,
+  "lon": 8.760555555,
+  "wikidata": "Q3406129"
+ },
+ {
+  "nom": "immeuble, 1 Cours Paoli",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.3057,
+  "lon": 9.1509,
+  "wikidata": "Q22975975"
+ },
+ {
+  "nom": "cathédrale Saint-Érasme de Cervione",
+  "commune": "2B087",
+  "protection": "monument historique classé",
+  "lat": 42.331388888,
+  "lon": 9.491666666,
+  "wikidata": "Q2942459"
+ },
+ {
+  "nom": "église Santa Maria Assunta de Palasca",
+  "commune": "2B199",
+  "protection": "monument historique inscrit",
+  "lat": 42.5889,
+  "lon": 9.0428,
+  "wikidata": "Q29569369"
+ },
+ {
+  "nom": "pont d'Abra",
+  "commune": "2A360",
+  "protection": "monument historique classé",
+  "lat": 41.81,
+  "lon": 8.9597,
+  "wikidata": "Q22949654"
+ },
+ {
+  "nom": "tour du Sel",
+  "commune": "2B050",
+  "protection": "monument historique classé",
+  "lat": 42.5669,
+  "lon": 8.76,
+  "wikidata": "Q3567122"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste d'Ota",
+  "commune": "2A198",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.25792,
+  "lon": 8.74464,
+  "wikidata": "Q38639745"
+ },
+ {
+  "nom": "église Saint-Augustin d'Ortiporio",
+  "commune": "2B195",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.458253,
+  "lon": 9.347795,
+  "wikidata": "Q38426456"
+ },
+ {
+  "nom": "tour d'Albo",
+  "commune": "2B183",
+  "protection": "monument historique inscrit",
+  "lat": 42.8081,
+  "lon": 9.33389,
+  "wikidata": "Q7826824"
+ },
+ {
+  "nom": "église Saint-André de Sant'Andréa-di-Bozio",
+  "commune": "2B292",
+  "protection": "monument historique inscrit",
+  "lat": 42.2946,
+  "lon": 9.3072,
+  "wikidata": "Q22968830"
+ },
+ {
+  "nom": "église Saint-André de Campana",
+  "commune": "2B052",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.38884,
+  "lon": 9.35292,
+  "wikidata": "Q38414105"
+ },
+ {
+  "nom": "chapelle Sainte-Marguerite de Sorio",
+  "commune": "2B287",
+  "protection": "monument historique classé",
+  "lat": 42.5833,
+  "lon": 9.279,
+  "wikidata": "Q22950040"
+ },
+ {
+  "nom": "couvent Saint-François de Campoloro",
+  "commune": "2B087",
+  "protection": "monument historique inscrit",
+  "lat": 42.323,
+  "lon": 9.492,
+  "wikidata": "Q22975974"
+ },
+ {
+  "nom": "église Saint-André de Sant'Andréa",
+  "commune": "2A308",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.699585,
+  "lon": 9.066587,
+  "wikidata": "Q38417482"
+ },
+ {
+  "nom": "tour d'Isolella",
+  "commune": "2A228",
+  "protection": "monument historique inscrit",
+  "lat": 41.8444,
+  "lon": 8.75472,
+  "wikidata": "Q3379500"
+ },
+ {
+  "nom": "château Fantauzzi",
+  "commune": "2B170",
+  "protection": "monument historique inscrit",
+  "lat": 42.9478,
+  "lon": 9.3662,
+  "wikidata": "Q22996397"
+ },
+ {
+  "nom": "église Saint-Martin de Bisene",
+  "commune": "2A308",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.660762,
+  "lon": 9.088046,
+  "wikidata": "Q60387792"
+ },
+ {
+  "nom": "église Saint-Nicolas de Levie",
+  "commune": "2A142",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.70095,
+  "lon": 9.12295,
+  "wikidata": "Q41754273"
+ },
+ {
+  "nom": "chapelle San Giuvanni de Sisco",
+  "commune": "2B281",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.81029,
+  "lon": 9.47851,
+  "wikidata": "Q66305556"
+ },
+ {
+  "nom": "citadelle de Corte",
+  "commune": "2B096",
+  "protection": "monument historique classé",
+  "lat": 42.3059,
+  "lon": 9.14844,
+  "wikidata": "Q4231998"
+ },
+ {
+  "nom": "église Saint-Augustin de Montemaggiore",
+  "commune": "2B167",
+  "protection": "monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2024)",
+  "lat": 42.53562,
+  "lon": 8.8734,
+  "wikidata": "Q22949920"
+ },
+ {
+  "nom": "église de Zigliara",
+  "commune": "2A360",
+  "protection": "monument historique inscrit",
+  "lat": 41.84632,
+  "lon": 8.99514,
+  "wikidata": "Q22949672"
+ },
+ {
+  "nom": "église Saint-Roch de Piano",
+  "commune": "2B214",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.446861,
+  "lon": 9.404451,
+  "wikidata": "Q41754480"
+ },
+ {
+  "nom": "phare d'Alistro",
+  "commune": "2B303",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.2606,
+  "lon": 9.54056,
+  "wikidata": "Q3378146"
+ },
+ {
+  "nom": "couvent Sainte-Catherine de Sisco",
+  "commune": "2B281",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.8175,
+  "lon": 9.4866,
+  "wikidata": "Q22950014"
+ },
+ {
+  "nom": "église de l'Annonciation de Corte",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.30482,
+  "lon": 9.14964,
+  "wikidata": "Q15954072"
+ },
+ {
+  "nom": "église Saint-Georges de Quenza",
+  "commune": "2A254",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.76544,
+  "lon": 9.13808,
+  "wikidata": "Q22949659"
+ },
+ {
+  "nom": "église Sainte-Monique de Ghiatone",
+  "commune": "2A228",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.838224,
+  "lon": 8.772894,
+  "wikidata": "Q41754298"
+ },
+ {
+  "nom": "lavoir de Lavatoggio",
+  "commune": "2B138",
+  "protection": "monument historique inscrit",
+  "lat": 42.575,
+  "lon": 8.8776,
+  "wikidata": "Q22949880"
+ },
+ {
+  "nom": "couvent d'Alziprato",
+  "commune": "2B361",
+  "protection": "monument historique inscrit",
+  "lat": 42.5217,
+  "lon": 8.8694,
+  "wikidata": "Q22950091"
+ },
+ {
+  "nom": "tour de Galéria",
+  "commune": "2B121",
+  "protection": "monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2026)",
+  "lat": 42.4186,
+  "lon": 8.6575,
+  "wikidata": "Q7826862"
+ },
+ {
+  "nom": "fortin de Pasciolo",
+  "commune": "2B354",
+  "protection": "monument historique classé",
+  "lat": 42.1811,
+  "lon": 9.1618,
+  "wikidata": "Q22950089"
+ },
+ {
+  "nom": "église de l'Annonciation de Pero",
+  "commune": "2B210",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.4141,
+  "lon": 9.46641,
+  "wikidata": "Q41754478"
+ },
+ {
+  "nom": "église Saint-Cyprien de Mucchieta",
+  "commune": "2B170",
+  "protection": "monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2025) ; site départemental de la mission patrimoine en péril",
+  "lat": 42.9409,
+  "lon": 9.3688,
+  "wikidata": "Q22996379"
+ },
+ {
+  "nom": "couvent de Valle d'Alesani",
+  "commune": "2B216",
+  "protection": "monument historique classé",
+  "lat": 42.3196,
+  "lon": 9.4021,
+  "wikidata": "Q22949963"
+ },
+ {
+  "nom": "immeuble, 11 rue du Colonel-Feracci",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.306145,
+  "lon": 9.1497314,
+  "wikidata": "Q22975977"
+ },
+ {
+  "nom": "église Saint-André d'Omessa",
+  "commune": "2B193",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.3702,
+  "lon": 9.1983,
+  "wikidata": "Q22949953"
+ },
+ {
+  "nom": "église Saint-Sébastien de Silvareccio",
+  "commune": "2B280",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.44975,
+  "lon": 9.409846,
+  "wikidata": "Q41754539"
+ },
+ {
+  "nom": "chapelle Notre-Dame-de-l'Immaculée-Conception de Cruciata",
+  "commune": "2A228",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.842315,
+  "lon": 8.784817,
+  "wikidata": "Q60354057"
+ },
+ {
+  "nom": "couvent Saint-François de Sainte-Lucie-de-Tallano",
+  "commune": "2A308",
+  "protection": "monument historique classé",
+  "lat": 41.69516,
+  "lon": 9.066,
+  "wikidata": "Q22949660"
+ },
+ {
+  "nom": "église Saint-Gavin de Parata",
+  "commune": "2B202",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.372332,
+  "lon": 9.406408,
+  "wikidata": "Q38583933"
+ },
+ {
+  "nom": "chapelle Sainte-Croix de Corte",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.3066,
+  "lon": 9.1498,
+  "wikidata": "Q22949847"
+ },
+ {
+  "nom": "palais national de Corte",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.305,
+  "lon": 9.1492,
+  "wikidata": "Q22949849"
+ },
+ {
+  "nom": "église Saint-Paul de Solenzara",
+  "commune": "2A269",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.85827,
+  "lon": 9.40112,
+  "wikidata": "Q41754308"
+ },
+ {
+  "nom": "église Sainte-Marie-Majeure de Calvi",
+  "commune": "2B050",
+  "protection": "monument historique classé",
+  "lat": 42.5666,
+  "lon": 8.75756,
+  "wikidata": "Q3585182"
+ },
+ {
+  "nom": "chapelle Saint-Christophe de Polveroso",
+  "commune": "2B176",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.399179,
+  "lon": 9.35824,
+  "wikidata": "Q108107942"
+ },
+ {
+  "nom": "chapelle Saint-Pierre-Saint-Paul de Lumio",
+  "commune": "2B150",
+  "protection": "monument historique classé",
+  "lat": 42.5696,
+  "lon": 8.8327,
+  "wikidata": "Q2219947"
+ },
+ {
+  "nom": "immeuble Orenga-Roncajolo",
+  "commune": "2B033",
+  "protection": "monument historique inscrit",
+  "lat": 42.699094,
+  "lon": 9.450735,
+  "wikidata": "Q126019734"
+ },
+ {
+  "nom": "église Saint-Pierre de Sari",
+  "commune": "2A269",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.837369444,
+  "lon": 9.372622222,
+  "wikidata": "Q127541774"
+ },
+ {
+  "nom": "chapelle Saint-Michel de Pietriconi",
+  "commune": "2B281",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.82417,
+  "lon": 9.42818,
+  "wikidata": "Q60383857"
+ },
+ {
+  "nom": "château d'Algajola",
+  "commune": "2B010",
+  "protection": "monument historique inscrit",
+  "lat": 42.609296,
+  "lon": 8.862346,
+  "wikidata": "Q22949738"
+ },
+ {
+  "nom": "Capula",
+  "commune": "2A142",
+  "protection": "monument historique classé",
+  "lat": 41.722,
+  "lon": 9.13239,
+  "wikidata": "Q19953141"
+ },
+ {
+  "nom": "église Santa-Maria-Annunziata de Felce",
+  "commune": "2B111",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.35016,
+  "lon": 9.41822,
+  "wikidata": "Q41754388"
+ },
+ {
+  "nom": "glacière Nivera Nova",
+  "commune": "2B353",
+  "protection": "monument historique inscrit",
+  "lat": 42.7239,
+  "lon": 9.4187,
+  "wikidata": "Q65665935"
+ },
+ {
+  "nom": "immeuble, 2 place Gaffory",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.3049309,
+  "lon": 9.1495164,
+  "wikidata": "Q22975976"
+ },
+ {
+  "nom": "Palazzu de Sampiero Corso",
+  "commune": "2A312",
+  "protection": "monument historique inscrit",
+  "lat": 41.8733,
+  "lon": 8.9811,
+  "wikidata": "Q22996376"
+ },
+ {
+  "nom": "chapelle Saint-Rainier de Lunghignano",
+  "commune": "2B167",
+  "protection": "monument historique classé",
+  "lat": 42.5456,
+  "lon": 8.8793,
+  "wikidata": "Q22949906"
+ },
+ {
+  "nom": "église Saint-Michel de Casalabriva",
+  "commune": "2A071",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.75263,
+  "lon": 8.93749,
+  "wikidata": "Q38421632"
+ },
+ {
+  "nom": "couvent de Tuani",
+  "commune": "2B097",
+  "protection": "monument historique inscrit",
+  "lat": 42.5717,
+  "lon": 8.996,
+  "wikidata": "Q22949854"
+ },
+ {
+  "nom": "citadelle de Calvi",
+  "commune": "2B050",
+  "protection": "monument historique classé",
+  "lat": 42.568381,
+  "lon": 8.760706,
+  "wikidata": "Q21584222"
+ },
+ {
+  "nom": "chapelle Santa Maria Assunta de Pie-d'Orezza",
+  "commune": "2B222",
+  "protection": "monument historique classé",
+  "lat": 42.3715,
+  "lon": 9.3537,
+  "wikidata": "Q22950147"
+ },
+ {
+  "nom": "chapelle funéraire de la famille Santoni",
+  "commune": "2B281",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q124743822"
+ },
+ {
+  "nom": "chapelle funéraire de la famille Paralitici",
+  "commune": "2B281",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q124743847"
+ },
+ {
+  "nom": "tour de Porto",
+  "commune": "2A198",
+  "protection": "monument historique inscrit",
+  "lat": 42.2678,
+  "lon": 8.69177,
+  "wikidata": "Q3379478"
+ },
+ {
+  "nom": "pont génois de Pianella",
+  "commune": "2A198",
+  "protection": "monument historique classé",
+  "lat": 42.25627,
+  "lon": 8.76104,
+  "wikidata": "Q22949653"
+ },
+ {
+  "nom": "église Santa Maria de Pruno",
+  "commune": "2B252",
+  "protection": "monument historique classé",
+  "lat": 42.41897,
+  "lon": 9.45266,
+  "wikidata": "Q22949970"
+ },
+ {
+  "nom": "église Saint-Julien de Favalello",
+  "commune": "2B303",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.314427,
+  "lon": 9.490634,
+  "wikidata": "Q38649596"
+ },
+ {
+  "nom": "oratoire Saint-Antoine de Calvi",
+  "commune": "2B050",
+  "protection": "monument historique classé",
+  "lat": 42.5679,
+  "lon": 8.7608,
+  "wikidata": "Q11982849"
+ },
+ {
+  "nom": "château de Vico d'Ornano",
+  "commune": "2A312",
+  "protection": "monument historique inscrit",
+  "lat": 41.8729,
+  "lon": 8.9818,
+  "wikidata": "Q22996374"
+ },
+ {
+  "nom": "tour Saint-Jean",
+  "commune": "2B170",
+  "protection": "monument historique inscrit",
+  "lat": 42.9451,
+  "lon": 9.3671,
+  "wikidata": "Q22950097"
+ },
+ {
+  "nom": "Palazzu de Francesco Semidei",
+  "commune": "2B086",
+  "protection": "monument historique inscrit",
+  "lat": 42.9609,
+  "lon": 9.3683,
+  "wikidata": "Q22996399"
+ },
+ {
+  "nom": "chapelle Sainte-Marie de Quenza",
+  "commune": "2A254",
+  "protection": "monument historique classé",
+  "lat": 41.76295,
+  "lon": 9.13465,
+  "wikidata": "Q22949657"
+ },
+ {
+  "nom": "couvent de l'Annonciation de Morsiglia",
+  "commune": "2B170",
+  "protection": "monument historique inscrit",
+  "lat": 42.9533,
+  "lon": 9.3623,
+  "wikidata": "Q22975982"
+ },
+ {
+  "nom": "église Saint-Pierre-et-Saint-Paul de Pietrosella",
+  "commune": "2A228",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.836823,
+  "lon": 8.845706,
+  "wikidata": "Q73639795"
+ },
+ {
+  "nom": "église San Giovanni Battista de Corte",
+  "commune": "2B096",
+  "protection": "monument historique classé",
+  "lat": 42.29402778,
+  "lon": 9.16722222,
+  "wikidata": "Q1638651"
+ },
+ {
+  "nom": "chapelle Saint-Sébastien d'Ortiporio",
+  "commune": "2B195",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.45736,
+  "lon": 9.34288,
+  "wikidata": "Q65643855"
+ },
+ {
+  "nom": "monument commémoratif du Général Jean-Pierre Gaffori",
+  "commune": "2B096",
+  "protection": "patrimoine architectural ; bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.305029444,
+  "lon": 9.149534847,
+  "wikidata": "Q122454082"
+ },
+ {
+  "nom": "église Sainte-Christine de Valle-di-Campoloro",
+  "commune": "2B335",
+  "protection": "monument historique classé",
+  "lat": 42.33734,
+  "lon": 9.50086,
+  "wikidata": "Q3584960"
+ },
+ {
+  "nom": "église Saint-Michel de Nocario",
+  "commune": "2B176",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.398398,
+  "lon": 9.352116,
+  "wikidata": "Q41754455"
+ },
+ {
+  "nom": "église Saint-Antoine-de-Padoue de Pie-d'Orezza",
+  "commune": "2B222",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.3728,
+  "lon": 9.35433,
+  "wikidata": "Q38421818"
+ },
+ {
+  "nom": "hôtel Nord-Sud",
+  "commune": "2B050",
+  "protection": "monument historique inscrit",
+  "lat": 42.5693,
+  "lon": 8.7571,
+  "wikidata": "Q22949789"
+ },
+ {
+  "nom": "maison Arrighi de Casanova",
+  "commune": "2B096",
+  "protection": "monument historique inscrit",
+  "lat": 42.3053,
+  "lon": 9.1494,
+  "wikidata": "Q22950096"
+ },
+ {
+  "nom": "Cucuruzzu",
+  "commune": "2A142",
+  "protection": "monument historique classé",
+  "lat": 41.724722222,
+  "lon": 9.126666666,
+  "wikidata": "Q1048878"
+ },
+ {
+  "nom": "église Saint-Martin d'Erbajolo",
+  "commune": "2B105",
+  "protection": "monument historique classé",
+  "lat": 42.26484,
+  "lon": 9.27641,
+  "wikidata": "Q3582631"
+ },
+ {
+  "nom": "maison Giacomoni",
+  "commune": "2A308",
+  "protection": "monument historique inscrit",
+  "lat": 41.69718,
+  "lon": 9.06278,
+  "wikidata": "Q22949661"
+ },
+ {
+  "nom": "église Sainte-Marie de Salice",
+  "commune": "2A266",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.120352,
+  "lon": 8.902879,
+  "wikidata": "Q68571106"
+ },
+ {
+  "nom": "chapelle Notre-Dame-des-Neiges de Bariggioni",
+  "commune": "2B281",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.813792,
+  "lon": 9.428222,
+  "wikidata": "Q63966862"
+ },
+ {
+  "nom": "chapelle San Cervone de Lavatoggio",
+  "commune": "2B138",
+  "protection": "monument historique inscrit",
+  "lat": 42.5693,
+  "lon": 8.8822,
+  "wikidata": "Q22949878"
+ },
+ {
+  "nom": "église Saint-Augustin de Mucchietu",
+  "commune": "2B335",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.335025,
+  "lon": 9.494789,
+  "wikidata": "Q38426137"
+ },
+ {
+  "nom": "ancienne église Saint-Michel de Penta-di-Casinca",
+  "commune": "2B207",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.46165,
+  "lon": 9.45853,
+  "wikidata": "Q60389277"
+ },
+ {
+  "nom": "tour génoise de Fiorentina",
+  "commune": "2B303",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.2833,
+  "lon": 9.55944,
+  "wikidata": "Q7826860"
+ },
+ {
+  "nom": "église de l'Annonciation, dite l'Annunziata de Piobetta",
+  "commune": "2B234",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.34549,
+  "lon": 9.38272,
+  "wikidata": "Q41754499"
+ },
+ {
+  "nom": "église Sainte-Marie de Salice",
+  "commune": "2A266",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.120352,
+  "lon": 8.902879,
+  "wikidata": "Q73640604"
+ },
+ {
+  "nom": "fort de Vizzavona",
+  "commune": "2B354",
+  "protection": "monument historique inscrit",
+  "lat": 42.1136,
+  "lon": 9.1129,
+  "wikidata": "Q22950150"
+ },
+ {
+  "nom": "église de l'Annonciation de Borgo",
+  "commune": "2B042",
+  "protection": "monument historique classé",
+  "lat": 42.554359,
+  "lon": 9.42598,
+  "wikidata": "Q22949777"
+ },
+ {
+  "nom": "couvent des Capucins de Vescovato",
+  "commune": "2B346",
+  "protection": "monument historique inscrit",
+  "lat": 42.4924,
+  "lon": 9.4434,
+  "wikidata": "Q22996400"
+ },
+ {
+  "nom": "église Santa Maria Assunta de Santa-Maria-Figaniella",
+  "commune": "2A310",
+  "protection": "monument historique classé",
+  "lat": 41.70621,
+  "lon": 9.00301,
+  "wikidata": "Q22949663"
+ },
+ {
+  "nom": "église orthodoxe de Cargèse",
+  "commune": "2A065",
+  "protection": "monument historique classé ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2020)",
+  "lat": 42.13356,
+  "lon": 8.59509,
+  "wikidata": "Q9188105"
+ },
+ {
+  "nom": "chapelle Santa Maria de Cambia",
+  "commune": "2B051",
+  "protection": "monument historique classé",
+  "lat": 42.3740524,
+  "lon": 9.2904631,
+  "wikidata": "Q22996393"
+ },
+ {
+  "nom": "église Saint-Nicolas de Monacia-d'Aullène",
+  "commune": "2A163",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.51371,
+  "lon": 9.01168,
+  "wikidata": "Q41754287"
+ },
+ {
+  "nom": "église Saint-Pancrace de Pila-Canale",
+  "commune": "2A232",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.81205,
+  "lon": 8.91041,
+  "wikidata": "Q41754302"
+ },
+ {
+  "nom": "dolmen du Monte Revincu",
+  "commune": "2B314",
+  "protection": "monument historique classé",
+  "lat": 42.670885,
+  "lon": 9.25802,
+  "wikidata": "Q17539593"
+ },
+ {
+  "nom": "église de l'Assomption de Cargèse",
+  "commune": "2A065",
+  "protection": "monument historique inscrit",
+  "lat": 42.13369,
+  "lon": 8.59644,
+  "wikidata": "Q22949639"
+ },
+ {
+  "nom": "tour de la Mortella",
+  "commune": "2B298",
+  "protection": "monument historique inscrit",
+  "lat": 42.715,
+  "lon": 9.256944,
+  "wikidata": "Q10984637"
+ },
+ {
+  "nom": "pont de Ponte Nuovo",
+  "commune": "2B079",
+  "protection": "monument historique inscrit",
+  "lat": 42.4862,
+  "lon": 9.2806,
+  "wikidata": "Q22949831"
+ },
+ {
+  "nom": "tour de Poghju",
+  "commune": "2B107",
+  "protection": "monument historique inscrit",
+  "lat": 42.9828,
+  "lon": 9.3728,
+  "wikidata": "Q7826881"
+ },
+ {
+  "nom": "phare de la Giraglia",
+  "commune": "2B107",
+  "protection": "monument historique classé",
+  "lat": 43.0267,
+  "lon": 9.4056,
+  "wikidata": "Q3378475"
+ },
+ {
+  "nom": "chapelle Santa Maria Assunta de Furiani",
+  "commune": "2B120",
+  "protection": "monument historique classé",
+  "lat": 42.6455,
+  "lon": 9.4037,
+  "wikidata": "Q22950139"
+ },
+ {
+  "nom": "église Saint-Nicolas de Serra-di-Scopamène",
+  "commune": "2A278",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.7528482,
+  "lon": 9.0996702,
+  "wikidata": "Q41754316"
+ },
+ {
+  "nom": "église Sainte-Cécile de Scata",
+  "commune": "2B273",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.41825,
+  "lon": 9.402323,
+  "wikidata": "Q38509554"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de La Porta",
+  "commune": "2B246",
+  "protection": "monument historique classé",
+  "lat": 42.4232,
+  "lon": 9.35289,
+  "wikidata": "Q3581967"
+ },
+ {
+  "nom": "tour de Sagone",
+  "commune": "2A348",
+  "protection": "monument historique inscrit",
+  "lat": 42.1106,
+  "lon": 8.68667,
+  "wikidata": "Q3898384"
+ },
+ {
+  "nom": "église Saint-Blaise de Poggio-Marinaccio",
+  "commune": "2B241",
+  "protection": "monument historique inscrit",
+  "lat": 42.43409,
+  "lon": 9.35363,
+  "wikidata": "Q38469882"
+ },
+ {
+  "nom": "Santa Maria di Riscamone",
+  "commune": "2B337",
+  "protection": "monument historique classé",
+  "lat": 42.4581,
+  "lon": 9.27,
+  "wikidata": "Q13518708"
+ },
+ {
+  "nom": "chapelle de confrérie Sainte-Croix",
+  "commune": "2B241",
+  "protection": "monument historique classé",
+  "lat": 42.4304,
+  "lon": 9.354,
+  "wikidata": "Q57594571"
+ },
+ {
+  "nom": "chapelle Santa Maria Assunta de Favalello",
+  "commune": "2B110",
+  "protection": "monument historique classé",
+  "lat": 42.29505,
+  "lon": 9.27241,
+  "wikidata": "Q22949860"
+ },
+ {
+  "nom": "église Santa Croce de Novella",
+  "commune": "2B180",
+  "protection": "monument historique inscrit",
+  "lat": 42.585611111,
+  "lon": 9.115916666,
+  "wikidata": "Q22949937"
+ },
+ {
+  "nom": "église Saint-André de Sant'Andrea",
+  "commune": "2B102",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.47421,
+  "lon": 9.35567,
+  "wikidata": "Q38417464"
+ },
+ {
+  "nom": "pont de Ponte Leccia",
+  "commune": "2B169",
+  "protection": "monument historique inscrit",
+  "lat": 42.4629,
+  "lon": 9.2069,
+  "wikidata": "Q22949927"
+ },
+ {
+  "nom": "couvent Saint-François d'Ampriani",
+  "commune": "2B015",
+  "protection": "monument historique inscrit",
+  "lat": 42.2602,
+  "lon": 9.3555,
+  "wikidata": "Q22996388"
+ },
+ {
+  "nom": "maison Filippi-Luigi-Saladini",
+  "commune": "2B352",
+  "protection": "monument historique inscrit",
+  "lat": 42.5625,
+  "lon": 8.9892,
+  "wikidata": "Q57594211"
+ },
+ {
+  "nom": "tour de Capigliolo",
+  "commune": "2A070",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.0656,
+  "lon": 8.72278,
+  "wikidata": "Q7826845"
+ },
+ {
+  "nom": "couvent Saint-François de Morosaglia",
+  "commune": "2B169",
+  "protection": "monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2021)",
+  "lat": 42.4348,
+  "lon": 9.2982,
+  "wikidata": "Q22950143"
+ },
+ {
+  "nom": "église Saint-Sauveur de Pietricaggio",
+  "commune": "2B227",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.33529,
+  "lon": 9.39091,
+  "wikidata": "Q41754494"
+ },
+ {
+  "nom": "église Saint-Césaire de Grillasca",
+  "commune": "2B187",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.76697,
+  "lon": 9.36973,
+  "wikidata": "Q38478130"
+ },
+ {
+  "nom": "église San Pantaleone de Barrettali",
+  "commune": "2B030",
+  "protection": "monument historique inscrit",
+  "lat": 42.8766,
+  "lon": 9.3553,
+  "wikidata": "Q22949755"
+ },
+ {
+  "nom": "maison natale de Pascal Paoli",
+  "commune": "2B169",
+  "protection": "monument historique inscrit",
+  "lat": 42.4377,
+  "lon": 9.3088,
+  "wikidata": "Q22949924"
+ },
+ {
+  "nom": "église Saint-Cyr-et-Sainte-Julitte de Prunelli-di-Casacconi",
+  "commune": "2B250",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.5038,
+  "lon": 9.40197,
+  "wikidata": "Q38493682"
+ },
+ {
+  "nom": "Abbadie Santa Maria Assunta de Cruscaglia",
+  "commune": "2A160",
+  "protection": "monument historique inscrit",
+  "lat": 41.80775,
+  "lon": 9.00038,
+  "wikidata": "Q22949652"
+ },
+ {
+  "nom": "église Saint-Élie de Cargèse",
+  "commune": "2A065",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.144988,
+  "lon": 8.632622,
+  "wikidata": "Q55791125"
+ },
+ {
+  "nom": "tour de Furiani",
+  "commune": "2B120",
+  "protection": "monument historique inscrit",
+  "lat": 42.65844444,
+  "lon": 9.41463889,
+  "wikidata": "Q30593920"
+ },
+ {
+  "nom": "tour de Pianosa",
+  "commune": "2B182",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.64,
+  "lon": 8.9875,
+  "wikidata": "Q10967256"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de Poggiale",
+  "commune": "2A114",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.52109,
+  "lon": 9.09575,
+  "wikidata": "Q38633628"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de Tox",
+  "commune": "2B328",
+  "protection": "monument historique inscrit",
+  "lat": 42.2509,
+  "lon": 9.4301,
+  "wikidata": "Q22950063"
+ },
+ {
+  "nom": "tour de Padulella",
+  "commune": "2B313",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.37472222,
+  "lon": 9.53194444,
+  "wikidata": "Q7826876"
+ },
+ {
+  "nom": "église San Giovanni de Grossa",
+  "commune": "2A129",
+  "protection": "monument historique classé",
+  "lat": 41.61354,
+  "lon": 8.89247,
+  "wikidata": "Q22949648"
+ },
+ {
+  "nom": "pro-cathédrale Saint-Martin de Vescovato",
+  "commune": "2B346",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.493333358,
+  "lon": 9.43960436,
+  "wikidata": "Q7923151"
+ },
+ {
+  "nom": "castello de Serravalle",
+  "commune": "2B248",
+  "protection": "monument historique inscrit",
+  "lat": 42.4387,
+  "lon": 9.1648,
+  "wikidata": "Q25675442"
+ },
+ {
+  "nom": "cathédrale de Nebbio",
+  "commune": "2B298",
+  "protection": "monument historique classé",
+  "lat": 42.67991,
+  "lon": 9.31107,
+  "wikidata": "Q2942733"
+ },
+ {
+  "nom": "phare de la Pietra",
+  "commune": "2B134",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.6444,
+  "lon": 8.93222,
+  "wikidata": "Q3378484"
+ },
+ {
+  "nom": "église de l'Annonciation de Piazzole",
+  "commune": "2B217",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.393472222,
+  "lon": 9.402194444,
+  "wikidata": "Q41754483"
+ },
+ {
+  "nom": "tombeau de Maestracci",
+  "commune": "2B182",
+  "protection": "monument historique inscrit",
+  "lat": 42.5739,
+  "lon": 9.009,
+  "wikidata": "Q22949941"
+ },
+ {
+  "nom": "chapelle San Quilico de Montilati",
+  "commune": "2A114",
+  "protection": "monument historique classé",
+  "lat": 41.51519,
+  "lon": 9.16149,
+  "wikidata": "Q114480"
+ },
+ {
+  "nom": "couvent Saint-Antoine d'Olmeto",
+  "commune": "2A189",
+  "protection": "monument historique inscrit",
+  "lat": 41.72388,
+  "lon": 8.92143,
+  "wikidata": "Q16942749"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de Poggio-Mezzana",
+  "commune": "2B242",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.40213,
+  "lon": 9.48639,
+  "wikidata": "Q38633654"
+ },
+ {
+  "nom": "tour d'Omigna",
+  "commune": "2A065",
+  "protection": "monument historique inscrit",
+  "lat": 42.1464,
+  "lon": 8.56,
+  "wikidata": "Q3379552"
+ },
+ {
+  "nom": "église Saint-Nicolas de Cognocoli-Monticchi",
+  "commune": "2A091",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.82675,
+  "lon": 8.90458,
+  "wikidata": "Q41754245"
+ },
+ {
+  "nom": "menhir de Vaccil Vecchiu",
+  "commune": "2A129",
+  "protection": "monument historique classé",
+  "lat": 41.59378,
+  "lon": 8.87634,
+  "wikidata": "Q22949649"
+ },
+ {
+  "nom": "citadelle de Saint-Florent",
+  "commune": "2B298",
+  "protection": "monument historique classé ; monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2025)",
+  "lat": 42.682777777,
+  "lon": 9.301666666,
+  "wikidata": "Q18214401"
+ },
+ {
+  "nom": "maison Sebastiani-Conneau",
+  "commune": "2B246",
+  "protection": "monument historique inscrit",
+  "lat": 42.423,
+  "lon": 9.3525,
+  "wikidata": "Q22996391"
+ },
+ {
+  "nom": "église Saint-Jean de Santo-Pietro-di-Tenda",
+  "commune": "2B314",
+  "protection": "monument historique inscrit",
+  "lat": 42.604762005,
+  "lon": 9.260809666,
+  "wikidata": "Q22950113"
+ },
+ {
+  "nom": "église Santa Reparata de Morosaglia",
+  "commune": "2B169",
+  "protection": "monument historique inscrit",
+  "lat": 42.4373,
+  "lon": 9.3023,
+  "wikidata": "Q15954061"
+ },
+ {
+  "nom": "église de l'Assomption de Santa-Maria-Poggio",
+  "commune": "2B311",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.34574,
+  "lon": 9.49677,
+  "wikidata": "Q41754570"
+ },
+ {
+  "nom": "chapelle Santa Maria d'Arca",
+  "commune": "2B171",
+  "protection": "monument historique classé",
+  "lat": 42.1736,
+  "lon": 9.1832,
+  "wikidata": "Q22950126"
+ },
+ {
+  "nom": "marché couvert de L'Île-Rousse",
+  "commune": "2B134",
+  "protection": "monument historique classé",
+  "lat": 42.6349,
+  "lon": 8.9383,
+  "wikidata": "Q22949874"
+ },
+ {
+  "nom": "musée Pascal-Paoli",
+  "commune": "2B169",
+  "protection": "maisons des Illustres",
+  "lat": 42.437772178,
+  "lon": 9.308863927,
+  "wikidata": "Q3329298"
+ },
+ {
+  "nom": "couvent Saint-Joseph de Santo-Pietro-di-Tenda",
+  "commune": "2B314",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.6125,
+  "lon": 9.2666,
+  "wikidata": "Q22949988"
+ },
+ {
+  "nom": "chapelle San Quilico de Cambia",
+  "commune": "2B051",
+  "protection": "monument historique classé",
+  "lat": 42.378888888,
+  "lon": 9.293055555,
+  "wikidata": "Q2219977"
+ },
+ {
+  "nom": "église Saint-André de Granaggiolo",
+  "commune": "2B107",
+  "protection": "monument historique inscrit",
+  "lat": 42.9793,
+  "lon": 9.3888,
+  "wikidata": "Q22950120"
+ },
+ {
+  "nom": "chapelle Saint-Jean-Baptiste de Pruno",
+  "commune": "2A114",
+  "protection": "monument historique classé",
+  "lat": 41.534472,
+  "lon": 9.149139,
+  "wikidata": "Q22949642"
+ },
+ {
+  "nom": "église Saint-Michel d'Isolaccio",
+  "commune": "2B318",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.4287,
+  "lon": 9.47774,
+  "wikidata": "Q41754585"
+ },
+ {
+  "nom": "cathédrale Sant'Appiano de Sagone",
+  "commune": "2A348",
+  "protection": "monument historique inscrit",
+  "lat": 42.1184,
+  "lon": 8.69021,
+  "wikidata": "Q16942971"
+ },
+ {
+  "nom": "église Saint-Thomas de Pastoreccia",
+  "commune": "2B079",
+  "protection": "monument historique classé",
+  "lat": 42.4696,
+  "lon": 9.3129,
+  "wikidata": "Q22949824"
+ },
+ {
+  "nom": "Casa Strenna",
+  "commune": "2B107",
+  "protection": "monument historique inscrit",
+  "lat": 42.9749,
+  "lon": 9.3784,
+  "wikidata": "Q22996395"
+ },
+ {
+  "nom": "tour de Giraglia",
+  "commune": "2B107",
+  "protection": "monument historique inscrit",
+  "lat": 43.0269,
+  "lon": 9.40556,
+  "wikidata": "Q7826864"
+ },
+ {
+  "nom": "Stantara d'Apricciani",
+  "commune": "2A348",
+  "protection": "monument historique classé",
+  "lat": 42.16408,
+  "lon": 8.7878,
+  "wikidata": "Q13518356"
+ },
+ {
+  "nom": "église Saint-Paul de Cargiaca",
+  "commune": "2A066",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.731441,
+  "lon": 9.047982,
+  "wikidata": "Q41754236"
+ },
+ {
+  "nom": "chapelle Santu Petru di Nesce",
+  "commune": "2B175",
+  "protection": "monument historique inscrit",
+  "lat": 42.5522,
+  "lon": 8.9476,
+  "wikidata": "Q22950100"
+ },
+ {
+  "nom": "chapelle Saint-Laurent de Pietroso",
+  "commune": "2B229",
+  "protection": "monument historique classé",
+  "lat": 42.1598,
+  "lon": 9.2716,
+  "wikidata": "Q22949968"
+ },
+ {
+  "nom": "église de la Sainte-Trinité de Frasseto",
+  "commune": "2A119",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.895619,
+  "lon": 9.021857,
+  "wikidata": "Q41754262"
+ },
+ {
+  "nom": "tour de Negro",
+  "commune": "2B187",
+  "protection": "monument historique inscrit",
+  "lat": 42.760833,
+  "lon": 9.340278,
+  "wikidata": "Q7826875"
+ },
+ {
+  "nom": "église Sainte-Marie d'Ortale",
+  "commune": "2B194",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.31685,
+  "lon": 9.42292,
+  "wikidata": "Q38496217"
+ },
+ {
+  "nom": "église Saint-Roch de Pietraserena",
+  "commune": "2B226",
+  "protection": "monument historique classé",
+  "lat": 42.2363,
+  "lon": 9.3453,
+  "wikidata": "Q22949967"
+ },
+ {
+  "nom": "site archéologique du Monte Revincu",
+  "commune": "2B314",
+  "protection": "monument historique inscrit ; monument historique classé",
+  "lat": 42.6701,
+  "lon": 9.257,
+  "wikidata": "Q59275004"
+ },
+ {
+  "nom": "Castello di Cuntorba",
+  "commune": "2A189",
+  "protection": "monument historique inscrit",
+  "lat": 41.70454,
+  "lon": 8.85861,
+  "wikidata": "Q25382353"
+ },
+ {
+  "nom": "église Saint-Pierre-et-Saint-Paul de Quasquara",
+  "commune": "2A253",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.90021,
+  "lon": 9.00987,
+  "wikidata": "Q41754305"
+ },
+ {
+  "nom": "église San Nicolao de San Nicolao",
+  "commune": "2B313",
+  "protection": "monument historique classé",
+  "lat": 42.37,
+  "lon": 9.5,
+  "wikidata": "Q22949977"
+ },
+ {
+  "nom": "église Saint-Joseph d'Ogliastrello",
+  "commune": "2A114",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.509282,
+  "lon": 9.139777,
+  "wikidata": "Q38646179"
+ },
+ {
+  "nom": "église Santa Maria Assunta de Piedicorte-di-Gaggio",
+  "commune": "2B218",
+  "protection": "monument historique classé",
+  "lat": 42.2361,
+  "lon": 9.3281,
+  "wikidata": "Q22949964"
+ },
+ {
+  "nom": "Grotta Scritta",
+  "commune": "2B187",
+  "protection": "monument historique inscrit",
+  "lat": 42.7714,
+  "lon": 9.3532,
+  "wikidata": "Q19284380"
+ },
+ {
+  "nom": "église San-Mamiliano de Taglio",
+  "commune": "2B318",
+  "protection": "monument historique inscrit",
+  "lat": 42.43534,
+  "lon": 9.46984,
+  "wikidata": "Q41754581"
+ },
+ {
+  "nom": "château de Tuda",
+  "commune": "2B188",
+  "protection": "monument historique inscrit",
+  "lat": 42.6116,
+  "lon": 9.3551,
+  "wikidata": "Q22949952"
+ },
+ {
+  "nom": "église Saint-Blaise de Calenzana",
+  "commune": "2B049",
+  "protection": "monument historique classé",
+  "lat": 42.5085,
+  "lon": 8.85573,
+  "wikidata": "Q3581098"
+ },
+ {
+  "nom": "église Saint-Étienne de Novale",
+  "commune": "2B179",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.309908,
+  "lon": 9.414458,
+  "wikidata": "Q38571788"
+ },
+ {
+  "nom": "église paroissiale Saint-Pierre-Saint-Paul",
+  "commune": "2B054",
+  "protection": "monument historique classé",
+  "lat": 42.4924,
+  "lon": 9.3566,
+  "wikidata": "Q22949797"
+ },
+ {
+  "nom": "site archéologique de San Giovanni",
+  "commune": "2A215",
+  "protection": "monument historique inscrit",
+  "lat": 41.46203,
+  "lon": 9.051,
+  "wikidata": "Q22975732"
+ },
+ {
+  "nom": "chapelle Saint-Michel de Canaghia",
+  "commune": "2B054",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.49922,
+  "lon": 9.34684,
+  "wikidata": "Q60383486"
+ },
+ {
+  "nom": "église Sainte-Marguerite de Zoza",
+  "commune": "2A363",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.718352,
+  "lon": 9.068916,
+  "wikidata": "Q38522835"
+ },
+ {
+  "nom": "chapelle San Nicolao de Sermano",
+  "commune": "2B275",
+  "protection": "monument historique classé",
+  "lat": 42.3117,
+  "lon": 9.2654,
+  "wikidata": "Q22950003"
+ },
+ {
+  "nom": "église Saint-Michel de Murato",
+  "commune": "2B172",
+  "protection": "monument historique classé",
+  "lat": 42.58607,
+  "lon": 9.3335,
+  "wikidata": "Q3583213"
+ },
+ {
+  "nom": "tour de Santa-Maria-della-Chiappella",
+  "commune": "2B261",
+  "protection": "monument historique inscrit ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2018)",
+  "lat": 42.9908,
+  "lon": 9.45167,
+  "wikidata": "Q7826900"
+ },
+ {
+  "nom": "église Saint-Sauveur de Guargualé",
+  "commune": "2A132",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.835961,
+  "lon": 8.924975,
+  "wikidata": "Q41754271"
+ },
+ {
+  "nom": "église Saint-André de Sant'Andréa-di-Cotone",
+  "commune": "2B293",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.31417,
+  "lon": 9.4827,
+  "wikidata": "Q38417503"
+ },
+ {
+  "nom": "chapelle Notre-Dame-des-Neiges",
+  "commune": "2B043",
+  "protection": "monument historique classé",
+  "lat": 42.7783,
+  "lon": 9.4605,
+  "wikidata": "Q22949783"
+ },
+ {
+  "nom": "tour de Nonza",
+  "commune": "2B178",
+  "protection": "monument historique inscrit",
+  "lat": 42.785,
+  "lon": 9.34361,
+  "wikidata": "Q3379520"
+ },
+ {
+  "nom": "église Saint-Michel de Lucciana",
+  "commune": "2B148",
+  "protection": "monument historique inscrit",
+  "lat": 42.5463,
+  "lon": 9.4175,
+  "wikidata": "Q22969251"
+ },
+ {
+  "nom": "chapelle de confrérie de Rogliano",
+  "commune": "2B261",
+  "protection": "monument historique classé",
+  "lat": 42.9563,
+  "lon": 9.4194,
+  "wikidata": "Q1712191"
+ },
+ {
+  "nom": "église Santa Lucia de Venzolasca",
+  "commune": "2B343",
+  "protection": "monument historique inscrit",
+  "lat": 42.4842,
+  "lon": 9.4539,
+  "wikidata": "Q22950087"
+ },
+ {
+  "nom": "tour d'Erbalunga",
+  "commune": "2B043",
+  "protection": "monument historique inscrit",
+  "lat": 42.7736,
+  "lon": 9.47694,
+  "wikidata": "Q2804401"
+ },
+ {
+  "nom": "église Saint-Bernardin de Piedipartino",
+  "commune": "2B221",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.368205,
+  "lon": 9.358993,
+  "wikidata": "Q38436861"
+ },
+ {
+  "nom": "chapelle Sainte-Croix de Poggio-d'Oletta",
+  "commune": "2B239",
+  "protection": "monument historique inscrit",
+  "lat": 42.64,
+  "lon": 9.36,
+  "wikidata": "Q56760895"
+ },
+ {
+  "nom": "église Sainte-Marie de Piana",
+  "commune": "2A212",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.2385,
+  "lon": 8.636488888,
+  "wikidata": "Q38523709"
+ },
+ {
+  "nom": "tour de Miomo",
+  "commune": "2B309",
+  "protection": "monument historique inscrit",
+  "lat": 42.7414,
+  "lon": 9.46167,
+  "wikidata": "Q7826873"
+ },
+ {
+  "nom": "église Saint-Joseph de Brustico",
+  "commune": "2B063",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.359228,
+  "lon": 9.369546,
+  "wikidata": "Q38643558"
+ },
+ {
+  "nom": "église Saint-Pierre-et-Saint-Paul de Valle-d'Alesani",
+  "commune": "2B334",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.32785,
+  "lon": 9.41749,
+  "wikidata": "Q41754595"
+ },
+ {
+  "nom": "chapelle de la Confrérie Sainte-Croix",
+  "commune": "2B049",
+  "protection": "monument historique inscrit",
+  "lat": 42.5081,
+  "lon": 8.8551,
+  "wikidata": "Q22949787"
+ },
+ {
+  "nom": "église Saint-Nicolas de Porri",
+  "commune": "2B245",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.45305,
+  "lon": 9.43359,
+  "wikidata": "Q41754511"
+ },
+ {
+  "nom": "enclos A. Vaccaghja",
+  "commune": "2B231",
+  "protection": "monument historique inscrit",
+  "lat": 42.6,
+  "lon": 8.9031,
+  "wikidata": "Q22950102"
+ },
+ {
+  "nom": "église de l'Annonciation de Stazzona",
+  "commune": "2B291",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.37081,
+  "lon": 9.37237,
+  "wikidata": "Q41754550"
+ },
+ {
+  "nom": "église Santa Reparata di Balagna",
+  "commune": "2B316",
+  "protection": "monument historique classé",
+  "lat": 42.6039,
+  "lon": 8.9294,
+  "wikidata": "Q22949978"
+ },
+ {
+  "nom": "église San Giovanni de San Giovanni-di-Moriani",
+  "commune": "2B302",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.3775,
+  "lon": 9.4767,
+  "wikidata": "Q22949976"
+ },
+ {
+  "nom": "Mariana",
+  "commune": "2B148",
+  "protection": "monument historique classé",
+  "lat": 42.539166666,
+  "lon": 9.495833333,
+  "wikidata": "Q507251"
+ },
+ {
+  "nom": "église Saint-François-Xavier de Monticello",
+  "commune": "2B168",
+  "protection": "monument historique classé",
+  "lat": 42.61267,
+  "lon": 8.9617,
+  "wikidata": "Q3581458"
+ },
+ {
+  "nom": "chapelle Saint-Jean-Baptiste de Rogliano",
+  "commune": "2B261",
+  "protection": "monument historique inscrit",
+  "lat": 42.9562,
+  "lon": 9.4192,
+  "wikidata": "Q59275088"
+ },
+ {
+  "nom": "église Saint-Étienne de Conca",
+  "commune": "2A092",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.734327,
+  "lon": 9.336056,
+  "wikidata": "Q38569213"
+ },
+ {
+  "nom": "tour de Girolata",
+  "commune": "2A197",
+  "protection": "monument historique classé ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2019)",
+  "lat": 42.3475,
+  "lon": 8.61278,
+  "wikidata": "Q7826865"
+ },
+ {
+  "nom": "église San Quilico de Giocatojo",
+  "commune": "2B125",
+  "protection": "monument historique classé",
+  "lat": 42.4433,
+  "lon": 9.3538,
+  "wikidata": "Q22949870"
+ },
+ {
+  "nom": "maison Ferdinandi",
+  "commune": "2B043",
+  "protection": "monument historique classé",
+  "lat": 42.7693,
+  "lon": 9.4575,
+  "wikidata": "Q22968829"
+ },
+ {
+  "nom": "église Saint-Martin de Sotta",
+  "commune": "2A288",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.545445,
+  "lon": 9.195793,
+  "wikidata": "Q60388932"
+ },
+ {
+  "nom": "chapelle Saint-Georges de Valle-d'Orezza",
+  "commune": "2B338",
+  "protection": "monument historique classé",
+  "lat": 42.3643,
+  "lon": 9.391,
+  "wikidata": "Q22950076"
+ },
+ {
+  "nom": "couvent Saint-François d'Oletta",
+  "commune": "2B185",
+  "protection": "monument historique inscrit",
+  "lat": 42.6371,
+  "lon": 9.3481,
+  "wikidata": "Q22949947"
+ },
+ {
+  "nom": "église Saint-Sylvestre de Perelli",
+  "commune": "2B208",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.32323,
+  "lon": 9.39319,
+  "wikidata": "Q41754475"
+ },
+ {
+  "nom": "église San Parteo de Lucciana",
+  "commune": "2B148",
+  "protection": "monument historique classé",
+  "lat": 42.53815705,
+  "lon": 9.488912885,
+  "wikidata": "Q7415067"
+ },
+ {
+  "nom": "église Saints-Pierre-et-Paul de Piedicroce",
+  "commune": "2B219",
+  "protection": "monument historique classé",
+  "lat": 42.3763,
+  "lon": 9.3678,
+  "wikidata": "Q22949966"
+ },
+ {
+  "nom": "église Sainte-Restitude",
+  "commune": "2B049",
+  "protection": "monument historique inscrit",
+  "lat": 42.514,
+  "lon": 8.8653,
+  "wikidata": "Q22950118"
+ },
+ {
+  "nom": "église Notre-Dame-de-la-Miséricorde de Propriano",
+  "commune": "2A249",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.67535,
+  "lon": 8.90501,
+  "wikidata": "Q38386503"
+ },
+ {
+  "nom": "église Sainte-Julie de Nonza",
+  "commune": "2B178",
+  "protection": "monument historique inscrit",
+  "lat": 42.7849,
+  "lon": 9.3452,
+  "wikidata": "Q16942973"
+ },
+ {
+  "nom": "église Notre-Dame-de-l'Assomption de Rapaggio",
+  "commune": "2B256",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.37359,
+  "lon": 9.38945,
+  "wikidata": "Q41754520"
+ },
+ {
+  "nom": "Tappa",
+  "commune": "2A288",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.55222222,
+  "lon": 9.23055556,
+  "wikidata": "Q2444596"
+ },
+ {
+  "nom": "castello San Colombano",
+  "commune": "2B261",
+  "protection": "monument historique inscrit",
+  "lat": 42.9507,
+  "lon": 9.4114,
+  "wikidata": "Q22996381"
+ },
+ {
+  "nom": "église San Nicolao de Tomino",
+  "commune": "2B327",
+  "protection": "monument historique inscrit",
+  "lat": 42.94628,
+  "lon": 9.43976,
+  "wikidata": "Q22950134"
+ },
+ {
+  "nom": "chapelle de la confrérie Santa Devota de Piedicroce",
+  "commune": "2B219",
+  "protection": "monument historique classé",
+  "lat": 42.3761,
+  "lon": 9.3677,
+  "wikidata": "Q22949965"
+ },
+ {
+  "nom": "tour de Caldarello",
+  "commune": "2A215",
+  "protection": "monument historique inscrit",
+  "lat": 41.4647,
+  "lon": 9.05806,
+  "wikidata": "Q7826838"
+ },
+ {
+  "nom": "église Sainte-Marguerite de Carcheto-Brustico",
+  "commune": "2B063",
+  "protection": "monument historique classé",
+  "lat": 42.3667,
+  "lon": 9.36776,
+  "wikidata": "Q3585133"
+ },
+ {
+  "nom": "église Saint-Martin de San-Martino-di-Lota",
+  "commune": "2B305",
+  "protection": "monument historique inscrit",
+  "lat": 42.73635,
+  "lon": 9.43818,
+  "wikidata": "Q60388923"
+ },
+ {
+  "nom": "église Saint-André d'Oletta",
+  "commune": "2B185",
+  "protection": "monument historique classé",
+  "lat": 42.6334,
+  "lon": 9.3551,
+  "wikidata": "Q22949950"
+ },
+ {
+  "nom": "église de l'Annonciation de Poggio",
+  "commune": "2B299",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.413,
+  "lon": 9.42344,
+  "wikidata": "Q41754558"
+ },
+ {
+  "nom": "château Cagninacci",
+  "commune": "2B305",
+  "protection": "monument historique inscrit",
+  "lat": 42.7363,
+  "lon": 9.4382,
+  "wikidata": "Q22950128"
+ },
+ {
+  "nom": "chapelle Pisane",
+  "commune": "2B043",
+  "protection": "monument historique classé",
+  "lat": 42.7781,
+  "lon": 9.4609,
+  "wikidata": "Q22949786"
+ },
+ {
+  "nom": "couvent Saint-François d'Orezza",
+  "commune": "2B219",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel ; monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2026)",
+  "lat": 42.3819,
+  "lon": 9.36583,
+  "wikidata": "Q3001617"
+ },
+ {
+  "nom": "église San Cipriano de Quercitello",
+  "commune": "2B255",
+  "protection": "monument historique inscrit",
+  "lat": 42.4284,
+  "lon": 9.3547,
+  "wikidata": "Q22949973"
+ },
+ {
+  "nom": "église Saint-Césaire de Rapale",
+  "commune": "2B257",
+  "protection": "monument historique classé",
+  "lat": 42.584472222,
+  "lon": 9.304138888,
+  "wikidata": "Q3581304"
+ },
+ {
+  "nom": "église de la Nativité-de-la-Vierge de Penta-Acquatella",
+  "commune": "2B206",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.467382,
+  "lon": 9.371304,
+  "wikidata": "Q38373057"
+ },
+ {
+  "nom": "église Notre-Dame-du-Mont-Carmel de Stoppia Nova",
+  "commune": "2B255",
+  "protection": "monument historique classé",
+  "lat": 42.4308,
+  "lon": 9.3398,
+  "wikidata": "Q22949972"
+ },
+ {
+  "nom": "chapelle San Quilico de Poggio-d'Oletta",
+  "commune": "2B239",
+  "protection": "monument historique classé",
+  "lat": 42.6646,
+  "lon": 9.3556,
+  "wikidata": "Q22949969"
+ },
+ {
+  "nom": "église Saint-Jean de Sorbo-Ocagnano",
+  "commune": "2B286",
+  "protection": "monument historique inscrit",
+  "lat": 42.4783,
+  "lon": 9.4592,
+  "wikidata": "Q22950028"
+ },
+ {
+  "nom": "église Sainte-Marie de Polveroso",
+  "commune": "2B243",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.40101,
+  "lon": 9.3644,
+  "wikidata": "Q38523744"
+ },
+ {
+  "nom": "église Saint-Charles de Quercitello",
+  "commune": "2B255",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.425759,
+  "lon": 9.349444,
+  "wikidata": "Q38479173"
+ },
+ {
+  "nom": "église Santa Maria della Chiappella de Rogliano",
+  "commune": "2B261",
+  "protection": "monument historique inscrit",
+  "lat": 42.9866,
+  "lon": 9.4539,
+  "wikidata": "Q22950108"
+ },
+ {
+  "nom": "chapelle Saint-Jean",
+  "commune": "2B012",
+  "protection": "monument historique classé",
+  "lat": 42.222434,
+  "lon": 9.265305,
+  "wikidata": "Q22949740"
+ },
+ {
+  "nom": "église Saint-Pierre de Loreto-di-Tallano",
+  "commune": "2A146",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.719,
+  "lon": 9.03705,
+  "wikidata": "Q41754282"
+ },
+ {
+  "nom": "église Sainte-Lucie de Santa-Lucia-di-Moriani",
+  "commune": "2B307",
+  "protection": "monument historique inscrit ; bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.38011,
+  "lon": 9.49288,
+  "wikidata": "Q38518508"
+ },
+ {
+  "nom": "pont génois d'Altiani",
+  "commune": "2B012",
+  "protection": "monument historique classé",
+  "lat": 42.222048,
+  "lon": 9.26523,
+  "wikidata": "Q22949745"
+ },
+ {
+  "nom": "église Saint-Jean de Cinarca",
+  "commune": "2A270",
+  "protection": "monument historique classé",
+  "lat": 42.0586,
+  "lon": 8.82316,
+  "wikidata": "Q3582082"
+ },
+ {
+  "nom": "église Saint-Martin dite San-Martinu de Sari-d'Orcino",
+  "commune": "2A270",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.05854,
+  "lon": 8.82319,
+  "wikidata": "Q60388999"
+ },
+ {
+  "nom": "église Saint-Thomas dite San-Tumà de Lopigna",
+  "commune": "2A144",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.102851,
+  "lon": 8.841548,
+  "wikidata": "Q41754279"
+ },
+ {
+  "nom": "église de l'Immaculée-Conception de Ficaja",
+  "commune": "2B113",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.422801,
+  "lon": 9.366149,
+  "wikidata": "Q38380513"
+ },
+ {
+  "nom": "hôtel Les Roches Rouges",
+  "commune": "2A212",
+  "protection": "monument historique inscrit",
+  "lat": 42.24015,
+  "lon": 8.64164,
+  "wikidata": "Q22949702"
+ },
+ {
+  "nom": "tour de Rogliano",
+  "commune": "2B261",
+  "protection": "monument historique inscrit",
+  "lat": 42.9551,
+  "lon": 9.419,
+  "wikidata": "Q22949975"
+ },
+ {
+  "nom": "église Saints-Côme-et-Damien de San-Damiano",
+  "commune": "2B297",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.41131,
+  "lon": 9.40761,
+  "wikidata": "Q41754555"
+ },
+ {
+  "nom": "chapelle Saint-Roch de Ficaja",
+  "commune": "2B113",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.42207,
+  "lon": 9.36742,
+  "wikidata": "Q63192131"
+ },
+ {
+  "nom": "église Sainte-Lucie de Talasani",
+  "commune": "2B319",
+  "protection": "monument historique inscrit",
+  "lat": 42.4082,
+  "lon": 9.4803,
+  "wikidata": "Q22950051"
+ },
+ {
+  "nom": "cathédrale Sainte-Marie-de-l'Assomption de Lucciana",
+  "commune": "2B148",
+  "protection": "monument historique classé",
+  "lat": 42.53916667,
+  "lon": 9.49527778,
+  "wikidata": "Q2343686"
+ },
+ {
+  "nom": "chapelle Sant'Agostino de Chera",
+  "commune": "2A288",
+  "protection": "monument historique classé",
+  "lat": 41.5007,
+  "lon": 9.19018,
+  "wikidata": "Q1728414"
+ },
+ {
+  "nom": "grotte de la Coscia",
+  "commune": "2B261",
+  "protection": "monument historique classé",
+  "lat": 42.9659,
+  "lon": 9.4568,
+  "wikidata": "Q22996387"
+ },
+ {
+  "nom": "église Sainte-Marie de Valle-d'Orezza",
+  "commune": "2B338",
+  "protection": "monument historique classé",
+  "lat": 42.36975,
+  "lon": 9.39533,
+  "wikidata": "Q3585223"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de Carabona",
+  "commune": "2A362",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.714877,
+  "lon": 9.179152,
+  "wikidata": "Q60383568"
+ },
+ {
+  "nom": "église Saint-Sauveur de Viggianello",
+  "commune": "2A349",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.682081,
+  "lon": 8.951647,
+  "wikidata": "Q41754329"
+ },
+ {
+  "nom": "église Saint-Pierre-de-Piazza de Luri",
+  "commune": "2B152",
+  "protection": "monument historique inscrit",
+  "lat": 42.8969,
+  "lon": 9.4043,
+  "wikidata": "Q22950103"
+ },
+ {
+  "nom": "église Saint-Julien de Casalta",
+  "commune": "2B293",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.310081,
+  "lon": 9.482945,
+  "wikidata": "Q68661236"
+ },
+ {
+  "nom": "tour de Pinarellu",
+  "commune": "2A362",
+  "protection": "monument historique inscrit",
+  "lat": 41.6706,
+  "lon": 9.3925,
+  "wikidata": "Q7826880"
+ },
+ {
+  "nom": "chapelle Saint-Antoine-de-Padoue de Venzolasca",
+  "commune": "2B343",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.491613,
+  "lon": 9.463542,
+  "wikidata": "Q60365283"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste d'Osani",
+  "commune": "2A197",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q68571209"
+ },
+ {
+  "nom": "tour de San Ciprianu",
+  "commune": "2A139",
+  "protection": "monument historique inscrit",
+  "lat": 41.6267,
+  "lon": 9.34583,
+  "wikidata": "Q7826894"
+ },
+ {
+  "nom": "église Santa Maria Assunta",
+  "commune": "2B058",
+  "protection": "monument historique inscrit",
+  "lat": 42.8449,
+  "lon": 9.3306,
+  "wikidata": "Q22975973"
+ },
+ {
+  "nom": "chapelle San Pantaleone de Gavignano",
+  "commune": "2B122",
+  "protection": "monument historique classé",
+  "lat": 42.4186,
+  "lon": 9.2807,
+  "wikidata": "Q22949867"
+ },
+ {
+  "nom": "église Saint-Michel d'Urbalacone",
+  "commune": "2A331",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.836428,
+  "lon": 8.949317,
+  "wikidata": "Q41754325"
+ },
+ {
+  "nom": "église Notre-Dame du mont Carmel",
+  "commune": "2A259",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.11189,
+  "lon": 8.94258,
+  "wikidata": "Q131107332"
+ },
+ {
+  "nom": "église Saints-Côme-et-Damien d'Ocagnano",
+  "commune": "2B286",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.47123,
+  "lon": 9.44816,
+  "wikidata": "Q60392257"
+ },
+ {
+  "nom": "tour de Fundali",
+  "commune": "2B152",
+  "protection": "monument historique inscrit",
+  "lat": 42.904218,
+  "lon": 9.382988,
+  "wikidata": "Q131929106"
+ },
+ {
+  "nom": "tour de Fautea",
+  "commune": "2A362",
+  "protection": "monument historique inscrit",
+  "lat": 41.7133,
+  "lon": 9.40583,
+  "wikidata": "Q7826856"
+ },
+ {
+  "nom": "orangeraie de Portiglio",
+  "commune": "2A098",
+  "protection": "monument historique inscrit",
+  "lat": 41.7933,
+  "lon": 8.7453,
+  "wikidata": "Q59275305"
+ },
+ {
+  "nom": "église Saint-Pierre-et-Saint-Paul de Piana",
+  "commune": "2A212",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.237369,
+  "lon": 8.63697,
+  "wikidata": "Q63676511"
+ },
+ {
+  "nom": "chapelle des Pénitents de Sainte-Croix de Sorbo",
+  "commune": "2B286",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.475517,
+  "lon": 9.456594,
+  "wikidata": "Q60341542"
+ },
+ {
+  "nom": "église Saint-André de Lecci",
+  "commune": "2A139",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.67925,
+  "lon": 9.32617,
+  "wikidata": "Q38415303"
+ },
+ {
+  "nom": "tour de Capo-Nero",
+  "commune": "2A098",
+  "protection": "monument sélectionné par la mission d'identification du patrimoine immobilier en péril (2026) ; monument historique inscrit",
+  "lat": 41.7253,
+  "lon": 8.70944,
+  "wikidata": "Q10973697"
+ },
+ {
+  "nom": "église Saint-Pierre-et-Saint-Paul de Sorbo",
+  "commune": "2B286",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.47568,
+  "lon": 9.45628,
+  "wikidata": "Q60391796"
+ },
+ {
+  "nom": "mine de Canari",
+  "commune": "2B058",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.8207139,
+  "lon": 9.3279505,
+  "wikidata": "Q21834526"
+ },
+ {
+  "nom": "église de l'Annonciation de Crocicchia",
+  "commune": "2B102",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.46827,
+  "lon": 9.35314,
+  "wikidata": "Q60383968"
+ },
+ {
+  "nom": "chapelle Saint-Antoine de Lutina",
+  "commune": "2B241",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.437012,
+  "lon": 9.342186,
+  "wikidata": "Q60365108"
+ },
+ {
+  "nom": "église Saint-Luxor de Zicavo",
+  "commune": "2A359",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.908017,
+  "lon": 9.128948,
+  "wikidata": "Q41754332"
+ },
+ {
+  "nom": "Arca de Zévaco",
+  "commune": "2A358",
+  "protection": "monument historique classé",
+  "lat": 41.89068,
+  "lon": 9.0488,
+  "wikidata": "Q22949670"
+ },
+ {
+  "nom": "église Saint-Martin de Patrimonio",
+  "commune": "2B205",
+  "protection": "monument historique inscrit",
+  "lat": 42.7006,
+  "lon": 9.3619,
+  "wikidata": "Q22949957"
+ },
+ {
+  "nom": "couvent Saint-François d'Istria",
+  "commune": "2A211",
+  "protection": "monument historique inscrit",
+  "lat": 41.78722,
+  "lon": 8.98074,
+  "wikidata": "Q22968825"
+ },
+ {
+  "nom": "maison forte d'Urbalacone",
+  "commune": "2A331",
+  "protection": "monument historique inscrit",
+  "lat": 41.83602,
+  "lon": 8.94895,
+  "wikidata": "Q22996366"
+ },
+ {
+  "nom": "chapelle Saint-Pascal de Penta-Acquatella",
+  "commune": "2B206",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.46472,
+  "lon": 9.364424,
+  "wikidata": "Q63682993"
+ },
+ {
+  "nom": "tour de Sénèque",
+  "commune": "2B152",
+  "protection": "monument historique classé",
+  "lat": 42.9057,
+  "lon": 9.37275,
+  "wikidata": "Q3533454"
+ },
+ {
+  "nom": "église de l'Assomption de Mela",
+  "commune": "2A158",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.696406,
+  "lon": 9.094315,
+  "wikidata": "Q41754284"
+ },
+ {
+  "nom": "chapelle de Paccionitoli",
+  "commune": "2A362",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.72579,
+  "lon": 9.174901,
+  "wikidata": "Q110892179"
+ },
+ {
+  "nom": "chapelle Saint-Sébastien de Zicavo",
+  "commune": "2A359",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.903520043,
+  "lon": 9.126897549,
+  "wikidata": "Q139515015"
+ },
+ {
+  "nom": "église Saint-Augustin d'Olivese",
+  "commune": "2A186",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.846351,
+  "lon": 9.056661,
+  "wikidata": "Q38426436"
+ },
+ {
+  "nom": "chapelle Saint-Césaire de Zonza",
+  "commune": "2A362",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q110892252"
+ },
+ {
+  "nom": "ancienne mairie-école et presbytère de Cagnano",
+  "commune": "2B194",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": null,
+  "lon": null,
+  "wikidata": "Q124743835"
+ },
+ {
+  "nom": "Araghju",
+  "commune": "2A300",
+  "protection": "monument historique classé",
+  "lat": 41.648056,
+  "lon": 9.262222,
+  "wikidata": "Q2859432"
+ },
+ {
+  "nom": "église Saint-André de Loreto-di-Casinca",
+  "commune": "2B145",
+  "protection": "monument historique classé",
+  "lat": 42.4773,
+  "lon": 9.4316,
+  "wikidata": "Q3580906"
+ },
+ {
+  "nom": "église Saint-Cyr-et-Sainte-Julitte d'Olmo",
+  "commune": "2B192",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.49583,
+  "lon": 9.40664,
+  "wikidata": "Q38494162"
+ },
+ {
+  "nom": "chapelle Saint-Jean-Baptiste de Lozzi",
+  "commune": "2A065",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.15998,
+  "lon": 8.61508,
+  "wikidata": "Q60376056"
+ },
+ {
+  "nom": "tour de Capannelle",
+  "commune": "2A276",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.72231,
+  "lon": 8.78347,
+  "wikidata": "Q7826842"
+ },
+ {
+  "nom": "église Sainte-Marie de Cristinacce",
+  "commune": "2A100",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.242576,
+  "lon": 8.835787,
+  "wikidata": "Q68571104"
+ },
+ {
+  "nom": "ensemble d'industrie du bois de la FORTEF",
+  "commune": "2B251",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.99693,
+  "lon": 9.35325,
+  "wikidata": "Q112127825"
+ },
+ {
+  "nom": "église Saint-Albert de Calvese",
+  "commune": "2A284",
+  "protection": "monument historique inscrit",
+  "lat": 41.7467,
+  "lon": 8.9096,
+  "wikidata": "Q22996377"
+ },
+ {
+  "nom": "église Saint-Hippolyte-et-Saint-Cassien dite Sant'Ippolito-et-San-Cassianu d'Olmiccia",
+  "commune": "2A191",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.694005,
+  "lon": 9.060022,
+  "wikidata": "Q38617252"
+ },
+ {
+  "nom": "chapelle Saint-Jacques-le-Majeur",
+  "commune": "2B173",
+  "protection": "monument historique inscrit",
+  "lat": 42.5503,
+  "lon": 8.9125,
+  "wikidata": "Q57594607"
+ },
+ {
+  "nom": "chapelle San Lorenzo de Lama",
+  "commune": "2B136",
+  "protection": "monument historique classé",
+  "lat": 42.5797,
+  "lon": 9.1531,
+  "wikidata": "Q22975979"
+ },
+ {
+  "nom": "tour de Capu di Muru",
+  "commune": "2A098",
+  "protection": "monument historique inscrit",
+  "lat": 41.749974,
+  "lon": 8.676702,
+  "wikidata": "Q369430"
+ },
+ {
+  "nom": "chapelle de Confrérie Sainte-Croix de Parocchia",
+  "commune": "2B043",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 42.778,
+  "lon": 9.4611,
+  "wikidata": "Q22975971"
+ },
+ {
+  "nom": "église Saint-Gavin de San-Gavino-di-Carbini",
+  "commune": "2A300",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.718239,
+  "lon": 9.146999,
+  "wikidata": "Q38583922"
+ },
+ {
+  "nom": "église Saint-Nicolas de Bicchisano",
+  "commune": "2A211",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.787134,
+  "lon": 8.975186,
+  "wikidata": "Q41754293"
+ },
+ {
+  "nom": "église de l'Annunziata de Muro",
+  "commune": "2B173",
+  "protection": "monument historique inscrit",
+  "lat": 42.5467,
+  "lon": 8.91478,
+  "wikidata": "Q41754448"
+ },
+ {
+  "nom": "chapelle Sainte-Barbe de Pruno",
+  "commune": "2A114",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.5301,
+  "lon": 9.14931,
+  "wikidata": "Q110874439"
+ },
+ {
+  "nom": "chapelle Sainte-Barbara de Zonza",
+  "commune": "2A362",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.745605,
+  "lon": 9.157097,
+  "wikidata": "Q61826388"
+ },
+ {
+  "nom": "église Sainte-Marie-de-l'Assomption de Parocchia",
+  "commune": "2B043",
+  "protection": "monument historique inscrit",
+  "lat": 42.7781,
+  "lon": 9.4609,
+  "wikidata": "Q38496338"
+ },
+ {
+  "nom": "église Saint-Jean-Baptiste de Coti-Chiavari",
+  "commune": "2A098",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.77372,
+  "lon": 8.771124,
+  "wikidata": "Q38628771"
+ },
+ {
+  "nom": "chapelle Sainte-Anne de Bovalo",
+  "commune": "2B086",
+  "protection": "monument historique inscrit",
+  "lat": 42.96158,
+  "lon": 9.36646,
+  "wikidata": "Q104759538"
+ },
+ {
+  "nom": "église de la Sainte-Trinité d'Aregno",
+  "commune": "2B020",
+  "protection": "monument historique classé",
+  "lat": 42.58236111,
+  "lon": 8.89763889,
+  "wikidata": "Q1799200"
+ },
+ {
+  "nom": "maison de vacances du docteur Pierre Gauthier",
+  "commune": "2A362",
+  "protection": "monument historique classé ; monument historique inscrit",
+  "lat": 41.653599,
+  "lon": 9.365866,
+  "wikidata": "Q135971623"
+ },
+ {
+  "nom": "église Saint-Césaire de Croce",
+  "commune": "2B101",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 42.413,
+  "lon": 9.36448,
+  "wikidata": "Q38478095"
+ },
+ {
+  "nom": "villa Saint-Jacques",
+  "commune": "2B152",
+  "protection": "monument historique inscrit",
+  "lat": 42.8967,
+  "lon": 9.4073,
+  "wikidata": "Q59273330"
+ },
+ {
+  "nom": "église Santa-Maria-Assunta de Mela",
+  "commune": "2A158",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.695411,
+  "lon": 9.089786,
+  "wikidata": "Q60393384"
+ },
+ {
+  "nom": "E Calanche",
+  "commune": "2A284",
+  "protection": "monument historique classé",
+  "lat": 41.73289,
+  "lon": 8.85161,
+  "wikidata": "Q22949681"
+ },
+ {
+  "nom": "tour de Farinole",
+  "commune": "2B109",
+  "protection": "monument historique inscrit",
+  "lat": 42.7319,
+  "lon": 9.34278,
+  "wikidata": "Q7826857"
+ },
+ {
+  "nom": "chapelle Sainte-Jeanne-d'Arc de Porto-Pollo",
+  "commune": "2A276",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.711848,
+  "lon": 8.802352,
+  "wikidata": "Q60368091"
+ },
+ {
+  "nom": "Mulinu di Pendente",
+  "commune": "2B058",
+  "protection": "monument historique inscrit",
+  "lat": 42.8583,
+  "lon": 9.3591,
+  "wikidata": "Q22996385"
+ },
+ {
+  "nom": "chapelle Saint-Joseph de Pietra-Rossa",
+  "commune": "2A276",
+  "protection": "bien recensé dans l'Inventaire général du patrimoine culturel",
+  "lat": 41.734736,
+  "lon": 8.818867,
+  "wikidata": "Q60378745"
+ },
+ {
+  "nom": "Filitosa",
+  "commune": "2A284",
+  "protection": "monument historique classé",
+  "lat": 41.747222222,
+  "lon": 8.871388888,
+  "wikidata": "Q1025950"
+ }
+]

@@ -1,0 +1,47 @@
+RNE : « Répertoire national des élus », modifié le 2026-08-11
+  ressource : elus-conseillers-darrondissements-ca.csv | 2026-08-11
+  ressource : elus-conseillers-municipaux-cm.csv | 2026-08-11
+  ressource : elus-conseillers-communautaires-epci.csv | 2026-08-11
+  ressource : elus-conseillers-departementaux-cd.csv | 2026-08-11
+  ressource : elus-conseillers-regionaux-cr.csv | 2026-08-11
+  ressource : elus-membres-assemblee-ma.csv | 2026-08-11
+  ressource : elus-representants-Parlement-européen-rpe.csv | 2026-08-11
+  ressource : elus-senateurs-sen.csv | 2026-08-11
+  ressource : elus-deputes-dep.csv | 2026-08-11
+  ressource : elus-maires-mai.csv | 2026-08-11
+  ressource : elus-conseillers-des-francais-de-letranger-consfde.csv | 2026-05-05
+  ressource : elus-assemblee-des-francais-de-letranger-afe.csv | 2026-05-05
+  cm : colonnes ['Code du département', 'Libellé du département', 'Code de la collectivité à statut particulier', 'Libellé de la collectivité à statut particulier', 'Code de la commune', 'Libellé de la commune', "Nom de l'élu", "Prénom de l'élu", 'Code sexe', 'Date de naissance', 'Code de la catégorie socio-professionnelle', 'Libellé de la catégorie socio-professionnelle', 'Date de début du mandat', 'Libellé de la fonction', 'Date de début de la fonction', 'Code nationalité']
+  cm : repérage {'dep': 0, 'commune': 4, 'libCommune': 5, 'nom': 6, 'prenom': 7, 'naissance': 9, 'fonction': 13, 'debutMandat': 12, 'debutFonction': 14, 'circo': None, 'collectivite': 3, 'epci': None, 'nuance': None}
+  cm : 4273 lignes pour la Corse
+  epci : colonnes ['Code du département', 'Libellé du département', 'Code de la collectivité à statut particulier', 'Libellé de la collectivité à statut particulier', 'N° SIREN', "Libellé de l'EPCI", 'Code de la commune de rattachement', 'Libellé de la commune de rattachement', "Nom de l'élu", "Prénom de l'élu", 'Code sexe', 'Date de naissance', 'Code de la catégorie socio-professionnelle', 'Libellé de la catégorie socio-professionnelle', 'Date de début du mandat', 'Libellé de la fonction', 'Date de début de la fonction']
+  epci : repérage {'dep': 0, 'commune': 6, 'libCommune': 7, 'nom': 8, 'prenom': 9, 'naissance': 11, 'fonction': 15, 'debutMandat': 14, 'debutFonction': 16, 'circo': None, 'collectivite': 3, 'epci': 5, 'nuance': None}
+  epci : 721 lignes pour la Corse
+  dep : colonnes ['Code du département', 'Libellé du département', 'Code de la collectivité à statut particulier', 'Libellé de la collectivité à statut particulier', 'Code de la circonscription législative', 'Libellé de la circonscription législative', "Nom de l'élu", "Prénom de l'élu", 'Code sexe', 'Date de naissance', 'Code de la catégorie socio-professionnelle', 'Libellé de la catégorie socio-professionnelle', 'Date de début du mandat']
+  dep : repérage {'dep': 0, 'commune': None, 'libCommune': None, 'nom': 6, 'prenom': 7, 'naissance': 9, 'fonction': None, 'debutMandat': 12, 'debutFonction': None, 'circo': 5, 'collectivite': 3, 'epci': None, 'nuance': None}
+  dep : 4 lignes pour la Corse
+  sen : colonnes ['Code du département', 'Libellé du département', 'Code de la collectivité à statut particulier', 'Libellé de la collectivité à statut particulier', "Nom de l'élu", "Prénom de l'élu", 'Code sexe', 'Date de naissance', 'Code de la catégorie socio-professionnelle', 'Libellé de la catégorie socio-professionnelle', 'Date de début du mandat']
+  sen : repérage {'dep': 0, 'commune': None, 'libCommune': None, 'nom': 4, 'prenom': 5, 'naissance': 7, 'fonction': None, 'debutMandat': 10, 'debutFonction': None, 'circo': None, 'collectivite': 3, 'epci': None, 'nuance': None}
+  sen : 2 lignes pour la Corse
+RNE : exécutif trouvé pour 359 communes ; sans maire repéré : 1 ['2A322']
+RNE : Assemblée de Corse : 0
+RNE : Députés : 4
+RNE : Sénateurs : 2
+RNE : Intercommunalités : 200
+Répertoire : mandats RNE trouvés pour 21 fiches ; homonymes écartés : []
+Wikidata : 22 fiches rapprochées sur 80 (15 personnes, 7 organisations)
+  non rapprochées : Association nationale des élus des littoraux (Anel), BONNET Bernard, BOUDIÉ Florent, CARROLAGGI Jean-Paul, CASANOVA-SERVAS Marie-Hélène, CASTEX Jean, CM Holding, CMA CGM, COMBETTE Christelle, COMITI Jean-Christophe, Core in Fronte, Corse-Matin, DARMANIN Gérald, De Renava, DEPREZ-BOUDIER Véronique, DI MEGLIO Alain, DUPOND-MORETTI Éric, EMMANUELLI Paul-Jean, FARINA Alexandre, FAZI Bianca, FILIPPINI Jérôme, FORTINI Paul, GATEL Françoise, GFC Ajaccio, GIACOBBI Paul, GIOVANNANGELI Gilles, GIS Posidonie, GIUSEPPI Jean, Gloria Maris, JALON Éric, La Méridionale, MARÉCHAL Marion, MINICONI Jean-André, MONDOLONI Jean-Martin, Mossa Palatina, NEBBIA Pierre, ORSUCCI Jean-Charles, PARIGI Paulu Santu, PITON Sophie, PROSIC Michel, REBSAMEN François, Reseaclean, RETAILLEAU Bruno, ROBINE Franck, SBRAGGIA Stéphane, Scola Corsa, SICHI Annie, SNSM, Société du port de Cavallo (SPC), Stareso, STC (Sindicatu di i Travagliadori Corsi), Syndicat mixte du Grand Site de France Îles Sanguinaires – Pointe de la Parata, Syvadec, TAFANI Patrick, U Levante, Université de Corse, VERSINI Christophe, VIEULES Arnaud
+Géorisques : champs d'une installation : {"raisonSociale": "ENGIE", "adresse1": "CHEMIN DE LORETTO", "adresse2": "ENGIE GPL STATION GAZ DE LORETTO", "adresse3": null, "codePostal": "20090", "codeInsee": "2A004", "commune": "Ajaccio", "codeNaf": "35", "longitude": 8.719413, "latitude": 41.932687, "bovins": false, "porcs": false, "volailles": false, "carriere": false, "eolienne": false, "industrie": true, "prioriteNationale": true, "statutSeveso": "Seveso seuil haut", "ied": false, "etatActivite": "En exploitation avec titre", "codeAIOT": "0007300004", "siret": "54210765114368", "coordonneeXAIOT": 1174968, "coordonneeYAIOT": 6109655, "systemeCoordonneesAIOT": "2154", "serviceAIOT": "DREAL Corse", "regime": "Autorisation", "date_maj": "2026-08-31/17-58-48", "inspections": [{"dateInspection": "2022-05-11", "fichierInspection": null}, {"dateInspection": "2022-04-28", "fichierInspection": {"identifiantFichier": "monPjaiPYampW4tzya5ddsgCqCCxvxkR", "nomFichier": "ENGIE loretto_28_AVRIL_2022_mb_Rapport_Inspection-1-1 signé OC+PT", "typeFichier": "Rapport d'inspection publiable", "dateFichier": null, "urlFichier": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/monPjaiPYampW4tzya5ddsgCqCCxvxkR"}}, {"dateInspection": "2022-11-16", "fichierInspection": {"identifiantFichier": "WS5RS2ranD3rrZVXfQSzCyLKz0Ptmlpr", "nomFichier": "rapport publiable Engi loretto transfert butane", "typeFichier": "Rapport d'inspection publiable", "dateFichier": null, "urlFichier": "https://www.georisques.gouv.fr/webappReport/ws
+Géorisques : 74 installations retenues (déchets, hydrocarbures, énergie, carrières, Seveso)
+Wikidata Barrage (Q12323) : 1 — ['barrage de Calacuccia']
+Wikidata Centrale électrique (Q159719) : 4 — ['centrale du Ricanto', 'centrale de Lucciana', 'centrale du Vazzio', 'centrale électrique de Castirla']
+Wikidata Aéroport (Q1248784) : 4 — ['aéroport de Figari Sud Corse', "aéroport d'Ajaccio Napoléon-Bonaparte", 'aéroport de Calvi-Sainte-Catherine', 'aéroport de Bastia Poretta']
+Wikidata Port (Q44782) : 7 — ['Vieux port de Bastia', 'Ajaccio Harbour', "base d'aéronautique navale d'Aspretto", 'Port de Propriano', 'port de Bonifacio', 'port de Saint Florent', 'Port Tino Rossi']
+Wikidata Phare (Q39715) : 10 — ['phare de la Giraglia', "phare d'Alistro", 'phare de la Pietra', 'phare de Senetosa', 'phare de Pertusato', 'phare de la Revellata', 'phare des îles Sanguinaires', 'phare de la Chiappa', 'phare des Îles Lavezzi', 'phare de Scogliu Longu']
+Wikidata Hôpital (Q16917) : 4 — ["Lazaret d'Aspretto", 'hôtel de la Collectivité de Corse', 'hôpital de Bastia', "hôpital de la Miséricorde d'Ajaccio"]
+Wikidata Prison (Q40357) : 3 — ["maison d'arrêt d'Ajaccio", 'centre de détention de Casabianda-Aléria', 'centre pénitentiaire de Borgo']
+Wikidata Palais de justice (Q1137809) : 1 — ['palais de justice de Bastia']
+Wikidata Université (Q3918) : 0 — []
+Wikidata Stade (Q483110) : 5 — ['stade Ange-Casanova', 'stade Erbajolo', 'stade Claude Papi', 'stade Michel-Moretti', 'stade Armand-Cesari']
+Wikidata Décharge (Q180388) : 0 — []
+Wikidata monuments historiques : 502 — ['église Saint-Césaire de Grosseto', 'couvent Saint-Dominique de Corbara', 'statue-menhir de Tavera', 'église Saint-Aurèle de Cannelle', "église Saint-Nicolas d'Arro", 'monument torréen de Foce', 'église Saint-Laurent de Campo', "église de l'Annonciation de Calcatoggio", "palais épiscopal d'Ajaccio", 'tour de Campomoro']
