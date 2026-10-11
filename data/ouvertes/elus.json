@@ -10701,19 +10701,338 @@
   "2B366": 11
  },
  "institutions": {
-  "Assemblée de Corse": [],
+  "Assemblée de Corse": [
+   {
+    "nom": "ACQUAVIVA",
+    "prenom": "Jean-Félix",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "ANGELINI",
+    "prenom": "Jean-Christophe",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "ANTONINI",
+    "prenom": "Danielle",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "ARENA",
+    "prenom": "Jean-Baptiste",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "ARRIGHI",
+    "prenom": "Véronique",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BATTESTINI",
+    "prenom": "Serena",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BENEDETTI",
+    "prenom": "Paul-Félix",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BIANCUCCI",
+    "prenom": "Jean",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BICCHIERAY",
+    "prenom": "Didier",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BORRI",
+    "prenom": "Jean-Marc",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BORROMEI",
+    "prenom": "Vanina",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BOZZI",
+    "prenom": "Valérie",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "BRANCA",
+    "prenom": "Marie-Claude",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "CAITUCOLI",
+    "prenom": "Paul-Joseph",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "CAMPANA",
+    "prenom": "Françoise",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "CASANOVA-SERVAS",
+    "prenom": "Marie-Hélène",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "CHIARELLI LUZI",
+    "prenom": "Vannina",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "COGNETTI TURCHINI",
+    "prenom": "Catherine",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "COLOMBANI",
+    "prenom": "Anne-Marie",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "COLONNA",
+    "prenom": "Romain",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "COMBETTE",
+    "prenom": "Christelle",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "DUVAL",
+    "prenom": "Santa",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "FAGNI",
+    "prenom": "Muriel",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "FILIPPI",
+    "prenom": "Petru Antone",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "FRANCISCI",
+    "prenom": "Lisa Annie",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "GALLONI D'ISTRIA",
+    "prenom": "Evelyne",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "GHIONGA",
+    "prenom": "Pierre",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "GIABICONI",
+    "prenom": "Jean-Charles",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "GIACOMETTI-PINEDDA",
+    "prenom": "Josepha",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "GUIDONI",
+    "prenom": "Pierre",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "GUIDONI-DENSARI",
+    "prenom": "Frédérique",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "LE BOMIN",
+    "prenom": "Vanina",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "LE MAO",
+    "prenom": "Ghjuvan'Santu",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "LUCCHINI",
+    "prenom": "Jean-Jacques",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "LUCCIONI",
+    "prenom": "Don Joseph",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "LUCIANI",
+    "prenom": "Xavier",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "MARCHETTI",
+    "prenom": "Sandra",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "MARIOTTI",
+    "prenom": "Marie-Thérèse",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "MAUPERTUIS",
+    "prenom": "Marie-Antoinette",
+    "fonction": "Président de l'assemblée",
+    "debutMandat": "2021-07-02",
+    "debutFonction": "2021-07-02"
+   },
+   {
+    "nom": "MELA",
+    "prenom": "Georges",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "MONDOLONI",
+    "prenom": "Jean-Martin",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "MOSCA",
+    "prenom": "Paula",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "NIVAGGIONI",
+    "prenom": "Nadine",
+    "fonction": "Vice-président de l'assemblée",
+    "debutMandat": "2021-07-02",
+    "debutFonction": "2021-07-02"
+   },
+   {
+    "nom": "PANZANI",
+    "prenom": "Jean-Paul",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "PEDINIELLI",
+    "prenom": "Chantal",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "PIERI",
+    "prenom": "Marie-Anne",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "PIETRI",
+    "prenom": "Véronique",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "POLI",
+    "prenom": "Antoine",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "POLI",
+    "prenom": "Pierre",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "PONZEVERA",
+    "prenom": "Juliette",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "POZZO DI BORGO",
+    "prenom": "Louis",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "QUASTANA",
+    "prenom": "Paul",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "SANTUCCI",
+    "prenom": "Anne-Laure",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "SAVELLI",
+    "prenom": "Jean-Michel",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "SAVELLI",
+    "prenom": "Joseph",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "SEATELLI",
+    "prenom": "Jean-Louis",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "SIMEONI",
+    "prenom": "Gilles",
+    "fonction": "Président de l'organe exécutif",
+    "debutMandat": "2021-07-02",
+    "debutFonction": "2021-07-02"
+   },
+   {
+    "nom": "SORBA",
+    "prenom": "François",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "TERRIGHI",
+    "prenom": "Charlotte",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "TIBERI",
+    "prenom": "Julia",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "VALDRIGHI",
+    "prenom": "Hervé",
+    "debutMandat": "2021-07-02"
+   },
+   {
+    "nom": "VANNI",
+    "prenom": "Hyacinthe",
+    "fonction": "Vice-président de l'assemblée",
+    "debutMandat": "2021-07-02",
+    "debutFonction": "2021-07-02"
+   }
+  ],
   "Députés": [
    {
     "nom": "MARCANGELI",
     "prenom": "Laurent",
     "debutMandat": "2025-11-06",
-    "circonscription": "1re circonscription de Corse-Du-Sud"
+    "circonscription": "1re circonscription de Corse-du-Sud"
    },
    {
     "nom": "COLOMBANI",
     "prenom": "Paul-André",
     "debutMandat": "2024-07-08",
-    "circonscription": "2e circonscription de Corse-Du-Sud"
+    "circonscription": "2e circonscription de Corse-du-Sud"
    },
    {
     "nom": "CASTELLANI",
