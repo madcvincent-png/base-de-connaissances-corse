@@ -40,10 +40,8 @@
  },
  {
   "nom": "SECA",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [
-   "Carrières et matériaux"
-  ],
+  "categorie": "Carrières et matériaux",
+  "autres": [],
   "seveso": "",
   "regime": "Autorisation",
   "etat": "En exploitation avec titre",
@@ -148,10 +146,8 @@
  },
  {
   "nom": "CORSE EURODECHETS",
-  "categorie": "Tri, transit et traitement de déchets",
-  "autres": [
-   "Hydrocarbures et gaz"
-  ],
+  "categorie": "Tri et traitement de déchets",
+  "autres": [],
   "seveso": "",
   "regime": "Autorisation",
   "etat": "En exploitation avec titre",
@@ -176,7 +172,7 @@
  },
  {
   "nom": "SYNDICAT MIXTE POUR LA VALORISATION DES DECHETS DE CORSE (SYVADEC)",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [
    "Compostage et méthanisation"
   ],
@@ -256,7 +252,7 @@
  },
  {
   "nom": "MALAGOLI (SARL)",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [
    "Compostage et méthanisation",
    "Carrières et matériaux"
@@ -274,7 +270,7 @@
   "nom": "LANFRANCHI ENVIRONNEMENT SARL",
   "categorie": "Stockage de déchets",
   "autres": [
-   "Tri, transit et traitement de déchets"
+   "Tri et traitement de déchets"
   ],
   "seveso": "",
   "regime": "Enregistrement",
@@ -304,7 +300,7 @@
   "nom": "SARL LANFRANCHI ENVIRONNEMENT",
   "categorie": "Stockage de déchets",
   "autres": [
-   "Tri, transit et traitement de déchets",
+   "Tri et traitement de déchets",
    "Carrières et matériaux"
   ],
   "seveso": "",
@@ -317,8 +313,8 @@
   "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0007300911"
  },
  {
-  "nom": "MONSIEUR MOHAMED BOUHAYANE",
-  "categorie": "Tri, transit et traitement de déchets",
+  "nom": "Exploitant individuel",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Autorisation",
@@ -356,21 +352,8 @@
   "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0007300953"
  },
  {
-  "nom": "Commune de Porto-Vecchio",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [],
-  "seveso": "",
-  "regime": "Autorisation",
-  "etat": "En exploitation avec titre",
-  "commune": "2A247",
-  "lat": 41.589529,
-  "lon": 9.288719,
-  "source": "Géorisques",
-  "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0007301067"
- },
- {
   "nom": "CORSYCLAGE",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [
    "Carrières et matériaux"
   ],
@@ -385,7 +368,7 @@
  },
  {
   "nom": "ENVIRONNEMENT SERVICES",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -397,21 +380,8 @@
   "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0020100007"
  },
  {
-  "nom": "CORSOVIA S.A.S.",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [],
-  "seveso": "",
-  "regime": "Enregistrement",
-  "etat": "En exploitation avec titre",
-  "commune": "2A271",
-  "lat": 41.973918,
-  "lon": 8.827965,
-  "source": "Géorisques",
-  "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0020100010"
- },
- {
   "nom": "LORENZONI FER ET METAUX",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -424,10 +394,8 @@
  },
  {
   "nom": "Centrale d'enrobage MOCCHI T.P.",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [
-   "Carrières et matériaux"
-  ],
+  "categorie": "Carrières et matériaux",
+  "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
   "etat": "En exploitation avec titre",
@@ -451,21 +419,8 @@
   "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0020100021"
  },
  {
-  "nom": "CORSE BLANC",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [],
-  "seveso": "",
-  "regime": "Enregistrement",
-  "etat": "En exploitation avec titre",
-  "commune": "2A004",
-  "lat": 41.929794,
-  "lon": 8.789988,
-  "source": "Géorisques",
-  "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0020100038"
- },
- {
   "nom": "SANICORSE",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Autorisation",
@@ -477,24 +432,9 @@
   "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0020100043"
  },
  {
-  "nom": "ABATTOIR DE CUTTOLI",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [],
-  "seveso": "",
-  "regime": "Autorisation",
-  "etat": "En exploitation avec titre",
-  "commune": "2A103",
-  "lat": 41.98405,
-  "lon": 8.864952,
-  "source": "Géorisques",
-  "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0052010272"
- },
- {
   "nom": "SAS blanchisserie PICCIOCCHI",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [
-   "Production d'énergie"
-  ],
+  "categorie": "Production d'énergie",
+  "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
   "etat": "En exploitation avec titre",
@@ -573,7 +513,7 @@
  },
  {
   "nom": "CHIMIREC CORSICA",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Autorisation",
@@ -586,10 +526,8 @@
  },
  {
   "nom": "SOCIETE CORSE TRAVAUX",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [
-   "Carrières et matériaux"
-  ],
+  "categorie": "Carrières et matériaux",
+  "autres": [],
   "seveso": "",
   "regime": "Autorisation",
   "etat": "En exploitation avec titre",
@@ -640,7 +578,7 @@
  },
  {
   "nom": "RECUP ENVIRONNEMENT RECYCLAGE R.E.R",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -653,10 +591,8 @@
  },
  {
   "nom": "Société Routière de Haute-Corse (SRHC)",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [
-   "Carrières et matériaux"
-  ],
+  "categorie": "Carrières et matériaux",
+  "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
   "etat": "En exploitation avec titre",
@@ -720,7 +656,7 @@
  },
  {
   "nom": "VANGIONI",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -748,7 +684,7 @@
  },
  {
   "nom": "ENVIRONNEMENT SERVICES SARL",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -774,7 +710,7 @@
  },
  {
   "nom": "A.M. ENVIRONNEMENT",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [
    "Carrières et matériaux"
   ],
@@ -791,7 +727,7 @@
   "nom": "STOC",
   "categorie": "Stockage de déchets",
   "autres": [
-   "Tri, transit et traitement de déchets",
+   "Tri et traitement de déchets",
    "Carrières et matériaux"
   ],
   "seveso": "",
@@ -844,7 +780,7 @@
  },
  {
   "nom": "SYNDICAT MIXTE POUR LA VALORISATION DES DECHETS DE CORSE (SYVADEC)",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -857,7 +793,7 @@
  },
  {
   "nom": "SYNDICAT MIXTE POUR LA VALORISATION DES DECHETS DE CORSE (SYVADEC)",
-  "categorie": "Tri, transit et traitement de déchets",
+  "categorie": "Tri et traitement de déchets",
   "autres": [],
   "seveso": "",
   "regime": "Enregistrement",
@@ -922,10 +858,8 @@
  },
  {
   "nom": "SARL BETONS ET AGREGATS (BETAG)",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [
-   "Carrières et matériaux"
-  ],
+  "categorie": "Carrières et matériaux",
+  "autres": [],
   "seveso": "",
   "regime": "Autorisation",
   "etat": "En exploitation avec titre",
@@ -947,19 +881,6 @@
   "lon": 9.524086,
   "source": "Géorisques",
   "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0020800046"
- },
- {
-  "nom": "SYNDICAT MIXTE DE L'ABATTAGE EN CORSE",
-  "categorie": "Hydrocarbures et gaz",
-  "autres": [],
-  "seveso": "",
-  "regime": "Autorisation",
-  "etat": "En exploitation avec titre",
-  "commune": "2B169",
-  "lat": 42.447995,
-  "lon": 9.259603,
-  "source": "Géorisques",
-  "lien": "https://www.georisques.gouv.fr/risques/installations/donnees/details/0052000019"
  },
  {
   "nom": "SOCOREVA",
