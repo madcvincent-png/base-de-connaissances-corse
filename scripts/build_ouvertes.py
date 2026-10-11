@@ -71,6 +71,7 @@ FICHIERS = [  # (catégorie, mots qui doivent figurer dans le titre de la ressou
     ("epci", ["communautaires"]),
     ("cac", ["statut particulier"]),
     ("cac", ["assemblee de corse"]),
+    ("cac", ["conseillers regionaux"]),
     ("dep", ["deputes"]),
     ("sen", ["senateurs"]),
 ]
@@ -89,6 +90,8 @@ def colonnes(entete):
 
     return {
         "dep": c("code du departement", "code departement"),
+        "libDep": c("libelle du departement"),
+        "region": c("libelle de la region"),
         "commune": c("code de la commune", "code commune"),
         "libCommune": c("libelle de la commune", "libelle commune"),
         "nom": c("nom de l elu", "nom", sauf=("prenom", "libelle", "nomenclature")),
@@ -159,7 +162,7 @@ def rne(communes_pop):
             dep = g("dep")
             coll = g("collectivite")
             if cat == "cac":
-                if "corse" not in norm(coll) and not corse(dep):
+                if "corse" not in norm(coll) and "corse" not in norm(g("region")) and not corse(dep):
                     continue
             elif not corse(dep):
                 continue
@@ -177,12 +180,13 @@ def rne(communes_pop):
                 if re.search(r"maire|adjoint", norm(e["fonction"])) and "delegue" not in norm(e["fonction"]):
                     out["communes"].setdefault(e["commune"], []).append(public)
             elif cat == "epci":
-                if re.search(r"president", norm(e["fonction"])):
+                if norm(e["fonction"]).startswith("president"):
                     out["institutions"]["Intercommunalités"].append({**public, "epci": e["epci"]})
             elif cat == "cac":
                 out["institutions"]["Assemblée de Corse"].append(public)
             elif cat == "dep":
-                out["institutions"]["Députés"].append({**public, "circonscription": e["circo"]})
+                circo = re.sub(r"(\d)(?:ère|Ère|ere)\b", r"\1re", re.sub(r"(\d)(?:ème|Ème|eme)\b", r"\1e", e["circo"])).lower()
+                out["institutions"]["Députés"].append({**public, "circonscription": f"{circo} de {g('libDep')}".strip()})
             elif cat == "sen":
                 out["institutions"]["Sénateurs"].append(public)
         log(f"  {cat} : {n} lignes pour la Corse")
@@ -199,7 +203,7 @@ def rne(communes_pop):
 
 # ===================================================================== personnes du répertoire
 def mandats_rne(personnes, tous):
-    out, ambigus = {}, []
+    out, ambigus, ecartes = {}, [], []
     index = {}
     for e in tous:
         index.setdefault((norm(e["nom"]), norm(e["prenom"])), []).append(e)
@@ -212,6 +216,9 @@ def mandats_rne(personnes, tous):
         lignes = index.get((norm(m.group(1)), norm(m.group(2))), [])
         if not lignes:
             continue
+        if not set(p.get("qualite") or []) & {"Élu", "Ancien élu"}:
+            ecartes.append(p["nom"])  # homonyme possible : la fiche ne dit pas que la personne est élue
+            continue
         individus = {l["_naissance"] for l in lignes}
         if len(individus) > 1:
             ambigus.append(p["nom"])  # deux homonymes élus en Corse : on ne choisit pas
@@ -220,8 +227,11 @@ def mandats_rne(personnes, tous):
         out[p["id"]] = [{"institution": lib[l["cat"]], "fonction": l["fonction"] or ("Député" if l["cat"] == "dep" else "Sénateur" if l["cat"] == "sen" else "Conseiller"),
                          "commune": l["commune"] if l["cat"] == "cm" else "", "epci": l["epci"] if l["cat"] == "epci" else "",
                          "circonscription": l["circo"] if l["cat"] == "dep" else "", "debutMandat": l["debutMandat"], "debutFonction": l["debutFonction"]} for l in lignes]
-    log(f"Répertoire : mandats RNE trouvés pour {len(out)} fiches ; homonymes écartés : {ambigus}")
+    log(f"Répertoire : mandats RNE trouvés pour {len(out)} fiches ; homonymes écartés : {ambigus} ; fiches non élues portant le nom d'un élu (non rattachées) : {ecartes}")
     return out
+
+
+PUBLIC = re.compile(r"politi|ministre|préfet|prefet|haut fonctionnaire|magistrat|député|sénateur|avocat", re.I)
 
 
 def reperes_wikidata(personnes):
@@ -251,6 +261,13 @@ def reperes_wikidata(personnes):
         corses = [k for k, c in items.items() if c["ne"] or BI.CORSE_TEXTE.search(c["desc"])]
         if len(corses) == 1:
             qid[pid] = corses[0].rsplit("/", 1)[-1]
+        elif not corses and len(items) == 1:
+            # Personnalité nationale : un seul être humain porte ce nom sur Wikidata, et il est décrit
+            # comme responsable public ; la fiche, elle, le dit élu ou haut fonctionnaire.
+            k, c = next(iter(items.items()))
+            fiche = next(p for p in gens if p["id"] == pid)
+            if PUBLIC.search(c["desc"]) and set(fiche.get("qualite") or []) & {"Élu", "Ancien élu", "Haut fonctionnaire"}:
+                qid[pid] = k.rsplit("/", 1)[-1]
     # organisations
     for p in orgs:
         libs = BI.libelles_organisation(p["nom"])
@@ -408,6 +425,8 @@ def equipements(codes):
         for b in res:
             i = BI.v(b, "i").rsplit("/", 1)[-1]
             if i in vus or re.match(r"^Q\d+$", BI.v(b, "iLabel")):
+                continue
+            if cat == "Hôpital" and not re.search(r"h[oô]pital|hospitalier|clinique|miséricorde", BI.v(b, "iLabel"), re.I):
                 continue
             vus.add(i)
             m = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", BI.v(b, "coord"))
