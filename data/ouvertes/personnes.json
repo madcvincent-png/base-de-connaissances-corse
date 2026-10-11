@@ -1,41 +1,113 @@
 {
- "3f4cf61fb4e7811c9ce5d35fcd9c89b7": {
+ "3f4cf61fb4e781e89017c4866d88c9d1": {
   "wikidata": {
-   "wikidata": "Q30339348",
-   "description": "personnalité politique française",
-   "naissance": "1973",
-   "lieuNaissance": "Bastia",
+   "wikidata": "Q2830145",
+   "description": "homme politique français",
+   "naissance": "1954",
+   "lieuNaissance": "Ajaccio",
    "partis": [
-    "Pè a Corsica"
+    "Mouvement pour l'autodétermination"
    ],
    "fonctions": [
     {
-     "poste": "député français",
-     "debut": "2022-06-22",
-     "fin": "2024-06-09"
-    },
-    {
-     "poste": "député français",
-     "debut": "2017-06-21",
-     "fin": "2022-06-21"
-    },
-    {
-     "poste": "conseiller communautaire de Pasquale Paoli",
-     "debut": "2017-01-01",
-     "fin": ""
-    },
-    {
-     "poste": "maire de Lozzi",
-     "debut": "2008-03-01",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller municipal de Lozzi",
-     "debut": "",
+     "poste": "dirigeant ou dirigeante",
+     "debut": "1990-01-01",
      "fin": ""
     }
    ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Jean-F%C3%A9lix_Acquaviva"
+   "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Orsoni"
+  }
+ },
+ "3f4cf61fb4e781828056ce199ab7f442": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Conseiller",
+    "commune": "2B303",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": ""
+   },
+   {
+    "institution": "Assemblée nationale",
+    "fonction": "Député",
+    "commune": "",
+    "epci": "",
+    "circonscription": "2Ème Circonscription",
+    "debutMandat": "2024-07-08",
+    "debutFonction": ""
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q62616089",
+   "description": "homme politique français",
+   "naissance": "1968",
+   "lieuNaissance": "Cervione",
+   "fonctions": [
+    {
+     "poste": "député français",
+     "debut": "2024-07-08",
+     "fin": ""
+    },
+    {
+     "poste": "maire de San-Giuliano",
+     "debut": "2020-05-23",
+     "fin": "2024-10-28"
+    },
+    {
+     "poste": "conseiller municipal de San-Giuliano",
+     "debut": "2020-05-18",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller communautaire de la Costa Verde",
+     "debut": "2014-04-18",
+     "fin": ""
+    },
+    {
+     "poste": "maire de San-Giuliano",
+     "debut": "2014-03-29",
+     "fin": "2020-05-22"
+    },
+    {
+     "poste": "conseiller municipal de San-Giuliano",
+     "debut": "2014-03-23",
+     "fin": "2020-05-17"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Ceccoli"
+  }
+ },
+ "3f6cf61fb4e7815a80d2c042f8a8bb68": {
+  "wikidata": {
+   "wikidata": "Q100323003",
+   "description": "femme politique française œuvrant en Corse",
+   "naissance": "1967",
+   "lieuNaissance": "Bastia",
+   "fonctions": [
+    {
+     "poste": "Catégorie:Président de l'assemblée de Corse",
+     "debut": "2021-07-01",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller à l'assemblée de Corse",
+     "debut": "2015-01-01",
+     "fin": ""
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Marie-Antoinette_Maupertuis"
+  }
+ },
+ "3f4cf61fb4e781b3b91ec49d9f476023": {
+  "wikidata": {
+   "wikidata": "Q270051",
+   "description": "club de football français",
+   "wikipedia": "https://fr.wikipedia.org/wiki/Athletic_Club_ajaccien",
+   "site": "http://www.ac-ajaccio.corsica/",
+   "fondation": "1910",
+   "siege": "Ajaccio"
   }
  },
  "3f4cf61fb4e7813a9c65fac1fbeea669": {
@@ -46,6 +118,130 @@
    "site": "http://www.corsicaferries.com",
    "fondation": "1967",
    "siege": "Bastia"
+  }
+ },
+ "3f4cf61fb4e78137b4dff4562ac3cf70": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Conseiller",
+    "commune": "2A004",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   }
+  ]
+ },
+ "3f6cf61fb4e781759254e1225130a3fa": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Conseiller",
+    "commune": "2B033",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "Conseiller",
+    "commune": "",
+    "epci": "Ca De Bastia",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   }
+  ]
+ },
+ "3f4cf61fb4e7816cbf4ee09478a1bf08": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Maire",
+    "commune": "2A144",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-20"
+   }
+  ]
+ },
+ "3f4cf61fb4e781a086b4fc2054f53e4d": {
+  "wikidata": {
+   "wikidata": "Q33281869",
+   "description": "haut fonctionnaire français",
+   "naissance": "1967",
+   "lieuNaissance": "Brignoles",
+   "fonctions": [
+    {
+     "poste": "préfet d'Ille-et-Vilaine",
+     "debut": "2025-11-19",
+     "fin": "2026-07-14"
+    },
+    {
+     "poste": "directeur de cabinet du ministre de l'Intérieur",
+     "debut": "2024-09-21",
+     "fin": "2025-10-10"
+    },
+    {
+     "poste": "préfet de la Côte-d'Or",
+     "debut": "2022-09-22",
+     "fin": "2024-09-20"
+    },
+    {
+     "poste": "préfet de la Corse-du-Sud",
+     "debut": "2020-01-15",
+     "fin": "2020-07-22"
+    },
+    {
+     "poste": "préfet de Martinique",
+     "debut": "2017-06-29",
+     "fin": "2020-01-15"
+    },
+    {
+     "poste": "directeur général des services",
+     "debut": "2016-01-01",
+     "fin": "2017-01-01"
+    },
+    {
+     "poste": "directeur général des services",
+     "debut": "2015-01-01",
+     "fin": "2016-01-01"
+    },
+    {
+     "poste": "directeur général des services",
+     "debut": "2013-01-01",
+     "fin": "2015-01-01"
+    },
+    {
+     "poste": "Chef de cabinet du Premier ministre français",
+     "debut": "2007-05-01",
+     "fin": "2012-01-01"
+    },
+    {
+     "poste": "Directeur de cabinet du ministre de la Fonction publique",
+     "debut": "2006-01-01",
+     "fin": "2007-01-01"
+    },
+    {
+     "poste": "Chef de cabinet du ministre de l'Agriculture",
+     "debut": "2002-01-01",
+     "fin": "2004-01-01"
+    },
+    {
+     "poste": "Directeur de cabinet du préfet de la région Lorraine, préfet de la Moselle",
+     "debut": "1995-01-01",
+     "fin": "1997-01-01"
+    },
+    {
+     "poste": "directeur de cabinet du préfet de la région Poitou-Charentes, préfet de la Vienne",
+     "debut": "1993-01-01",
+     "fin": "1995-01-01"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Franck_Robine"
   }
  },
  "3f4cf61fb4e781f98a10cc4224ebc5f9": {
@@ -115,92 +311,14 @@
    "site": "http://gillessimeoni.com/"
   }
  },
- "3f4cf61fb4e781c6ad3bca04e7059bf6": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "4ème adjoint au Maire",
-    "commune": "2A041",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-21"
-   }
-  ]
- },
- "3f4cf61fb4e781f2a86af2f35070c9c4": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "1er adjoint au Maire",
-    "commune": "2A004",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": "2026-03-29"
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "Conseiller",
-    "commune": "",
-    "epci": "Ca Du Pays Ajaccien",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   }
-  ]
- },
- "3f6cf61fb4e781759254e1225130a3fa": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Conseiller",
-    "commune": "2B033",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "Conseiller",
-    "commune": "",
-    "epci": "Ca De Bastia",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   }
-  ]
- },
- "3f4cf61fb4e781b3b91ec49d9f476023": {
+ "3f6cf61fb4e7813eafbcf83f94247df4": {
   "wikidata": {
-   "wikidata": "Q270051",
-   "description": "club de football français",
-   "wikipedia": "https://fr.wikipedia.org/wiki/Athletic_Club_ajaccien",
-   "site": "http://www.ac-ajaccio.corsica/",
-   "fondation": "1910",
-   "siege": "Ajaccio"
-  }
- },
- "3f4cf61fb4e7817ca215e6b711bb677d": {
-  "rne": [
-   {
-    "institution": "Assemblée nationale",
-    "fonction": "Député",
-    "commune": "",
-    "epci": "",
-    "circonscription": "1Ère Circonscription",
-    "debutMandat": "2024-07-08",
-    "debutFonction": ""
-   }
-  ],
-  "wikidata": {
-   "wikidata": "Q30342903",
-   "description": "personnalité politique française",
-   "naissance": "1945",
-   "lieuNaissance": "Bastia",
+   "wikidata": "Q2856427",
+   "description": "homme politique français",
+   "naissance": "1973",
+   "lieuNaissance": "Sainte-Foy-la-Grande",
    "partis": [
-    "Pè a Corsica"
+    "Parti socialiste"
    ],
    "fonctions": [
     {
@@ -217,19 +335,109 @@
      "poste": "député français",
      "debut": "2017-06-21",
      "fin": "2022-06-21"
+    },
+    {
+     "poste": "conseiller régional de la Nouvelle-Aquitaine",
+     "debut": "2016-01-01",
+     "fin": ""
+    },
+    {
+     "poste": "député français",
+     "debut": "2012-06-20",
+     "fin": "2017-06-20"
     }
    ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Michel_Castellani_(homme_politique)"
+   "wikipedia": "https://fr.wikipedia.org/wiki/Florent_Boudi%C3%A9",
+   "site": "http://florentboudie.fr/"
   }
  },
- "3f4cf61fb4e781e79f5af80e033a7f86": {
+ "3f6cf61fb4e78122b5c7c278a892ce8e": {
   "wikidata": {
-   "wikidata": "Q24937927",
-   "description": "société de transport maritime de voyageurs français",
-   "wikipedia": "https://fr.wikipedia.org/wiki/Corsica_Linea",
-   "site": "http://www.corsicalinea.com",
-   "fondation": "2016",
-   "siege": "Ajaccio"
+   "wikidata": "Q663987",
+   "description": "homme politique français né en 1957",
+   "naissance": "1957",
+   "lieuNaissance": "Courbevoie",
+   "partis": [
+    "Parti radical de gauche"
+   ],
+   "fonctions": [
+    {
+     "poste": "député français",
+     "debut": "2012-06-20",
+     "fin": "2017-06-20"
+    },
+    {
+     "poste": "suppléant de l'Assemblée parlementaire du Conseil de l'Europe",
+     "debut": "2007-10-01",
+     "fin": "2010-04-27"
+    },
+    {
+     "poste": "député français",
+     "debut": "2007-06-20",
+     "fin": "2012-06-19"
+    },
+    {
+     "poste": "député français",
+     "debut": "2002-06-19",
+     "fin": "2007-06-19"
+    },
+    {
+     "poste": "conseiller régional",
+     "debut": "",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller général",
+     "debut": "",
+     "fin": ""
+    },
+    {
+     "poste": "maire",
+     "debut": "",
+     "fin": ""
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Paul_Giacobbi_(homme_politique,_1957)"
+  }
+ },
+ "3f4cf61fb4e78146b881f01c9b7c9995": {
+  "wikidata": {
+   "wikidata": "Q33136702",
+   "description": "haut fonctionnaire français",
+   "naissance": "1971",
+   "lieuNaissance": "4e arrondissement de Lyon",
+   "fonctions": [
+    {
+     "poste": "préfet de Corse",
+     "debut": "2025-08-25",
+     "fin": ""
+    },
+    {
+     "poste": "directeur général des étrangers en France",
+     "debut": "2022-08-23",
+     "fin": "2025-08-25"
+    },
+    {
+     "poste": "préfet de l'Essonne",
+     "debut": "2020-08-24",
+     "fin": "2022-08-01"
+    },
+    {
+     "poste": "préfet de la Charente-Maritime",
+     "debut": "2015-09-30",
+     "fin": "2017-05-24"
+    },
+    {
+     "poste": "préfet de la Savoie",
+     "debut": "2012-07-01",
+     "fin": "2015-09-30"
+    },
+    {
+     "poste": "directeur général des collectivités locales",
+     "debut": "2009-09-17",
+     "fin": "2012-07-30"
+    }
+   ]
   }
  },
  "3f4cf61fb4e781bd8ed3c7a9689155c2": {
@@ -237,451 +445,6 @@
    "wikidata": "Q133455792",
    "description": "Syndicat agricole corse",
    "siege": "Ajaccio"
-  }
- },
- "3f4cf61fb4e781e89017c4866d88c9d1": {
-  "wikidata": {
-   "wikidata": "Q2830145",
-   "description": "homme politique français",
-   "naissance": "1954",
-   "lieuNaissance": "Ajaccio",
-   "partis": [
-    "Mouvement pour l'autodétermination"
-   ],
-   "fonctions": [
-    {
-     "poste": "dirigeant ou dirigeante",
-     "debut": "1990-01-01",
-     "fin": ""
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Orsoni"
-  }
- },
- "3f4cf61fb4e781c39c32e69d7f521816": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "10ème adjoint au Maire",
-    "commune": "2A004",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": "2026-03-29"
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "Conseiller",
-    "commune": "",
-    "epci": "Ca Du Pays Ajaccien",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   }
-  ]
- },
- "3f4cf61fb4e781cd8539c4be7e029e2c": {
-  "wikidata": {
-   "wikidata": "Q3068323",
-   "description": "parti politique corse",
-   "wikipedia": "https://fr.wikipedia.org/wiki/Femu_a_Corsica",
-   "site": "https://www.femuacorsica.corsica/",
-   "fondation": "2010",
-   "siege": "Bastia"
-  }
- },
- "3f4cf61fb4e78125b12cc573f956f49b": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Maire",
-    "commune": "2A197",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-22"
-   }
-  ],
-  "wikidata": {
-   "wikidata": "Q1450883",
-   "description": "personnalité politique française",
-   "naissance": "1953",
-   "lieuNaissance": "Ajaccio",
-   "partis": [
-    "Alliance libre européenne",
-    "Femu a Corsica"
-   ],
-   "fonctions": [
-    {
-     "poste": "maire d’Osani",
-     "debut": "2026-03-22",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller municipal d'Osani",
-     "debut": "2026-03-15",
-     "fin": ""
-    },
-    {
-     "poste": "maire d’Osani",
-     "debut": "2025-02-01",
-     "fin": "2026-03-21"
-    },
-    {
-     "poste": "conseiller municipal d'Osani",
-     "debut": "2020-05-18",
-     "fin": "2026-03-14"
-    },
-    {
-     "poste": "député européen",
-     "debut": "2019-07-02",
-     "fin": "2024-07-15"
-    },
-    {
-     "poste": "maire d’Osani",
-     "debut": "2014-03-29",
-     "fin": "2020-05-22"
-    },
-    {
-     "poste": "conseiller municipal d'Osani",
-     "debut": "2014-03-23",
-     "fin": "2020-05-17"
-    },
-    {
-     "poste": "député européen",
-     "debut": "2009-07-14",
-     "fin": "2014-06-30"
-    },
-    {
-     "poste": "maire d’Osani",
-     "debut": "2008-01-01",
-     "fin": "2014-03-28"
-    },
-    {
-     "poste": "maire d’Osani",
-     "debut": "2002-01-01",
-     "fin": "2008-01-01"
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Alfonsi"
-  }
- },
- "3f4cf61fb4e781a7bd31e1afb45f223a": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Maire",
-    "commune": "2A041",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-21"
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "1er Vice-président du conseil communautaire",
-    "commune": "",
-    "epci": "Cc Du Sud Corse",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-30"
-   }
-  ]
- },
- "3f4cf61fb4e781c58caef4dcacd72af0": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Maire",
-    "commune": "2A247",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-20"
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "Président du conseil communautaire",
-    "commune": "",
-    "epci": "Cc Du Sud Corse",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-30"
-   }
-  ],
-  "wikidata": {
-   "wikidata": "Q3164723",
-   "description": "politicien français",
-   "naissance": "1975",
-   "lieuNaissance": "Porto-Vecchio",
-   "partis": [
-    "Partitu di a Nazione Corsa"
-   ],
-   "fonctions": [
-    {
-     "poste": "maire de Porto-Vecchio",
-     "debut": "2026-03-20",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller municipal de Porto-Vecchio",
-     "debut": "2026-03-15",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller municipal de Porto-Vecchio",
-     "debut": "2020-06-28",
-     "fin": "2026-03-14"
-    },
-    {
-     "poste": "maire de Porto-Vecchio",
-     "debut": "2020-06-28",
-     "fin": "2026-03-19"
-    },
-    {
-     "poste": "conseiller communautaire du Sud Corse",
-     "debut": "2014-03-30",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller municipal de Porto-Vecchio",
-     "debut": "",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller à l'assemblée de Corse",
-     "debut": "",
-     "fin": ""
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Jean-Christophe_Angelini"
-  }
- },
- "3f6cf61fb4e781429d32c82600ed372e": {
-  "wikidata": {
-   "wikidata": "Q208399",
-   "description": "club de football français",
-   "wikipedia": "https://fr.wikipedia.org/wiki/Sporting_Club_de_Bastia",
-   "site": "http://www.sc-bastia.corsica/",
-   "fondation": "1905",
-   "siege": "Furiani"
-  }
- },
- "3f4cf61fb4e78123b327d426c03f1caf": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Conseiller",
-    "commune": "2A004",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   }
-  ]
- },
- "3f4cf61fb4e781429e49d24c851769de": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Conseiller",
-    "commune": "2A004",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "3eme Vice-président du conseil communautaire",
-    "commune": "",
-    "epci": "Ca Du Pays Ajaccien",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": "2026-04-04"
-   }
-  ]
- },
- "3f4cf61fb4e7816cbf4ee09478a1bf08": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Maire",
-    "commune": "2A144",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-20"
-   }
-  ]
- },
- "3f4cf61fb4e781299c85eef6a7dae378": {
-  "rne": [
-   {
-    "institution": "Sénat",
-    "fonction": "Sénateur",
-    "commune": "",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2020-10-01",
-    "debutFonction": ""
-   }
-  ],
-  "wikidata": {
-   "wikidata": "Q3166376",
-   "description": "homme politique français",
-   "naissance": "1956",
-   "lieuNaissance": "Ajaccio",
-   "partis": [
-    "Les Républicains"
-   ],
-   "fonctions": [
-    {
-     "poste": "sénateur ou sénatrice de la Cinquième République",
-     "debut": "",
-     "fin": ""
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Jean-Jacques_Panunzi"
-  }
- },
- "3f6cf61fb4e7813994b0d34bd9bb7db4": {
-  "wikidata": {
-   "wikidata": "Q131631495",
-   "description": "homme politique français",
-   "naissance": "1965",
-   "lieuNaissance": "Ajaccio",
-   "fonctions": [
-    {
-     "poste": "député français",
-     "debut": "2025-01-24",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller à l'assemblée de Corse",
-     "debut": "2015-12-13",
-     "fin": ""
-    },
-    {
-     "poste": "maire de Peri",
-     "debut": "2008-01-01",
-     "fin": "2025-01-23"
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Xavier_Lacombe"
-  }
- },
- "3f4cf61fb4e781daad74fa813c61bbc4": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Conseiller",
-    "commune": "2A004",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "Conseiller",
-    "commune": "",
-    "epci": "Ca Du Pays Ajaccien",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": ""
-   }
-  ]
- },
- "3f4cf61fb4e781828056ce199ab7f442": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Conseiller",
-    "commune": "2B303",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": ""
-   },
-   {
-    "institution": "Assemblée nationale",
-    "fonction": "Député",
-    "commune": "",
-    "epci": "",
-    "circonscription": "2Ème Circonscription",
-    "debutMandat": "2024-07-08",
-    "debutFonction": ""
-   }
-  ],
-  "wikidata": {
-   "wikidata": "Q62616089",
-   "description": "homme politique français",
-   "naissance": "1968",
-   "lieuNaissance": "Cervione",
-   "fonctions": [
-    {
-     "poste": "député français",
-     "debut": "2024-07-08",
-     "fin": ""
-    },
-    {
-     "poste": "maire de San-Giuliano",
-     "debut": "2020-05-23",
-     "fin": "2024-10-28"
-    },
-    {
-     "poste": "conseiller municipal de San-Giuliano",
-     "debut": "2020-05-18",
-     "fin": ""
-    },
-    {
-     "poste": "conseiller communautaire de la Costa Verde",
-     "debut": "2014-04-18",
-     "fin": ""
-    },
-    {
-     "poste": "maire de San-Giuliano",
-     "debut": "2014-03-29",
-     "fin": "2020-05-22"
-    },
-    {
-     "poste": "conseiller municipal de San-Giuliano",
-     "debut": "2014-03-23",
-     "fin": "2020-05-17"
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Ceccoli"
-  }
- },
- "3f4cf61fb4e781579d02d9500eb14f0c": {
-  "rne": [
-   {
-    "institution": "Conseil municipal",
-    "fonction": "Maire",
-    "commune": "2A004",
-    "epci": "",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": "2026-03-29"
-   },
-   {
-    "institution": "Intercommunalité",
-    "fonction": "Président du conseil communautaire",
-    "commune": "",
-    "epci": "Ca Du Pays Ajaccien",
-    "circonscription": "",
-    "debutMandat": "2026-03-22",
-    "debutFonction": "2026-04-04"
-   }
-  ]
- },
- "3f6cf61fb4e7814a9780d2f29aa3a01f": {
-  "wikidata": {
-   "wikidata": "Q1418625",
-   "description": "parti politique corse",
-   "wikipedia": "https://fr.wikipedia.org/wiki/Partitu_di_a_Nazione_Corsa",
-   "fondation": "2002"
   }
  },
  "3f6cf61fb4e7816e8445c3d92b09f751": {
@@ -760,47 +523,519 @@
    "naissance": "1993"
   }
  },
- "3f4cf61fb4e781a88471c0d0e981690d": {
+ "3f4cf61fb4e781ba8176ee993c7db4ba": {
+  "wikidata": {
+   "wikidata": "Q292458",
+   "description": "femme politique française",
+   "naissance": "1989",
+   "lieuNaissance": "Saint-Germain-en-Laye",
+   "partis": [
+    "Rassemblement national",
+    "Front national",
+    "Reconquête",
+    "Identité-Libertés"
+   ],
+   "fonctions": [
+    {
+     "poste": "député européen",
+     "debut": "2024-07-16",
+     "fin": ""
+    },
+    {
+     "poste": "directeur ou directrice",
+     "debut": "2018-05-01",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller régional de Provence-Alpes-Côte d'Azur",
+     "debut": "2015-12-13",
+     "fin": "2017-06-30"
+    },
+    {
+     "poste": "député français",
+     "debut": "2012-06-20",
+     "fin": "2017-06-20"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Marion_Mar%C3%A9chal",
+   "site": "https://marionmarechal.info/"
+  }
+ },
+ "3f4cf61fb4e781579d02d9500eb14f0c": {
   "rne": [
    {
     "institution": "Conseil municipal",
     "fonction": "Maire",
-    "commune": "2A114",
+    "commune": "2A004",
     "epci": "",
     "circonscription": "",
-    "debutMandat": "2026-03-15",
-    "debutFonction": "2026-03-22"
+    "debutMandat": "2026-03-22",
+    "debutFonction": "2026-03-29"
    },
    {
     "institution": "Intercommunalité",
-    "fonction": "4eme Vice-président du conseil communautaire",
+    "fonction": "Président du conseil communautaire",
+    "commune": "",
+    "epci": "Ca Du Pays Ajaccien",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": "2026-04-04"
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q138759800",
+   "description": "homme politique français",
+   "naissance": "1974",
+   "fonctions": [
+    {
+     "poste": "maire d'Ajaccio",
+     "debut": "2026-03-29",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal d'Ajaccio",
+     "debut": "2026-03-22",
+     "fin": ""
+    },
+    {
+     "poste": "maire d'Ajaccio",
+     "debut": "2022-09-07",
+     "fin": "2026-03-29"
+    },
+    {
+     "poste": "conseiller municipal d'Ajaccio",
+     "debut": "2020-05-18",
+     "fin": "2026-03-22"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Sbraggia"
+  }
+ },
+ "3f6cf61fb4e7814a9780d2f29aa3a01f": {
+  "wikidata": {
+   "wikidata": "Q1418625",
+   "description": "parti politique corse",
+   "wikipedia": "https://fr.wikipedia.org/wiki/Partitu_di_a_Nazione_Corsa",
+   "fondation": "2002"
+  }
+ },
+ "3f6cf61fb4e781829ed8f177f89907dc": {
+  "wikidata": {
+   "wikidata": "Q2926942",
+   "description": "homme politique français",
+   "naissance": "1960",
+   "lieuNaissance": "Cholet",
+   "partis": [
+    "Union pour un mouvement populaire",
+    "Mouvement pour la France",
+    "Les Républicains"
+   ],
+   "fonctions": [
+    {
+     "poste": "ministre de l'Intérieur",
+     "debut": "2024-09-21",
+     "fin": "2025-10-12"
+    },
+    {
+     "poste": "président ou présidente",
+     "debut": "2017-11-01",
+     "fin": ""
+    },
+    {
+     "poste": "président du conseil régional des Pays de la Loire",
+     "debut": "2015-12-18",
+     "fin": "2017-09-30"
+    },
+    {
+     "poste": "conseiller régional des Pays de la Loire",
+     "debut": "2015-12-13",
+     "fin": ""
+    },
+    {
+     "poste": "président ou présidente",
+     "debut": "2015-05-01",
+     "fin": ""
+    },
+    {
+     "poste": "président ou présidente",
+     "debut": "2014-10-02",
+     "fin": "2015-05-01"
+    },
+    {
+     "poste": "sénateur ou sénatrice de la Cinquième République",
+     "debut": "2014-09-28",
+     "fin": ""
+    },
+    {
+     "poste": "président ou présidente de conseil général",
+     "debut": "2010-11-30",
+     "fin": "2015-04-02"
+    },
+    {
+     "poste": "sénateur ou sénatrice de la Cinquième République",
+     "debut": "2004-09-26",
+     "fin": "2014-09-28"
+    },
+    {
+     "poste": "conseiller régional des Pays de la Loire",
+     "debut": "1998-01-01",
+     "fin": "2004-01-01"
+    },
+    {
+     "poste": "député français",
+     "debut": "1994-11-27",
+     "fin": "1997-04-21"
+    },
+    {
+     "poste": "conseiller général",
+     "debut": "1988-01-01",
+     "fin": "2015-01-01"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+  }
+ },
+ "3f6cf61fb4e781eda7dbe7f19f081945": {
+  "wikidata": {
+   "wikidata": "Q383499",
+   "description": "homme politique français",
+   "naissance": "1951",
+   "lieuNaissance": "Dijon",
+   "partis": [
+    "Parti socialiste",
+    "Ligue communiste révolutionnaire",
+    "Fédération progressiste"
+   ],
+   "fonctions": [
+    {
+     "poste": "maire de Dijon",
+     "debut": "2020-07-04",
+     "fin": "2024-11-18"
+    },
+    {
+     "poste": "conseiller municipal de Dijon",
+     "debut": "2020-06-28",
+     "fin": ""
+    },
+    {
+     "poste": "maire de Dijon",
+     "debut": "2015-08-10",
+     "fin": "2020-07-03"
+    },
+    {
+     "poste": "conseiller municipal de Dijon",
+     "debut": "2014-03-30",
+     "fin": "2020-06-27"
+    },
+    {
+     "poste": "conseiller de Dijon Métropole",
+     "debut": "2014-03-30",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller régional de Bourgogne",
+     "debut": "",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller général",
+     "debut": "",
+     "fin": ""
+    },
+    {
+     "poste": "sénateur ou sénatrice de la Cinquième République",
+     "debut": "",
+     "fin": ""
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Rebsamen"
+  }
+ },
+ "3f4cf61fb4e78190b3a0e195ed837a7f": {
+  "wikidata": {
+   "wikidata": "Q3123610",
+   "description": "homme politique français",
+   "naissance": "1982",
+   "lieuNaissance": "Valenciennes",
+   "partis": [
+    "Union pour un mouvement populaire",
+    "Les Républicains",
+    "Renaissance"
+   ],
+   "fonctions": [
+    {
+     "poste": "garde des Sceaux, ministre de la Justice",
+     "debut": "2024-12-23",
+     "fin": ""
+    },
+    {
+     "poste": "député français",
+     "debut": "2024-07-08",
+     "fin": "2025-01-23"
+    },
+    {
+     "poste": "député français",
+     "debut": "2022-06-22",
+     "fin": "2022-07-22"
+    },
+    {
+     "poste": "ministre de l'Intérieur",
+     "debut": "2020-07-06",
+     "fin": "2024-09-21"
+    },
+    {
+     "poste": "maire de Tourcoing",
+     "debut": "2020-05-23",
+     "fin": "2020-09-03"
+    },
+    {
+     "poste": "conseiller municipal de Tourcoing",
+     "debut": "2020-05-18",
+     "fin": ""
+    },
+    {
+     "poste": "ministre de l’Action et des Comptes publics",
+     "debut": "2017-05-17",
+     "fin": "2020-07-06"
+    },
+    {
+     "poste": "conseiller régional des Hauts-de-France",
+     "debut": "2016-01-01",
+     "fin": ""
+    },
+    {
+     "poste": "maire de Tourcoing",
+     "debut": "2014-04-04",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller de la Métropole européenne de Lille",
+     "debut": "2014-03-30",
+     "fin": ""
+    },
+    {
+     "poste": "député français",
+     "debut": "2012-06-20",
+     "fin": "2016-01-27"
+    },
+    {
+     "poste": "conseiller régional",
+     "debut": "2010-03-26",
+     "fin": "2014-03-30"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/G%C3%A9rald_Darmanin"
+  }
+ },
+ "3f4cf61fb4e7811c9ce5d35fcd9c89b7": {
+  "wikidata": {
+   "wikidata": "Q30339348",
+   "description": "personnalité politique française",
+   "naissance": "1973",
+   "lieuNaissance": "Bastia",
+   "partis": [
+    "Pè a Corsica"
+   ],
+   "fonctions": [
+    {
+     "poste": "député français",
+     "debut": "2022-06-22",
+     "fin": "2024-06-09"
+    },
+    {
+     "poste": "député français",
+     "debut": "2017-06-21",
+     "fin": "2022-06-21"
+    },
+    {
+     "poste": "conseiller communautaire de Pasquale Paoli",
+     "debut": "2017-01-01",
+     "fin": ""
+    },
+    {
+     "poste": "maire de Lozzi",
+     "debut": "2008-03-01",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Lozzi",
+     "debut": "",
+     "fin": ""
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Jean-F%C3%A9lix_Acquaviva"
+  }
+ },
+ "3f6cf61fb4e78144b41fd10253ecac0d": {
+  "wikidata": {
+   "wikidata": "Q33212772",
+   "description": "haut fonctionnaire français",
+   "naissance": "1968",
+   "lieuNaissance": "Gennevilliers",
+   "fonctions": [
+    {
+     "poste": "directeur ou directrice",
+     "debut": "2026-01-05",
+     "fin": ""
+    },
+    {
+     "poste": "préfet de la Corse-du-Sud",
+     "debut": "2024-10-10",
+     "fin": "2025-08-25"
+    },
+    {
+     "poste": "préfet de La Réunion",
+     "debut": "2022-08-23",
+     "fin": "2024-10-10"
+    },
+    {
+     "poste": "préfet de l'Eure",
+     "debut": "2020-02-10",
+     "fin": "2022-08-23"
+    },
+    {
+     "poste": "préfet du Lot",
+     "debut": "2017-09-04",
+     "fin": "2020-02-09"
+    },
+    {
+     "poste": "secrétaire général ou secrétaire générale",
+     "debut": "2013-11-01",
+     "fin": "2017-09-03"
+    },
+    {
+     "poste": "secrétaire général ou secrétaire générale",
+     "debut": "2012-10-01",
+     "fin": "2013-10-10"
+    },
+    {
+     "poste": "directeur ou directrice",
+     "debut": "2011-02-24",
+     "fin": "2012-10-04"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Filippini"
+  }
+ },
+ "3f4cf61fb4e781429e49d24c851769de": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Conseiller",
+    "commune": "2A004",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "3eme Vice-président du conseil communautaire",
+    "commune": "",
+    "epci": "Ca Du Pays Ajaccien",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": "2026-04-04"
+   }
+  ]
+ },
+ "3f4cf61fb4e781c58caef4dcacd72af0": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Maire",
+    "commune": "2A247",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-20"
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "Président du conseil communautaire",
     "commune": "",
     "epci": "Cc Du Sud Corse",
     "circonscription": "",
     "debutMandat": "2026-03-15",
     "debutFonction": "2026-03-30"
    }
-  ]
- },
- "3f6cf61fb4e7815a80d2c042f8a8bb68": {
+  ],
   "wikidata": {
-   "wikidata": "Q100323003",
-   "description": "femme politique française œuvrant en Corse",
-   "naissance": "1967",
-   "lieuNaissance": "Bastia",
+   "wikidata": "Q3164723",
+   "description": "politicien français",
+   "naissance": "1975",
+   "lieuNaissance": "Porto-Vecchio",
+   "partis": [
+    "Partitu di a Nazione Corsa"
+   ],
    "fonctions": [
     {
-     "poste": "Catégorie:Président de l'assemblée de Corse",
-     "debut": "2021-07-01",
+     "poste": "maire de Porto-Vecchio",
+     "debut": "2026-03-20",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Porto-Vecchio",
+     "debut": "2026-03-15",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Porto-Vecchio",
+     "debut": "2020-06-28",
+     "fin": "2026-03-14"
+    },
+    {
+     "poste": "maire de Porto-Vecchio",
+     "debut": "2020-06-28",
+     "fin": "2026-03-19"
+    },
+    {
+     "poste": "conseiller communautaire du Sud Corse",
+     "debut": "2014-03-30",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Porto-Vecchio",
+     "debut": "",
      "fin": ""
     },
     {
      "poste": "conseiller à l'assemblée de Corse",
-     "debut": "2015-01-01",
+     "debut": "",
      "fin": ""
     }
    ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Marie-Antoinette_Maupertuis"
+   "wikipedia": "https://fr.wikipedia.org/wiki/Jean-Christophe_Angelini"
+  }
+ },
+ "3f4cf61fb4e781299c85eef6a7dae378": {
+  "rne": [
+   {
+    "institution": "Sénat",
+    "fonction": "Sénateur",
+    "commune": "",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2020-10-01",
+    "debutFonction": ""
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q3166376",
+   "description": "homme politique français",
+   "naissance": "1956",
+   "lieuNaissance": "Ajaccio",
+   "partis": [
+    "Les Républicains"
+   ],
+   "fonctions": [
+    {
+     "poste": "sénateur ou sénatrice de la Cinquième République",
+     "debut": "",
+     "fin": ""
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Jean-Jacques_Panunzi"
   }
  },
  "3f6cf61fb4e781c49433c67bfabf2469": {
@@ -827,26 +1062,7 @@
    "wikipedia": "https://fr.wikipedia.org/wiki/Jean-Guy_Talamoni"
   }
  },
- "3f6cf61fb4e781b4b224f7fd28852456": {
-  "wikidata": {
-   "wikidata": "Q1996613",
-   "description": "homme politique français",
-   "naissance": "1934",
-   "lieuNaissance": "Corte",
-   "partis": [
-    "Action pour la renaissance de la Corse"
-   ],
-   "fonctions": [
-    {
-     "poste": "Conseiller territorial",
-     "debut": "",
-     "fin": ""
-    }
-   ],
-   "wikipedia": "https://fr.wikipedia.org/wiki/Edmond_Simeoni"
-  }
- },
- "3f4cf61fb4e78137b4dff4562ac3cf70": {
+ "3f4cf61fb4e78123b327d426c03f1caf": {
   "rne": [
    {
     "institution": "Conseil municipal",
@@ -948,6 +1164,434 @@
    ],
    "wikipedia": "https://fr.wikipedia.org/wiki/Laurent_Marcangeli",
    "site": "http://www.laurent-marcangeli.com/"
+  }
+ },
+ "3f4cf61fb4e781a88471c0d0e981690d": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Maire",
+    "commune": "2A114",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-22"
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "4eme Vice-président du conseil communautaire",
+    "commune": "",
+    "epci": "Cc Du Sud Corse",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-30"
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q98251181",
+   "description": "homme politique français",
+   "naissance": "1973",
+   "fonctions": [
+    {
+     "poste": "maire de Figari",
+     "debut": "2026-03-22",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Figari",
+     "debut": "2026-03-15",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Figari",
+     "debut": "2020-06-28",
+     "fin": "2026-03-14"
+    },
+    {
+     "poste": "maire de Figari",
+     "debut": "2020-06-28",
+     "fin": "2026-03-21"
+    }
+   ]
+  }
+ },
+ "3f4cf61fb4e78125b12cc573f956f49b": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Maire",
+    "commune": "2A197",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-22"
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q1450883",
+   "description": "personnalité politique française",
+   "naissance": "1953",
+   "lieuNaissance": "Ajaccio",
+   "partis": [
+    "Alliance libre européenne",
+    "Femu a Corsica"
+   ],
+   "fonctions": [
+    {
+     "poste": "maire d’Osani",
+     "debut": "2026-03-22",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal d'Osani",
+     "debut": "2026-03-15",
+     "fin": ""
+    },
+    {
+     "poste": "maire d’Osani",
+     "debut": "2025-02-01",
+     "fin": "2026-03-21"
+    },
+    {
+     "poste": "conseiller municipal d'Osani",
+     "debut": "2020-05-18",
+     "fin": "2026-03-14"
+    },
+    {
+     "poste": "député européen",
+     "debut": "2019-07-02",
+     "fin": "2024-07-15"
+    },
+    {
+     "poste": "maire d’Osani",
+     "debut": "2014-03-29",
+     "fin": "2020-05-22"
+    },
+    {
+     "poste": "conseiller municipal d'Osani",
+     "debut": "2014-03-23",
+     "fin": "2020-05-17"
+    },
+    {
+     "poste": "député européen",
+     "debut": "2009-07-14",
+     "fin": "2014-06-30"
+    },
+    {
+     "poste": "maire d’Osani",
+     "debut": "2008-01-01",
+     "fin": "2014-03-28"
+    },
+    {
+     "poste": "maire d’Osani",
+     "debut": "2002-01-01",
+     "fin": "2008-01-01"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Alfonsi"
+  }
+ },
+ "3f4cf61fb4e781c39c32e69d7f521816": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "10ème adjoint au Maire",
+    "commune": "2A004",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": "2026-03-29"
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "Conseiller",
+    "commune": "",
+    "epci": "Ca Du Pays Ajaccien",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   }
+  ]
+ },
+ "3f4cf61fb4e7817ca215e6b711bb677d": {
+  "rne": [
+   {
+    "institution": "Assemblée nationale",
+    "fonction": "Député",
+    "commune": "",
+    "epci": "",
+    "circonscription": "1Ère Circonscription",
+    "debutMandat": "2024-07-08",
+    "debutFonction": ""
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q30342903",
+   "description": "personnalité politique française",
+   "naissance": "1945",
+   "lieuNaissance": "Bastia",
+   "partis": [
+    "Pè a Corsica"
+   ],
+   "fonctions": [
+    {
+     "poste": "député français",
+     "debut": "2024-07-08",
+     "fin": ""
+    },
+    {
+     "poste": "député français",
+     "debut": "2022-06-22",
+     "fin": "2024-06-09"
+    },
+    {
+     "poste": "député français",
+     "debut": "2017-06-21",
+     "fin": "2022-06-21"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Michel_Castellani_(homme_politique)"
+  }
+ },
+ "3f4cf61fb4e781e79f5af80e033a7f86": {
+  "wikidata": {
+   "wikidata": "Q24937927",
+   "description": "société de transport maritime de voyageurs français",
+   "wikipedia": "https://fr.wikipedia.org/wiki/Corsica_Linea",
+   "site": "http://www.corsicalinea.com",
+   "fondation": "2016",
+   "siege": "Ajaccio"
+  }
+ },
+ "3f6cf61fb4e781429d32c82600ed372e": {
+  "wikidata": {
+   "wikidata": "Q208399",
+   "description": "club de football français",
+   "wikipedia": "https://fr.wikipedia.org/wiki/Sporting_Club_de_Bastia",
+   "site": "http://www.sc-bastia.corsica/",
+   "fondation": "1905",
+   "siege": "Furiani"
+  }
+ },
+ "3f4cf61fb4e781f2a86af2f35070c9c4": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "1er adjoint au Maire",
+    "commune": "2A004",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": "2026-03-29"
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "Conseiller",
+    "commune": "",
+    "epci": "Ca Du Pays Ajaccien",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   }
+  ]
+ },
+ "3f4cf61fb4e781daad74fa813c61bbc4": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Conseiller",
+    "commune": "2A004",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "Conseiller",
+    "commune": "",
+    "epci": "Ca Du Pays Ajaccien",
+    "circonscription": "",
+    "debutMandat": "2026-03-22",
+    "debutFonction": ""
+   }
+  ]
+ },
+ "3f6cf61fb4e781618a2ddffcac980bfc": {
+  "wikidata": {
+   "wikidata": "Q18202579",
+   "description": "femme politique française",
+   "naissance": "1953",
+   "lieuNaissance": "Rochefort-en-Terre",
+   "partis": [
+    "Union des démocrates et indépendants"
+   ],
+   "fonctions": [
+    {
+     "poste": "ministre délégué chargé des Collectivités territoriales et de la Ruralité",
+     "debut": "2024-09-21",
+     "fin": ""
+    },
+    {
+     "poste": "sénateur ou sénatrice de la Cinquième République",
+     "debut": "2014-10-01",
+     "fin": "2024-09-21"
+    },
+    {
+     "poste": "conseiller communautaire de Pays de Châteaugiron Communauté",
+     "debut": "2014-03-23",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Châteaugiron",
+     "debut": "2011-03-11",
+     "fin": ""
+    },
+    {
+     "poste": "maire de Châteaugiron",
+     "debut": "2001-03-18",
+     "fin": "2017-09-22"
+    },
+    {
+     "poste": "président ou présidente",
+     "debut": "2001-01-01",
+     "fin": "2017-10-06"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Gatel",
+   "site": "http://francoisegatel.fr"
+  }
+ },
+ "3f6cf61fb4e7813994b0d34bd9bb7db4": {
+  "wikidata": {
+   "wikidata": "Q131631495",
+   "description": "homme politique français",
+   "naissance": "1965",
+   "lieuNaissance": "Ajaccio",
+   "fonctions": [
+    {
+     "poste": "député français",
+     "debut": "2025-01-24",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller à l'assemblée de Corse",
+     "debut": "2015-12-13",
+     "fin": ""
+    },
+    {
+     "poste": "maire de Peri",
+     "debut": "2008-01-01",
+     "fin": "2025-01-23"
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Xavier_Lacombe"
+  }
+ },
+ "3f4cf61fb4e781a7bd31e1afb45f223a": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "Maire",
+    "commune": "2A041",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-21"
+   },
+   {
+    "institution": "Intercommunalité",
+    "fonction": "1er Vice-président du conseil communautaire",
+    "commune": "",
+    "epci": "Cc Du Sud Corse",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-30"
+   }
+  ],
+  "wikidata": {
+   "wikidata": "Q62615575",
+   "description": "homme politique français",
+   "naissance": "1972",
+   "fonctions": [
+    {
+     "poste": "maire de Bonifacio",
+     "debut": "2026-03-21",
+     "fin": ""
+    },
+    {
+     "poste": "conseiller municipal de Bonifacio",
+     "debut": "2026-03-15",
+     "fin": ""
+    },
+    {
+     "poste": "maire de Bonifacio",
+     "debut": "2020-05-23",
+     "fin": "2026-03-20"
+    },
+    {
+     "poste": "conseiller municipal de Bonifacio",
+     "debut": "2020-05-18",
+     "fin": "2026-03-14"
+    },
+    {
+     "poste": "maire de Bonifacio",
+     "debut": "2014-03-29",
+     "fin": "2020-05-22"
+    },
+    {
+     "poste": "conseiller municipal de Bonifacio",
+     "debut": "2014-03-23",
+     "fin": "2020-05-17"
+    },
+    {
+     "poste": "conseiller communautaire du Sud Corse",
+     "debut": "2014-03-23",
+     "fin": ""
+    }
+   ]
+  }
+ },
+ "3f4cf61fb4e781c6ad3bca04e7059bf6": {
+  "rne": [
+   {
+    "institution": "Conseil municipal",
+    "fonction": "4ème adjoint au Maire",
+    "commune": "2A041",
+    "epci": "",
+    "circonscription": "",
+    "debutMandat": "2026-03-15",
+    "debutFonction": "2026-03-21"
+   }
+  ]
+ },
+ "3f6cf61fb4e781b4b224f7fd28852456": {
+  "wikidata": {
+   "wikidata": "Q1996613",
+   "description": "homme politique français",
+   "naissance": "1934",
+   "lieuNaissance": "Corte",
+   "partis": [
+    "Action pour la renaissance de la Corse"
+   ],
+   "fonctions": [
+    {
+     "poste": "Conseiller territorial",
+     "debut": "",
+     "fin": ""
+    }
+   ],
+   "wikipedia": "https://fr.wikipedia.org/wiki/Edmond_Simeoni"
+  }
+ },
+ "3f4cf61fb4e781cd8539c4be7e029e2c": {
+  "wikidata": {
+   "wikidata": "Q3068323",
+   "description": "parti politique corse",
+   "wikipedia": "https://fr.wikipedia.org/wiki/Femu_a_Corsica",
+   "site": "https://www.femuacorsica.corsica/",
+   "fondation": "2010",
+   "siege": "Bastia"
   }
  }
 }
