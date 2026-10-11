@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Vérifier le jeton
         if: env.NOTION_TOKEN == ''
-        run: echo "Secret NOTION_TOKEN absent : rien à exporter." && exit 0
+        run: echo "Secret NOTION_TOKEN absent, rien à exporter."
       - uses: actions/checkout@v4
         if: env.NOTION_TOKEN != ''
         with:
