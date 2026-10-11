@@ -1,0 +1,41 @@
+name: Données ouvertes (élus, sites, lieux)
+
+# Tourne quand le script change, à la demande, et le 1er de chaque mois
+# (le Répertoire national des élus est mis à jour régulièrement).
+on:
+  push:
+    branches: [refonte-base-connaissances]
+    paths: [scripts/build_ouvertes.py, .github/workflows/ouvertes.yml]
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 1 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ouvertes
+  cancel-in-progress: true
+
+jobs:
+  ouvertes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: refonte-base-connaissances
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - run: python scripts/build_ouvertes.py
+      - name: Déposer les données
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ouvertes data/ouvertes.js
+          if git diff --cached --quiet; then echo "Rien de nouveau."; exit 0; fi
+          git commit -m "Données ouvertes : élus, sites, lieux, repères"
+          git pull --rebase
+          git push
