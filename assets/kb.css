@@ -21,24 +21,28 @@
 }
 
 :root {
-  --encre: #1b2530;
-  --encre-2: #47535f;
-  --encre-3: #6b7783;
-  --granit: #e8ebee;
-  --granit-2: #f3f5f6;
+  /* Couleurs tirées du logo : encre #202020, bleu #2e83df (point du logo), blanc et gris neutres. */
+  --encre: #202020;
+  --encre-2: #4a4a4a;
+  --encre-3: #6b6b6b;
+  --granit: #ececec;
+  --granit-2: #f6f6f6;
   --papier: #ffffff;
-  --filet: #cdd4da;
-  --filet-2: #e1e6ea;
-  --mer: #0e5a6b;
-  --mer-fonce: #0a4350;
-  --mer-clair: #e2eef0;
-  --immortelle: #f2c230;
-  --immortelle-clair: #fdf4d3;
+  --filet: #d0d0d0;
+  --filet-2: #e4e4e4;
+  --mer: #1f6fc4;            /* accent : liens, boutons, segments actifs */
+  --mer-fonce: #1859a0;
+  --mer-clair: #e6f0fb;
+  --accent: #1f6fc4;
+  --accent-clair: #e6f0fb;
+  --avert: #f2c230;          /* signalement : à vérifier, non dépouillé, avertissement */
+  --avert-clair: #fdf4d3;
+  --avert-texte: #6b5200;
   --alerte: #a3312a;
   --alerte-clair: #f8e6e3;
   --ok: #2f6b3f;
 
-  /* familles de rubriques (palette validée, cinq teintes) */
+  /* familles de rubriques (sémantiques, à conserver) */
   --f-publique: #2a5db0;
   --f-justice: #b23a2e;
   --f-economie: #b07a12;
@@ -47,11 +51,11 @@
 
   /* rampe séquentielle de la carte : une teinte, du clair au foncé */
   --r0: #ffffff;
-  --r1: #d3e6e9;
-  --r2: #9bc6cd;
-  --r3: #559dab;
-  --r4: #1c7183;
-  --r5: #0a4350;
+  --r1: #dce9f9;
+  --r2: #a9cdf2;
+  --r3: #6fa8ea;
+  --r4: #2e83df;
+  --r5: #1859a0;
 
   --police: "Archivo Variable", "Archivo", "Helvetica Neue", Arial, sans-serif;
   --entete: 58px;
@@ -77,13 +81,14 @@ h2 { font-size: 1.45rem; }
 h3 { font-size: 1.15rem; }
 p { margin: 0 0 0.8em; }
 button, input, select { font: inherit; color: inherit; }
-:focus-visible { outline: 3px solid var(--immortelle); outline-offset: 2px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .num { font-variant-numeric: tabular-nums; }
 .discret { color: var(--encre-3); }
 
 /* ------------------------------------------------------------ en-tête */
 .entete {
+  box-shadow: inset 0 -4px 0 var(--accent);
   position: sticky; top: 0; z-index: 1200;
   height: var(--entete);
   display: flex; align-items: center; gap: 18px;
@@ -102,7 +107,7 @@ button, input, select { font: inherit; color: inherit; }
   border-bottom: 3px solid transparent; border-top: 3px solid transparent; white-space: nowrap;
 }
 .nav a:hover { color: #fff; }
-.nav a[aria-current="page"] { color: #fff; border-bottom-color: var(--immortelle); }
+.nav a[aria-current="page"] { color: #fff; border-bottom-color: var(--accent); }
 .recherche { position: relative; margin-left: auto; flex: 0 1 240px; min-width: 150px; }
 .recherche input {
   width: 100%; height: 36px; padding: 0 12px;
@@ -110,7 +115,7 @@ button, input, select { font: inherit; color: inherit; }
   background: #26323e; color: #fff;
 }
 .recherche input::placeholder { color: #9fadb9; }
-.recherche input:focus { background: #fff; color: var(--encre); outline: 3px solid var(--immortelle); outline-offset: 0; }
+.recherche input:focus { background: #fff; color: var(--encre); outline: 3px solid var(--accent); outline-offset: 0; }
 .resultats {
   position: absolute; right: 0; top: 42px; width: min(520px, 94vw); max-height: 72vh; overflow: auto;
   background: var(--papier); color: var(--encre); border: 1px solid var(--filet);
@@ -119,7 +124,7 @@ button, input, select { font: inherit; color: inherit; }
 .resultats h4 { font-size: 0.86rem; color: var(--encre-3); padding: 10px 14px 4px; font-weight: 650; }
 .resultats a { display: block; padding: 7px 14px; color: var(--encre); text-decoration: none; }
 .resultats a small { display: block; color: var(--encre-3); }
-.resultats a:hover, .resultats a.actif { background: var(--immortelle-clair); }
+.resultats a:hover, .resultats a.actif { background: var(--accent-clair); }
 .resultats .vide { padding: 14px; color: var(--encre-3); }
 
 /* ------------------------------------------------------------ page */
@@ -163,7 +168,7 @@ button, input, select { font: inherit; color: inherit; }
 }
 .etiq.alerte { border-color: #d9a39d; background: var(--alerte-clair); color: var(--alerte); }
 .etiq.ok { border-color: #a9cdb3; background: #e8f3ea; color: var(--ok); }
-.etiq.attention { border-color: #e2c765; background: var(--immortelle-clair); color: #6b5200; }
+.etiq.attention { border-color: #e2c765; background: var(--avert-clair); color: var(--avert-texte); }
 .etiq.plein { background: var(--encre); border-color: var(--encre); color: #fff; }
 
 /* ------------------------------------------------------------ listes */
@@ -178,7 +183,7 @@ button, input, select { font: inherit; color: inherit; }
 .rang .complement { color: var(--encre-2); font-size: 0.94rem; margin-top: 3px; }
 .rang .meta { display: flex; flex-wrap: wrap; gap: 5px 12px; align-items: center; margin-top: 6px; font-size: 0.88rem; color: var(--encre-3); }
 .rang .meta a { color: var(--encre-2); }
-.rang.jalon .intitule::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 8px; background: var(--immortelle); transform: rotate(45deg) translateY(-1px); }
+.rang.jalon .intitule::before { content: ""; display: inline-block; width: 9px; height: 9px; margin-right: 8px; background: var(--avert); transform: rotate(45deg) translateY(-1px); }
 .sans-date .quand { color: var(--encre-3); font-weight: 500; }
 .annee { padding: 18px 16px 6px; font-stretch: 72%; font-weight: 800; font-size: 1.5rem; background: var(--granit-2); border-top: 1px solid var(--filet); }
 .annee:first-child { border-top: 0; }
@@ -203,9 +208,9 @@ button, input, select { font: inherit; color: inherit; }
 .reperes div:first-child { border-top: 0; }
 .reperes dt { font-size: 0.82rem; color: var(--encre-3); font-weight: 600; font-stretch: 90%; }
 .reperes dd { margin: 0; font-weight: 550; overflow-wrap: anywhere; }
-.antenne { margin: 8px 0 0; padding: 9px 12px; border-left: 4px solid var(--immortelle); background: var(--immortelle-clair); font-size: 0.98rem; }
-.antenne b { font-stretch: 88%; font-size: 0.82rem; display: block; color: #6b5200; }
-.avertissement { margin: 0 0 18px; padding: 12px 14px; border-left: 5px solid var(--immortelle); background: var(--immortelle-clair); color: #3d3000; }
+.antenne { margin: 8px 0 0; padding: 9px 12px; border-left: 4px solid var(--avert); background: var(--avert-clair); font-size: 0.98rem; }
+.antenne b { font-stretch: 88%; font-size: 0.82rem; display: block; color: var(--avert-texte); }
+.avertissement { margin: 0 0 18px; padding: 12px 14px; border-left: 5px solid var(--avert); background: var(--avert-clair); color: #3d3000; }
 .avertissement.rouge { border-left-color: var(--alerte); background: var(--alerte-clair); color: #5c1a15; }
 .plus { display: block; width: 100%; padding: 10px; border: 0; border-top: 1px solid var(--filet-2); background: var(--granit-2); color: var(--mer); font-weight: 600; cursor: pointer; }
 .plus:hover { background: var(--mer-clair); }
@@ -265,11 +270,11 @@ button, input, select { font: inherit; color: inherit; }
 .volet-liste .liste { border: 0; }
 .volet-liste .rang { grid-template-columns: 1fr; padding: 11px 16px; }
 .volet-liste .rang .quand { font-size: 0.88rem; }
-.commune-choisie { padding: 14px 16px; border-bottom: 1px solid var(--filet); background: var(--immortelle-clair); }
+.commune-choisie { padding: 14px 16px; border-bottom: 1px solid var(--filet); background: var(--accent-clair); }
 .commune-choisie h2 { font-size: 1.5rem; }
 .commune-choisie p { margin: 4px 0 8px; color: var(--encre-2); font-size: 0.93rem; }
-.zone-carte { position: relative; min-width: 0; background: #dfe6ea; }
-#carte { position: absolute; inset: 0; background: #dfe6ea; }
+.zone-carte { position: relative; min-width: 0; background: #dde5ec; }
+#carte { position: absolute; inset: 0; background: #dde5ec; }
 .legende { position: absolute; left: 14px; bottom: 14px; z-index: 500; background: rgba(255, 255, 255, 0.96); border: 1px solid var(--filet); padding: 10px 12px; max-width: 290px; font-size: 0.86rem; }
 .legende b { display: block; font-stretch: 84%; font-size: 0.95rem; margin-bottom: 6px; }
 .legende ol { list-style: none; margin: 0 0 8px; padding: 0; display: flex; }
@@ -280,14 +285,14 @@ button, input, select { font: inherit; color: inherit; }
 .outils-carte { position: absolute; right: 14px; top: 14px; z-index: 500; display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
 .outils-carte label { background: rgba(255, 255, 255, 0.96); border: 1px solid var(--filet); padding: 5px 10px; font-size: 0.86rem; display: flex; gap: 7px; align-items: center; cursor: pointer; }
 .outils-carte input { accent-color: var(--mer); }
-.leaflet-container { font-family: var(--police); background: #dfe6ea; }
+.leaflet-container { font-family: var(--police); background: #dde5ec; }
 .leaflet-tooltip.info { border: 0; border-radius: 3px; background: var(--encre); color: #fff; padding: 6px 9px; box-shadow: none; font-size: 0.88rem; }
 .leaflet-tooltip.info::before { display: none; }
 .leaflet-tooltip.info small { display: block; color: #c5ced6; }
 .bulle { display: flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--encre); color: #fff; font-weight: 700; font-stretch: 84%; font-size: 12px; border: 2px solid #fff; font-variant-numeric: tabular-nums; }
-.bulle.choisie { background: var(--immortelle); color: var(--encre); }
+.bulle.choisie { background: var(--accent); color: #fff; }
 .nom-ville { font-stretch: 78%; font-weight: 650; font-size: 12px; color: #3a4753; text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff; white-space: nowrap; pointer-events: none; }
-.mini-carte { height: 300px; border-bottom: 1px solid var(--filet); background: #dfe6ea; }
+.mini-carte { height: 300px; border-bottom: 1px solid var(--filet); background: #dde5ec; }
 
 /* ------------------------------------------------------------ pied */
 .pied { max-width: var(--large); margin: 0 auto; padding: 22px 22px 40px; color: var(--encre-3); font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 6px 22px; }

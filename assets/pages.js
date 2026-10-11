@@ -92,7 +92,7 @@
       if (!roles.length) $("#roles").innerHTML = `<div class="vide">Aucun mandat ni rôle rattaché à cette commune. La base n'en compte encore que ${D.roles.length} pour toute la Corse.</div>`;
       if (window.L && window.KB_GEO) {
         const L = window.L, m = L.map("mini", { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false, zoomSnap: 0.1 });
-        const g = L.geoJSON(window.KB_GEO.communes, { interactive: false, style: (f) => f.properties.code === c.code ? { fillColor: "#f2c230", fillOpacity: 1, color: "#1b2530", weight: 1.5 } : { fillColor: "#fff", fillOpacity: 1, color: "#b4c0c9", weight: 0.4 } }).addTo(m);
+        const g = L.geoJSON(window.KB_GEO.communes, { interactive: false, style: (f) => f.properties.code === c.code ? { fillColor: "#2e83df", fillOpacity: 1, color: "#202020", weight: 1.5 } : { fillColor: "#fff", fillOpacity: 1, color: "#b4c0c9", weight: 0.4 } }).addTo(m);
         m.fitBounds(g.getBounds(), { padding: [8, 8] });
       }
     },

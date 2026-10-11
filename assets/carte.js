@@ -40,7 +40,7 @@
     return {
       fillColor: c < 0 ? "#ffffff" : TEINTES[c],
       fillOpacity: carte.hasLayer(fond) ? (c < 0 ? 0.08 : 0.72) : 1,
-      color: choisie ? "#1b2530" : "#8fa0ad",
+      color: choisie ? "#202020" : "#8fa0ad",
       weight: choisie ? 3 : 0.6,
     };
   };
@@ -51,7 +51,7 @@
         L.DomEvent.stopPropagation(e);
         choisir(f.properties.code === etat.commune ? "" : f.properties.code);
       });
-      couche.on("mouseover", () => couche.setStyle({ weight: 2.5, color: "#1b2530" }));
+      couche.on("mouseover", () => couche.setStyle({ weight: 2.5, color: "#202020" }));
       couche.on("mouseout", () => polygones.resetStyle(couche));
       couche.bindTooltip(() => infobulle(f.properties.code), { sticky: true, className: "info", direction: "top", offset: [0, -6] });
     },
