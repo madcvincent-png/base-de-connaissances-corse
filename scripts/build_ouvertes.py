@@ -342,6 +342,9 @@ RUBRIQUES = [  # (préfixes de rubrique ICPE, catégorie)
 ]
 
 
+PETROLE = re.compile(r"p[eé]troli|carbur|gaz|gpl|edf|engie|total|esso|bp\b|vito|rubis|antargaz|butagaz|primagaz|electricit|énergie|energie", re.I)
+
+
 def geo_get(url, params):
     for essai in range(4):
         r = s.get(url, params=params, timeout=90)
@@ -372,15 +375,23 @@ def georisques(codes):
                 cats = [c for pref, c in RUBRIQUES if any(n.startswith(pref) for n in nums)]
                 seveso = (x.get("statutSeveso") or "").strip()
                 est_seveso = seveso and "non" not in norm(seveso)
+                raison = (x.get("raisonSociale") or "").strip()
+                # Une cuve de carburant (abattoir, blanchisserie, enrobage) ne fait pas un site pétrolier :
+                # « Hydrocarbures et gaz » est réservé aux sites Seveso et aux opérateurs du secteur.
+                if "Hydrocarbures et gaz" in cats and not est_seveso and not PETROLE.search(raison):
+                    cats.remove("Hydrocarbures et gaz")
                 if not cats and not est_seveso:
                     continue
+                # Un exploitant personne physique n'est pas nommé.
+                if re.match(r"^(monsieur|madame|m\.|mme|mr)\b", raison, re.I):
+                    raison = "Exploitant individuel"
                 code = str(x.get("codeInsee") or "")
                 try:
                     lat, lon = float(x.get("latitude")), float(x.get("longitude"))
                 except (TypeError, ValueError):
                     lat = lon = None
                 sites.append({
-                    "nom": (x.get("raisonSociale") or "").strip(), "categorie": cats[0] if cats else "Site Seveso",
+                    "nom": raison, "categorie": cats[0] if cats else "Site Seveso",
                     "autres": cats[1:], "seveso": seveso if est_seveso else "", "regime": x.get("regime") or "",
                     "etat": x.get("etatActivite") or "", "commune": code if code in codes else "", "lat": lat, "lon": lon,
                     "source": "Géorisques", "lien": f"https://www.georisques.gouv.fr/risques/installations/donnees/details/{x.get('codeAIOT')}" if x.get("codeAIOT") else "",
