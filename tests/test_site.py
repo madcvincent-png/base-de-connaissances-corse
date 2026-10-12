@@ -15,7 +15,8 @@ RACINE = Path(__file__).resolve().parent.parent
 AXE = Path(os.environ.get("AXE_JS", RACINE / "node_modules/axe-core/axe.min.js"))
 PAGES = ["index.html", "carte.html", "communes.html", "commune.html?code=2A004", "chronologie.html", "agenda.html",
          "dossiers.html", "repertoire.html", "elus.html", "sites.html", "sites.html?vue=patrimoine", "documents.html",
-         "articles.html", "notes.html", "drones.html", "a-propos.html"]
+         "articles.html", "notes.html", "drones.html", "a-propos.html",
+         "recherche.html", "recherche.html?q=dossier:autonomie%20personne:simeoni%20date:2020.."]
 
 
 @pytest.fixture(scope="module")
@@ -55,3 +56,30 @@ def test_page(serveur, navigateur, page, largeur):
             .filter(v => ['serious', 'critical'].includes(v.impact)).map(v => v.id + ' (' + v.nodes.length + ')')""")
         assert not graves, graves
     p.close()
+
+
+def test_moteur_de_recherche(serveur, navigateur):
+    """La syntaxe se relit à l'identique, les relations comptent, les opérateurs et filtres s'appliquent."""
+    p = navigateur.new_page()
+    p.goto(f"{serveur}/recherche.html")
+    p.wait_for_timeout(400)
+    r = p.evaluate("""() => {
+      const R = window.RECHERCHE, n = (q) => R.executer(R.analyser(q));
+      const q = 'dossier:(autonomie corse) OU "plan de relance" SAUF type:interview base:articles,faits date:2024-03..2026';
+      const lie = n('personne:simeoni base:articles');
+      return {
+        relu: R.ecrire(R.analyser(q)),
+        lie: lie.length, horsTitre: lie.filter((x) => !/simeoni/i.test(x.x.titre)).length,
+        bases: [...new Set(n('simeoni base:dossiers').map((x) => x.base))],
+        exclues: n('simeoni -base:articles').some((x) => x.base === 'articles'),
+        sauf: n('simeoni').length > n('simeoni SAUF base:articles').length || n('simeoni SAUF theme:politique').length < n('simeoni').length,
+        ou: n('autonomie OU gypaete').length >= n('autonomie').length,
+        debutDeMot: n('apport').some((x) => / rapport/i.test(' ' + (x.x.titre || ''))) === false,
+        periode: n('autonomie base:articles date:2026').every((x) => x.debut >= '2026-01-01' && x.debut <= '2026-12-31'),
+      };
+    }""")
+    p.close()
+    assert r["relu"] == 'dossier:(autonomie corse) OU "plan de relance" SAUF type:interview base:articles,faits date:2024-03-01..2026-12-31'
+    assert r["lie"] > 0 and r["horsTitre"] > 0, "les articles reliés à une personne doivent se trouver sans son nom dans le titre"
+    assert r["bases"] == ["dossiers"] and not r["exclues"]
+    assert r["sauf"] and r["ou"] and r["debutDeMot"] and r["periode"]

@@ -380,7 +380,7 @@
       const maj = () => {
         Object.assign(s, { q: $("#q").value, nature: $("#nature").value, qualite: $("#qualite").value, av: $("#av").checked });
         const m = mots(s.q);
-        const r = D.personnes.filter((p) => (!s.nature || p.nature === s.nature) && (!s.qualite || p.qualite.includes(s.qualite)) && (!s.av || !p.verifieLe) && K.contient(K.norm(`${p.nom} ${p.variantes || ""} ${p.fonction} ${p.rattachement}`), m));
+        const r = D.personnes.filter((p) => (!s.nature || p.nature === s.nature) && (!s.qualite || p.qualite.includes(s.qualite)) && (!s.av || !p.verifieLe) && K.contient(K.norm(`${p.nom} ${p.variantes || p.formes || ""} ${p.fonction} ${p.rattachement}`), m));
         const v = D.personnes.filter((p) => p.verifieLe).length;
         $("#n").textContent = `${K.pluriel(r.length, "fiche")} sur ${D.personnes.length}, dont ${v} vérifiées`;
         K.listeRepliable($("#liste"), r, K.rangPersonne, 40);
@@ -448,7 +448,7 @@
       const famDe = Object.fromEntries(Object.entries(K.FAMILLES).map(([k, f]) => [f.nom, k]));
       K.explorateur($("#explo"), {
         id: "art", lignes: D.articles,
-        recherche: { label: "Chercher dans les articles", placeholder: "Mot du titre ou du résumé", texte: (a) => `${a.titre} ${a.retenir || ""} ${a.auteur || ""}` },
+        recherche: { label: "Chercher dans les articles", placeholder: "Titre, personne, dossier ou commune reliés", texte: K.texteLie },
         entonnoir: ["famille", "rub"], entonnoirRacine: "Toutes les rubriques",
         facettes: [
           { cle: "famille", titre: "Famille", question: "Quel domaine ?", valeurs: (a) => nomFamille(a.rubrique), famille: (v) => famDe[v] || "",
@@ -723,7 +723,7 @@
           <section class="bloc"><h2>Cette version</h2><dl class="reperes">${repere("Profil", complet ? "Complet, à usage interne" : "Publiable")}${repere("Export de Notion", K.dateFr(m.exporteLe))}</dl>
             <div class="corps">${complet
               ? `<p class="avertissement rouge">Cette version contient des statuts judiciaires de personnes nommées et des notes internes. Elle ne doit pas être déposée sur un site public.</p>`
-              : `<p>Cette version écarte la justice, les faits divers, les rôles procéduraux, les notes internes et les champs de travail de la documentation.</p>${ecart.length ? `<p class="discret">Fiches conservées : ${ecart.map((b) => `${c[b]} ${NOMS[b]} sur ${m.compteursBase[b]}`).join(" ; ")}.</p>` : ""}`}</div></section>
+              : `<p>Cette version publie tous les articles de presse, justice et faits divers compris : le journal a choisi de les publier, la fiche n'en reprend que le titre, la source, la date et le lien. Elle écarte les rôles procéduraux, les dossiers et faits datés judiciaires, les personnes sans fonction publique, les notes internes et les champs de travail de la documentation.</p>${ecart.length ? `<p class="discret">Fiches conservées : ${ecart.map((b) => `${c[b]} ${NOMS[b]} sur ${m.compteursBase[b]}`).join(" ; ")}.</p>` : ""}`}</div></section>
         </aside></div>`;
     },
   };

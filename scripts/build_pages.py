@@ -31,6 +31,7 @@ PAGES = [
     ("notes.html", "notes", "Notes de synthèse", False, False),
     ("note.html", "note", "Note", False, False),
     ("drones.html", "drones", "Images drone", False, False),
+    ("recherche.html", "recherche", "Recherche", False, False),
     ("a-propos.html", "apropos", "Méthode et limites", False, False),
 ]
 
@@ -43,6 +44,7 @@ DESCRIPTIONS = {
     "documents": "Documents de référence sur la Corse : études de l'Insee, rapports de contrôle, textes de la Collectivité de Corse et du Parlement.",
     "articles": "Revue de presse sur la Corse fichée par la documentation, avec l'état de traitement de chaque article.",
     "dossiers": "Dossiers suivis par la documentation : chronologie, protagonistes, articles et documents.",
+    "recherche": "Recherche simple et avancée dans la base : articles, dossiers, faits datés, répertoire, documents et communes, avec masques combinables et période.",
     "chronologie": "Chronologie des faits datés relevés sur la Corse, avec leur source et leur niveau de fiabilité.",
 }
 
@@ -89,6 +91,8 @@ def page(fichier, data_page, titre, leaflet, carte):
         scripts.append('<script src="data/assemblee.js"></script>')
     scripts.append('<script src="assets/kb.js"></script>')
     scripts.append('<script src="assets/carte.js"></script>' if carte else '<script src="assets/pages.js"></script>')
+    if data_page == "recherche":
+        scripts.append('<script src="assets/recherche.js"></script>')
     scripts = "\n  ".join(s for s in scripts if s)
     titre_page = "Base de connaissances Corse" if data_page == "accueil" else f"{titre} — Base de connaissances Corse"
     description = html.escape(DESCRIPTIONS.get(data_page, DESCRIPTIONS["accueil"]))

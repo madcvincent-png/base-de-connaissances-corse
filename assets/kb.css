@@ -770,3 +770,47 @@ main > .segments { max-width: 640px; margin-bottom: 4px; }
 .hemi circle.courant { stroke: var(--encre); stroke-width: 3; }
 .noscript { max-width: 640px; margin: 40px auto; padding: 16px; background: var(--avert-clair); border-left: 5px solid var(--avert); }
 .rang .meta .etiq { white-space: normal; max-width: 100%; overflow-wrap: anywhere; }
+
+/* ------------------------------------------------------------ recherche simple et avancée */
+.tous-resultats { border-top: 1px solid var(--filet); font-weight: 600; color: var(--mer) !important; }
+.rech-form { margin: 0 0 18px; }
+.rech-boite { display: flex; gap: 8px; flex-wrap: wrap; }
+.rech-boite input { flex: 1 1 320px; min-width: 0; height: 42px; padding: 0 12px; border: 1px solid #9aa6b1; border-radius: 4px; font: inherit; font-size: 1.02rem; }
+.rech-boite .bouton { height: 42px; }
+.rech-avancee { margin-top: 12px; padding: 4px 16px 16px; background: var(--papier); border: 1px solid var(--filet); }
+.rech-avancee fieldset { border: 0; border-top: 1px solid var(--filet-2); margin: 0; padding: 12px 0 4px; min-width: 0; }
+.rech-avancee fieldset:first-child { border-top: 0; }
+.rech-avancee legend { font-weight: 700; font-stretch: 90%; padding: 0; margin-bottom: 4px; float: left; width: 100%; }
+.rech-avancee legend + * { clear: both; }
+.rech-avancee .cases { display: flex; flex-wrap: wrap; gap: 0 18px; }
+.rech-avancee .case .discret { font-size: 0.85rem; }
+.rech-liens { display: flex; gap: 16px; margin: 2px 0 6px; font-size: 0.9rem; }
+.rech-masques > p, .rech-periode > p { margin: 0 0 10px; font-size: 0.9rem; }
+.masque { display: grid; grid-template-columns: 104px minmax(170px, 250px) 1fr 36px; gap: 8px; margin-bottom: 8px; }
+.masque select, .masque input { height: 36px; padding: 0 8px; border: 1px solid #9aa6b1; border-radius: 4px; background: #fff; font: inherit; min-width: 0; }
+.masque .m-op { font-weight: 700; color: var(--mer-fonce); }
+.m-suppr { height: 36px; border: 1px solid var(--filet); border-radius: 4px; background: #fff; color: var(--encre-2); font-size: 1.2rem; cursor: pointer; }
+.m-suppr:hover { border-color: var(--alerte); color: var(--alerte); }
+.rech-periode { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: end; }
+.rech-periode legend { margin-bottom: 8px; }
+.rech-periode .champ input { width: 210px; }
+.rech-periode > p { flex-basis: 100%; }
+.rech-actions { display: flex; gap: 8px; padding-top: 12px; border-top: 1px solid var(--filet-2); margin-top: 8px; }
+.rech-bilan { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; }
+.rech-bilan p { margin: 0; }
+.rech-outils { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; }
+.rech-outils select { height: 36px; padding: 0 8px; border: 1px solid #9aa6b1; border-radius: 4px; background: #fff; font: inherit; }
+#sortie .pastilles { margin: 10px 0 4px; }
+#sortie .pastille::before { display: none; }
+#sortie .bloc .lien-bouton, #sortie .plus { margin-top: 10px; }
+#sortie code, .rech-aide code { font-size: 0.9em; background: var(--granit-2); padding: 1px 4px; border-radius: 3px; overflow-wrap: anywhere; }
+.rech-aide { margin-top: 28px; background: var(--papier); border: 1px solid var(--filet); }
+.rech-aide summary { padding: 10px 16px; font-weight: 600; cursor: pointer; }
+.rech-aide dt { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9rem; color: var(--mer-fonce); }
+@media (max-width: 760px) {
+  .masque { grid-template-columns: 1fr 36px; }
+  .masque .m-op, .masque .m-champ { grid-column: 1 / -1; }
+  .masque .m-val { grid-column: 1; }
+  .rech-boite .bouton { flex: 1 1 auto; justify-content: center; }
+  .rech-periode .champ, .rech-periode .champ input { width: 100%; }
+}

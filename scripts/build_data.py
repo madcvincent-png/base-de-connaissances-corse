@@ -54,6 +54,22 @@ def multi(v):
     return list(v)
 
 
+# Une consigne de travail (« ne pas confondre… », « à vérifier », remarque sur l'antenne) n'est pas un nom.
+CONSIGNE = re.compile(r"confondre|vérifier|antenne|erreur|lapsus|assassin|toujours|préciser|:|\bdeux\b|\bmême\b", re.I)
+
+
+def formes(variantes):
+    """Graphies et sigles tirés de « Variantes et erreurs fréquentes », pour la recherche seulement.
+    Les consignes de travail du champ restent internes : on ne garde que les segments qui sont des noms."""
+    out = []
+    for seg in re.split(r"\s*[;.]\s+|\s*;\s*|\.$", variantes or ""):
+        seg = re.sub(r"\([^)]*\)|[«»]", " ", seg)
+        seg = re.sub(r"\s+", " ", seg).strip(" ,")
+        if seg and len(seg) <= 50 and not CONSIGNE.search(seg):
+            out.append(seg)
+    return " ; ".join(dict.fromkeys(out))
+
+
 def txt(v):
     return (v or "").strip() if isinstance(v, str) else ("" if v is None else str(v))
 
@@ -273,6 +289,7 @@ def construire(raw):
                 "rattachement": txt(r.get("Rattachement")),
                 "reperes": txt(r.get("Repères biographiques")),
                 "variantes": txt(r.get("Variantes et erreurs fréquentes")),
+                "formes": formes(txt(r.get("Variantes et erreurs fréquentes"))),
                 "verifieLe": date(r, "Fiche vérifiée le"),
             }
             for r in raw["repertoire"]
@@ -408,8 +425,9 @@ CHAMPS_PUBLICS = {
                "lien", "dossiers", "personnes"],
     "roles": ["id", "titre", "categorie", "mandat", "instance", "debut", "fin", "actuel",
               "fiabilite", "verifieLe", "personnes", "dossiers", "communes", "sources"],
-    "personnes": ["id", "nom", "nature", "qualite", "fonction", "rattachement", "verifieLe"],
-    "dossiers": ["id", "titre", "type", "rubrique", "resume", "debut", "fin", "personnes"],
+    # « formes » : graphies et sigles, pour la recherche ; les consignes de « variantes » restent internes
+    "personnes": ["id", "nom", "nature", "qualite", "fonction", "rattachement", "verifieLe", "formes"],
+    "dossiers": ["id", "titre", "type", "rubrique", "resume", "debut", "fin", "personnes", "motsCles"],
     # « traitement » reste public : un titre jamais lu ne doit pas passer pour une fiche dépouillée
     "articles": ["id", "titre", "source", "typeSource", "date", "lien", "genre", "rubrique", "lieux",
                  "communes", "dossiers", "personnes", "traitement"],

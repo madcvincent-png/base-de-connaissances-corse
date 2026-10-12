@@ -604,6 +604,7 @@
       ["articles.html", "Articles", "La revue de presse fichée"],
     ] },
     { titre: "Documentation", pages: [
+      ["recherche.html", "Recherche avancée", "Croiser bases, dossiers, personnes, thèmes et périodes"],
       ["repertoire.html", "Répertoire", "Personnes et organisations, fonctions vérifiées"],
       ["documents.html", "Documents", "Insee, contrôles financiers, textes officiels"],
       ["notes.html", "Notes de synthèse", "Les synthèses de la documentation"],
@@ -659,7 +660,7 @@
     const m = D.meta;
     p.innerHTML = `<span>Maquette de démonstration, document de travail non officiel.</span>
       <span>Données exportées de Notion le ${esc(dateFr(m.exporteLe))}.</span>
-      <span>${m.profil === "public" ? "Version publiable : justice, faits divers et notes internes exclus." : "Version complète, à usage interne : ne pas publier."}</span>
+      <span>${m.profil === "public" ? "Version publiable : rôles judiciaires, personnes privées et notes internes exclus." : "Version complète, à usage interne : ne pas publier."}</span>
       <span><a href="a-propos.html">Méthode et limites</a></span>`;
     document.body.append(p);
 
@@ -685,21 +686,33 @@
     h.querySelector("#q-globale").setAttribute("placeholder", "Chercher (raccourci : /)");
   }
 
-  const contient = (texte, mots) => mots.every((m) => texte.includes(m));
+  /** Chaque mot cherché doit commencer un mot du texte : « port » trouve « portuaire », pas « rapport ». */
+  const contient = (texte, mots) => {
+    const t = " " + texte;
+    return mots.every((m) => t.includes(" " + m));
+  };
+  /** Ce qu'on cherche dans un article : son titre, et les fiches auxquelles la documentation l'a relié. */
+  const texteLie = (x) =>
+    [
+      x.titre, x.source, x.retenir, x.auteur, ...(x.lieux || []),
+      ...(x.personnes || []).map((i) => { const p = I.personne.get(i); return p ? `${p.nom} ${p.formes || ""}` : ""; }),
+      ...(x.dossiers || []).map((i) => { const d = I.dossier.get(i); return d ? d.titre : ""; }),
+      ...(x.communes || []).map((c) => { const o = I.commune.get(c); return o ? `${o.nom} ${o.nomCorse || ""}` : ""; }),
+    ].filter(Boolean).join(" ");
   const ELUS_PLATS = Object.entries(ELUS.communes || {}).flatMap(([code, l]) => l.map((x) => ({ ...x, code })));
   function chercher(q, max = 5) {
     const mots = norm(q).split(" ").filter(Boolean);
     if (!mots.length) return [];
     const groupes = [
       ["Communes", D.communes, (c) => `${c.nom} ${c.nomCorse} ${c.cp} ${c.code}`, (c) => [url.commune(c.code), c.nom, `${c.dep}, ${c.epci}`]],
-      ["Répertoire", D.personnes, (p) => `${p.nom} ${p.variantes || ""} ${p.fonction} ${p.rattachement}`, (p) => [url.personne(p.id), p.nom, p.fonction]],
+      ["Répertoire", D.personnes, (p) => `${p.nom} ${p.formes || ""} ${p.fonction} ${p.rattachement}`, (p) => [url.personne(p.id), p.nom, p.fonction]],
       ["Dossiers", D.dossiers, (d) => `${d.titre} ${d.motsCles || ""} ${d.resume}`, (d) => [url.dossier(d.id), d.titre, d.rubrique]],
       ["Notes", D.notes, (n) => n.titre, (n) => [url.note(n.id), n.titre, n.type]],
       ["Maires et adjoints", ELUS_PLATS, (x) => `${x.nom} ${x.prenom}`, (x) => [url.commune(x.code), nomAffiche({ nature: "Personne", nom: `${x.nom} ${x.prenom}` }), `${fonctionRne(x.fonction)}, ${(I.commune.get(x.code) || {}).nom || ""}`]],
       ["Documents de référence", D.documents, (d) => `${d.titre} ${d.producteur} ${d.numero} ${(d.themes || []).join(" ")}`, (d) => [`documents.html?q=${encodeURIComponent(q)}`, d.titre, `${d.producteur}${d.date ? ", " + dateFr(d.date) : ""}`]],
       ["Sites et équipements", SITES, (x) => `${x.nom} ${x.categorie} ${(I.commune.get(x.commune) || {}).nom || ""}`, (x) => [`sites.html?q=${encodeURIComponent(q)}`, x.nom, `${x.categorie}, ${(I.commune.get(x.commune) || {}).nom || ""}`]],
       ["Faits datés", D.faits, (f) => f.titre, (f) => [`chronologie.html?q=${encodeURIComponent(q)}`, f.titre, dateFr(f.date, f.precision)]],
-      ["Articles", D.articles, (a) => `${a.titre} ${a.retenir || ""}`, (a) => [`articles.html?q=${encodeURIComponent(q)}`, a.titre, `${a.source}${a.date ? ", " + dateFr(a.date) : ""}`]],
+      ["Articles", D.articles, texteLie, (a) => [`articles.html?q=${encodeURIComponent(q)}`, a.titre, `${a.source}${a.date ? ", " + dateFr(a.date) : ""}`]],
     ];
     return groupes
       .map(([titre, liste, texte, rendu]) => {
@@ -720,7 +733,8 @@
       const q = champ.value.trim();
       if (q.length < 2) return fermer();
       const g = chercher(q);
-      boite.innerHTML = g.length
+      const tous = `<a class="tous-resultats" href="recherche.html?q=${encodeURIComponent(q)}">Tous les résultats et recherche avancée</a>`;
+      boite.innerHTML = (g.length
         ? g
             .map(
               (x) =>
@@ -728,13 +742,15 @@
                 x.lignes.map(([h, t, s]) => `<a href="${h}">${esc(t)}<small>${esc((s || "").slice(0, 110))}</small></a>`).join("")
             )
             .join("")
-        : `<div class="vide">Aucun résultat pour « ${esc(q)} ». La recherche porte sur les noms, les titres et les mots-clés, sans tenir compte des accents.</div>`;
+        : `<div class="vide">Aucun résultat pour « ${esc(q)} ». La recherche porte sur les noms, les titres et les mots-clés, sans tenir compte des accents.</div>`) + tous;
       boite.hidden = false;
       actif = -1;
     });
     champ.addEventListener("keydown", (e) => {
       const l = [...boite.querySelectorAll("a")];
       if (e.key === "Escape") return fermer();
+      // Entrée sans choix dans la liste : la page de résultats complète
+      if (e.key === "Enter" && actif < 0 && champ.value.trim()) return (location.href = `recherche.html?q=${encodeURIComponent(champ.value.trim())}`);
       if (!l.length || boite.hidden) return;
       if (e.key === "ArrowDown" || e.key === "ArrowUp") {
         e.preventDefault();
@@ -764,7 +780,7 @@
     D, I, liens, esc, norm, riche, param, pluriel, dateFr, dateCourte, aujourdHui, joursAvant,
     FAMILLES, RUBRIQUES, familleDe, rub, url, lienCommune, lienPersonne, lienDossier, nomAffiche,
     rangFait, rangArticle, rangAgenda, rangRole, rangPersonne, rangDrone, carteDossier, listeRepliable,
-    parDate, parDateCroissante, contient, etatUrl, etiqFiabilite, entete,
+    parDate, parDateCroissante, contient, texteLie, etatUrl, etiqFiabilite, entete,
     image, vignette, credit, frise, ouvrirPanneau, fermerPanneau, MOIS,
     O, ELUS, SITES, LIEUX, OUV_PERS, sitesDe, lieuxDe, epciNom, fonctionRne, nomElu, ficheElu, circoDe,
     FAMILLES_SITES, familleSite, etatSite, rangSite, rangDocument, carrousel, initCarrousels, explorateur, notesDuDocument,
