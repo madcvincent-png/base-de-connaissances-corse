@@ -50,7 +50,7 @@ Le jeton est celui d'une intégration Notion connectée aux neuf bases (menu •
 ## Deux profils, une règle
 
 - `--profil complet` : tout ce que contient la base, justice et faits divers compris. **Ne jamais le déposer sur un hébergement public.** Les Actions ne le construisent jamais.
-- `--profil public` : liste blanche. Justice, faits divers, rôles procéduraux et notes internes sont écartés. Un champ ajouté dans Notion n'apparaît dans aucun profil tant qu'il n'est pas nommé dans `CHAMPS_PUBLICS`.
+- `--profil public` : liste blanche. Les articles de presse sont tous publiés, justice et faits divers compris (le journal a choisi de publier ; la fiche ne reprend que titre, source, date et lien). Restent écartés : dossiers, faits et agenda des rubriques Justice et Faits divers, affaires judiciaires, rôles procéduraux, personnes sans qualité publique et notes internes. Un champ ajouté dans Notion n'apparaît dans aucun profil tant qu'il n'est pas nommé dans `CHAMPS_PUBLICS`.
 
 Règles éditoriales appliquées au build :
 

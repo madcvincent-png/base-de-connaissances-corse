@@ -436,10 +436,10 @@ def profil_public(kb):
         and (p["nature"] != "Personne" or bool(set(p["qualite"]) & QUALITES_PUBLIQUES)),
         "dossiers": lambda d: d["rubrique"] not in RUBRIQUES_EXCLUES and d["type"] not in TYPES_DOSSIERS_EXCLUS
         and propre(d["titre"], d["resume"]),
-        # une mise en cause reste interne quelle que soit la rubrique (titres nominatifs)
-        "articles": lambda a: a["rubrique"] not in RUBRIQUES_EXCLUES
-        and not (a.get("nature") or "").startswith("Mise en cause")
-        and propre(a["titre"]),
+        # Articles publiés : tous, justice et faits divers compris. Le journal a fait le choix de publier
+        # et en porte la responsabilité ; la fiche ne reprend que titre, source, date et lien.
+        # « Nature de l'information » (mise en cause…) n'est pas dans CHAMPS_PUBLICS et reste interne.
+        "articles": lambda a: True,
         # une note ne sort qu'après relecture : publiable ET livrée
         "notes": lambda n: n.get("diffusion") == "Publiable" and n.get("etat") == "Livrée",
         "drones": lambda d: True,
