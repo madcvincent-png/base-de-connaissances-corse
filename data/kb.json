@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-11",
+  "exporteLe": "2026-10-12",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,9 +9,9 @@
    "roles": 6,
    "personnes": 80,
    "dossiers": 59,
-   "articles": 654,
+   "articles": 882,
    "notes": 0,
-   "documents": 24,
+   "documents": 32,
    "drones": 198
   },
   "compteursBase": {
@@ -21,9 +21,9 @@
    "roles": 11,
    "personnes": 209,
    "dossiers": 92,
-   "articles": 949,
+   "articles": 1303,
    "notes": 16,
-   "documents": 24,
+   "documents": 32,
    "drones": 198
   }
  },
@@ -6934,6 +6934,27 @@
  ],
  "articles": [
   {
+   "id": "3f7cf61fb4e78132babfe70068b89ac6",
+   "titre": "La gestion des déchets au bord du gouffre",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-10-12",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781aebd63f16c3f992b32"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781d4825cca8bc756091b"
+   ],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f6cf61fb4e781d0af3fd13a8391c291",
    "titre": "Grève à Air Corsica : les pilotes se disent prêts à reprendre le dialogue « sans délai »",
    "source": "Corse Net Infos",
@@ -7402,28 +7423,6 @@
     "3f4cf61fb4e781bdb52ec92b7cac5778",
     "3f4cf61fb4e781c39c32e69d7f521816"
    ],
-   "traitement": "Indexé"
-  },
-  {
-   "id": "3f4cf61fb4e7811ea4cdd424a1d49f96",
-   "titre": "Le président de Public Sénat paie ses allers-retours en Corse avec de l'argent public",
-   "source": "Mediapart",
-   "typeSource": "Site d'information",
-   "date": "2026-09-27",
-   "lien": "",
-   "genre": "Enquête",
-   "rubrique": "Société",
-   "lieux": [
-    "Paris",
-    "Ajaccio"
-   ],
-   "communes": [
-    "2A004"
-   ],
-   "dossiers": [
-    "3f4cf61fb4e781499b11f0cfd9510773"
-   ],
-   "personnes": [],
    "traitement": "Indexé"
   },
   {
@@ -7994,6 +7993,32 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e781fb8755e53678254c9c",
+   "titre": "En Corse, la colère contre les résidences secondaires nourrit le combat pour l'autonomie",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-09-08",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Société",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289",
+    "3f4cf61fb4e781989decd5d866cf006d",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f4cf61fb4e781cf8da4d95a9160d75e",
    "titre": "Ces villes où la taxe foncière a flambé malgré la modération générale",
    "source": "Autre",
@@ -8428,6 +8453,59 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e781d1917dfa42ee90d920",
+   "titre": "Les nationalistes corses divisés sur le nouveau statut de l'île",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-08-10",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)",
+    "Corte"
+   ],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819685a6d5b76216fa8c",
+   "titre": "Aux Journées internationales de Corte, le jeu en miroir des indépendantistes avec le FLNC sur le peuple corse",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-08-10",
+   "lien": "",
+   "genre": "Compte rendu d'audience",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corte"
+   ],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781989decd5d866cf006d",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781c49433c67bfabf2469"
+   ],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f4cf61fb4e781c89923fa5096b9d9b3",
    "titre": "Quand croix et calvaires sont pris pour cible au nom de la laïcité",
    "source": "Le Figaro",
@@ -8442,6 +8520,520 @@
    "communes": [],
    "dossiers": [
     "3f4cf61fb4e7816bb0f8ddf1d9503d00"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78128b6b7e2a82ee16493",
+   "titre": "En Corse, la délégation de service public agit comme chef d'orchestre des ports secondaires",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-08-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "L'Île-Rousse",
+    "Propriano",
+    "Porto-Vecchio"
+   ],
+   "communes": [
+    "2B134",
+    "2A249",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781aebb97ccf198dda7b9",
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [
+    "3f4cf61fb4e7815190c5cc5b959a4769",
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78148a18bfeac03dcd6e0",
+   "titre": "En Corse, des médecins parrainent des étudiants pour les inciter à revenir sur l'île",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-08-05",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Santé",
+   "lieux": [
+    "Corte",
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e7817a80a8c0846be451af"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781efafcedcde940b6aac"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7812e83b9f20c4051d2a2",
+   "titre": "Pomelo de Corse : « C'est un marathon plutôt qu'un sprint », décrit la productrice Marie-Laure Monteil, installée près de Bastia",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-08-04",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Agriculture",
+   "lieux": [
+    "Bastia",
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B148",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e781a48956fdffeb04b0de"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818ea4a5f690b4b5549c",
+   "titre": "La Corse, un point de surveillance stratégique pour la Marine nationale",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-08-01",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Ajaccio",
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817ebcd0cbf33df923bb",
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7814397fdd28d87c070ab",
+   "titre": "Cargèse : sur les traces des Grecs de Corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-08-01",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A065"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e781a99bddfa4b7231fe6b"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e3a0dccb71610beaf5",
+   "titre": "Dans les montagnes corses, avec les pompiers qui sont venus à bout de l'incendie des gorges de la Restonica",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-08-01",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corte",
+    "Centre Corse"
+   ],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781159563e37242faf973"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78188a1bec15e388bb47b",
+   "titre": "Cavallo, l'île de tous les fantasmes",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-07-29",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Société",
+   "lieux": [
+    "Bonifacio",
+    "Extrême-Sud"
+   ],
+   "communes": [
+    "2A041"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816b8102e38412b173c0",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815e8ad5e041fab75427",
+   "titre": "Bastia, en « lutte contre l'airbnbisation », revendique avoir rendu 233 logements aux « résidents à l'année »",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-25",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Société",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7813a9a05ed063a251632",
+   "titre": "Les Nuits de la guitare à Patrimonio, une affaire de famille corse",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-21",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Culture",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [
+    "2B205"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7816a8858dba7117ca199",
+   "titre": "Philippe-Jean Catinchi",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-20",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Culture",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28",
+    "3f4cf61fb4e781499b11f0cfd9510773"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781ad925ec2de87d16e39",
+   "titre": "2e édition de l'Aldilonda Swim",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-07-17",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Sports",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781179ecfea84d17c1b7f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781638daee4377ecd9634",
+   "titre": "L'agriculture corse face au choc climatique",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-07-17",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Agriculture",
+   "lieux": [
+    "Corse (ensemble)",
+    "Plaine orientale"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781ab9446c592f7ece076"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78107b90dd3e9c4b7a3e7",
+   "titre": "L'eau, le grand défi stratégique de la Corse : le paradoxe d'une île riche en eau",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-07-17",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781cfab67c9a81a9e679c"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781859783f2cf48e81c97",
+   "titre": "En 2026, 3 élus municipaux et communautaires en charge de l'ESS en Corse : une progression par rapport à 2020",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-14",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Bastia",
+    "Bonifacio"
+   ],
+   "communes": [
+    "2B033",
+    "2A041",
+    "2B120"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781a7bd31e1afb45f223a",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7817dbbffed6f6713b486",
+   "titre": "La Corse très critique face à un projet italien de parc éolien marin au large de ses côtes",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-14",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e78119b48ff8e3b384380c"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78169a995cc0c81e37a28",
+   "titre": "Taxe foncière : la liste des rares communes de plus de 40 000 habitants qui ont augmenté cet impôt",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-07-09",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Ajaccio",
+    "Bastia"
+   ],
+   "communes": [
+    "2A004",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781e2bfd1f7b08f7b614e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a9b6eeec25f9345334",
+   "titre": "Corse : les résultats du bac 2026 sont disponibles",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-07",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Éducation",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b18956daf7721a2ddd",
+   "titre": "Les producteurs de l'étang de Diana envisagent la saison sereinement",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-07-07",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78110b816f4d5ec095d13",
+    "3f4cf61fb4e781a48956fdffeb04b0de"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781dabc4cc3d89102c4e5",
+   "titre": "Porto-Vecchio utilise la data pour faire face au raz de marée touristique",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Porto-Vecchio",
+    "Extrême-Sud",
+    "Bonifacio"
+   ],
+   "communes": [
+    "2A247",
+    "2A041"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e781aebd63f16c3f992b32",
+    "3f4cf61fb4e781288a6ad84a87ecc094"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781a7bd31e1afb45f223a",
+    "3f6cf61fb4e781efafcedcde940b6aac"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78113abe7c1be7eec88ed",
+   "titre": "Corse : le Syvadec optimise la gestion des déchets en Balagne",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Balagne",
+    "L'Île-Rousse"
+   ],
+   "communes": [
+    "2B168",
+    "2B034",
+    "2B136",
+    "2B093",
+    "2B251",
+    "2B134"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781aebd63f16c3f992b32"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781d4825cca8bc756091b"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781ce99fef80813a89de9",
+   "titre": "Le lycée maritime de Bastia souhaite être l'ambassadeur du monde maritime corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-07-03",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Éducation",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e7816e8784feabea1b7c1e",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7817b9c6ff3dc21920989",
+   "titre": "Ce couvent majestueux, haut lieu de l'histoire corse aujourd'hui en ruine, a été sélectionné pour le Loto du patrimoine",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-07-02",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Culture",
+   "lieux": [
+    "Castagniccia"
+   ],
+   "communes": [
+    "2B219"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a99bddfa4b7231fe6b",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
    ],
    "personnes": [],
    "traitement": "Indexé"
@@ -8480,6 +9072,109 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e7811fb1a8f018f4e575d2",
+   "titre": "Corse : une autonomie dans un climat irrespirable",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-07-01",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B009",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b3b6c2d722b2ec2483",
+   "titre": "« L'autonomie de la Corse n'est pas un cadeau fait à une île, mais une discipline que la République s'impose à elle-même »",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-30",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78185b6d0ccae0c087ac1",
+   "titre": "Corse, Nouvelle-Calédonie, Alsace… Comment les autonomismes prévoient de s'inviter dans la campagne présidentielle",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-29",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7813b8670da4504f868d6",
+   "titre": "Autonomie de la Corse : le communautarisme entre dans la Constitution",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-28",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818898c2e07adfd2eaef",
+   "titre": "Paoli, un bout de Corse en Pennsylvanie",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-28",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Culture",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e781a99bddfa4b7231fe6b"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f6cf61fb4e7812ab345d63d85f1c4ce",
    "titre": "Bonifacio s'est réapproprié le port de Cavallo, l'ancien gestionnaire conteste",
    "source": "Corse Net Infos",
@@ -8502,6 +9197,122 @@
     "3f4cf61fb4e78116aba1ebbd4f07a8b8",
     "3f4cf61fb4e781c6ad3bca04e7059bf6",
     "3f6cf61fb4e781e98ed7c16874e7cce0"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781bda738f394832b2b6e",
+   "titre": "Institut de recherche en santé de Corse : « fédérer » les acteurs en vue de la création du CHRU (L. Berti)",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-06-25",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Santé",
+   "lieux": [
+    "Corte",
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e7817a80a8c0846be451af"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781efafcedcde940b6aac"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a68082fe263685c2e2",
+   "titre": "Sur l'autonomie de la Corse, les députés redécouvrent l'art du compromis",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-24",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7813eafbcf83f94247df4",
+    "3f4cf61fb4e781828056ce199ab7f442"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f7a105e2030c47c1e5",
+   "titre": "Pourquoi le Rassemblement national a fait volte-face",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-23",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781c5bd57c70fada5aef6"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78108a728f32118e501a9",
+   "titre": "La Corse en bonne voie pour obtenir un statut d'autonomie",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-23",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f6cf61fb4e7813eafbcf83f94247df4",
+    "3f6cf61fb4e781618a2ddffcac980bfc"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78130bf04e067d19a874d",
+   "titre": "Statut de la Corse : à l'Assemblée, une version de compromis suspendue à un vote incertain",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-23",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7813eafbcf83f94247df4",
+    "3f6cf61fb4e781618a2ddffcac980bfc"
    ],
    "traitement": "Indexé"
   },
@@ -8532,6 +9343,223 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e781c88e1be5fb7f50485a",
+   "titre": "Autonomie de la Corse : « Ce projet de loi délétère ne ferait que donner plus de pouvoir aux élus, renforcer les clans et les partis »",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-22",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819eae9dc1a6135b7912",
+   "titre": "Autonomie de la Corse : l'Assemblée nationale se prononce sur un texte réécrit",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-22",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7810ba728f3455d1b4e78"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781069ab2e35e0cbf46ab",
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78145bf37cfbb400ee1e1",
+   "titre": "Réforme constitutionnelle : la Corse en marche vers l'autonomie ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-22",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781e2977ce7acfd5cfaf7",
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781488182e00be53f6bb3",
+   "titre": "Un portrait oublié de Pascal Paoli mis aux enchères à Fontainebleau",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a99bddfa4b7231fe6b",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781fcb3cad1713cacffd4",
+   "titre": "« Le communautarisme dans la Constitution : un vote de conscience »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-20",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f8a73bc6b1bb2d8413",
+   "titre": "Autonomie de la Corse : pour ou contre ? L'avis de deux constitutionnalistes",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-18",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c8903be7e8d23d8b57",
+   "titre": "À l'Assemblée, ces débats sémantiques ont éclairci l'avenir de la réforme sur l'autonomie de la Corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-06-18",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7813eafbcf83f94247df4",
+    "3f6cf61fb4e781618a2ddffcac980bfc"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e9901dff35e9769f0c",
+   "titre": "Projet d'autonomie de la Corse : à quand la Squadra Corsa en Coupe du monde ?",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-18",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Sports",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a89929c8c84dd859e2",
+   "titre": "Statut de la Corse : attention au poison communautaire",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-18",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78144a748d5cd9b516af1",
+   "titre": "La gauche se convertit progressivement à l'autonomie de la Corse",
+   "source": "Mediapart",
+   "typeSource": "Site d'information",
+   "date": "2026-06-18",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f6cf61fb4e781ee8399ee772c41e143",
    "titre": "Autonomie de la Corse : L'article unique du projet de loi amendé et adopté sur fond de compromis",
    "source": "Corse Net Infos",
@@ -8558,6 +9586,653 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e7817ebf8afba167e6507c",
+   "titre": "Les débats sur l'autonomie de la Corse peuvent-ils inspirer les régionalistes en Bretagne, Alsace ou au Pays basque ?",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-17",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7812996c1de16419da8cf",
+   "titre": "Alexandre Devecchio : « Faire que la Corse reste la Corse »",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-17",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819e8a3be23a67c3cb5b",
+   "titre": "L'autonomie corse au menu de l'Assemblée",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-16",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818a830dc22e2492c017",
+   "titre": "Avec l'autonomie, les élus corses espèrent mieux lutter contre le « désordre foncier »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-16",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Société",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [
+    "2B281"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78164ae6cc601e0fb62df",
+   "titre": "Autonomie de la Corse : la réforme constitutionnelle va-t-elle s'échouer au Sénat ?",
+   "source": "Autre",
+   "typeSource": "Audiovisuel",
+   "date": "2026-06-16",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781d3a0cde83989bac1ca",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781299c85eef6a7dae378",
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a4a4abed5590496d94",
+   "titre": "Autonomie de la Corse : l'Assemblée entre dans un débat éminemment politique",
+   "source": "Mediapart",
+   "typeSource": "Site d'information",
+   "date": "2026-06-16",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781679d53f0160c2ac14a",
+   "titre": "« Le projet de loi pour une Corse autonome est une atteinte aux fondements de la République »",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-15",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781698e83f17914ba2da7",
+   "titre": "L'autonomie, boussole du débat politique en Corse",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-15",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781759254e1225130a3fa",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781069ab2e35e0cbf46ab",
+    "3f4cf61fb4e781828056ce199ab7f442",
+    "3f4cf61fb4e781299c85eef6a7dae378",
+    "3f4cf61fb4e781f2a86af2f35070c9c4",
+    "3f6cf61fb4e781c49433c67bfabf2469"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f5820dd1f3e4022895",
+   "titre": "Gilles Simeoni sur l'autonomie de la Corse : « Si le texte est voté, on aura passé la chicane. Si ça s'arrête là, c'est un saut dans l'inconnu »",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-15",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781fbb244e0b547eac561",
+   "titre": "En Corse, le virage du RN en faveur d'une autonomie encadrée après son alliance avec les identitaires",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-15",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781c5bd57c70fada5aef6"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b6b64fc73512709d2c",
+   "titre": "Autonomie de la Corse : « De quoi avez-vous peur ? », lance la ministre de la Décentralisation aux opposants de la réforme",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-15",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781618a2ddffcac980bfc"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819eb77fff212312d9ba",
+   "titre": "« La France doit être capable de faire évoluer son organisation »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-14",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781cda955dd6916fb8552",
+   "titre": "Corse autonome : le dernier rêve funeste d'Emmanuel Macron",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-14",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f99cd2d7f5513ac655",
+   "titre": "« L'autonomie de la Corse ou le fétichisme de l'uniformité : réponse aux critiques »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-13",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c5a3eff02f9deff956",
+   "titre": "Autonomie corse : le consensus le plus étrange de la vie politique française",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-06-12",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815aa9b3dc89fef4f847",
+   "titre": "La Corse face au miroir sarde",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-06-12",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e7816b8102e38412b173c0",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781fe8efadc97741193ce",
+   "titre": "La Méditerranée, une mer qui se réchauffe plus vite que le reste du monde",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-06-12",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78119b48ff8e3b384380c",
+    "3f4cf61fb4e781cfab67c9a81a9e679c",
+    "3f4cf61fb4e7811b9b00c32ea192b497"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818789bdf50d6bbb500e",
+   "titre": "Un dossier à épisodes sur les conséquences du changement climatique sur la Corse et les Corses",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-06-12",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781cfab67c9a81a9e679c",
+    "3f4cf61fb4e7811b9b00c32ea192b497"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78180888ac591b0cb60c1",
+   "titre": "Autonomie de la Corse : n'introduisons pas le racisme et la discrimination dans la Constitution",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-12",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781d39388f319ae93dec0",
+   "titre": "L'outre-mer selon Mélenchon : indépendance pour la Nouvelle-Calédonie et « aucun tabou » sur l'autonomie ailleurs",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-11",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78158a07cd70cfb21cbc3",
+   "titre": "Corsica linea, la compagnie aux bateaux rouges, célèbre dix ans d'une aventure humaine à la conquête de la Méditerranée",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-06-11",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Marseille",
+    "Ajaccio",
+    "Bastia"
+   ],
+   "communes": [
+    "2A004",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7812bad8afa6adc9d7e66",
+   "titre": "La compagnie maritime Sailcoop veut faire construire un nouveau navire de transport de passagers à la voile pour une ligne régulière entre Saint-Raphaël et Calvi",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-06-10",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Calvi",
+    "Balagne"
+   ],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78198ae4be7cb37679e70",
+   "titre": "Marc Biancarelli revient sur l'histoire de la Corse avec « Roman national »",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-08",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28",
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e596f0dfc930159826",
+   "titre": "Nationalisme corse : trois siècles d'une histoire tourmentée",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-08",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781929da2ea6c78698c64",
+   "titre": "Faut-il craindre la contagion ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-07",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781499366d918a789610a",
+   "titre": "Accorder l'autonomie à la Corse reviendrait à ouvrir la boîte de Pandore des communautarismes",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-06",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781eb98f7faee8bd43ef6",
+   "titre": "« Colonna, une tragédie corse » sur France 2 : militant, coupable et symbole",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-05",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781499b11f0cfd9510773",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e0a4ccd138d549170b",
+   "titre": "Scola Corsa, un cas d'école immersive qui gêne l'État",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-04",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Langue corse",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781ae9004f1478f78ba40"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78156bb1dcb5bf4167f03",
+   "titre": "Faire un fromage (critique de « Colonna, une tragédie corse »)",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-03",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A065"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781499b11f0cfd9510773"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f6cf61fb4e78192a559d5b98c836eb8",
    "titre": "Assemblée nationale : Le projet d'autonomie de la Corse adopté par la Commission des lois",
    "source": "Corse Net Infos",
@@ -8576,6 +10251,105 @@
    "personnes": [
     "3f4cf61fb4e781828056ce199ab7f442",
     "3f6cf61fb4e7813eafbcf83f94247df4"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781fd84b3f785be484d6b",
+   "titre": "Autonomie corse : le texte arrive à l'Assemblée, début d'un parcours parlementaire périlleux",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-02",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7813eafbcf83f94247df4",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819fa51fe4cc31b3976e",
+   "titre": "Sur l'île, habitants et élus entre crainte et scepticisme",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-02",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7816e8445c3d92b09f751",
+    "3f6cf61fb4e7815a80d2c042f8a8bb68",
+    "3f4cf61fb4e781e2977ce7acfd5cfaf7"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78172964dded5e532ffdf",
+   "titre": "La réunion promise par le ministère des Transports sur les ferries en Méditerranée se fait attendre, la CGT s'impatiente",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-06-02",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Marseille",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7814786b9f890d84a51f5",
+   "titre": "Le projet d'autonomie de la Corse contre la République",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-06-01",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e78190b3a0e195ed837a7f"
    ],
    "traitement": "Indexé"
   },
@@ -8601,6 +10375,187 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e781f6a4c3c08f2ceca97f",
+   "titre": "Transport aérien : le gouvernement réduit la taxe sur les billets de certaines lignes intérieures",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-31",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e781e2bfd1f7b08f7b614e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78105a9ecfd5ec30629b2",
+   "titre": "Des traversées plus rapides : qui est Cors'express, cette compagnie maritime qui se lance dans les liaisons entre Corse et Italie",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-30",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Transports",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781d99429edad93cad52a",
+   "titre": "Un méga projet de parc éolien au large du Cap Corse suscite la polémique",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-28",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e78119b48ff8e3b384380c",
+    "3f4cf61fb4e78150badcd6df7a9ac3fc",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78183a599cacb9666ee56",
+   "titre": "« Le luxe, aujourd'hui, c'est un tourisme qui ne détruit rien »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-24",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Économie",
+   "lieux": [
+    "Extrême-Sud",
+    "Sartène"
+   ],
+   "communes": [
+    "2A272"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781ddb3ecee30bb12d108",
+   "titre": "Isula, le premier festival corse à Marseille, débarque sur l'esplanade de la Major",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-05-15",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Culture",
+   "lieux": [
+    "Marseille"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78153a422ca572eb58465",
+   "titre": "Les Affaires maritimes bloquent à nouveau un navire de Moby lines en Corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-05-15",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78132a233e470b2853e66",
+   "titre": "Comment la Corse est devenue l'épicentre mondial des échecs",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-13",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Sports",
+   "lieux": [
+    "Extrême-Sud",
+    "Bastia"
+   ],
+   "communes": [
+    "2A139",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781179ecfea84d17c1b7f",
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815fadabe5d8c3359546",
+   "titre": "Collectivité de Corse : un Gilles remplace l'autre",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-11",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A139"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e2977ce7acfd5cfaf7",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e78161af14e15f3a841416",
+    "3f6cf61fb4e781759254e1225130a3fa"
+   ],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f6cf61fb4e78125bc9df39316e39505",
    "titre": "Tourisme : une saison estivale sous tension en Corse",
    "source": "Corse Net Infos",
@@ -8621,6 +10576,162 @@
    ],
    "personnes": [
     "3f4cf61fb4e781429e49d24c851769de"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f3b14ac9755bd97d78",
+   "titre": "À Bastia, les premiers pas balbutiants de Gilles Simeoni après sa démission de la présidence de l'exécutif corse",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-07",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781e2bfd1f7b08f7b614e",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781e2977ce7acfd5cfaf7",
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78137826bd97e985fc04a",
+   "titre": "L'Office de l'environnement de la Corse labellise des bateliers de la réserve de Scandola",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-05-06",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Balagne"
+   ],
+   "communes": [
+    "2A197"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78119b48ff8e3b384380c",
+    "3f4cf61fb4e7816b8102e38412b173c0",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78108aefffd8f34a1169d",
+   "titre": "50 ans du Front de libération nationale corse : une organisation militaire reléguée au rang de mythologie politique",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-05",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d",
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781b9830ec1c39af8f0e2"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781fbb5c5f2e8ecbfdaed",
+   "titre": "50 ans d'attentats et de dérives : le FLNC, un « mythe » nationaliste corse en voie d'extinction",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-05",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d",
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b0aa19e4d80967089c",
+   "titre": "Éducation : en Corse, l'avenir des écoles privées immersives en question",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-05-02",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Langue corse",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2B096",
+    "2B033",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781ae9004f1478f78ba40",
+    "3f4cf61fb4e78146b881f01c9b7c9995"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a0ba4bf1345ed6b1ff",
+   "titre": "Le gouvernement met le cap sur l'autonomie de la Corse",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-28",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781618a2ddffcac980bfc",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781828056ce199ab7f442",
+    "3f4cf61fb4e781299c85eef6a7dae378"
    ],
    "traitement": "Indexé"
   },
@@ -8651,6 +10762,1052 @@
    "traitement": "Indexé"
   },
   {
+   "id": "3f7cf61fb4e781ad935fcd24c309bf22",
+   "titre": "Pietra : la bière corse investit à Furiani pour sécuriser son modèle",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-24",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B120",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad",
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781a48956fdffeb04b0de"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f2ac73fff87b3ae087",
+   "titre": "Tchernobyl : 40 ans après, la communication sur les doses radioactives reste verrouillée",
+   "source": "Mediapart",
+   "typeSource": "Site d'information",
+   "date": "2026-04-24",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Santé",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78171b9a3e09276197508",
+   "titre": "Une nouvelle compagnie corse va relier Bastia à l'Italie avec un navire rapide à foils",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-04-23",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7816c9471d633dc855e9d",
+   "titre": "Biodéchets : la Corse poursuit l'ancrage du compostage de proximité",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-21",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781aebd63f16c3f992b32"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781d4825cca8bc756091b"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c7ba48da97cbfef8b7",
+   "titre": "« Le langage est obscène quand il ne désigne plus les choses »",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-04-20",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78160a2c5f9026df14876",
+   "titre": "Disparition de Jean-Philippe Fedi : un géant discret du basket français nous quitte à 59 ans",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-04-18",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Sports",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A065"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781179ecfea84d17c1b7f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a29664f7d19cc39f54",
+   "titre": "L'autonomie corse examinée au forceps devant l'Assemblée nationale avant le Sénat",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-17",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)",
+    "Paris"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781069ab2e35e0cbf46ab"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c1ad64d75565aa661c",
+   "titre": "Les écoles immersives sont-elles séparatistes ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-16",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Langue corse",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e2b30ffd7786af6041",
+   "titre": "ENTRETIEN. Philippe Tabarot : « Je réunirai tous les acteurs du ferry en Méditerranée début mai »",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-04-11",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Transports",
+   "lieux": [
+    "Marseille"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e892e9d0156789c6ae",
+   "titre": "M. Michel Castellani, député (LIOT) de la Haute-Corse, a été chargé d'une mission temporaire ayant pour objet le coût de la vie en Corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-07",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "personnes": [
+    "3f4cf61fb4e7817ca215e6b711bb677d",
+    "3f6cf61fb4e7816e8445c3d92b09f751"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f08651ecc376bd5ed5",
+   "titre": "« Mettre fin à la spirale mortifère de l'augmentation du gasoil » : les principaux ports corses bloqués par des pêcheurs",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-04-07",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Ajaccio",
+    "Bastia",
+    "Propriano",
+    "L'Île-Rousse",
+    "Bonifacio",
+    "Porto-Vecchio"
+   ],
+   "communes": [
+    "2A004",
+    "2B033",
+    "2A249",
+    "2B134",
+    "2A041",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78110b816f4d5ec095d13",
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781aebb97ccf198dda7b9"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781359371f10d6d95bd15",
+   "titre": "« Nous, cinéastes, comment on aborde cette violence ? » : le cinéma corse s'invite en force au festival Reims Polar",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-05",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7817cb0caecb7dbb5b3bd",
+   "titre": "« Une explosion de couleurs vives » : Henri Matisse, l'enfant du nord ébloui par la lumière du Sud",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-04",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Culture",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a99bddfa4b7231fe6b",
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78124839ed018da760d78",
+   "titre": "Jean-Michel Blanquer et Benjamin Morel : « Corse, Alsace… le différentialisme contre la France »",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-03",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781358155ca9a21f8f02f",
+   "titre": "Classement des lycées 2026 de Haute-Corse : découvrez les meilleurs établissements près de chez vous",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-03",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Éducation",
+   "lieux": [
+    "Bastia",
+    "L'Île-Rousse"
+   ],
+   "communes": [
+    "2B033",
+    "2B134",
+    "2B251"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781af94c9eec2d83e9ba4",
+   "titre": "Corse-du-Sud : les 3 meilleurs lycées de votre département en 2026",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-03",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Éducation",
+   "lieux": [
+    "Ajaccio",
+    "Porto-Vecchio"
+   ],
+   "communes": [
+    "2A004",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818d990df790a60bc792",
+   "titre": "La Corse, 2e PIB par habitant des îles méditerranéennes après les Baléares (Insee)",
+   "source": "AFP",
+   "typeSource": "Agence",
+   "date": "2026-04-02",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781689906fab81df4c947",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c79849f52cfb7ff0eb",
+   "titre": "Sa vision de l'Église, son rapport à la Corse... Les confidences du cardinal François Bustillo",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-04-01",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Société",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816bb0f8ddf1d9503d00"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781dd9728c2bf86301271",
+   "titre": "Crise gasoil : les pêcheurs méditerranéens veulent des mesures « justes et équitables » face aux prix « démentiels »",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-04-01",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78110b816f4d5ec095d13",
+    "3f4cf61fb4e781b8af33e06816708d9d"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781348c83cbd72f715962",
+   "titre": "Les débuts de Marc-Antoine Rossi en enduro",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-03-30",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Sports",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781179ecfea84d17c1b7f"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781bb988bc198a6308067",
+   "titre": "En Corse, le cardinal Bustillo fait vibrer l'âme de l'île et réhabilite la piété populaire",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-29",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Société",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816bb0f8ddf1d9503d00"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819da77cc271ea926bf5",
+   "titre": "Corse : tout juste élu maire de Bastia, l'autonomiste Gilles Simeoni a ôté l'écharpe tricolore sitôt après l'avoir reçue",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-28",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7812da6b4f11f6ecdd6f7",
+   "titre": "Volotea annule onze vols de Caen vers Ajaccio en avril et mai : des clients obligés de reporter leur séjour",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-03-27",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b38cdfd2b0cf1e1eb8",
+   "titre": "Municipales en Corse : à Ajaccio, la droite sauve une citadelle assiégée par les nationalistes et l'extrême droite",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-26",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e7810ba728f3455d1b4e78"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781579d02d9500eb14f0c",
+    "3f4cf61fb4e781daad74fa813c61bbc4",
+    "3f4cf61fb4e781069ab2e35e0cbf46ab",
+    "3f4cf61fb4e78108b660c472d81f8bee"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781188911d15cded03bff",
+   "titre": "Grande distribution : Coopérative U au cœur d'un conflit corse à 1,6 million d'euros sur les coûts de transports",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-25",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781748753e80f676ccd72",
+   "titre": "Municipales en Corse : Gilles Simeoni réussit son retour à Bastia",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-23",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2B033",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781c5bd57c70fada5aef6"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781579d02d9500eb14f0c",
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e781daad74fa813c61bbc4",
+    "3f6cf61fb4e781759254e1225130a3fa",
+    "3f4cf61fb4e781b9830ec1c39af8f0e2",
+    "3f4cf61fb4e78108b660c472d81f8bee"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7813c848afc8bcd957ba8",
+   "titre": "Municipales : le pari réussi mais fragile de Gilles Simeoni à Bastia",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-23",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781c5bd57c70fada5aef6"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f6cf61fb4e781759254e1225130a3fa"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7813182e5db382bca06ba",
+   "titre": "Municipales 2026 : la Bretagne et la Corse, seules régions de France métropolitaine sans maire ni député RN",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-23",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Ajaccio",
+    "Bastia"
+   ],
+   "communes": [
+    "2A004",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e781579d02d9500eb14f0c",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7813eb5eefbeda8bdc504",
+   "titre": "Volotea annule ses vols en masse en invoquant « la guerre au Moyen-Orient » : une excuse bidon ?",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-03-21",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781779d2ec43fb8602831",
+   "titre": "Marseille, Ajaccio, Tourcoing… Ces villes dont les retards de paiement plongent les entreprises dans le désarroi",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-13",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Calvi",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2B050",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7817b916ad6f938f4f677",
+   "titre": "À Bastia, l'extrême droite se nourrit des « carences » du nationalisme corse",
+   "source": "Mediapart",
+   "typeSource": "Site d'information",
+   "date": "2026-03-11",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e7813c94cbd7f485334cd8"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815fb4f5f199359089c5",
+   "titre": "Municipales à Bastia : le va-tout sur l'autonomie de la Corse du candidat Gilles Simeoni",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-10",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78159b046c041cb1d9560",
+   "titre": "Tous en enfer avec Jérôme Ferrari",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781848021e6954bc8f137",
+   "titre": "Bastia : l'heure de vérité pour Gilles Simeoni",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-01",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781b9830ec1c39af8f0e2"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818d8ebbd2bfbc965837",
+   "titre": "Municipales : à droite toute, la Corse peut-elle virer de bord ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-03-01",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia",
+    "Sartène"
+   ],
+   "communes": [
+    "2B033",
+    "2A272"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee",
+    "3f4cf61fb4e781b9830ec1c39af8f0e2"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78114b7c3c1e71c272cc2",
+   "titre": "« Si Bastia tombe, l'édifice s'effondre » : en Corse, la droite rêve de reconquête",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-28",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781759254e1225130a3fa",
+    "3f4cf61fb4e781828056ce199ab7f442",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819b9a56d544513b7ad8",
+   "titre": "« Le meilleur médecin, c'est l'avion » : « Libé » a embarqué avec des patients corses, privés de CHU, qui partent se faire soigner sur le continent",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-24",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Santé",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e7814a8c3dd45317c8adf7"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781138ecbfe6b68f8d741",
+   "titre": "Le syndicat indépendant des pêcheurs corses remet en cause le président du comité régional",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-02-23",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78110b816f4d5ec095d13"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e9a8b4c9afe7e2ec9f",
+   "titre": "Sailcoop reçoit son deuxième navire en Bretagne et en prévoit déjà un troisième pour la Corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-02-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Calvi"
+   ],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781629427ccd3f6f1ed44",
+   "titre": "Les gendarmes saisissent seize tortues protégées à un particulier en Corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Ghisonaccia"
+   ],
+   "communes": [
+    "2B123"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78119b48ff8e3b384380c"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78128aba3c9b50777b459",
+   "titre": "A Bastia, le retour de l'autonomiste Gilles Simeoni sur ses terres pour les municipales",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-19",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781ac87b9d597f58b1682",
+   "titre": "Gilles Simeoni, président du Conseil exécutif de Corse : « Je reste en première ligne pour le statut d'autonomie de la Corse »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-15",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781989e56c5e85cb82638"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781dbbcbcee1fe4c3b0bf",
+   "titre": "Municipales 2026 : à Bastia, les autonomistes corses défendent leur citadelle menacée",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-15",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7812388a5c048acde6c11",
+   "titre": "« Propos insultants », joueur d'Ajaccio à l'hôpital… Que s'est-il passé lors de ce match amateur de football ?",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-14",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Sports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7813c94cbd7f485334cd8"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7813ba268c10be1eaca11"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78194a6dce8cfe0d713f3",
+   "titre": "Les Champions de la croissance 2026 en Corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-13",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Bastia",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2B033",
+    "2A001",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad",
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
    "id": "3f6cf61fb4e781c4a12dcf7eb22655a1",
    "titre": "Le maire de Bonifacio ferme le port de Cavallo pour « raisons de sécurité »",
    "source": "Corse Net Infos",
@@ -8672,6 +11829,1908 @@
     "3f4cf61fb4e781a7bd31e1afb45f223a",
     "3f6cf61fb4e781e98ed7c16874e7cce0"
    ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a19181ec0b08dd9cb8",
+   "titre": "Football (National 3) : avant ses retrouvailles avec le GFC Ajaccio, Le Pays du Valois appelle au calme",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-02-12",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Sports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7813c94cbd7f485334cd8"
+   ],
+   "personnes": [
+    "3f6cf61fb4e7813ba268c10be1eaca11"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7818c8f6dd91de225b3d4",
+   "titre": "« Nos joueurs ont été comparés à des animaux sans race » : après un match en Corse, un club parisien porte plainte pour injures raciales",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-02-11",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Sports",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B120",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7813c94cbd7f485334cd8"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781958fceefab61f7a933",
+   "titre": "Agra Fil : Xylella, nouvel arrêté national étendant les mesures d'abord limitées à la Corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-10",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Agriculture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781a48956fdffeb04b0de",
+    "3f4cf61fb4e781f9aa39e51b64e4581c"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815ab4d1d71477fec2af",
+   "titre": "Voitures radars : où sont-elles le plus actives ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-08",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781288a6ad84a87ecc094"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7811cb7f6e84c7ec67df0",
+   "titre": "« Beaucoup de nos amis sont morts » : au Cap Corse, la démolition de l'usine d'amiante ravive le douloureux souvenir de « l'enfer blanc »",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-08",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [
+    "2B058"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e78136b475fe20239d08c7"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a6b812f4b903959079",
+   "titre": "Coup de chaud sur la desserte maritime vers la Corse",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-07",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Bastia",
+    "L'Île-Rousse"
+   ],
+   "communes": [
+    "2B033",
+    "2B134"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e7813a9c65fac1fbeea669",
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7810f874ac2d5369c3d2c",
+   "titre": "Les moteurs de la future centrale électrique corse sont en cours de déchargement au port d'Ajaccio",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-02-06",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004",
+    "2A249"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e781aebb97ccf198dda7b9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781cca39bf86f480e4d2f",
+   "titre": "Deux médiateurs nommés pour essayer de mettre fin à la grève des ferries en Méditerranée",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille",
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1",
+    "3f6cf61fb4e78159850ce0c7855ed6e7"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781eeb835c1de1d577afc",
+   "titre": "« On n'est pas satisfait des propositions faites par l'État et les compagnies » : les marins marseillais poursuivent leur grève, le gouvernement nomme deux médiateurs",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-02-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1",
+    "3f4cf61fb4e7813a9c65fac1fbeea669"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7816797c2d81130829669",
+   "titre": "La grève des ferries en Méditerranée est terminée au sein des compagnies Corsica linea et La Méridionale",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-02-06",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille",
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e7811c9ce5d35fcd9c89b7",
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781dfb08ff73dc52cbf56",
+   "titre": "En Corse, le RN teste sa nouvelle marotte régionaliste",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-02-05",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781eca0fdc245a17b0f5d",
+   "titre": "« Concurrence déloyale » : une cinquantaine de représentants de la CGT mobilisés devant l'entrée du salon Euromaritime",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-02-03",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1",
+    "3f6cf61fb4e7819fbdb5da544db242fa",
+    "3f4cf61fb4e7813a9c65fac1fbeea669"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781bc83a5c02db8202085",
+   "titre": "Alors qu'un préavis de grève commence sur la Corse, les marins CGT bloquent un paquebot de MSC à Marseille",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-02-02",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille",
+    "Bastia",
+    "Ajaccio",
+    "Propriano",
+    "Porto-Vecchio"
+   ],
+   "communes": [
+    "2B033",
+    "2A004",
+    "2A249",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1",
+    "3f6cf61fb4e78159850ce0c7855ed6e7"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7816bb2fae1bca4fc9e17",
+   "titre": "Orange coupe définitivement l'ADSL et le téléphone de 763 communes, dont Lyon et Ajaccio",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-26",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a2bf59dc0f7ec8142e",
+   "titre": "EN CHIFFRES. Bastia : le premier port de Corse a su compenser la baisse de son nombre d'escales en 2025",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-01-26",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781aebb97ccf198dda7b9",
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [
+    "3f4cf61fb4e7813a9c65fac1fbeea669",
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781378a84f98bedc55168",
+   "titre": "Dumping, pavillon... Les syndicats de marins STC, Sammm et CFDT de Méditerranée reçus au ministère des Transports",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-01-24",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f6cf61fb4e78159850ce0c7855ed6e7",
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a2ab16c225d5f03365",
+   "titre": "Océanopolis : pourquoi deux requins séjournent dans un Leclerc en Corse",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-01-23",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A271",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78119b48ff8e3b384380c"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c4b881f937edda81bb",
+   "titre": "Le roman noir des Orsoni",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-22",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Politique",
+   "lieux": [
+    "Ajaccio",
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2A345",
+    "2B009",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e89017c4866d88c9d1",
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781ce943bdc3479323723",
+   "titre": "Municipales 2026 : dans le Venacais, le changement et la continuité font le territoire",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-01-22",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Centre Corse"
+   ],
+   "communes": [
+    "2B341",
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78145b46ce71cdada6047",
+   "titre": "EN CHIFFRES. Le trafic des lignes régulières en augmentation pour le port d'Ajaccio qui glane un quart du trafic Corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-01-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio",
+    "Propriano"
+   ],
+   "communes": [
+    "2A004",
+    "2A249"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781aebb97ccf198dda7b9",
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [
+    "3f4cf61fb4e7813a9c65fac1fbeea669",
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781478230cb693d19056a",
+   "titre": "Aux obsèques d'Alain Orsoni, les plaies ouvertes du nationalisme corse et l'ombre du milieu",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-17",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004",
+    "2A345"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e89017c4866d88c9d1"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c6bbbcd5074fb03b2a",
+   "titre": "Jean-Hugues Colonna, ancien député socialiste et père d'Yvan Colonna, est mort",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-15",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Politique",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A065"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781329942f4016cc6f41f",
+   "titre": "« À leur image », la jeune photographie corse ausculte une île entre mythes, béton et héritages",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-15",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corte",
+    "Bastia"
+   ],
+   "communes": [
+    "2B096",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78130947ecbe05e9724f8",
+   "titre": "Alain Orsoni, un destin corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-13",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Sports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A345",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e89017c4866d88c9d1",
+    "3f4cf61fb4e781b3b91ec49d9f476023"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781918537e5617d25f096",
+   "titre": "« Il avait un côté sombre » : de la cave d'Aléria aux affaires, l'itinéraire tortueux d'Alain Orsoni",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-13",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e89017c4866d88c9d1",
+    "3f6cf61fb4e781b4b224f7fd28852456"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a5b748fecf94aaaadd",
+   "titre": "Cybercab : Tesla et Musk pris de vitesse par une petite entreprise corse",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-09",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b586e9e77fca14a6ec",
+   "titre": "Comment Tesla s'est fait piquer le nom de son « Cybercab » par une petite entreprise corse",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-08",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78186a7e4d151672b7581",
+   "titre": "La mort de Dominique Bucchini, figure marquante du Parti communiste en Corse",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-06",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Politique",
+   "lieux": [
+    "Sartène"
+   ],
+   "communes": [
+    "2A272"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781d4a952ec9e4313358d",
+   "titre": "Affrété par Corsica linea depuis 2020, le ferry « A Nepita » quitte la Corse pour le Canada",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2026-01-06",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio",
+    "Propriano",
+    "L'Île-Rousse"
+   ],
+   "communes": [
+    "2A004",
+    "2A249",
+    "2B134"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781838bc0fbff3fcb005f",
+   "titre": "Élections municipales : quelles sont les forces en présence ?",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2026-01-06",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale",
+    "Ghisonaccia"
+   ],
+   "communes": [
+    "2B009",
+    "2B123",
+    "2B251",
+    "2B283"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78165a962dac67d4ca084",
+   "titre": "Quarante ans après la loi « littoral », faut-il un nouvel arsenal ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-05",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781bcbac3d1de2b0d3a8d",
+    "3f4cf61fb4e7816b8102e38412b173c0"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e7ada7d8721f68c996",
+   "titre": "Haute fonction publique : Jérôme Filippini choisi pour diriger l'INSP, ex-ENA",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2026-01-05",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f6cf61fb4e78144b41fd10253ecac0d"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781df911cfd0dc346e5db",
+   "titre": "Dominique Bucchini, figure du Parti communiste corse, est décédé",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-01-03",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Politique",
+   "lieux": [
+    "Sartène"
+   ],
+   "communes": [
+    "2A272"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c287afc7b2d8f38cd5",
+   "titre": "Anghjula Potentini, une voix dans la durée",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-12-27",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Culture",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2B239"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7811899c4e141bca2b556",
+   "titre": "Vol Paris-Ajaccio : « Comme si des flammes sortaient du réacteur »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2025-12-26",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781059877e7341658856b",
+   "titre": "Municipales 2026 : Gilles Simeoni abdique de la présidence de l'exécutif corse pour reprendre la mairie de Bastia",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-18",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781829634d3c61d836be9",
+   "titre": "Chjam'è rispondi : les joutes poétiques corses entrent au patrimoine culturel immatériel",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-12-18",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Langue corse",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e781a99bddfa4b7231fe6b",
+    "3f4cf61fb4e781fc9e01c78de631ca28"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7814989e5efe6644a714e",
+   "titre": "La collectivité de Corse face au défi de ports de commerce trop à l'étroit",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-12-16",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Transports",
+   "lieux": [
+    "Bastia",
+    "Calvi",
+    "L'Île-Rousse",
+    "Propriano",
+    "Porto-Vecchio"
+   ],
+   "communes": [
+    "2B033",
+    "2B050",
+    "2B134",
+    "2A249",
+    "2A247",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781aebb97ccf198dda7b9",
+    "3f4cf61fb4e781b7ae51fee0ad4274d3"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7813a9c65fac1fbeea669"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7819fa3f8ca378328fd86",
+   "titre": "Après dix ans d'hégémonie politique, les nationalistes corses en perte de vitesse",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-15",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia",
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781cfb6ccdbec3663d20b"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f6cf61fb4e781c49433c67bfabf2469",
+    "3f4cf61fb4e7817ca215e6b711bb677d",
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781bcb5caf564ec901b28",
+   "titre": "Duel en vue pour la direction de l'ex-ENA, après une réforme décriée",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-12",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f6cf61fb4e78144b41fd10253ecac0d"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b4b228f4455d7e579b",
+   "titre": "Le premier téléphérique corse alimente critiques et inquiétudes financières",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-11",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781288a6ad84a87ecc094"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781579d02d9500eb14f0c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781ba9275f0216527dd97",
+   "titre": "Municipales à Aleria : une majorité en héritage, un duel en résultat",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-12-08",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781be94b9e9c1d3aca1bb",
+   "titre": "La querelle des croix sauvages",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-06",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Société",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A253"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816bb0f8ddf1d9503d00",
+    "3f4cf61fb4e7813c94cbd7f485334cd8"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e1b6dede09d9736a2b",
+   "titre": "Tradition, excellence académique, opportunités professionnelles... Les raisons du succès de l'apprentissage d'une langue régionale",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-04",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Langue corse",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7811199f9ee68191940f6",
+   "titre": "Un portrait qui dit la grande histoire",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-12-03",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Culture",
+   "lieux": [
+    "Bastia",
+    "Corte"
+   ],
+   "communes": [
+    "2B033",
+    "2B169",
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a99bddfa4b7231fe6b",
+    "3f4cf61fb4e781adbdc7d2e921541e41"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781faacdce5f874f0a2f0",
+   "titre": "Les régions qui décident et celles qui subissent",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-12-01",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781bd9ef7ccce0b794bab",
+   "titre": "Les marins CGT appellent à faire grève le 2 décembre, notamment sur la Corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-11-28",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Social",
+   "lieux": [
+    "Marseille",
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1",
+    "3f4cf61fb4e7813a9c65fac1fbeea669"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78161a027de1b85dbc577",
+   "titre": "Pour 2026, la banque la moins chère en Corse est...",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-11-27",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7816f8cfbfdaa4428ab2b",
+   "titre": "« C'est inédit » : la Corse va financer la venue de touristes hors saison",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-26",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A004",
+    "2B033",
+    "2B050",
+    "2A114"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c08e9df997584232e6",
+   "titre": "Corse : le RN se rapproche des nationalistes de Mossa Palatina",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-25",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Bastia",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2B033",
+    "2A004",
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781f5b6b3c32ca3dfc964",
+   "titre": "Portuaire. L'avenir de la délégation de service public corse au cœur des enjeux à Marseille",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-11-21",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Transports",
+   "lieux": [
+    "Marseille",
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e781aebb97ccf198dda7b9"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781e79f5af80e033a7f86",
+    "3f4cf61fb4e7811f8d4de0982cca2cc1",
+    "3f4cf61fb4e7813a9c65fac1fbeea669",
+    "3f6cf61fb4e78159850ce0c7855ed6e7",
+    "3f6cf61fb4e7819fbdb5da544db242fa"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c1a76dc77ac100eb07",
+   "titre": "En Haute-Corse, la distillerie L.N. Mattei et ses nectars bien corsés",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-20",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Économie",
+   "lieux": [
+    "Plaine orientale",
+    "Cap Corse"
+   ],
+   "communes": [
+    "2B009",
+    "2B107",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a48956fdffeb04b0de",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78104849bc2021cdc851d",
+   "titre": "Taxe foncière 2026 : risquez-vous une hausse plus forte que la simple revalorisation des bases ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781e2bfd1f7b08f7b614e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781c5b99ee4159f281f57",
+   "titre": "Cabinet de Françoise Gatel : Titouan Bergeron et Paul-Mathieu Caïtucoli nommés conseillers",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A160"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781618a2ddffcac980bfc"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781e3ac2ec12b19c2f650",
+   "titre": "AirHelp Score 2025 : Air Corsica classée 47e compagnie mondiale",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2025-11-18",
+   "lien": "",
+   "genre": "Communiqué",
+   "rubrique": "Transports",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781289855f9bccb93e822",
+   "titre": "Rubis, sanctionné pour entente dans le dossier corse, se dit « consterné » par la décision de l'Autorité de la concurrence",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-18",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781cc89adfcdc86b2b237",
+   "titre": "Bercy va augmenter d'office la taxe foncière pour 7,4 millions de logements en 2026",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-18",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781e2bfd1f7b08f7b614e",
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781b69c9ddb9888cde8af",
+   "titre": "Amende de 187,5 millions pour TotalEnergies, Rubis et EG dans les carburants en Corse",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-11-17",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781a6b956c0cca7ad62f6",
+   "titre": "Carburants en Corse : trois entreprises sanctionnées pour des pratiques jugées anticoncurrentielles",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-11-17",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78100b9a2e74526fde1b6",
+   "titre": "L'Assemblée locale crée une commission spécialisée",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-14",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7813ab319f8a7be82d4d9",
+   "titre": "« On commence à voir des descentes de petits banlieusards » : l'agression de Corte inquiète la Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2025-11-13",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Société",
+   "lieux": [
+    "Corte",
+    "Bastia"
+   ],
+   "communes": [
+    "2B096",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7813c94cbd7f485334cd8"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781839bfcdeaa04e52d66",
+   "titre": "Corse / PJLC",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-10",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df",
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78113bdebc607bc815393",
+   "titre": "Pour s'implanter en Corse, le RN infléchit sa ligne jacobine et s'allie aux identitaires",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-08",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Politique",
+   "lieux": [
+    "Ajaccio",
+    "Bastia"
+   ],
+   "communes": [
+    "2A004",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee",
+    "3f4cf61fb4e781069ab2e35e0cbf46ab",
+    "3f4cf61fb4e781ba8176ee993c7db4ba"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78128ac18d6764f116ccd",
+   "titre": "Corse : le RN s'allie avec un parti nationaliste en vue des municipales",
+   "source": "Libération",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-05",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Ajaccio",
+    "Bastia"
+   ],
+   "communes": [
+    "2A004",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781c5bd57c70fada5aef6",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781989e56c5e85cb82638",
+    "3f4cf61fb4e78108b660c472d81f8bee"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781658a1ce33cb0cb46e5",
+   "titre": "Quand l'Assemblée de Corse se bat pour sauver le recteur de l'île, menacé de mutation à Paris",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-01",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Éducation",
+   "lieux": [
+    "Ajaccio",
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781d8b4d5d7b0aed9ce14",
+   "titre": "A Porto Rico, l'aventure américaine des exilés du cap Corse",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-11-01",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Culture",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [
+    "2B224"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781adbdc7d2e921541e41",
+    "3f4cf61fb4e781b4a007df39f96f061e"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7817d9e95e6afeb7e8fe9",
+   "titre": "L'interview CEO : Anna-Livia Fanucchi, fondatrice de Grana Mora « Je souhaite continuer à développer la filière du figuier de Barbarie en Corse »",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-30",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Économie",
+   "lieux": [
+    "Balagne"
+   ],
+   "communes": [
+    "2B150",
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a48956fdffeb04b0de",
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7810d9896cca68c6f0075",
+   "titre": "En Corse, la laïcité face à l'identité",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-26",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Société",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A253"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816bb0f8ddf1d9503d00"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781099cdfc64a30f33d2a",
+   "titre": "En Corse, l'extrême droite s'empare d'une croix pour vomir son racisme et imposer sa vision de la laïcité",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2025-10-22",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Société",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A253"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7813c94cbd7f485334cd8",
+    "3f4cf61fb4e781c5bd57c70fada5aef6"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781aabf4cf54b510543d0",
+   "titre": "Cavallo, l'île des milliardaires devenue zone de non-droit en Corse",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-19",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Société",
+   "lieux": [
+    "Bonifacio",
+    "Extrême-Sud"
+   ],
+   "communes": [
+    "2A041"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816b8102e38412b173c0"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78101ac74fc0f045e96eb",
+   "titre": "Travail saisonnier : une PPL pour développer l'hébergement dans les zones carencées",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-17",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Social",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781828056ce199ab7f442"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815f95f7dda5fcccf2b7",
+   "titre": "Huîtres, moules, eau de mer : tout le littoral français contaminé par des pesticides et médicaments",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-10-16",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78150badcd6df7a9ac3fc"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78121aa64e67e18e30e2b",
+   "titre": "À Saint-Nazaire, Everllence teste un moteur à l'huile de colza pour la future centrale EDF d'Ajaccio",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-10-16",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e781aebb97ccf198dda7b9"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78149b4e8ef8ab952f6a4",
+   "titre": "Ajaccio inaugure son téléphérique controversé sur fond de campagne municipale",
+   "source": "Le Monde",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-16",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Transports",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781288a6ad84a87ecc094",
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781579d02d9500eb14f0c",
+    "3f4cf61fb4e781069ab2e35e0cbf46ab"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78130a872eeb6df9c1099",
+   "titre": "Sur le port de Saint-Nazaire, Everllence convertit ses moteurs XXL à la biomasse végétale",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-10-15",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Ajaccio"
+   ],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7817f9462da715cb063a3",
+   "titre": "« Cela touche à ce qui nous constitue au plus profond de nous-mêmes » : en Corse, le retrait d'une croix dans un village fait polémique",
+   "source": "Le Figaro",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-14",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Société",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [
+    "2A253",
+    "2B042"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7816bb0f8ddf1d9503d00"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78135bfb8ccdd05817629",
+   "titre": "Corse : un projet lumineux au service de la transition énergétique",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-10-13",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)",
+    "Bastia"
+   ],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e781689906fab81df4c947"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78194a68dfd4509e93ef4",
+   "titre": "La Corse a-t-elle raison de subventionner des billets d'avion pour les touristes ?",
+   "source": "Autre",
+   "typeSource": "Presse nationale",
+   "date": "2025-10-13",
+   "lien": "",
+   "genre": "Analyse / décryptage",
+   "rubrique": "Économie",
+   "lieux": [
+    "Corse (ensemble)"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815ca7acea95a1a5c013",
+   "titre": "« Nous sommes des éco-optimistes » : la station scientifique Corse Stareso cherche à sensibiliser",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-10-12",
+   "lien": "",
+   "genre": "Portrait",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Balagne"
+   ],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78119b48ff8e3b384380c",
+    "3f4cf61fb4e7816b8102e38412b173c0"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781baa34bc37c6f3740cb"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815596a2e49b499328ea",
+   "titre": "Les yachts, une manne pour les ports corses",
+   "source": "Autre",
+   "typeSource": "Site d'information",
+   "date": "2025-10-11",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Économie",
+   "lieux": [
+    "Calvi",
+    "Bonifacio",
+    "Ajaccio"
+   ],
+   "communes": [
+    "2B050",
+    "2B298",
+    "2A004",
+    "2A041"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781aebb97ccf198dda7b9",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781afb823f7c816b50288",
+   "titre": "L'eau en Corse : un diagnostic lucide et l'exemple sarde",
+   "source": "Autre",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-10-10",
+   "lien": "",
+   "genre": "Éditorial / tribune",
+   "rubrique": "Environnement",
+   "lieux": [
+    "Corse (ensemble)",
+    "Plaine orientale"
+   ],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781689906fab81df4c947"
+   ],
+   "personnes": [],
    "traitement": "Indexé"
   },
   {
@@ -8699,6 +13758,226 @@
     "3f6cf61fb4e781759254e1225130a3fa",
     "3f6cf61fb4e7813994b0d34bd9bb7db4"
    ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815bbf68d1591889a873",
+   "titre": "Deux candidates pour resserrer les rangs du conseil exécutif",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2025-02-01",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Institutions",
+   "lieux": [
+    "Cap Corse",
+    "Porto-Vecchio"
+   ],
+   "communes": [
+    "2B152",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [
+    "3f4cf61fb4e781f98a10cc4224ebc5f9",
+    "3f4cf61fb4e781cd8539c4be7e029e2c"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781deac81fa8f4fa4aa09",
+   "titre": "INTERVIEW. Jean-Claude Franceschi, maire d'Aleria : « J'ai une vision globale des dossiers communaux et intercommunaux »",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2024-07-26",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009",
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781f9aa39e51b64e4581c"
+   ],
+   "personnes": [
+    "3f6cf61fb4e781efafcedcde940b6aac"
+   ],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78138ba59d86659f69186",
+   "titre": "Municipale partielle : Stéphane Mezzadri élu dès le premier tour",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2022-06-20",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Politique",
+   "lieux": [
+    "Centre Corse"
+   ],
+   "communes": [
+    "2B341"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781059edccdf4dac4a4db",
+   "titre": "Municipales partielles : trois candidats pour un siège",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2022-06-18",
+   "lien": "",
+   "genre": "Article",
+   "rubrique": "Politique",
+   "lieux": [
+    "Centre Corse"
+   ],
+   "communes": [
+    "2B341"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781779418e0337fc84012",
+   "titre": "Municipales d'Aleria : protestations contre les résultats rejetées par le tribunal",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2020-09-28",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e7815c8c62e38d46a80074",
+   "titre": "Anne-Laure Santucci élue",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2020-06-29",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Politique",
+   "lieux": [
+    "Cap Corse"
+   ],
+   "communes": [
+    "2B152"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781cc9e60e2852c8ab578",
+   "titre": "Les résultats du second tour des élections municipales à Aléria",
+   "source": "Le Parisien",
+   "typeSource": "Presse nationale",
+   "date": "2020-06-28",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78175ab0ccd1fc32448e1",
+   "titre": "Michel Mezzadri : « Il faut se tourner vers ceux qui souffrent davantage »",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2020-03-29",
+   "lien": "",
+   "genre": "Interview",
+   "rubrique": "Politique",
+   "lieux": [
+    "Centre Corse"
+   ],
+   "communes": [
+    "2B341"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2",
+    "3f4cf61fb4e781768be1fa5ccd38933b"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e78130b91dda71a5e56a68",
+   "titre": "Louis Mariani : « Une liste représentative de la population »",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2020-02-28",
+   "lien": "",
+   "genre": "Brève",
+   "rubrique": "Politique",
+   "lieux": [
+    "Centre Corse"
+   ],
+   "communes": [
+    "2B341"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
+   "traitement": "Indexé"
+  },
+  {
+   "id": "3f7cf61fb4e781289914c42d406f2c47",
+   "titre": "Aleria : les enjeux de la reconquête",
+   "source": "Corse-Matin",
+   "typeSource": "Presse quotidienne régionale",
+   "date": "2020-02-10",
+   "lien": "",
+   "genre": "Enquête",
+   "rubrique": "Politique",
+   "lieux": [
+    "Plaine orientale"
+   ],
+   "communes": [
+    "2B009"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781fe9c21d47c8f6f46d2"
+   ],
+   "personnes": [],
    "traitement": "Indexé"
   },
   {
@@ -19793,6 +25072,47 @@
    "verifieLe": "2026-10-11"
   },
   {
+   "id": "3f7cf61fb4e7817bbd7dd29459050cc1",
+   "titre": "Tendances régionales Corse — mai 2026",
+   "producteur": "Autre",
+   "type": "Note de conjoncture",
+   "collection": "Banque de France — Tendances régionales Corse",
+   "numero": "Mai 2026",
+   "date": "2026-06-01",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Producteur : Banque de France. Conjoncture de mai 2026 en Corse dans l'industrie, les services marchands et le BTP, avec le contexte national (ralentissement lié notamment aux ponts de mai) et les prévisions pour juin. Publication de juin 2026 (jour non précisé).",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "verifieLe": "2026-10-12"
+  },
+  {
+   "id": "3f7cf61fb4e78107b989d7730430619b",
+   "titre": "Arrêté du 28 mai 2026 fixant le montant et la répartition du fonds de soutien à l'apprentissage aux régions et à la collectivité de Corse",
+   "producteur": "Autre",
+   "type": "Texte législatif",
+   "collection": "Journal officiel",
+   "numero": "JORF n° 0125 du 30 mai 2026, texte 5 — NOR TRSD2614255A",
+   "date": "2026-05-30",
+   "themes": [
+    "Éducation",
+    "Finances publiques"
+   ],
+   "resume": "Producteur : Journal officiel. Le fonds de soutien à l'apprentissage est ramené à 11 M€ (fonctionnement des CFA) et 22 M€ (investissement), contre 130 M€ dans l'arrêté abrogé du 1er avril 2026. Part de la Corse pour le fonctionnement : 61 225 €.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "verifieLe": "2026-10-12"
+  },
+  {
    "id": "3f6cf61fb4e7815f918bfefce2d707c7",
    "titre": "Une fécondité historiquement basse mais une population toujours en hausse",
    "producteur": "Insee",
@@ -19853,6 +25173,26 @@
    "verifieLe": ""
   },
   {
+   "id": "3f7cf61fb4e781eaa9befa8f7628f29f",
+   "titre": "Bpifrance en Corse : bilan d'activité 2025",
+   "producteur": "Autre",
+   "type": "Données",
+   "collection": "Bpifrance — communiqué de presse",
+   "numero": "",
+   "date": "2026-04-07",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Producteur : Bpifrance. Plus de 550 entreprises soutenues pour 145 M€ (271 M€ de financements mobilisés) ; 136 M€ de financements à 56 entreprises (+9 %) ; 11 M€ pour l'industrie (46 entreprises) ; 1 M€ de Prêts Climat ; 411 entrepreneurs des quartiers accompagnés.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "verifieLe": "2026-10-12"
+  },
+  {
    "id": "3f6cf61fb4e781428aecc990862183d2",
    "titre": "La Corse a le deuxième PIB par habitant des îles de Méditerranée",
    "producteur": "Insee",
@@ -19869,6 +25209,48 @@
    "lien": "https://www.insee.fr/fr/statistiques/8960479",
    "dossiers": [],
    "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f7cf61fb4e7814e95b0f34ced0d2c60",
+   "titre": "Tendances régionales Corse — mars 2026",
+   "producteur": "Autre",
+   "type": "Note de conjoncture",
+   "collection": "Banque de France — Tendances régionales Corse",
+   "numero": "Mars 2026",
+   "date": "2026-04-01",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Producteur : Banque de France. Conjoncture régionale de l'industrie, des services marchands et du BTP en Corse, dans le contexte de la guerre au Moyen-Orient (hausse des coûts de l'énergie). Prévisions des chefs d'entreprise pour avril. Publication d'avril 2026 (jour non précisé dans le document).",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "verifieLe": "2026-10-12"
+  },
+  {
+   "id": "3f7cf61fb4e78106b81aec2693af3bfe",
+   "titre": "Classement « La Belle Plage » 2026 — notice",
+   "producteur": "Autre",
+   "type": "Données",
+   "collection": "Eau et Rivières de Bretagne — classement « La Belle Plage »",
+   "numero": "2026",
+   "date": "2026-04-01",
+   "themes": [
+    "Environnement",
+    "Santé"
+   ],
+   "resume": "Producteur : Eau et Rivières de Bretagne. Notice du classement 2026 du risque sanitaire des eaux de baignade littorales (métropole, Corse, outre-mer), établi à partir des seules analyses réglementaires des ARS sur les saisons 2022-2025. Notice datée d'avril 2026 (jour non précisé).",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e7816b8102e38412b173c0",
+    "3f4cf61fb4e78136b475fe20239d08c7"
+   ],
+   "verifieLe": "2026-10-12"
   },
   {
    "id": "3f6cf61fb4e781a28c79d93a06eb1367",
@@ -19934,6 +25316,26 @@
    "verifieLe": "2026-10-11"
   },
   {
+   "id": "3f7cf61fb4e78184b70efe8bbc8f39a5",
+   "titre": "Les entreprises en région Corse : bilan 2025 et perspectives 2026",
+   "producteur": "Autre",
+   "type": "Note de conjoncture",
+   "collection": "Banque de France — Les entreprises en région",
+   "numero": "Bilan 2025 et perspectives 2026",
+   "date": "2026-02-01",
+   "themes": [
+    "Économie"
+   ],
+   "resume": "Producteur : Banque de France. Bilan de l'activité 2025 et prévisions 2026 des entreprises de Corse (industrie, services marchands, construction), d'après 593 entreprises interrogées, avec le contexte national (croissance française de 0,9 % en 2025). Publication de février 2026 (jour non précisé).",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e781a4b422d9a7bc6f70ad"
+   ],
+   "verifieLe": "2026-10-12"
+  },
+  {
    "id": "3f6cf61fb4e781eeae46f21f74d9b495",
    "titre": "Fin du remplacement des chaudières au fioul : 2 700 ménages concernés en Corse",
    "producteur": "Insee",
@@ -19972,6 +25374,28 @@
    "lien": "https://www.insee.fr/fr/statistiques/8682331",
    "dossiers": [],
    "verifieLe": ""
+  },
+  {
+   "id": "3f7cf61fb4e7810da2ece725eca265dd",
+   "titre": "Proposition de loi n° 1949 visant à faciliter la création et la mobilisation de logements destinés aux travailleurs saisonniers dans les zones présentant une carence avérée",
+   "producteur": "Assemblée nationale",
+   "type": "Texte législatif",
+   "collection": "",
+   "numero": "1949 (XVIIe législature)",
+   "date": "2025-10-14",
+   "themes": [
+    "Logement"
+   ],
+   "resume": "Proposition de loi du député de Haute-Corse François-Xavier Ceccoli (LR), enregistrée le 14 octobre 2025 : plan d'orientation des logements saisonniers dans les SCoT, assouplissement ciblé du « zéro artificialisation nette », crédit d'impôt et foncières mixtes, conventions volontaires avec les intercommunalités.",
+   "chiffres": "",
+   "statut": "En discussion",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289",
+    "3f4cf61fb4e781d3a0cde83989bac1ca",
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "verifieLe": "2026-10-12"
   },
   {
    "id": "3f6cf61fb4e781f2b7a5e6b9bddef8c1",
@@ -20053,6 +25477,28 @@
     "3f4cf61fb4e781aebd63f16c3f992b32"
    ],
    "verifieLe": "2026-10-11"
+  },
+  {
+   "id": "3f7cf61fb4e78132b79ffa4ea0f6b09c",
+   "titre": "Qualité des eaux de baignade littorales : définition d'indicateurs de qualité sanitaire des plages",
+   "producteur": "Autre",
+   "type": "Étude statistique",
+   "collection": "Eau et Rivières de Bretagne",
+   "numero": "",
+   "date": "2024-04-17",
+   "themes": [
+    "Environnement",
+    "Santé"
+   ],
+   "resume": "Producteur : Eau et Rivières de Bretagne. Méthode du classement « La Belle Plage » : limites du classement européen (directive 2006/7/CE), note de 0 à 100 et quatre catégories de qualité sanitaire à partir des analyses des ARS, palmarès des plages et des communes. Document de référence pour lire les classements portant sur les plages corses.",
+   "chiffres": "",
+   "statut": "En vigueur",
+   "lien": "",
+   "dossiers": [
+    "3f4cf61fb4e7816b8102e38412b173c0",
+    "3f4cf61fb4e78136b475fe20239d08c7"
+   ],
+   "verifieLe": "2026-10-12"
   }
  ],
  "drones": [

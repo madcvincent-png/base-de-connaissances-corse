@@ -436,7 +436,10 @@ def profil_public(kb):
         and (p["nature"] != "Personne" or bool(set(p["qualite"]) & QUALITES_PUBLIQUES)),
         "dossiers": lambda d: d["rubrique"] not in RUBRIQUES_EXCLUES and d["type"] not in TYPES_DOSSIERS_EXCLUS
         and propre(d["titre"], d["resume"]),
-        "articles": lambda a: a["rubrique"] not in RUBRIQUES_EXCLUES and propre(a["titre"]),
+        # une mise en cause reste interne quelle que soit la rubrique (titres nominatifs)
+        "articles": lambda a: a["rubrique"] not in RUBRIQUES_EXCLUES
+        and not (a.get("nature") or "").startswith("Mise en cause")
+        and propre(a["titre"]),
         # une note ne sort qu'après relecture : publiable ET livrée
         "notes": lambda n: n.get("diffusion") == "Publiable" and n.get("etat") == "Livrée",
         "drones": lambda d: True,
