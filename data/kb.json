@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-13",
+  "exporteLe": "2026-10-14",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,8 +9,8 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1320,
-   "notes": 1,
+   "articles": 1329,
+   "notes": 5,
    "documents": 32,
    "drones": 198
   },
@@ -21,8 +21,8 @@
    "roles": 11,
    "personnes": 273,
    "dossiers": 92,
-   "articles": 1320,
-   "notes": 16,
+   "articles": 1329,
+   "notes": 14,
    "documents": 32,
    "drones": 198
   }
@@ -7276,6 +7276,164 @@
   }
  ],
  "articles": [
+  {
+   "id": "3f9cf61fb4e78139b03afdb942a25285",
+   "titre": "Calinzana : Inaugurazione di l'estensione di u gruppu sculare \"Les Ignorantins\" - scola José Balestrini",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-10-14",
+   "lien": "https://www.isula.corsica/Calinzana-Inaugurazione-di-l-estensione-di-u-gruppu-sculare-Les-Ignorantins-scola-Jose-Balestrini_a6300.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f9cf61fb4e78161afadecb0ea0ea1d3",
+   "titre": "« Procès de Julien Duclos : Femu a Corsica réitère sa demande d’arrêt des poursuites »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-14",
+   "lien": "https://www.corsicainfurmazione.org/2030241/proces-de-julien-duclos-femu-a-corsica-reitere-sa-demande-darret-des-poursuites/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e781a6853bd6bcdb313922",
+   "titre": "« Laetitia Giannechini : Paul-André Colombani et Femu a Corsica dénoncent des attaques du RN contre la journaliste »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-13",
+   "lien": "https://www.corsicainfurmazione.org/2030226/laetitia-giannechini-paul-andre-colombani-et-femu-a-corsica-denoncent-des-attaques-du-rn-contre-la-journaliste/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e78115a48fdc559f5843b3",
+   "titre": "« Procès en appel de Julien Duclos : Core in Fronte annonce son soutien »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-13",
+   "lien": "https://www.corsicainfurmazione.org/2030227/proces-en-appel-de-julien-duclos-core-in-fronte-annonce-son-soutien/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e781f5aa70ee481ee9a1ff",
+   "titre": "Abattoir de Porto-Vecchio : au tribunal administratif de Bastia, le rapporteur public pointe une carence fautive de l’État",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-13",
+   "lien": "https://www.corsenetinfos.corsica/Abattoir-de-Porto-Vecchio-au-tribunal-administratif-de-Bastia-le-rapporteur-public-pointe-une-carence-fautive-de-l-Etat_a93133.html",
+   "genre": "",
+   "rubrique": "Langue corse",
+   "lieux": [],
+   "communes": [
+    "2B033",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e781bcbac3d1de2b0d3a8d",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e781b29b09f5ccf339724e",
+   "titre": "Risque d’inondation : la CAB et les communes du bassin bastiais testent leur gestion de crise",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-13",
+   "lien": "https://www.corsenetinfos.corsica/Risque-d-inondation-la-CAB-et-les-communes-du-bassin-bastiais-testent-leur-gestion-de-crise_a93136.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e7813d8b78ddaeb40fef12",
+   "titre": "Téléthon 2026 - Les écoliers de Balagne sensibilisés aux gestes qui sauvent",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-13",
+   "lien": "https://www.corsenetinfos.corsica/Telethon-2026-Les-ecoliers-de-Balagne-sensibilises-aux-gestes-qui-sauvent_a93116.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e781dd8906d7caae1e776b",
+   "titre": "Corte - « Faire de la mémoire de Chloé, une force d’éducation »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-13",
+   "lien": "https://www.corsenetinfos.corsica/Corte-Faire-de-la-memoire-de-Chloe-une-force-d-education_a93137.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f8cf61fb4e78137852dea052c8072b9",
+   "titre": "Françoise Gatel : « L’autonomie de la Corse n’est pas un saut dans le vide ! »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-13",
+   "lien": "https://www.corsenetinfos.corsica/Francoise-Gatel-L-autonomie-de-la-Corse-n-est-pas-un-saut-dans-le-vide-_a93140.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3f7cf61fb4e781a7b679da470069f650",
    "titre": "Il y a 38 ans, l’Assemblée de #Corse affirmait l’existence d’une communauté historique et culturelle vivante regroupant les corses d’origine et les corses d’adoption : le peuple corse",
@@ -33401,6 +33559,80 @@
     "3f6cf61fb4e78105873ffa5636f18bcc"
    ],
    "html": "<div class=\"avertissement\" role=\"note\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</div>\n<h2>L'essentiel</h2>\n<p>Trois dossiers où la Corse dépend de décisions publiques fragiles : une production d'électricité encore très liée au fioul, un plan des déchets annulé par la justice administrative, un littoral dont les risques sont jugés sous-estimés. Les documents de la base sont de solidité inégale : la note le signale à chaque fois.</p>\n<h2>Énergie</h2>\n<ul>\n<li>Environ 2 700 ménages se chauffaient encore au fioul en 2022, soit 1,7 % des résidences principales, contre 8,5 % en France métropolitaine. Leur nombre a baissé de 60 % depuis 2006. L'électricité chauffe 69,4 % des ménages (<a href=\"https://www.insee.fr/fr/statistiques/8723383\" rel=\"noopener\">Insee Flash Corse n° 102</a>, 13 janvier 2026).</li>\n<li>La même publication rappelle que la production d'électricité dépend encore du fioul pour environ la moitié de l'approvisionnement de l'île.</li>\n<li>Le volet emploi et formation de la programmation pluriannuelle de l'énergie a été présenté à l'Assemblée de Corse les 22 et 23 mai 2025 (rapport n° 2025/E2/130). La base n'en contient pas encore les chiffres.</li>\n</ul>\n<h2>Déchets</h2>\n<p>Le plan territorial de prévention et de gestion des déchets, adopté par l'Assemblée de Corse le 25 juillet 2024, a été annulé par le tribunal administratif de Bastia ; le jugement a été relayé par la presse le 10 juillet 2026. Motifs rapportés : information environnementale insuffisante lors de l'enquête publique, inventaire des déchets peu fiable, objectifs réglementaires non respectés. Le jugement lui-même n'est pas dans la base : seule source, <a href=\"https://www.corsenetinfos.corsica/Le-tribunal-administratif-de-Bastia-annule-le-plan-territorial-de-gestion-des-dechets-de-Corse_a91634.html\" rel=\"noopener\">Corse Net Infos</a>.</p>\n<p>La page Sites du site recense, d'après Géorisques, 15 installations de tri et traitement et 6 de stockage de déchets.</p>\n<h2>Littoral</h2>\n<p>Une enquête de la Cour des comptes et des chambres régionales de Corse, de Provence-Alpes-Côte d'Azur et d'Occitanie, publiée le 24 janvier 2025, juge que les collectivités sous-estiment les risques d'inondation et d'érosion côtière. Pour la Corse, elle relève que le plan de prévention du risque inondation du sud de Bastia n'est pas achevé et que peu de communes utilisent les cartes de recul du trait de côte prévues par la loi Climat et Résilience de 2021. Source : <a href=\"https://www.corsenetinfos.corsica/Changement-climatique-la-Cour-des-comptes-alerte-sur-la-vulnerabilite-du-littoral-corse_a82616.html\" rel=\"noopener\">compte rendu de Corse Net Infos</a> ; le titre exact du rapport reste à confirmer.</p>\n<h2>Points de vigilance</h2>\n<ul>\n<li>Le chiffre de 2 700 ménages chauffés au fioul date de 2022.</li>\n<li>Plan des déchets : vérifier si un appel a été formé contre le jugement d'annulation.</li>\n</ul>\n<h2>Ce qui manque</h2>\n<p>Le jugement du tribunal administratif, le rapport de la Cour des comptes sur le littoral et les chiffres de la programmation de l'énergie, à rattacher à la base.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781c8b938f7fef7243a4a",
+   "titre": "Note de synthèse — Autonomie de la Corse : où en est la révision constitutionnelle",
+   "type": "Note de synthèse",
+   "etat": "Livrée",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781bd8c96e541dcfb84df",
+    "3f4cf61fb4e781d3a0cde83989bac1ca"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e781369545c1aa9364e140",
+    "3f6cf61fb4e78185aeb5d8e3476a0544"
+   ],
+   "html": "<div class=\"avertissement\" role=\"note\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</div>\n<h2>L'essentiel</h2>\n<p>Le projet de loi constitutionnelle « pour une Corse autonome au sein de la République » a été adopté par l'Assemblée nationale le 23 juin 2026. Il est au Sénat, où sa discussion en séance publique est inscrite le 26 octobre 2026. Il crée un article 72-5 de la Constitution donnant à la Corse un statut d'autonomie.</p>\n<h2>Les étapes</h2>\n<div class=\"tableau\"><table><tr><th>Date</th><th>Étape</th><th>Référence</th></tr><tr><td>30 juillet 2025</td><td>Premier dépôt du projet au Sénat</td><td>Texte n° 869 (2024-2025)</td></tr><tr><td>27 avril 2026</td><td>Ce premier texte est retiré par le Premier ministre ; le projet est déposé à l'Assemblée nationale</td><td>Texte n° 2697</td></tr><tr><td>3 juin 2026</td><td>Rapport de Florent Boudié au nom de la commission des lois</td><td><a href=\"https://www.assemblee-nationale.fr/dyn/docs/RAPPANR5L17B2865.pdf\" rel=\"noopener\">Rapport n° 2865</a></td></tr><tr><td>23 juin 2026</td><td>Adoption par l'Assemblée nationale</td><td>Texte adopté n° 318</td></tr><tr><td>24 juin 2026</td><td>Transmission au Sénat, renvoi à la commission des lois</td><td><a href=\"https://www.senat.fr/dossier-legislatif/pjl24-869.html\" rel=\"noopener\">Texte n° 782 (2025-2026)</a></td></tr><tr><td>26 octobre 2026</td><td>Discussion en séance publique au Sénat (inscrite)</td><td>Dossier législatif du Sénat, mis à jour le 23 septembre 2026</td></tr></table></div>\n<h2>La suite de la procédure</h2>\n<p>Une révision de la Constitution suppose que les deux assemblées adoptent le même texte, mot pour mot. Si le Sénat le modifie, la navette reprend. Voté dans les mêmes termes, un projet de révision est ensuite soumis au référendum, sauf si le président de la République décide de le soumettre au Parlement réuni en Congrès, où il doit recueillir les trois cinquièmes des suffrages exprimés (article 89 de la Constitution).</p>\n<h2>Points de vigilance</h2>\n<ul>\n<li>Le texte n'est adopté que par l'Assemblée nationale : il n'est pas définitif.</li>\n<li>La presse avait annoncé un examen au Sénat le 21 octobre ; le dossier législatif du Sénat inscrit la séance publique le 26 octobre. L'agenda de la base a été corrigé, mais l'ordre du jour peut encore changer.</li>\n<li>Le dossier législatif du Sénat ne mentionnait pas encore de rapporteur au 23 septembre 2026.</li>\n</ul>\n<h2>Ce qui manque</h2>\n<p>Le rapport de la commission des lois du Sénat, le résultat du scrutin du 23 juin à l'Assemblée nationale et le texte des amendements adoptés : ces documents ne sont pas encore dans la base.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781dcbf2df6b406e9886b",
+   "titre": "Note de synthèse — Enseignement de la langue corse : la convention 2026-2030",
+   "type": "Note de synthèse",
+   "etat": "Livrée",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e7816e8784feabea1b7c1e"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e78163a97be814a16c04d4"
+   ],
+   "html": "<div class=\"avertissement\" role=\"note\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</div>\n<h2>L'essentiel</h2>\n<p>L'Assemblée de Corse a été saisie, les 30 et 31 juillet 2026, d'une convention pluriannuelle avec l'État pour 2026-2030 sur l'enseignement du corse : 5,8 millions d'euros sur quatre années scolaires. Le bilan de la première année montre une formation des enseignants qui avance et des postes de remplaçants difficiles à pourvoir (<a href=\"https://www.isula.corsica/assemblea/docs/rapports/2026E5204.pdf\" rel=\"noopener\">rapport n° 2026/E5/204</a>).</p>\n<h2>Bilan 2025-2026</h2>\n<ul>\n<li>La Collectivité a financé seule la convention, pour environ 1,3 million d'euros.</li>\n<li>Douze postes de remplaçants ont été pourvus sur les vingt prévus ; près de 300 000 euros non dépensés ont été en partie réorientés vers les ressources pédagogiques.</li>\n<li>259 professeurs des écoles ont été formés au corse ; environ 300 demandes sont déjà enregistrées pour 2026-2027.</li>\n<li>97 indemnités pour mission particulière ont été attribuées pour l'immersion ; onze assistants de langue ont travaillé dans les écoles de janvier à juin 2026, avec l'Université de Corse.</li>\n</ul>\n<h2>La convention 2026-2030</h2>\n<div class=\"tableau\"><table><tr><th>Poste</th><th>Par année scolaire</th></tr><tr><td>Formation des professeurs des écoles</td><td>1 080 000 €</td></tr><tr><td>Formation en immersion hors temps scolaire</td><td>57 000 €</td></tr><tr><td>Déploiement de l'immersion (indemnités et assistants)</td><td>212 500 €</td></tr><tr><td>Ressources pédagogiques, premier et second degrés</td><td>100 000 €</td></tr><tr><td>Total</td><td>1 449 500 €, soit 5 798 000 € sur 2026-2030</td></tr></table></div>\n<p>Au moins quarante nouvelles classes immersives sont prévues à la rentrée 2026. Le rapport propose d'autoriser des transferts entre lignes jusqu'à 20 % de l'enveloppe annuelle.</p>\n<h2>Points de vigilance</h2>\n<ul>\n<li>Le rapport demande l'approbation de la convention : le vote de l'Assemblée et la signature de l'État restent à vérifier.</li>\n<li>Les quarante classes immersives sont un minimum annoncé, pas un constat de rentrée.</li>\n</ul>"
+  },
+  {
+   "id": "3f6cf61fb4e78167a3e3ee05e88d1b39",
+   "titre": "Note de synthèse — Finances et gestion de la Collectivité de Corse : ce que disent les contrôles de la chambre régionale des comptes",
+   "type": "Note de synthèse",
+   "etat": "Livrée",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781288a6ad84a87ecc094"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e781ef8821d869cfd59cd9",
+    "3f6cf61fb4e781afbafaf4e711c333d4",
+    "3f6cf61fb4e78173b9bedf12afc2d5d2"
+   ],
+   "html": "<div class=\"avertissement\" role=\"note\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</div>\n<h2>L'essentiel</h2>\n<p>La chambre régionale des comptes a contrôlé deux fois la Collectivité de Corse récemment : sa situation financière sur 2019-2023, puis ses investissements routiers. Dans les deux cas, la Collectivité a présenté ses réponses à l'Assemblée de Corse. Elle ne déclare qu'une recommandation entièrement appliquée sur les neuf du premier rapport ; les autres sont en cours ou partielles.</p>\n<h2>1. Situation financière, 2019-2023</h2>\n<p>Rapport d'observations définitives daté du 1er avril 2025, présenté à l'Assemblée de Corse le 27 juin 2025. Chiffres repris d'un <a href=\"https://www.corsenetinfos.corsica/Finances-de-la-Collectivite-de-Corse-La-Cour-des-comptes-tire-la-sonnette-d-alarme-Gilles-Simeoni-reagit_a85199.html\" rel=\"noopener\">compte rendu de Corse Net Infos</a>, le rapport lui-même n'ayant pas pu être consulté sur le site des juridictions financières :</p>\n<ul>\n<li>dette d'environ 1,04 milliard d'euros fin 2023, contre 790 millions auparavant (+32 %), soit 3 047 euros par habitant, le niveau le plus élevé de France ;</li>\n<li>charges de gestion en hausse de 4,25 % par an, au-delà du milliard d'euros en 2023 ;</li>\n<li>5 046 postes permanents, dont 926 vacants et non budgétés ;</li>\n<li>9 recommandations et 5 rappels au droit.</li>\n</ul>\n<h2>2. Les suites données, juin 2026</h2>\n<p>Rapport n° 2026/E4/137 du président du Conseil exécutif, séance des 25 et 26 juin 2026 (<a href=\"https://www.isula.corsica/assemblea/docs/rapports/2026E4137.pdf\" rel=\"noopener\">texte du rapport</a>).</p>\n<div class=\"tableau\"><table><tr><th>Point</th><th>État déclaré par la Collectivité</th></tr><tr><td>Convention de partenariat avec le payeur de Corse (recommandation 3)</td><td>Signée le 28 mai 2026, en service depuis le 1er juin</td></tr><tr><td>Inventaire des équipements concédés, ports et aéroports (recommandation 1)</td><td>Partiel</td></tr><tr><td>Contrats d'objectifs et de performance avec les agences et offices (recommandation 4)</td><td>Partiel : un seul contrat adopté, en avril 2024</td></tr><tr><td>Revue générale des dépenses (recommandation 9)</td><td>Partielle : première étape d'avril à mai 2025</td></tr><tr><td>Rapports d'étape sur les programmes d'investissement transports et collèges-lycées (recommandation 6)</td><td>Non engagé, « cadrage » annoncé</td></tr><tr><td>Autres recommandations et les 5 rappels au droit</td><td>En cours</td></tr></table></div>\n<p>Le rapport ne donne pas d'étiquette officielle à chaque point : ces états sont lus dans son texte. Il annonce, au 31 décembre 2025, une capacité de désendettement de 6,19 années et un taux d'épargne brute de 14,69 %, ainsi qu'une baisse de 4,17 % des charges à caractère général et de 1,47 % des charges de personnel dans le compte financier 2025. Il ne donne pas l'encours de la dette.</p>\n<h2>3. Investissements routiers</h2>\n<p>Rapport n° 2026/O2/230, réunion des 1er et 2 octobre 2026 (<a href=\"https://www.isula.corsica/assemblea/docs/rapports/2026O2230.pdf\" rel=\"noopener\">texte du rapport</a>). La Collectivité gère près de 5 000 km de routes et y investit en moyenne 80 millions d'euros par an, plus environ 9 millions de fonctionnement. La chambre formule un rappel au droit, mis en œuvre avec le règlement de voirie adopté le 26 juin 2026, et six recommandations : quatre sont déclarées en cours (trois pour fin 2026, une pour 2027) et deux doivent être appliquées « de manière adaptée ».</p>\n<h2>Points de vigilance</h2>\n<ul>\n<li>La chambre régionale des comptes n'est pas la Cour des comptes, même si le compte rendu cité plus haut titre sur « la Cour des comptes ».</li>\n<li>Le chiffre de dette (1,04 milliard) date de fin 2023. Aucun encours plus récent ne figure dans les documents de la base.</li>\n<li>« Une recommandation sur neuf appliquée » est une lecture du rapport de la Collectivité elle-même, pas un constat de la chambre.</li>\n</ul>\n<h2>Ce qui manque</h2>\n<p>Le texte du rapport de 2025 sur le site des juridictions financières, et le rapport de suivi qu'elles doivent publier.</p>"
+  },
+  {
+   "id": "3f6cf61fb4e781f6b8a4c4eb9f0db1b4",
+   "titre": "Note de synthèse — Population, territoires et conditions de vie : ce que disent les études de l'Insee en 2026",
+   "type": "Note de synthèse",
+   "etat": "Livrée",
+   "arreteAu": "2026-10-11",
+   "dossiers": [
+    "3f4cf61fb4e781b4a007df39f96f061e",
+    "3f4cf61fb4e7815b90f5ce553ac62289",
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e7816aad7ceb107ab27ea0"
+   ],
+   "sources": [],
+   "documents": [
+    "3f6cf61fb4e7815f918bfefce2d707c7",
+    "3f6cf61fb4e78128a348e56fecb1edb9",
+    "3f6cf61fb4e781d8a3f3d6710896cacf",
+    "3f6cf61fb4e781a28c79d93a06eb1367",
+    "3f6cf61fb4e7815a9dc0e4831b432442"
+   ],
+   "html": "<div class=\"avertissement\" role=\"note\">Note de synthèse établie le 11 octobre 2026 à partir des seuls documents de référence cités, tous publics. Chaque chiffre renvoie à sa publication. Note à relire avant diffusion : elle n'a pas encore été contrôlée par un second documentaliste.</div>\n<h2>L'essentiel</h2>\n<p>La Corse gagne des habitants uniquement par les arrivées : les naissances sont au plus bas et les décès les dépassent. La population se concentre autour d'Ajaccio et de Bastia, tandis que l'intérieur garde une majorité de résidences secondaires. La propriété des logements est très concentrée. Les ménages agricoles sont deux fois plus souvent pauvres que dans l'Hexagone.</p>\n<h2>Démographie</h2>\n<div class=\"tableau\"><table><tr><th>Indicateur</th><th>Valeur</th><th>Source</th></tr><tr><td>Population au 1er janvier 2026</td><td>365 600 habitants</td><td><a href=\"https://www.insee.fr/fr/statistiques/8973577\" rel=\"noopener\">Insee Analyses Corse n° 67</a>, 16 avril 2026</td></tr><tr><td>Croissance en 2025</td><td>+0,9 % ; +1,0 % par an de 2016 à 2026 (France : +0,4 %)</td><td>n° 67</td></tr><tr><td>Fécondité en 2025</td><td>1,12 enfant par femme, le plus bas de France (France : 1,56)</td><td>n° 67</td></tr><tr><td>Naissances et décès en 2025</td><td>2 300 naissances (−7,1 %), 3 500 décès : solde naturel −1 200</td><td>n° 67</td></tr><tr><td>Solde migratoire apparent</td><td>+4 583</td><td>n° 67</td></tr><tr><td>Part des 65 ans ou plus</td><td>25 %, contre 20 % vingt ans plus tôt</td><td>n° 67</td></tr></table></div>\n<h2>Cinq profils de communes</h2>\n<p>L'Insee et l'Agence d'urbanisme et d'énergie classent les 360 communes en cinq profils selon le relief, la population, le marché immobilier et l'accès aux services (<a href=\"https://www.insee.fr/fr/statistiques/8991868\" rel=\"noopener\">Insee Analyses Corse n° 68</a>, 8 juin 2026).</p>\n<ul>\n<li>Ajaccio et Bastia comptent 123 000 habitants, un Corse sur trois.</li>\n<li>Les résidences secondaires font 36,8 % des logements de l'île, et 61,5 % dans les communes de montagne.</li>\n<li>En montagne, 80,1 % des résidences principales sont sous-occupées, contre 65,9 % en moyenne régionale.</li>\n<li>En 2022, trois nouveaux arrivants sur quatre étaient en âge de travailler.</li>\n</ul>\n<h2>Propriété des logements</h2>\n<p>En 2023, 227 000 personnes physiques possèdent 234 000 des 264 000 logements de l'île. Une sur deux est multipropriétaire, et les multipropriétaires détiennent 74 % de ces logements, contre 64 % en France métropolitaine. Quatre propriétaires sur dix vivent hors de Corse (<a href=\"https://www.insee.fr/fr/statistiques/8734781\" rel=\"noopener\">Insee Analyses Corse n° 65</a>, 10 février 2026).</p>\n<h2>Immigration et travail</h2>\n<p>En 2022, 21 500 immigrés étrangers de 15 à 64 ans vivent en Corse, soit 10 % de la population en âge de travailler, 4 points de plus que dans la France de province. 43 % de ceux qui travaillent sont dans la construction, contre 17 % en province. 60 % viennent de l'Union européenne, d'abord du Portugal (34 %) (<a href=\"https://www.insee.fr/fr/statistiques/8887049\" rel=\"noopener\">Insee Flash Corse n° 103</a>, 24 mars 2026).</p>\n<h2>Pauvreté des ménages agricoles</h2>\n<p>En 2020, 30,4 % des personnes vivant dans un ménage agricole corse sont sous le seuil de pauvreté, contre 16,2 % en France métropolitaine. Le niveau de vie médian y est de 1 630 euros par mois, le plus bas des régions métropolitaines. Dans les ménages composés uniquement d'agriculteurs, le taux de pauvreté atteint 54,2 % (<a href=\"https://www.insee.fr/fr/statistiques/9000367\" rel=\"noopener\">Insee Analyses Corse n° 69</a>, 8 juin 2026, avec la DRAAF).</p>\n<h2>Points de vigilance</h2>\n<ul>\n<li>La croissance de la population vient des arrivées, pas des naissances.</li>\n<li>Les chiffres de pauvreté des ménages agricoles portent sur l'année 2020.</li>\n<li>Les 21 500 immigrés étrangers sont les 15-64 ans, pas l'ensemble des étrangers ou des immigrés.</li>\n</ul>"
   }
  ],
  "documents": [
