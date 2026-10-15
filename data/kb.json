@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-14",
+  "exporteLe": "2026-10-15",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1329,
+   "articles": 1334,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -19,9 +19,9 @@
    "faits": 95,
    "agenda": 6,
    "roles": 11,
-   "personnes": 273,
+   "personnes": 272,
    "dossiers": 92,
-   "articles": 1329,
+   "articles": 1334,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,96 @@
   }
  ],
  "articles": [
+  {
+   "id": "3f9cf61fb4e7814aa152c6e6583f1b63",
+   "titre": "En Corse, huit groupes de travail pour transformer les revendications des lycéens en actions concrètes",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-14",
+   "lien": "https://www.corsenetinfos.corsica/En-Corse-huit-groupes-de-travail-pour-transformer-les-revendications-des-lyceens-en-actions-concretes_a93159.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f9cf61fb4e781839641c49d1b26c00b",
+   "titre": "Ajaccio : un accident à hauteur de la station-service Ceccaldi, une personne incarcérée",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-14",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-un-accident-a-hauteur-de-la-station-service-Ceccaldi-une-personne-incarceree_a93162.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f9cf61fb4e781fdbf23c963b50b66a7",
+   "titre": "En Corse, la conférence sociale prépare ses prochaines priorités",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-14",
+   "lien": "https://www.corsenetinfos.corsica/En-Corse-la-conference-sociale-prepare-ses-prochaines-priorites_a93165.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781bcbac3d1de2b0d3a8d",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f9cf61fb4e781a795c3c4148ee50442",
+   "titre": "« Lac de Ninu : Core in Fronte réclame le départ de la Légion étrangère de Corse »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-14",
+   "lien": "https://www.corsicainfurmazione.org/2030253/lac-de-ninu-core-in-fronte-reclame-le-depart-de-la-legion-etrangere-de-corse/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3f9cf61fb4e78174a3c2c792ec2d0ddc",
+   "titre": "À Ajaccio, les retraités dénoncent leur « déclassement » et réclament une aide aux transports",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-14",
+   "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-les-retraites-denoncent-leur-declassement-et-reclament-une-aide-aux-transports_a93151.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3f9cf61fb4e78139b03afdb942a25285",
    "titre": "Calinzana : Inaugurazione di l'estensione di u gruppu sculare \"Les Ignorantins\" - scola José Balestrini",
