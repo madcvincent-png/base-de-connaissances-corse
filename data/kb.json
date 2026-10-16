@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-15",
+  "exporteLe": "2026-10-16",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1334,
+   "articles": 1345,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1334,
+   "articles": 1345,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,202 @@
   }
  ],
  "articles": [
+  {
+   "id": "3facf61fb4e781aa856de5e7115ba663",
+   "titre": "[In mimoria] Jean Dominique Allegrini-Simonetti – #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-16",
+   "lien": "https://www.corsicainfurmazione.org/1220482/corse-in-mimoria-di-jean-dominique-allegrini-simonetti/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e781339541c4a57b1f477b",
+   "titre": "[In Mimoria] Antoine Sollacaro – #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-16",
+   "lien": "https://www.corsicainfurmazione.org/1220477/corse-in-mimoria-dantoine-sollacaro/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2A284"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e781fc9d13cec18a829eac",
+   "titre": "« Avant l’examen au Sénat, Core in Fronte précise sa vision de l’autonomie »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-16",
+   "lien": "https://www.corsicainfurmazione.org/2030287/avant-lexamen-au-senat-core-in-fronte-precise-sa-vision-de-lautonomie/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e781f8a137e112c6032567",
+   "titre": "« Après Puliticamente, la polémique se poursuit sur plusieurs fronts »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-16",
+   "lien": "https://www.corsicainfurmazione.org/2030285/apres-puliticamente-la-polemique-se-poursuit-sur-plusieurs-fronts/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e7814e8f06e315d332fb2b",
+   "titre": "Journées Nationales de l'Architecture : Deux belles balades pour découvrir la Corse autrement ce samedi",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-15",
+   "lien": "https://www.corsenetinfos.corsica/Journees-Nationales-de-l-Architecture-Deux-belles-balades-pour-decouvrir-la-Corse-autrement-ce-samedi_a93192.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e781acb67aedfde8414cf7",
+   "titre": "Autonomie : La présidente de la Commission des lois du Sénat auditionne les élus corses",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-15",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-La-presidente-de-la-Commission-des-lois-du-Senat-auditionne-les-elus-corses_a93197.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e781e2aecac5345f30dfb0",
+   "titre": "Chambre d’agriculture : « Nous n’avons aucune leçon de probité et de démocratie à recevoir de François-Xavier Ceccoli »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-15",
+   "lien": "https://www.corsenetinfos.corsica/Chambre-d-agriculture-Nous-n-avons-aucune-lecon-de-probite-et-de-democratie-a-recevoir-de-Francois-Xavier-Ceccoli_a93186.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e7816998f1ca296637eda6",
+   "titre": "Ligue 3 : à Concarneau, le Sporting devra trouver la bonne formule",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-15",
+   "lien": "https://www.corsenetinfos.corsica/Ligue-3-a-Concarneau-le-Sporting-devra-trouver-la-bonne-formule_a93188.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e7816bbdd2d57469df96f0",
+   "titre": "Routes corses : la Chambre régionale des comptes pointe un entretien insuffisant",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-15",
+   "lien": "https://www.corsenetinfos.corsica/Routes-corses-la-Chambre-regionale-des-comptes-pointe-un-entretien-insuffisant_a93190.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e781f7bbf6d3351adb91aa",
+   "titre": "« Grève à ViaStella : Femu a Corsica soutient les salariés et propose de sécuriser l’avenir de la chaîne »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-15",
+   "lien": "https://www.corsicainfurmazione.org/2030257/greve-a-viastella-femu-a-corsica-soutient-les-salaries-et-propose-de-securiser-lavenir-de-la-chaine/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3facf61fb4e7810d8c3de64d9a24b1ab",
+   "titre": "« Le STC répond à François-Xavier Ceccoli et défend son histoire syndicale »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-15",
+   "lien": "https://www.corsicainfurmazione.org/2030260/le-stc-repond-a-francois-xavier-ceccoli-et-defend-son-histoire-syndicale/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3f9cf61fb4e7814aa152c6e6583f1b63",
    "titre": "En Corse, huit groupes de travail pour transformer les revendications des lycéens en actions concrètes",
