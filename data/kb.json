@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-16",
+  "exporteLe": "2026-10-17",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1345,
+   "articles": 1352,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1345,
+   "articles": 1352,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,128 @@
   }
  ],
  "articles": [
+  {
+   "id": "3fccf61fb4e781caab33f1508541eaa2",
+   "titre": "A màghjina - Pinareddu sott’à Bavedda",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-17",
+   "lien": "https://www.corsenetinfos.corsica/A-maghjina-Pinareddu-sott-a-Bavedda_a93170.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fbcf61fb4e7813ba032c39948220711",
+   "titre": "« Fichage ADN : Core in Fronte apporte son soutien à l’agriculteur Pierre Cruciani »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-16",
+   "lien": "https://www.corsicainfurmazione.org/2030310/fichage-adn-core-in-fronte-apporte-son-soutien-a-lagriculteur-pierre-cruciani/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fbcf61fb4e781d89c0bef52ee68a8be",
+   "titre": "À Porticcio, l’ATAF veut faire jouer la coopération entre compagnies francophones",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-16",
+   "lien": "https://www.corsenetinfos.corsica/A-Porticcio-l-ATAF-veut-faire-jouer-la-cooperation-entre-compagnies-francophones_a93204.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fbcf61fb4e7817c814dd4a410e3b3aa",
+   "titre": "Urgences de Calvi : le président de la communauté de communes L’Île-Rousse - Balagne réclame des mesures d’urgence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-16",
+   "lien": "https://www.corsenetinfos.corsica/Urgences-de-Calvi-le-president-de-la-communaute-de-communes-L-Ile-Rousse-Balagne-reclame-des-mesures-d-urgence_a93211.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fbcf61fb4e78136861dfa563125ba4b",
+   "titre": "« Le STC Cullettività di Corsica répond aux attaques de François-Xavier Ceccoli »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-16",
+   "lien": "https://www.corsicainfurmazione.org/2030315/le-stc-cullettivita-di-corsica-repond-aux-attaques-de-francois-xavier-ceccoli/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fbcf61fb4e781a29f35effad5f26549",
+   "titre": "À Ajaccio, 17 organisations appellent à rejoindre la mobilisation nationale du 17 octobre",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-16",
+   "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-17-organisations-appellent-a-rejoindre-la-mobilisation-nationale-du-17-octobre_a93185.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fbcf61fb4e781f8ae20d4669bd16b52",
+   "titre": "Déclaration des nominations équilibrées au titre de l’année 2025 de la Collectivité de Corse",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-10-16",
+   "lien": "https://www.isula.corsica/Declaration-des-nominations-equilibrees-au-titre-de-l-annee-2025-de-la-Collectivite-de-Corse_a6305.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3facf61fb4e781aa856de5e7115ba663",
    "titre": "[In mimoria] Jean Dominique Allegrini-Simonetti – #Corse",
