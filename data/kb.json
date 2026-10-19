@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-18",
+  "exporteLe": "2026-10-19",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1357,
+   "articles": 1362,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1357,
+   "articles": 1362,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,94 @@
   }
  ],
  "articles": [
+  {
+   "id": "3fdcf61fb4e781b48968ddf5e314bc47",
+   "titre": "« Currilingua 2026 : une course solidaire pour défendre la langue corse »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-18",
+   "lien": "https://www.corsicainfurmazione.org/2030341/currilingua-2026-une-course-solidaire-pour-defendre-la-langue-corse/2026/",
+   "genre": "",
+   "rubrique": "Langue corse",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fdcf61fb4e781dc91aded7195905710",
+   "titre": "À Ajaccio, une maison du Bois des Anglais distinguée pour son architecture singulière",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-18",
+   "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-une-maison-du-Bois-des-Anglais-distinguee-pour-son-architecture-singuliere_a93205.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fdcf61fb4e781ecbe32d7246fbb60e9",
+   "titre": "A màghjina - Chjar di luna nant’à e Sanguinari",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-18",
+   "lien": "https://www.corsenetinfos.corsica/A-maghjina-Chjar-di-luna-nant-a-e-Sanguinari_a93171.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7819582ecdd75c34ddd42"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fdcf61fb4e781568639c5b23cf09558",
+   "titre": "Tourisme : en septembre, la fréquentation des ports et aéroports corses reste stable",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-18",
+   "lien": "https://www.corsenetinfos.corsica/Tourisme-en-septembre-la-frequentation-des-ports-et-aeroports-corses-reste-stable_a93202.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e781b7ae51fee0ad4274d3"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fdcf61fb4e78131bf3af8ebf79f12dc",
+   "titre": "Une école agrandie et modernisée pour accueillir les générations futures de Calinzana",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-18",
+   "lien": "https://www.corsenetinfos.corsica/Une-ecole-agrandie-et-modernisee-pour-accueillir-les-generations-futures-de-Calinzana_a93198.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3fdcf61fb4e7813cbc5be25966eb00c4",
    "titre": "« Quelle autonomie pour la Corse ? Femu a Corsica fixe ses lignes rouges »",
