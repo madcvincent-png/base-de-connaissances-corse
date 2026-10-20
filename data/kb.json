@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-19",
+  "exporteLe": "2026-10-20",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1362,
+   "articles": 1367,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1362,
+   "articles": 1367,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,95 @@
   }
  ],
  "articles": [
+  {
+   "id": "3fecf61fb4e7811fb18ce8463d2339f0",
+   "titre": "Calvi – Une femme de 80 ans décède dans un accident de la circulation",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-19",
+   "lien": "https://www.corsenetinfos.corsica/Calvi-Une-femme-de-80-ans-decede-dans-un-accident-de-la-circulation_a93244.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fecf61fb4e78112ae13dede795d8f65",
+   "titre": "À Cardo, douze jeunes Bastiais participent à l’embellissement de la place de l’église",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-19",
+   "lien": "https://www.corsenetinfos.corsica/A-Cardo-douze-jeunes-Bastiais-participent-a-l-embellissement-de-la-place-de-l-eglise_a93240.html",
+   "genre": "",
+   "rubrique": "Langue corse",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fecf61fb4e7819db100d715e1765d58",
+   "titre": "Football National 2 : Corte peut nourrir des regrets",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-19",
+   "lien": "https://www.corsenetinfos.corsica/Football-National-2-Corte-peut-nourrir-des-regrets_a93233.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fecf61fb4e7810eaf14f1f2667d128f",
+   "titre": "Invechjà Quì : pè invechjà bè in i so lochi cù a Cullettività di Corsica",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-10-19",
+   "lien": "https://www.isula.corsica/Invechja-Qui-pe-invechja-be-in-i-so-lochi-cu-a-Cullettivita-di-Corsica_a6304.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3fecf61fb4e7818abeb2e95cb45d7e32",
+   "titre": "Ajaccio – La route du Vazzio fermée jusqu'à mercredi soir",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-19",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-La-route-du-Vazzio-fermee-jusqu-a-mercredi-soir_a93231.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3fdcf61fb4e781b48968ddf5e314bc47",
    "titre": "« Currilingua 2026 : une course solidaire pour défendre la langue corse »",
