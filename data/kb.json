@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-20",
+  "exporteLe": "2026-10-21",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1367,
+   "articles": 1373,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1367,
+   "articles": 1373,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,111 @@
   }
  ],
  "articles": [
+  {
+   "id": "3ffcf61fb4e7815087e8f12d222b3ef3",
+   "titre": "« Femu a Corsica fixe ses exigences pour l’autonomie et prépare les prochaines échéances »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-20",
+   "lien": "https://www.corsicainfurmazione.org/2030379/femu-a-corsica-fixe-ses-exigences-pour-lautonomie-et-prepare-les-prochaines-echeances/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3ffcf61fb4e78100b030d5c16353303e",
+   "titre": "Continuité territoriale : L'Assemblée nationale vote une rallonge de 62 millions d'euros",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-20",
+   "lien": "https://www.corsenetinfos.corsica/Continuite-territoriale-L-Assemblee-nationale-vote-une-rallonge-de-62-millions-d-euros_a93252.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3ffcf61fb4e781ea8f54d07126319823",
+   "titre": "Furiani : le stade Armand-Cesari sélectionné pour le Prix Versailles",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-20",
+   "lien": "https://www.corsenetinfos.corsica/Furiani-le-stade-Armand-Cesari-selectionne-pour-le-Prix-Versailles_a93253.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B120"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3ffcf61fb4e781b88cd0f30ded87302e",
+   "titre": "Paulu Santu Parigi : « Nous essayons d’obtenir une majorité au Sénat pour réussir à marquer une autre étape »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-20",
+   "lien": "https://www.corsenetinfos.corsica/Paulu-Santu-Parigi-Nous-essayons-d-obtenir-une-majorite-au-Senat-pour-reussir-a-marquer-une-autre-etape_a93255.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3ffcf61fb4e78134b48cc0d62ae37294",
+   "titre": "« Grève à France 3 Corse ViaStella : le STC appelle les élus corses à intervenir »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-20",
+   "lien": "https://www.corsicainfurmazione.org/2030373/greve-a-france-3-corse-viastella-le-stc-appelle-les-elus-corses-a-intervenir/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "3ffcf61fb4e781888d62e29228e6391c",
+   "titre": "Intempéries en Corse : de violents orages attendus ce mardi, les deux départements en vigilance orange",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-20",
+   "lien": "https://www.corsenetinfos.corsica/Intemperies-en-Corse-de-violents-orages-attendus-ce-mardi-les-deux-departements-en-vigilance-orange_a93247.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "3fecf61fb4e7811fb18ce8463d2339f0",
    "titre": "Calvi – Une femme de 80 ans décède dans un accident de la circulation",
