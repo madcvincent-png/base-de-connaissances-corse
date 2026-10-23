@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-22",
+  "exporteLe": "2026-10-23",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1380,
+   "articles": 1387,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1380,
+   "articles": 1387,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,132 @@
   }
  ],
  "articles": [
+  {
+   "id": "401cf61fb4e78129aa41d1ac45f69934",
+   "titre": "Il y a 17 ans, Sulidarità et Corsica Libera bloquaient la #Corse en organisant des barrages filtrants pour demander la solidarité du peuple Corse #Rapprochement",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-23",
+   "lien": "https://www.corsicainfurmazione.org/1993918/il-y-a-12-ans-sulidarita-et-corsica-libera-bloquaient-la-corse-en-organisant-des-barrages-filtrants-pour-demander-la-solidarite-du-peuple-corse-rapprochement/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "401cf61fb4e7811f8852fcb15985d2aa",
+   "titre": "Le Rézo cherche les nouveaux talents de la scène musicale corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-22",
+   "lien": "https://www.corsenetinfos.corsica/Le-Rezo-cherche-les-nouveaux-talents-de-la-scene-musicale-corse_a93282.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "401cf61fb4e781beb87cde5a63b1e375",
+   "titre": "DSP maritime – Cinq contrats annulés, la Collectivité de Corse va se tourner vers le Conseil d’État",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-22",
+   "lien": "https://www.corsenetinfos.corsica/DSP-maritime-Cinq-contrats-annules-la-Collectivite-de-Corse-va-se-tourner-vers-le-Conseil-d-Etat_a93302.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e781bcbac3d1de2b0d3a8d",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "401cf61fb4e781d09248de89c5c42bb1",
+   "titre": "Routes corses : Jean-Félix Acquaviva répond aux critiques de la Chambre régionale des comptes",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-22",
+   "lien": "https://www.corsenetinfos.corsica/Routes-corses-Jean-Felix-Acquaviva-repond-aux-critiques-de-la-Chambre-regionale-des-comptes_a93301.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "401cf61fb4e781c99326f723f2f775f0",
+   "titre": "Autonomie de la Corse : 57 % des Français favorables, selon un sondage IFOP",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-22",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-57-des-Francais-favorables-selon-un-sondage-IFOP_a93294.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "401cf61fb4e7815da856fe9a2a4f2a73",
+   "titre": "« Femu a Corsica menace de quitter le processus si le projet d’autonomie est dénaturé »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-22",
+   "lien": "https://www.corsicainfurmazione.org/2030427/femu-a-corsica-menace-de-quitter-le-processus-si-le-projet-dautonomie-est-denature/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "401cf61fb4e781f38a68d13a44a2fb9d",
+   "titre": "« Autonomie de la Corse : Core in Fronte dénonce un texte vidé de sa portée politique »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-22",
+   "lien": "https://www.corsicainfurmazione.org/2030426/autonomie-de-la-corse-core-in-fronte-denonce-un-texte-vide-de-sa-portee-politique/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "400cf61fb4e7810fade0e48f306b261d",
    "titre": "« Un 22 octobre 2002, un FLNC revendique une nuit bleue » – #StoriaCorsa",
