@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-23",
+  "exporteLe": "2026-10-24",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1387,
+   "articles": 1391,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1387,
+   "articles": 1391,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,81 @@
   }
  ],
  "articles": [
+  {
+   "id": "403cf61fb4e78133a3c9c497e349a35f",
+   "titre": "Il y a 17 ans, Sulidarità et la C.A.R se rassemblaient devant le pénitencier de Casabianda #Rapprochement #Corse #PrisonnierPolitique",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-24",
+   "lien": "https://www.corsicainfurmazione.org/2004436/il-y-a-13-ans-sulidarita-et-la-c-a-r-se-rassemblaient-devant-le-penitencier-de-casabianda-rapprochement-corse-prisonnierpolitique/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "402cf61fb4e781489a3dd06662ca972b",
+   "titre": "À Ajaccio, 77 nouveaux logements prennent forme dans le quartier Candia",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-23",
+   "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-77-nouveaux-logements-prennent-forme-dans-le-quartier-Candia_a93298.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "402cf61fb4e7819a81e4ce5206e9de2c",
+   "titre": "La Méridionale rejoint « Aria è Mare », désormais accessible depuis Porto-Vecchio",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-23",
+   "lien": "https://www.corsenetinfos.corsica/La-Meridionale-rejoint-Aria-e-Mare--desormais-accessible-depuis-Porto-Vecchio_a93300.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e7814a8c3dd45317c8adf7"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "402cf61fb4e78149aef3d564b1b006f6",
+   "titre": "Coupe de France de Football : Un beau derby à Furiani",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-23",
+   "lien": "https://www.corsenetinfos.corsica/Coupe-de-France-de-Football-Un-beau-derby-a-Furiani_a93312.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B120"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "401cf61fb4e78129aa41d1ac45f69934",
    "titre": "Il y a 17 ans, Sulidarità et Corsica Libera bloquaient la #Corse en organisant des barrages filtrants pour demander la solidarité du peuple Corse #Rapprochement",
