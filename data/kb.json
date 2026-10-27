@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-26",
+  "exporteLe": "2026-10-27",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1406,
+   "articles": 1418,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1406,
+   "articles": 1418,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,220 @@
   }
  ],
  "articles": [
+  {
+   "id": "406cf61fb4e7810581bfce4181ba9cff",
+   "titre": "Autonomie de la Corse : Le Sénat rejette le texte qu’il a complètement détricoté !",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Le-Senat-rejette-le-texte-qu-il-a-completement-detricote-_a93365.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781019530fabdcce2bb5c",
+   "titre": "Il y a 4 ans, un mouvement de résistance occupait l’Assemblée de #Corse en soutien aux prisonniers politiques",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2008873/il-y-a-un-an-un-mouvement-de-resistance-occupait-lassemblee-de-corse-en-soutien-aux-prisonniers-politiques-corse/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e7810687aeec6f51eabb7e",
+   "titre": "Sénat – Autonomie « Gérald Darmanin rejette la co-officialité, le peuple corse et le statut de résident »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-26",
+   "lien": "https://www.corsicainfurmazione.org/2030490/senat-autonomie-gerald-darmanin-rejette-la-co-officialite-le-peuple-corse-et-le-statut-de-resident/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781a1839ce70015d56cc1",
+   "titre": "« Autonomie de la Corse : Paulu-Santu Parigi annonce le retrait du processus de Beauvau »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-26",
+   "lien": "https://www.corsicainfurmazione.org/2030496/autonomie-de-la-corse-paulu-santu-parigi-annonce-le-retrait-du-processus-de-beauvau/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781fb903add412ec450c7",
+   "titre": "« Autonomie de la Corse : le PNC et Avanzemu retirent leur soutien au processus »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-26",
+   "lien": "https://www.corsicainfurmazione.org/2030506/autonomie-de-la-corse-le-pnc-et-avanzemu-retirent-leur-soutien-au-processus/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e7815097e8c55eec632419",
+   "titre": "« Sperienza » : À Bastia trois rendez-vous pour écouter et ressentir du son",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-26",
+   "lien": "https://www.corsenetinfos.corsica/Sperienza-A-Bastia-trois-rendez-vous-pour-ecouter-et-ressentir-du-son_a93350.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e7817a88ade7f5886ffe0c",
+   "titre": "Autonomie de la Corse : Coup de théâtre au Sénat, les Nationalistes quittent le processus de Beauvau",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-26",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Coup-de-theatre-au-Senat-les-Nationalistes-quittent-le-processus-de-Beauvau_a93364.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781808f73f97ff4418253",
+   "titre": "SC Bastia : l’Être et le Néant",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-26",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-l-Etre-et-le-Neant_a93355.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781f39cb6f4090e2ccb15",
+   "titre": "SC Bastia : Laurent Peyrelade limogé, Michel Moretti assurera l’intérim",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-26",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-Laurent-Peyrelade-limoge-Michel-Moretti-assurera-l-interim_a93359.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781d4b6a2e52bdb2b47a2",
+   "titre": "Sessione urdinaria di l'Assemblea di Corsica di i 5 è 6 di nuvembre di u 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-10-26",
+   "lien": "https://www.isula.corsica/Sessione-urdinaria-di-l-Assemblea-di-Corsica-di-i-5-e-6-di-nuvembre-di-u-2026_a6317.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e781d0a68df8081ef8d881",
+   "titre": "« Autonomie de la Corse : Josepha Giacometti Piredda estime que le processus de Beauvau a échoué »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-26",
+   "lien": "https://www.corsicainfurmazione.org/2030483/autonomie-de-la-corse-josepha-giacometti-piredda-estime-que-le-processus-de-beauvau-a-echoue/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "405cf61fb4e78134aa59d3a20b10137e",
+   "titre": "Autonomie de la Corse : le Sénat, divisé, à la recherche d'une \"voie de passage\"",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-26",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-le-Senat-divise-a-la-recherche-d-une-voie-de-passage_a93352.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "404cf61fb4e7813bbbf7decccc071874",
    "titre": "Bastia : deux blessés dans un accident de la circulation",
