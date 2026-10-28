@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-27",
+  "exporteLe": "2026-10-28",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1418,
+   "articles": 1433,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1418,
+   "articles": 1433,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,272 @@
   }
  ],
  "articles": [
+  {
+   "id": "406cf61fb4e78157ad0bfb7cfe8e2029",
+   "titre": "Jean-Jacques Panunzi : « Ce n’est pas la droite qui a essayé de mettre fin au processus de Beauvau ! »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Jean-Jacques-Panunzi-Ce-n-est-pas-la-droite-qui-a-essaye-de-mettre-fin-au-processus-de-Beauvau-_a93378.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e78105bda8efff5e92bab1",
+   "titre": "Autonomie : pour la Gauche Autonomiste, « le jacobinisme le plus rance a triomphé »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-pour-la-Gauche-Autonomiste-le-jacobinisme-le-plus-rance-a-triomphe_a93381.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7815487eaeaf03fe9bea9",
+   "titre": "« Processus de Beauvau : le PNC et Avanzemu demandent une concertation rapide »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030541/processus-de-beauvau-le-pnc-et-avanzemu-demandent-une-concertation-rapide/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e78161b620d09f62aef6c2",
+   "titre": "« Après l’échec de Beauvau, Per l’Indipendenza appelle à rompre avec la stratégie nationaliste »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030542/apres-lechec-de-beauvau-per-lindipendenza-appelle-a-rompre-avec-la-strategie-nationaliste/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7819f9b80f2701ad3d6d2",
+   "titre": "« Sénat : Core in Fronte dénonce une rupture du compromis sur l’autonomie de la Corse »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030538/senat-core-in-fronte-denonce-une-rupture-du-compromis-sur-lautonomie-de-la-corse/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7813eb7edee911b3f5fc7",
+   "titre": "Autonomie de la Corse : Au lendemain du rejet du Sénat, les réactions se multiplient dans l’île et sur le continent",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Au-lendemain-du-rejet-du-Senat-les-reactions-se-multiplient-dans-l-ile-et-sur-le-continent_a93374.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7815eb1fdd2142d13b28a",
+   "titre": "Gilles Simeoni : « C’est une défaite cinglante pour ce camp de l’archaïsme, incarné par les Républicains ! »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Gilles-Simeoni-C-est-une-defaite-cinglante-pour-ce-camp-de-l-archaisme-incarne-par-les-Republicains-_a93375.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e78124a669fbceabfc2b69",
+   "titre": "Autonomie - Jean-Christophe Angelini (PNC) : « Il ne faut pas retourner à Paris en ordre dispersé »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Jean-Christophe-Angelini-PNC-Il-ne-faut-pas-retourner-a-Paris-en-ordre-disperse_a93373.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7814785a3fcf18bd55b1a",
+   "titre": "Rejet du processus d'autonomie : Pour Josepha Giacometti, « le péché originel a été commis dès le début du processus de Beauvau »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Rejet-du-processus-d-autonomie-Pour-Josepha-Giacometti-le-peche-originel-a-ete-commis-des-le-debut-du-processus-de_a93371.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7819cbaa0e75a00983a52",
+   "titre": "« Les autonomistes quittent le processus de Beauvau, le Sénat rejette le projet d’autonomie de la Corse »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030516/les-autonomistes-quittent-le-processus-de-beauvau-le-senat-rejette-le-projet-dautonomie-de-la-corse/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e781afb712f787ce0cad88",
+   "titre": "« Echec de Beauvau : la LDH Corsica appelle à une mobilisation de la société civile »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030524/echec-de-beauvau-la-ldh-corsica-appelle-a-une-mobilisation-de-la-societe-civile/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e781848a7fdf2a1f21c1b9",
+   "titre": "« De la ligne jacobine au soutien à l’autonomie » – Gabriel Amard dénonce le recul sur l’autonomie corse.",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030475/de-la-ligne-jacobine-au-soutien-a-lautonomie-gabriel-amard-denonce-le-recul-sur-lautonomie-corse/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e781759863fcf058bbf25e",
+   "titre": "« Autonomie de la Corse : Femu a Corsica consulte ses militants après le retrait de Beauvau »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-27",
+   "lien": "https://www.corsicainfurmazione.org/2030533/autonomie-de-la-corse-femu-a-corsica-consulte-ses-militants-apres-le-retrait-de-beauvau/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e781dfb220e9ac41e1ae5c",
+   "titre": "Autonomie : Après le rejet du texte au Sénat, le Gouvernement veut réunir rapidement les élus corses",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Apres-le-rejet-du-texte-au-Senat-le-Gouvernement-veut-reunir-rapidement-les-elus-corses_a93367.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "406cf61fb4e7811791e9f28cf3fc6a32",
+   "titre": "Tourisme d’affaires : Ajaccio veut séduire les entreprises pour prolonger la saison",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-27",
+   "lien": "https://www.corsenetinfos.corsica/Tourisme-d-affaires-Ajaccio-veut-seduire-les-entreprises-pour-prolonger-la-saison_a93369.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "406cf61fb4e7810581bfce4181ba9cff",
    "titre": "Autonomie de la Corse : Le Sénat rejette le texte qu’il a complètement détricoté !",
