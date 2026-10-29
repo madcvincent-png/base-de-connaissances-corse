@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-28",
+  "exporteLe": "2026-10-29",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1433,
+   "articles": 1446,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1433,
+   "articles": 1446,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,242 @@
   }
  ],
  "articles": [
+  {
+   "id": "408cf61fb4e7811d9f2ccf809d07b365",
+   "titre": "« Per l’Indipendenza réclame un Front politique indépendantiste après l’échec de Beauvau »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-29",
+   "lien": "https://www.corsicainfurmazione.org/2030611/per-lindipendenza-reclame-un-front-politique-independantiste-apres-lechec-de-beauvau/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e78140ad16c1b8e84dde9e",
+   "titre": "Beauvau : Fà Populu Inseme accuse Un Soffiu Novu d’avoir renié ses engagements",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-29",
+   "lien": "https://www.corsicainfurmazione.org/2030606/beauvau-fa-populu-inseme-accuse-un-soffiu-novu-davoir-renie-ses-engagements/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e781c4922be74e75527ed1",
+   "titre": "Paul-Félix Benedetti : « La solution, c’est de donner la parole aux Corses par un référendum insulaire »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Paul-Felix-Benedetti-La-solution-c-est-de-donner-la-parole-aux-Corses-par-un-referendum-insulaire_a93393.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e7810a87a1e7ece629db55",
+   "titre": "Autonomie - Depuis Corte, Femu a Corsica pose ses lignes rouges et propose un référendum avant la fin de l’année",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Depuis-Corte-Femu-a-Corsica-pose-ses-lignes-rouges-et-propose-un-referendum-avant-la-fin-de-l-annee_a93396.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e781e89f42fa8e773087d6",
+   "titre": "« Processus de Beauvau : la délégation de la droite corse réfute les accusations de Gilles Simeoni »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-28",
+   "lien": "https://www.corsicainfurmazione.org/2030595/processus-de-beauvau-la-delegation-de-la-droite-corse-refute-les-accusations-de-gilles-simeoni/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e7819d89c0d01adffd2a84",
+   "titre": "« Core in Fronte quitte le processus de Beauvau et refuse la réunion avec Sébastien Lecornu »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-28",
+   "lien": "https://www.corsicainfurmazione.org/2030596/core-in-fronte-quitte-le-processus-de-beauvau-et-refuse-la-reunion-avec-sebastien-lecornu/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e7817bad23f7f64df37002",
+   "titre": "Nanette Maupertuis : « La Corse fait les frais d’une névrose républicaine qui étouffe toute singularité »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Nanette-Maupertuis-La-Corse-fait-les-frais-d-une-nevrose-republicaine-qui-etouffe-toute-singularite_a93385.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e78127af9dd21918884543",
+   "titre": "Vivario – La RT 20 fermée à la circulation cette nuit",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Vivario-La-RT-20-fermee-a-la-circulation-cette-nuit_a93389.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B354"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e781a1b246cb4fec509212",
+   "titre": "Ucciani : Un incendie endommage une habitation",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Ucciani-Un-incendie-endommage-une-habitation_a93390.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A330"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e781d1b6d9fd5b1fce70bd",
+   "titre": "Riunioni di a Cummissioni Permanenti di u 4 di nuvembre di u 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-10-28",
+   "lien": "https://www.isula.corsica/Riunioni-di-a-Cummissioni-Permanenti-di-u-4-di-nuvembre-di-u-2026_a6325.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e781f58feaf6faef404dbf",
+   "titre": "« Processus de Beauvau : Nazione annonce une conférence de presse à Aiacciu »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-28",
+   "lien": "https://www.corsicainfurmazione.org/2030558/processus-de-beauvau-nazione-annonce-une-conference-de-presse-a-aiacciu/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e7813697fdfdb1259283ca",
+   "titre": "Jean-Martin Mondoloni : « Dire que la droite corse est montée à Paris déconstruire le texte est absolument faux et scandaleux ! »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Jean-Martin-Mondoloni-Dire-que-la-droite-corse-est-montee-a-Paris-deconstruire-le-texte-est-absolument-faux-et_a93382.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "407cf61fb4e78168b042fd645b080a8a",
+   "titre": "Tavaco : Un homme interpellé après le braquage d’une supérette",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-28",
+   "lien": "https://www.corsenetinfos.corsica/Tavaco-Un-homme-interpelle-apres-le-braquage-d-une-superette_a93384.html",
+   "genre": "",
+   "rubrique": "Faits divers",
+   "lieux": [],
+   "communes": [
+    "2A323"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "406cf61fb4e78157ad0bfb7cfe8e2029",
    "titre": "Jean-Jacques Panunzi : « Ce n’est pas la droite qui a essayé de mettre fin au processus de Beauvau ! »",
