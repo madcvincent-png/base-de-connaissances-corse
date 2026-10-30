@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-29",
+  "exporteLe": "2026-10-30",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1446,
+   "articles": 1457,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1446,
+   "articles": 1457,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,206 @@
   }
  ],
  "articles": [
+  {
+   "id": "408cf61fb4e781bd995fee5bd7299c56",
+   "titre": "« Après Beauvau, Nazione appelle à un repositionnement du mouvement national autour de l’autodétermination »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-29",
+   "lien": "https://www.corsicainfurmazione.org/2030664/apres-beauvau-nazione-appelle-a-un-repositionnement-du-mouvement-national-autour-de-lautodetermination/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e7819f9ec7e78d46aeb6ae",
+   "titre": "« On ne peut pas attendre une troisième inondation » : après les intempéries, des habitants de Prunelli-di-Fiumorbo se mobilisent",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/On-ne-peut-pas-attendre-une-troisieme-inondation-apres-les-intemperies-des-habitants-de-Prunelli-di-Fiumorbo-se_a93409.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B251"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e7811896cecf6714ab53e7",
+   "titre": "Olivese : Un incendie parcourt 50 hectares au col de la Vaccia",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Olivese-Un-incendie-parcourt-50-hectares-au-col-de-la-Vaccia_a93410.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A186"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e781e3b6a6c7961b33e8a4",
+   "titre": "Le Crédit Agricole donne 10 000 euros à Per Campà in Pace pour rénover des logements sociaux",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Le-Credit-Agricole-donne-10-000-euros-a-Per-Campa-in-Pace-pour-renover-des-logements-sociaux_a93412.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e7813eb34fcb805d2ba065",
+   "titre": "Autonomie - Après le rejet du Sénat, Nazione appelle « à tourner la page de Beauvau »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Apres-le-rejet-du-Senat-Nazione-appelle-a-tourner-la-page-de-Beauvau_a93415.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e781ac8e3ce56d29838dec",
+   "titre": "« Per l’Indipendenza présente une proposition politique pour préparer l’indépendance »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-29",
+   "lien": "https://www.corsicainfurmazione.org/2030661/per-lindipendenza-presente-une-proposition-politique-pour-preparer-lindependance/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e781c2bdc9f4b6bded8d84",
+   "titre": "« Femu a Corsica réclame le maintien des principes de l’accord de Beauvau »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-29",
+   "lien": "https://www.corsicainfurmazione.org/2030663/femu-a-corsica-reclame-le-maintien-des-principes-de-laccord-de-beauvau/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e781b4ba8ce43aefb41914",
+   "titre": "Football Régional 1 Sud FC - AC Ajaccio première place en jeu",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Football-Regional-1-Sud-FC-AC-Ajaccio-premiere-place-en-jeu_a93400.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e78196863dec3aa9f1f4de",
+   "titre": "Autonomie : Après le vote du Sénat, l’Assemblée de Corse convoquée en session extraordinaire",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Apres-le-vote-du-Senat-l-Assemblee-de-Corse-convoquee-en-session-extraordinaire_a93402.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e781c9bb4eed1f6f4ea5dd",
+   "titre": "Électricité : après un été record, EDF prévient que la Corse restera sous tension jusqu’en 2030",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Electricite-apres-un-ete-record-EDF-previent-que-la-Corse-restera-sous-tension-jusqu-en-2030_a93404.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "408cf61fb4e7814dab9febd366adbb85",
+   "titre": "Abattoir de Porto-Vecchio : l’État condamné par le tribunal administratif de Bastia",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-29",
+   "lien": "https://www.corsenetinfos.corsica/Abattoir-de-Porto-Vecchio-l-Etat-condamne-par-le-tribunal-administratif-de-Bastia_a93405.html",
+   "genre": "",
+   "rubrique": "Langue corse",
+   "lieux": [],
+   "communes": [
+    "2B033",
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e781bcbac3d1de2b0d3a8d",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "408cf61fb4e7811d9f2ccf809d07b365",
    "titre": "« Per l’Indipendenza réclame un Front politique indépendantiste après l’échec de Beauvau »",
