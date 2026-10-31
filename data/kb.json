@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-30",
+  "exporteLe": "2026-10-31",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1457,
+   "articles": 1466,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1457,
+   "articles": 1466,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,168 @@
   }
  ],
  "articles": [
+  {
+   "id": "40acf61fb4e781fbb16ec1075cf4aaf2",
+   "titre": "Il y a 28 ans, à l’Assemblée de #corse, Paul Quastana demandait au Préfet Bonnet « Quand comptez vous partir? »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-31",
+   "lien": "https://www.corsicainfurmazione.org/1997790/il-y-a-23-ans-a-lassemblee-de-corse-paul-quastana-demandait-au-prefet-bonnet-quand-comptez-vous-partir/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40acf61fb4e78113b030e7e8077df9ff",
+   "titre": "Autonomie de la Corse : le Gouvernement dévoile sa feuille de route pour tenter de relancer le processus",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-30",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-le-Gouvernement-devoile-sa-feuille-de-route-pour-tenter-de-relancer-le-processus_a93442.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e781969639c7942324e30e",
+   "titre": "« Autonomie : le peuple corse doit être consulté »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-30",
+   "lien": "https://www.corsicainfurmazione.org/2030702/autonomie-le-peuple-corse-doit-etre-consulte/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e781798819d67c8c013676",
+   "titre": "Revue de Presse « Après Beauvau, Nazione appelle à construire un rapport de force face à l’État français »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-10-30",
+   "lien": "https://www.corsicainfurmazione.org/2030703/revue-de-presse-apres-beauvau-nazione-appelle-a-construire-un-rapport-de-force-face-a-letat-francais/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e781909207f1826caa14cf",
+   "titre": "Un appel à la grève lancé par les dockers dans les ports français et européens, Bastia et Ajaccio concernés",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-30",
+   "lien": "https://www.corsenetinfos.corsica/Un-appel-a-la-greve-lance-par-les-dockers-dans-les-ports-francais-et-europeens-Bastia-et-Ajaccio-concernes_a93433.html",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [
+    "2B033",
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e7819d80ede6adbc9aff63",
+   "titre": "Trois jours de gourmandise au Salon du chocolat et des délices de Corse à Ajaccio",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-30",
+   "lien": "https://www.corsenetinfos.corsica/Trois-jours-de-gourmandise-au-Salon-du-chocolat-et-des-delices-de-Corse-a-Ajaccio_a93437.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e78189b085d7100e01418e",
+   "titre": "Michel Castellani : « Nous proposons un emprunt citoyen national simple et transparent pour desserrer l’étau de la dette »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-30",
+   "lien": "https://www.corsenetinfos.corsica/Michel-Castellani-Nous-proposons-un-emprunt-citoyen-national-simple-et-transparent-pour-desserrer-l-etau-de-la-dette_a93413.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e781178db5f43ecbce7dd8",
+   "titre": "Centre Corse - Horaires des messes et bénédiction des cimetières",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-30",
+   "lien": "https://www.corsenetinfos.corsica/notes/Centre-Corse-Horaires-des-messes-et-benediction-des-cimetieres_b98543108.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "409cf61fb4e781b2a7a1ebf325531cc2",
+   "titre": "Ligue 3 – SC Bastia : face à QRM, Michè Moretti veut avant tout remobiliser les esprits",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-30",
+   "lien": "https://www.corsenetinfos.corsica/Ligue-3-SC-Bastia-face-a-QRM-Miche-Moretti-veut-avant-tout-remobiliser-les-esprits_a93428.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "408cf61fb4e781bd995fee5bd7299c56",
    "titre": "« Après Beauvau, Nazione appelle à un repositionnement du mouvement national autour de l’autodétermination »",
