@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-10-31",
+  "exporteLe": "2026-11-01",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1466,
+   "articles": 1471,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1466,
+   "articles": 1471,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,99 @@
   }
  ],
  "articles": [
+  {
+   "id": "40bcf61fb4e78169a347f1e143b5a5f4",
+   "titre": "SC Bastia : la méthode Moretti, une thérapie gagnante",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-01",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-la-methode-Moretti-une-therapie-gagnante_a93460.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40bcf61fb4e7814da03febe416349f92",
+   "titre": "[In Mimoria] Emiliu Corticchiato – #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-01",
+   "lien": "https://www.corsicainfurmazione.org/2021947/in-mimoria-emiliu-corticchiato-corse/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40acf61fb4e781ca9bf2fcf9d803a068",
+   "titre": "Régional 1- Sud FC-ACA : un choc sans vainqueur, l'ACA leader",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-31",
+   "lien": "https://www.corsenetinfos.corsica/Regional-1-Sud-FC-ACA-un-choc-sans-vainqueur-l-ACA-leader_a93459.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40acf61fb4e78165961bc91909e0c0af",
+   "titre": "Ligue 3 - Le Sporting Club de Bastia décroche sa première victoire à Furiani (2-0)",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-31",
+   "lien": "https://www.corsenetinfos.corsica/Ligue-3-Le-Sporting-Club-de-Bastia-decroche-sa-premiere-victoire-a-Furiani-2-0_a93456.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B120",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40acf61fb4e781638931dcb7edcb6a31",
+   "titre": "Corte - L’ARWC 2026 remet un chèque de près 1 800 euros à l’association Casa Antò",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-10-31",
+   "lien": "https://www.corsenetinfos.corsica/Corte-L-ARWC-2026-remet-un-cheque-de-pres-1-800-euros-a-l-association-Casa-Anto_a93452.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "40acf61fb4e781fbb16ec1075cf4aaf2",
    "titre": "Il y a 28 ans, à l’Assemblée de #corse, Paul Quastana demandait au Préfet Bonnet « Quand comptez vous partir? »",
