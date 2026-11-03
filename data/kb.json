@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-02",
+  "exporteLe": "2026-11-03",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1474,
+   "articles": 1484,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1474,
+   "articles": 1484,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,185 @@
   }
  ],
  "articles": [
+  {
+   "id": "40ccf61fb4e781e19201f2f534c099ff",
+   "titre": "Session ordinaire exceptionnelle du 4 novembre 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-02",
+   "lien": "https://www.isula.corsica/Session-ordinaire-exceptionnelle-du-4-novembre-2026_a6326.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e7810f9973e328a0633778",
+   "titre": "« 5 novembre : le STC défend son indépendance syndicale et ses orientations »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-02",
+   "lien": "https://www.corsicainfurmazione.org/2030747/5-novembre-le-stc-defend-son-independance-syndicale-et-ses-orientations/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e7810baf2ae563aa6a8b88",
+   "titre": "« Peuple corse, statut de résident, co-officialité : les fondamentaux ne sont pas négociables »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-02",
+   "lien": "https://www.corsicainfurmazione.org/2030757/peuple-corse-statut-de-resident-co-officialite-les-fondamentaux-ne-sont-pas-negociables/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e78107b6cdde9aa478bf76",
+   "titre": "« Gilles Simeoni engage une procédure en diffamation contre le magazine Marianne »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-02",
+   "lien": "https://www.corsicainfurmazione.org/2030765/gilles-simeoni-engage-une-procedure-en-diffamation-contre-le-magazine-marianne/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e781e99f87c43133015f0d",
+   "titre": "Ajaccio : Un incendie se déclare dans un appartement",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-02",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Un-incendie-se-declare-dans-un-appartement_a93472.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e781f7a46ee66616d3c4e8",
+   "titre": "Autonomie de la Corse - Femu a Corsica appelle les élus à ne pas se rendre à la réunion avec le Gouvernement",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-02",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Femu-a-Corsica-appelle-les-elus-a-ne-pas-se-rendre-a-la-reunion-avec-le-Gouvernement_a93474.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e781bd903ec69c66257e59",
+   "titre": "Gilles Simeoni attaque le magazine Marianne en diffamation",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-02",
+   "lien": "https://www.corsenetinfos.corsica/Gilles-Simeoni-attaque-le-magazine-Marianne-en-diffamation_a93476.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e7818c91b4f3bd6e551a97",
+   "titre": "Ajaccio - Aux Sanguinaires, des bénévoles s’attaquent aux griffes de sorcière sur l’île de Mezu Mare",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-02",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Aux-Sanguinaires-des-benevoles-s-attaquent-aux-griffes-de-sorciere-sur-l-ile-de-Mezu-Mare_a93479.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7819582ecdd75c34ddd42"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e781f28a4fc70aa5f7f558",
+   "titre": "Mobilisation du 5 novembre : les syndicats veulent faire entendre leurs revendications en Corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-02",
+   "lien": "https://www.corsenetinfos.corsica/Mobilisation-du-5-novembre-les-syndicats-veulent-faire-entendre-leurs-revendications-en-Corse_a93480.html",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ccf61fb4e781dab24cdd3cb1e98b10",
+   "titre": "Au tribunal judiciaire d'Ajaccio, un renouvellement des équipes et de nouvelles priorités pour le parquet",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-02",
+   "lien": "https://www.corsenetinfos.corsica/Au-tribunal-judiciaire-d-Ajaccio-un-renouvellement-des-equipes-et-de-nouvelles-priorites-pour-le-parquet_a93482.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "40bcf61fb4e781a1912ddba70f4da516",
    "titre": "Felì fait résonner la chanson corse au cœur de Florence",
