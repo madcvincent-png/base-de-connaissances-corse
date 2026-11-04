@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-03",
+  "exporteLe": "2026-11-04",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1484,
+   "articles": 1500,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1484,
+   "articles": 1500,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,291 @@
   }
  ],
  "articles": [
+  {
+   "id": "40ecf61fb4e7813786f9db4bbde681e7",
+   "titre": "« Bastia : le STC demande à l’État de respecter ses engagements pour le nouvel hôpital »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-04",
+   "lien": "https://www.corsicainfurmazione.org/2030806/bastia-le-stc-demande-a-letat-de-respecter-ses-engagements-pour-le-nouvel-hopital/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e781c69fcaeaf3a7121bff",
+   "titre": "« Aéroport de Calvi : Core in Fronte dénonce les annulations répétées des vols Air Corsica »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-04",
+   "lien": "https://www.corsicainfurmazione.org/2030813/aeroport-de-calvi-core-in-fronte-denonce-les-annulations-repetees-des-vols-air-corsica/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e781b29d3bfe24338f1d10",
+   "titre": "#Corse – 34 anni fà, nascìa u sindicatu Ghjuventù Paolina… @G_Paolina #Vidéos #Photos",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-04",
+   "lien": "https://www.corsicainfurmazione.org/1351312/corse-26-anni-fa-nascia-u-sindicatu-ghjuventu-paolina/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e7815eaa9fcafe75d4fae9",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e781a4bc95ef3d0ae0e41e",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e78170b85cc760c3b6355c",
+   "titre": "« Hôpital de Bastia : Femu a Corsica soutient le STC et les personnels mobilisés »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-03",
+   "lien": "https://www.corsicainfurmazione.org/2030796/hopital-de-bastia-femu-a-corsica-soutient-le-stc-et-les-personnels-mobilises/2026/",
+   "genre": "",
+   "rubrique": "Santé",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e7819eb5cdc9b14d0f175a",
+   "titre": "« Autonomie : le PNC refuse pour l’heure la réunion du 9 novembre à Paris »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-03",
+   "lien": "https://www.corsicainfurmazione.org/2030797/autonomie-le-pnc-refuse-pour-lheure-la-reunion-du-9-novembre-a-paris/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e7811a953fda7b82e049cb",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e78189b2b2f84e2fd0a61d",
+   "titre": "Décarbon’azzione : en Corse, les entreprises veulent accélérer leur transition écologique",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/Decarbon-azzione-en-Corse-les-entreprises-veulent-accelerer-leur-transition-ecologique_a93490.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06",
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e781a583a9da93e6b3edd5",
+   "titre": "Un partenariat entre la Collectivité de Corse et le CNFPT pour renforcer les compétences des agents",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/Un-partenariat-entre-la-Collectivite-de-Corse-et-le-CNFPT-pour-renforcer-les-competences-des-agents_a93498.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e78172b66be8e602b049cc",
+   "titre": "Autonomie. Stéphane Sbraggia : « On ne peut pas demander aux Corses de signer un chèque en blanc »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Stephane-Sbraggia-On-ne-peut-pas-demander-aux-Corses-de-signer-un-cheque-en-blanc_a93495.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e7813f9e92cedf25103dcf",
+   "titre": "À Castirla, EDF Corse sensibilise élus et services de l’État à la sûreté hydraulique",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/A-Castirla-EDF-Corse-sensibilise-elus-et-services-de-l-Etat-a-la-surete-hydraulique_a93492.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B083"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e781609744fcf6346cadde",
+   "titre": "« Après Beauvau, le PNC appelle à une position commune des nationalistes corses »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-03",
+   "lien": "https://www.corsicainfurmazione.org/2030777/apres-beauvau-le-pnc-appelle-a-une-position-commune-des-nationalistes-corses/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e7810e8ea2d48918367093",
+   "titre": "« Autonomie de la Corse : Jean-Charles Orsucci répond aux critiques de Jean-Jacques Panunzi »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-03",
+   "lien": "https://www.corsicainfurmazione.org/2030784/autonomie-de-la-corse-jean-charles-orsucci-repond-aux-critiques-de-jean-jacques-panunzi/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e7817490aeda4b99ec3e5d",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40dcf61fb4e781ff95b7cdb09f690607",
+   "titre": "Poghju Mezzana : Une femme de 84 ans sérieusement blessée dans un accident de la circulation sur la RT10",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/Poghju-Mezzana-Une-femme-de-84-ans-serieusement-blessee-dans-un-accident-de-la-circulation-sur-la-RT10_a93491.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "40ccf61fb4e781e19201f2f534c099ff",
    "titre": "Session ordinaire exceptionnelle du 4 novembre 2026",
