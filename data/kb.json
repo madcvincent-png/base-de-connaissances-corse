@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-04",
+  "exporteLe": "2026-11-05",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1500,
+   "articles": 1509,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1500,
+   "articles": 1509,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7277,6 +7277,115 @@
  ],
  "articles": [
   {
+   "id": "40fcf61fb4e781df9f41caa591f7ff3f",
+   "titre": "Ajaccio : Une charge explosive endommage la façade des locaux de la Corsica Linea",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Une-charge-explosive-endommage-la-facade-des-locaux-de-la-Corsica-Linea_a93520.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e78103ab14e6c5a80208e6",
+   "titre": "Autonomie de la Corse : Une session extraordinaire sous tension pour tenter de sortir de l'impasse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-04",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Une-session-extraordinaire-sous-tension-pour-tenter-de-sortir-de-l-impasse_a93507.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e7811384f6fd01fe80b4f9",
+   "titre": "Corte - Les mycologues à la recherche de la perle rare",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-04",
+   "lien": "https://www.corsenetinfos.corsica/Corte-Les-mycologues-a-la-recherche-de-la-perle-rare_a93509.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e78182b0a8dcf6bc359015",
+   "titre": "Sessione urdinaria eccezziunale di u 4 di nuvembre di u 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-04",
+   "lien": "https://www.isula.corsica/Sessione-urdinaria-eccezziunale-di-u-4-di-nuvembre-di-u-2026_a6326.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e781e19e4deed0df00d716",
+   "titre": "Volpajola : un accident de la circulation fait quatre blessés",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-04",
+   "lien": "https://www.corsenetinfos.corsica/Volpajola-un-accident-de-la-circulation-fait-quatre-blesses_a93505.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B355"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e7818db40bd1711206ec44",
+   "titre": "De fortes pluies et inondations à Porto-Vecchio, 30 personnes mises en sécurité et plusieurs routes coupées",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-04",
+   "lien": "https://www.corsenetinfos.corsica/De-fortes-pluies-et-inondations-a-Porto-Vecchio-30-personnes-mises-en-securite-et-plusieurs-routes-coupees_a93513.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A247"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
    "id": "40ecf61fb4e7813786f9db4bbde681e7",
    "titre": "« Bastia : le STC demande à l’État de respecter ses engagements pour le nouvel hôpital »",
    "source": "Autre",
@@ -7328,6 +7437,57 @@
    "communes": [],
    "dossiers": [
     "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e78177ad27c6e846afc9df",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e7812298c1eb8b0b8b7b63",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40ecf61fb4e78115a591c4a7af8703d2",
+   "titre": "EN IMAGES - Quand Felì fait vibrer Florence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-03",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Quand-Feli-fait-vibrer-Florence_a93486.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
    ],
    "personnes": [],
    "traitement": "À dépouiller"
