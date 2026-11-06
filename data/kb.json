@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-05",
+  "exporteLe": "2026-11-06",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1509,
+   "articles": 1524,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1509,
+   "articles": 1524,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,279 @@
   }
  ],
  "articles": [
+  {
+   "id": "410cf61fb4e781bcbc07cf55c63d154c",
+   "titre": "Une voiture emportée par une inondation entre Bonifacio et Porto-Vecchio, deux personnes décédées",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-06",
+   "lien": "https://www.corsenetinfos.corsica/Une-voiture-emportee-par-une-inondation-entre-Bonifacio-et-Porto-Vecchio-deux-personnes-decedees_a93538.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A247",
+    "2A041"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "410cf61fb4e78123a13edbce8c0324fa",
+   "titre": "Intempéries dans l’Extrême-Sud : l’Assemblée de Corse suspend ses travaux face à une « situation hors du commun »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-06",
+   "lien": "https://www.corsenetinfos.corsica/Intemperies-dans-l-Extreme-Sud-l-Assemblee-de-Corse-suspend-ses-travaux-face-a-une-situation-hors-du-commun_a93540.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "410cf61fb4e781238119c47aa4b5c4b4",
+   "titre": "U RIBELLU A VOCE DI U FRONTE – plongée dans les textes politiques du FLNC",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-06",
+   "lien": "https://www.corsicainfurmazione.org/2030622/2030622/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "410cf61fb4e781e88b1cf38e99b05138",
+   "titre": "Riunioni di a Cummissioni Permanenti di u 5 di nuvembre di u 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-05",
+   "lien": "https://www.isula.corsica/Riunioni-di-a-Cummissioni-Permanenti-di-u-5-di-nuvembre-di-u-2026_a6325.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781f1921ce6b227821707",
+   "titre": "Résolution solennelle demandant une concertation au plus haut niveau permettant une sortie de crise et un accord politique avec le Parlement sur la révision constitutionnelle consacrée à l’autonomie de la Corse",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-05",
+   "lien": "https://www.isula.corsica/Resolution-solennelle-demandant-une-concertation-au-plus-haut-niveau-permettant-une-sortie-de-crise-et-un-accord_a6337.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781d99df7de9201dc4c2a",
+   "titre": "« Peuple corse, langue et statut de résident, le triptyque de la discorde »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-05",
+   "lien": "https://www.corsicainfurmazione.org/2030817/peuple-corse-langue-et-statut-de-resident-le-triptyque-de-la-discorde/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e7818eba74f095619ee111",
+   "titre": "« Explosion nocturne à Ajaccio : les locaux de Corsica Linea visés »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-05",
+   "lien": "https://www.corsicainfurmazione.org/2030821/explosion-nocturne-a-ajaccio-les-locaux-de-corsica-linea-vises/2026/",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781de8e8df966c63688ad",
+   "titre": "« Assemblée de Corse : Josepha Giacometti-Piredda refuse de participer au vote sur la résolution »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-05",
+   "lien": "https://www.corsicainfurmazione.org/2030822/assemblee-de-corse-josepha-giacometti-piredda-refuse-de-participer-au-vote-sur-la-resolution/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781f5b698dfb19cdf7c1e",
+   "titre": "« Hôpital de Calvi : plus de 200 personnes mobilisées face aux menaces sur les urgences »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-05",
+   "lien": "https://www.corsicainfurmazione.org/2030826/hopital-de-calvi-plus-de-200-personnes-mobilisees-face-aux-menaces-sur-les-urgences/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781969c4ae3c3f5ac78d8",
+   "titre": "Intempéries en Haute-Corse : encore 150 mm de pluie attendus dans la nuit",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/Intemperies-en-Haute-Corse-encore-150-mm-de-pluie-attendus-dans-la-nuit_a93533.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e7814496c7f0e88da8c47a",
+   "titre": "Autonomie : L’assemblée de Corse adopte à une large majorité une résolution solennelle de sortie de crise",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-L-assemblee-de-Corse-adopte-a-une-large-majorite-une-resolution-solennelle-de-sortie-de-crise_a93526.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e7812f9032f4cbe36867be",
+   "titre": "Journée de grève nationale. À Ajaccio, environ 250 personnes mobilisées pour les salaires, les pensions et les services publics",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/Journee-de-greve-nationale-A-Ajaccio-environ-250-personnes-mobilisees-pour-les-salaires-les-pensions-et-les-services_a93523.html",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781e3b979dea3e7613139",
+   "titre": "Ligue 3 - SC Bastia : réenclencher une dynamique à Rouen ?",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/Ligue-3-SC-Bastia-reenclencher-une-dynamique-a-Rouen_a93524.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e78148b4b5fcf53c9400b1",
+   "titre": "Ajaccio - Ange Pantaloni, ancien adjoint au maire chargé des sports, est décédé à 86 ans",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Ange-Pantaloni-ancien-adjoint-au-maire-charge-des-sports-est-decede-a-86-ans_a93525.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "40fcf61fb4e781cb94eac3f90078af17",
+   "titre": "À Bastia, près de 200 personnes mobilisées contre la vie chère et pour de meilleurs salaires",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-05",
+   "lien": "https://www.corsenetinfos.corsica/A-Bastia-pres-de-200-personnes-mobilisees-contre-la-vie-chere-et-pour-de-meilleurs-salaires_a93528.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "40fcf61fb4e781df9f41caa591f7ff3f",
    "titre": "Ajaccio : Une charge explosive endommage la façade des locaux de la Corsica Linea",
