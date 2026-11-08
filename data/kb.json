@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-07",
+  "exporteLe": "2026-11-08",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1528,
+   "articles": 1536,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1528,
+   "articles": 1536,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,145 @@
   }
  ],
  "articles": [
+  {
+   "id": "411cf61fb4e781469acad013f9cc60d9",
+   "titre": "Ligue 3 - Douche froide en Normandie pour le Sporting Club de Bastia battu par le FC Rouen (2-0)",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/Ligue-3-Douche-froide-en-Normandie-pour-le-Sporting-Club-de-Bastia-battu-par-le-FC-Rouen-2-0_a93560.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e781c7ab0fe355f4c55809",
+   "titre": "Porticcio - Contrôlé à 118 km/h sur un tronçon limité à 50",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/Porticcio-Controle-a-118-km-h-sur-un-troncon-limite-a-50_a93562.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e7810baf38ef60226c4e80",
+   "titre": "L’Assemblée de Corse approuve l’acquisition d’un portrait en pied de Pasquale Paoli pour 320 000 euros",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/L-Assemblee-de-Corse-approuve-l-acquisition-d-un-portrait-en-pied-de-Pasquale-Paoli-pour-320-000-euros_a93551.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e7816ca5a0e76775f6fc95",
+   "titre": "All’OPH : un numéro de téléphone unique pour rapprocher le bailleur social de ses locataires du Pays Ajaccien",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/All-OPH-un-numero-de-telephone-unique-pour-rapprocher-le-bailleur-social-de-ses-locataires-du-Pays-Ajaccien_a93527.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e78161bf33cf4ab8420b18",
+   "titre": "Corsica Linea : le SAMMM condamne l’attentat contre le siège",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/Corsica-Linea-le-SAMMM-condamne-l-attentat-contre-le-siege_a93558.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e781d2aa4bda2326cdcad4",
+   "titre": "Loi Montagne, acte III : un sursis bienvenu pour les communes corses",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/Loi-Montagne-acte-III-un-sursis-bienvenu-pour-les-communes-corses_a93242.html",
+   "genre": "",
+   "rubrique": "Langue corse",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a",
+    "3f4cf61fb4e781bcbac3d1de2b0d3a8d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e781f6b86bfab250d7b214",
+   "titre": "Inondations en Corse-du-Sud : routes coupées et plusieurs milliers de personnes privées d’eau",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/Inondations-en-Corse-du-Sud-routes-coupees-et-plusieurs-milliers-de-personnes-privees-d-eau_a93559.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "411cf61fb4e7811fa345ecd4cbd5c3cc",
+   "titre": "Jean-Baptiste Arena : « Nous avons réussi à plus que tripler l’enveloppe du Plan CASI pour la Corse »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-07",
+   "lien": "https://www.corsenetinfos.corsica/Jean-Baptiste-Arena-Nous-avons-reussi-a-plus-que-tripler-l-enveloppe-du-Plan-CASI-pour-la-Corse_a93546.html",
+   "genre": "",
+   "rubrique": "Agriculture",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781f9aa39e51b64e4581c"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "410cf61fb4e7812a8c6ad957bca83dee",
    "titre": "« Affaire Jean-Claude Lucchini : le maire de Zirubia reçoit un nouveau soutien »",
