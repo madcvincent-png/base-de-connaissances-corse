@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-09",
+  "exporteLe": "2026-11-10",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1538,
+   "articles": 1549,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1538,
+   "articles": 1549,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,201 @@
   }
  ],
  "articles": [
+  {
+   "id": "414cf61fb4e781d38986ca3d7ee4b3a7",
+   "titre": "« Élections professionnelles des SIS 2A et 2B : le STC lance sa campagne pour décembre »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-10",
+   "lien": "https://www.corsicainfurmazione.org/2030929/elections-professionnelles-des-sis-2a-et-2b-le-stc-lance-sa-campagne-pour-decembre/2026/",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781058f74fc6ddb548a31",
+   "titre": "Bastia : entre investissements et hausse des impôts, l’équation délicate de la CAB",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-10",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-entre-investissements-et-hausse-des-impots-l-equation-delicate-de-la-CAB_a93600.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781148a0cd7beea4cf30d",
+   "titre": "[In Mimoria] Charles Santoni, militantu corsu di a prima trinca – #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-10",
+   "lien": "https://www.corsicainfurmazione.org/2015745/in-mimoria-charles-santoni-militantu-corsu-di-a-prima-trinca-corse/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781a0b7d2ec266a1675ec",
+   "titre": "ADMR de Corse-du-Sud : six mois après la fin de la grève, les tensions restent vives",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-09",
+   "lien": "https://www.corsenetinfos.corsica/ADMR-de-Corse-du-Sud-six-mois-apres-la-fin-de-la-greve-les-tensions-restent-vives_a93595.html",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781189cb9c2244cde9efe",
+   "titre": "Assassinat d’Antoine Sollacaro : Mickaël Ettori devant la cour d’assises d’Aix-en-Provence",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-09",
+   "lien": "https://www.corsenetinfos.corsica/Assassinat-d-Antoine-Sollacaro-Mickael-Ettori-devant-la-cour-d-assises-d-Aix-en-Provence_a93597.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2A284"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "413cf61fb4e78130974bc80e12ecaffe",
+   "titre": "« ADMR de Corse-du-Sud : STC, CGT et FO dénoncent une grave crise de gouvernance »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-09",
+   "lien": "https://www.corsicainfurmazione.org/2030889/admr-de-corse-du-sud-stc-cgt-et-fo-denoncent-une-grave-crise-de-gouvernance/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "413cf61fb4e7810baa58d463adcfdf9b",
+   "titre": "Bastia - Lancement des travaux des voies douces",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-09",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-Lancement-des-travaux-des-voies-douces_a93587.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "413cf61fb4e78150a241e01e5ecfd792",
+   "titre": "Prix du carburant en Corse : le collectif contre la cherté des carburants interpelle le préfet",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-09",
+   "lien": "https://www.corsenetinfos.corsica/Prix-du-carburant-en-Corse-le-collectif-contre-la-cherte-des-carburants-interpelle-le-prefet_a93588.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "413cf61fb4e78153bd37c3f17c69e21a",
+   "titre": "Décès de Dédé Fraticelli : le « mago » du Sporting Club de Bastia s'en est allé",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-09",
+   "lien": "https://www.corsenetinfos.corsica/Deces-de-Dede-Fraticelli-le-mago-du-Sporting-Club-de-Bastia-s-en-est-alle_a93591.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "413cf61fb4e7817caba7dce1f14ba3af",
+   "titre": "Ajaccio – Deux blessés dans un accident de la circulation à l'entrée de la ville",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-09",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Deux-blesses-dans-un-accident-de-la-circulation-a-l-entree-de-la-ville_a93594.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "413cf61fb4e78193880bdc6e1ed27d0b",
+   "titre": "« Autonomie : Femu a Corsica demande à l’État de répondre à la résolution des élus corses »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-08",
+   "lien": "https://www.corsicainfurmazione.org/2030873/autonomie-femu-a-corsica-demande-a-letat-de-repondre-a-la-resolution-des-elus-corses/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "413cf61fb4e781288df9f2b181ee0ec5",
    "titre": "Autonomie de la Corse : le gouvernement relance la concertation et fixe un rendez-vous au 12 novembre",
