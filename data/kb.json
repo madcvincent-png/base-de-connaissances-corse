@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-10",
+  "exporteLe": "2026-11-11",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1549,
+   "articles": 1556,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1549,
+   "articles": 1556,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,139 @@
   }
  ],
  "articles": [
+  {
+   "id": "415cf61fb4e78111bb18e15e61c9d008",
+   "titre": "« Tags FLNC et IFF, bouteille de gaz : Une résidence secondaire visée par un dispositif explosif à Porto-Vecchio »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-11",
+   "lien": "https://www.corsicainfurmazione.org/2030950/tags-flnc-et-iff-bouteille-de-gaz-une-residence-secondaire-visee-par-un-dispositif-explosif-a-porto-vecchio/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "415cf61fb4e781cca1eceec783c4bf5a",
+   "titre": "Stéphane Ori condamné à cinq ans de prison ferme à Paris, Core in Fronte dénonce une décision « inique »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-11",
+   "lien": "https://www.corsicainfurmazione.org/2030956/stephane-ori-condamne-a-cinq-ans-de-prison-ferme-a-paris-core-in-fronte-denonce-une-decision-inique/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781748536cdc889f140be",
+   "titre": "À Ajaccio, une nouvelle école pour former les futurs professionnels des réseaux électriques en Corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-10",
+   "lien": "https://www.corsenetinfos.corsica/A-Ajaccio-une-nouvelle-ecole-pour-former-les-futurs-professionnels-des-reseaux-electriques-en-Corse_a93603.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781c099a3f62488cd27d1",
+   "titre": "Escape Game « Opération Nectar » à Oletta",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-10",
+   "lien": "https://www.corsenetinfos.corsica/notes/Escape-Game-Operation-Nectar-a-Oletta_b98659171.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B185"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7819582ecdd75c34ddd42"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e781a6808ac724d0a6abb9",
+   "titre": "Après la colère des agriculteurs, 3,6 millions d’euros mobilisés pour faire face aux conséquences de la sécheresse en Corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-10",
+   "lien": "https://www.corsenetinfos.corsica/Apres-la-colere-des-agriculteurs-36-millions-d-euros-mobilises-pour-faire-face-aux-consequences-de-la-secheresse-en_a93609.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e7812889a3e3be8c3ce2c4",
+   "titre": "Bonifacio : la RT40 fermée en raison d'un risque de rupture d'une retenue d'eau",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-10",
+   "lien": "https://www.corsenetinfos.corsica/Bonifacio-la-RT40-fermee-en-raison-d-un-risque-de-rupture-d-une-retenue-d-eau_a93610.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A041"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "414cf61fb4e78189908ed5e2fe56ac9b",
+   "titre": "Corte - La route de la Restonica ne sera pas reconstruite !",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-10",
+   "lien": "https://www.corsenetinfos.corsica/Corte-La-route-de-la-Restonica-ne-sera-pas-reconstruite-_a93612.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "414cf61fb4e781d38986ca3d7ee4b3a7",
    "titre": "« Élections professionnelles des SIS 2A et 2B : le STC lance sa campagne pour décembre »",
