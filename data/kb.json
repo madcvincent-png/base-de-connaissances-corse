@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-11",
+  "exporteLe": "2026-11-12",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1556,
+   "articles": 1561,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1556,
+   "articles": 1561,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,98 @@
   }
  ],
  "articles": [
+  {
+   "id": "416cf61fb4e781bda8cef6ad6d0b4197",
+   "titre": "Cumunicatu di stampa : Nous n’irons pas à la réunion fixée par le Gouvernement le 12 novembre et réaffirmons les propositions en vue d’une sortie de crise contenues dans la résolution solennelle du 4 novembre 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-12",
+   "lien": "https://www.isula.corsica/Cumunicatu-di-stampa-Nous-n-irons-pas-a-la-reunion-fixee-par-le-Gouvernement-le-12-novembre-et-reaffirmons-les_a6348.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "416cf61fb4e781b49160f88e05babba1",
+   "titre": "Autonomie - Le gouvernement annule la réunion du 12 novembre mais maintient le dialogue",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-11",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Le-gouvernement-annule-la-reunion-du-12-novembre-mais-maintient-le-dialogue_a93626.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "415cf61fb4e781e6a383ce63dc489612",
+   "titre": "« Autonomie : le PNC et Avanzemu ne participeront pas à la réunion du 12 novembre à Paris »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-11",
+   "lien": "https://www.corsicainfurmazione.org/2030957/autonomie-le-pnc-et-avanzemu-ne-participeront-pas-a-la-reunion-du-12-novembre-a-paris/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "415cf61fb4e7812a9f41fd5a6da54b6f",
+   "titre": "« Autonomie : Marie-Antoinette Maupertuis, Gilles Giovannangeli, et Fà Populu Inseme déclinent la réunion du 12 novembre à Paris »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-11",
+   "lien": "https://www.corsicainfurmazione.org/2030983/autonomie-marie-antoinette-maupertuis-gilles-giovannangeli-et-fa-populu-inseme-declinent-la-reunion-du-12-novembre-a-paris/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "415cf61fb4e7810cb46ede0d66c27f69",
+   "titre": "Autonomie de la Corse : Les présidents Giovannangeli et Maupertuis n’iront pas à la réunion fixée par le gouvernement",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-11",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Les-presidents-Giovannangeli-et-Maupertuis-n-iront-pas-a-la-reunion-fixee-par-le-gouvernement_a93622.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "415cf61fb4e78111bb18e15e61c9d008",
    "titre": "« Tags FLNC et IFF, bouteille de gaz : Une résidence secondaire visée par un dispositif explosif à Porto-Vecchio »",
