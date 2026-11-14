@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-13",
+  "exporteLe": "2026-11-14",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1569,
+   "articles": 1581,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1569,
+   "articles": 1581,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,222 @@
   }
  ],
  "articles": [
+  {
+   "id": "418cf61fb4e781a59c57ecddbdd46521",
+   "titre": "« Hôpital Ajaccio : le STC dénonce des conditions d’accueil indignes aux urgences »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-14",
+   "lien": "https://www.corsicainfurmazione.org/2031034/hopital-ajaccio-le-stc-denonce-des-conditions-daccueil-indignes-aux-urgences/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "418cf61fb4e78159ae44d0816b617dc4",
+   "titre": "« Hôpital d’Ajaccio : le STC présente ses revendications avant les élections professionnelles du 10 décembre »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-14",
+   "lien": "https://www.corsicainfurmazione.org/2031032/hopital-dajaccio-le-stc-presente-ses-revendications-avant-les-elections-professionnelles-du-10-decembre/2026/",
+   "genre": "",
+   "rubrique": "Santé",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "418cf61fb4e7817f894dde3de26b78b4",
+   "titre": "« Castellucciu : le STC présente ses engagements pour les élections professionnelles »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-14",
+   "lien": "https://www.corsicainfurmazione.org/2031035/castellucciu-le-stc-presente-ses-engagements-pour-les-elections-professionnelles/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "418cf61fb4e781bc9479c44eb05ee411",
+   "titre": "Tourisme en Corse : pourquoi l’arrière-saison séduit de plus en plus les voyageurs ?",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-14",
+   "lien": "https://www.corsenetinfos.corsica/Tourisme-en-Corse-pourquoi-l-arriere-saison-seduit-de-plus-en-plus-les-voyageurs_a93637.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "418cf61fb4e78183983ceb7b63001fd0",
+   "titre": "ADMR de Corse-du-Sud : la grève suspendue, les syndicats restent vigilants",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-14",
+   "lien": "https://www.corsenetinfos.corsica/ADMR-de-Corse-du-Sud-la-greve-suspendue-les-syndicats-restent-vigilants_a93676.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "418cf61fb4e7814f8055d6e4834a68c3",
+   "titre": "[In Mimoria] A TE LA CORSICA REGINA, A TE GHJUVAN’BATTI – #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-14",
+   "lien": "https://www.corsicainfurmazione.org/50893/in-mimoria-a-te-la-corsica-regina-a-te-ghjuvabatti-2/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "417cf61fb4e781a78d20c4f1ed28a780",
+   "titre": "Tennis - Le « Ladies Open Calvi Eaux de Zilia » dans le Top 10 des tournois internationaux français féminins",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-13",
+   "lien": "https://www.corsenetinfos.corsica/Tennis-Le-Ladies-Open-Calvi-Eaux-de-Zilia-dans-le-Top-10-des-tournois-internationaux-francais-feminins_a93661.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B361",
+    "2B050"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "417cf61fb4e781f8a5a7ebc7d07f80a5",
+   "titre": "En Corse, une nouvelle formation pour accompagner les élus dans leur mandat",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-13",
+   "lien": "https://www.corsenetinfos.corsica/En-Corse-une-nouvelle-formation-pour-accompagner-les-elus-dans-leur-mandat_a93663.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "417cf61fb4e781ae904cc4bdb86c05d6",
+   "titre": "Semaine européenne de l'emploi des personnes handicapées : participez à une chasse au trésor à Aiacciu, u 17 di nuvembri",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-13",
+   "lien": "https://www.isula.corsica/Semaine-europeenne-de-l-emploi-des-personnes-handicapees-participez-a-une-chasse-au-tresor-a-Aiacciu-u-17-di-nuvembri_a6349.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "417cf61fb4e78103a262f2a63c6f7626",
+   "titre": "La Ville de Bastia adopte son plan d’adaptation au dérèglement climatique",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-13",
+   "lien": "https://www.corsenetinfos.corsica/La-Ville-de-Bastia-adopte-son-plan-d-adaptation-au-dereglement-climatique_a93646.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "417cf61fb4e7814e94cee0cf0b60d7de",
+   "titre": "Corte : conférence-débat « Vivre en Paix, Vivre ensemble »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-13",
+   "lien": "https://www.corsenetinfos.corsica/notes/Corte-conference-debat-Vivre-en-Paix-Vivre-ensemble_b98687340.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "417cf61fb4e781bd8013db1ecf748625",
+   "titre": "Bastia : une personne décède après avoir été heurtée par un train",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-13",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-une-personne-decede-apres-avoir-ete-heurtee-par-un-train_a93658.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "416cf61fb4e781378b4cf0bf5cab93da",
    "titre": "La retenue collinaire d’Ena Longa, située au sud du barrage de Figari, présente un risque de rupture",
