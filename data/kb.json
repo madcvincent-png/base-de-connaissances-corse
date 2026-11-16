@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-15",
+  "exporteLe": "2026-11-16",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1589,
+   "articles": 1597,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1589,
+   "articles": 1597,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7277,6 +7277,134 @@
  ],
  "articles": [
   {
+   "id": "41acf61fb4e78193a7a7fc0dde420448",
+   "titre": "#corse Bastia/Nice « Quand Furiani sentait bon la bombe agricole » par @PinzDestructor #SCBOGCN #OGCNSCB",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-16",
+   "lien": "https://www.corsicainfurmazione.org/34755/nice-bastia-71-et-76-quand-furiani-sentait-bon-la-bombe-agricole-par-pzd/2026/",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B120",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e78191883cf519cb3da6f7",
+   "titre": "La RT40 rouvre après cinq jours de fermeture entre Bonifacio et Pianottoli",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-15",
+   "lien": "https://www.corsenetinfos.corsica/La-RT40-rouvre-apres-cinq-jours-de-fermeture-entre-Bonifacio-et-Pianottoli_a93688.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A041"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7811b9b00c32ea192b497"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e7818caed9d25b8344f5ea",
+   "titre": "« 39 ans après, la mémoire de Ghjuvan Battì, militant du FLNC assassiné, interroge aussi l’avenir du combat national »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-15",
+   "lien": "https://www.corsicainfurmazione.org/2031066/39-ans-apres-la-memoire-de-ghjuvan-batti-militant-du-flnc-interroge-aussi-lavenir-du-combat-national/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e781759045dac5186e365f",
+   "titre": "Ajaccio - Quatre nouveaux bureaux de vote pour rapprocher les électeurs de leur domicile",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-15",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Quatre-nouveaux-bureaux-de-vote-pour-rapprocher-les-electeurs-de-leur-domicile_a93662.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e78166aa25c90341bd55b4",
+   "titre": "Bastia : Pourquoi le conseil municipal n’est-il pas diffusé en direct sur internet ?",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-15",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-Pourquoi-le-conseil-municipal-n-est-il-pas-diffuse-en-direct-sur-internet_a93648.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e78192a209f26511969cf4",
+   "titre": "Zalana : d'importants moyens mobilisés pour retrouver un homme égaré depuis samedi soir",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-15",
+   "lien": "https://www.corsenetinfos.corsica/Zalana-d-importants-moyens-mobilises-pour-retrouver-un-homme-egare-depuis-samedi-soir_a93686.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B356"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e7811187e3e96363ebf9ca",
+   "titre": "Coupe de France : Furiani-Agliani s’impose 4-1 à Nesle et se qualifie pour le 8e tour",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-15",
+   "lien": "https://www.corsenetinfos.corsica/Coupe-de-France-Furiani-Agliani-s-impose-4-1-a-Nesle-et-se-qualifie-pour-le-8e-tour_a93687.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
    "id": "419cf61fb4e78181816ccbbe84c855b0",
    "titre": "[In Mimoria] Il y a 39 ans était assassiné en #Corse, Ghjuvan’Batti Acquaviva. 1987-2026",
    "source": "Autre",
@@ -7289,6 +7417,24 @@
    "communes": [],
    "dossiers": [
     "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "419cf61fb4e78197a214daf3688cadb3",
+   "titre": "« ARS fora » : Nazione place la crise sanitaire au cœur de sa mobilisation à Migliacciaru",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-14",
+   "lien": "https://www.corsicainfurmazione.org/2031056/ars-fora-nazione-place-la-crise-sanitaire-au-coeur-de-sa-mobilisation-a-migliacciaru/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
    ],
    "personnes": [],
    "traitement": "À dépouiller"
