@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-16",
+  "exporteLe": "2026-11-17",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1597,
+   "articles": 1607,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1597,
+   "articles": 1607,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,188 @@
   }
  ],
  "articles": [
+  {
+   "id": "41bcf61fb4e7813fa1c1c9eb0f0b4654",
+   "titre": "Corte - Les forages mobilisés pour alimenter la ville en eau potable",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Corte-Les-forages-mobilises-pour-alimenter-la-ville-en-eau-potable_a93717.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e78128a58bf22d586e8b66",
+   "titre": "Bastia : les locaux de l'ARS visés par un attentat dans la nuit",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-les-locaux-de-l-ARS-vises-par-un-attentat-dans-la-nuit_a93719.html",
+   "genre": "",
+   "rubrique": "Faits divers",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e78145931dec7187d4cfaf",
+   "titre": "Autonomie - Jean-Charles Orsucci : « Il y a plus de chance que ce processus connaisse une véritable réalité après l’élection présidentielle »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-Jean-Charles-Orsucci-Il-y-a-plus-de-chance-que-ce-processus-connaisse-une-veritable-realite-apres-l-election_a93709.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781f495b1c6343158eb77",
+   "titre": "Autonomie de la Corse : une nouvelle réunion ce mardi à Paris pour tenter de sortir de l'impasse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-une-nouvelle-reunion-ce-mardi-a-Paris-pour-tenter-de-sortir-de-l-impasse_a93720.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781a7a8dccb01429bdafc",
+   "titre": "Il y a 39 ans, le FLNC rendait hommage à son militant Ghjuvan’Batti #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-17",
+   "lien": "https://www.corsicainfurmazione.org/110341/corse-a-te-la-corsica-regina-30-anni-fa/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781f5835fc6f24b70b76c",
+   "titre": "Ateliers du tourisme à Porto-Vecchio : mieux répartir les visiteurs entre mer et montagne",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-16",
+   "lien": "https://www.corsenetinfos.corsica/Ateliers-du-tourisme-a-Porto-Vecchio-mieux-repartir-les-visiteurs-entre-mer-et-montagne_a93529.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41acf61fb4e78109b843c962cc24b97f",
+   "titre": "La Collectivité de Corse participe à la Semaine de la dénutrition, du 16 au 22 novembre 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-16",
+   "lien": "https://www.isula.corsica/La-Collectivite-de-Corse-participe-a-la-Semaine-de-la-denutrition-du-16-au-22-novembre-2026_a6324.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41acf61fb4e781d28c65cbb202dbfb56",
+   "titre": "Salon des formations et des métiers \"E strade di l'orientazione\", da u 17 sin'à u 20 di nuvembre di u 2026, U Borgu",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-16",
+   "lien": "https://www.isula.corsica/Salon-des-formations-et-des-metiers-E-strade-di-l-orientazione--da-u-17-sin-a-u-20-di-nuvembre-di-u-2026-U-Borgu_a6342.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41acf61fb4e781adac0adadd56553e7f",
+   "titre": "Zalana : Le sexagénaire disparu depuis samedi retrouvé vivant",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-16",
+   "lien": "https://www.corsenetinfos.corsica/Zalana-Le-sexagenaire-disparu-depuis-samedi-retrouve-vivant_a93699.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B356"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41acf61fb4e78183b6d0e63181c716f9",
+   "titre": "Nazione réclame le départ de l’ARS et le transfert des compétences à la Collectivité de Corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-16",
+   "lien": "https://www.corsenetinfos.corsica/Nazione-reclame-le-depart-de-l-ARS-et-le-transfert-des-competences-a-la-Collectivite-de-Corse_a93704.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7",
+    "3f4cf61fb4e7814a910ae9719f470365",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "41acf61fb4e78193a7a7fc0dde420448",
    "titre": "#corse Bastia/Nice « Quand Furiani sentait bon la bombe agricole » par @PinzDestructor #SCBOGCN #OGCNSCB",
