@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-17",
+  "exporteLe": "2026-11-18",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1607,
+   "articles": 1618,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1607,
+   "articles": 1618,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,200 @@
   }
  ],
  "articles": [
+  {
+   "id": "41ccf61fb4e78114ada3de884b7efd9c",
+   "titre": "Sessione urdinaria di l'Assemblea di Corsica di u 27 di nuvembre di u 2026",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-18",
+   "lien": "https://www.isula.corsica/Sessione-urdinaria-di-l-Assemblea-di-Corsica-di-u-27-di-nuvembre-di-u-2026_a6352.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e781a59010fd9fd6359ffc",
+   "titre": "Ghjurnata intarnaziunale di i dritti di u zitellu : u 18 di nuvembre in Aiacciu è Bastia",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-18",
+   "lien": "https://www.isula.corsica/Ghjurnata-intarnaziunale-di-i-dritti-di-u-zitellu-u-18-di-nuvembre-in-Aiacciu-e-Bastia_a6350.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e78176b1eee0feae233ccf",
+   "titre": "Bastia : un échafaudage partiellement arraché par les violentes rafales de vent",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-un-echafaudage-partiellement-arrache-par-les-violentes-rafales-de-vent_a93739.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e78111b1f8e91d58bd41a6",
+   "titre": "Budget 2027 : La Ville d'Ajaccio alerte sur les ponctions visant les collectivités et demande un traitement adapté à la Corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Budget-2027-La-Ville-d-Ajaccio-alerte-sur-les-ponctions-visant-les-collectivites-et-demande-un-traitement-adapte-a-la_a93728.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b8af33e06816708d9d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e78151ac30e0cc3f5b2e69",
+   "titre": "[In Mimoria] di Pascal Rinieri, di l’omu di stintu, di l’amicu fidu, di u passiunatu di ballò, di u cunfratellu #Corse",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-18",
+   "lien": "https://www.corsicainfurmazione.org/1338852/corse-pascal-rinieri-in-mimoria/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781728b0bde7b9a33c23f",
+   "titre": "Revue de presse « ARS FORA FLNC UC » Action nocturne contre les batiments de l’ARS à Bastia",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-17",
+   "lien": "https://www.corsicainfurmazione.org/2031142/revue-de-presse-ars-fora-flnc-uc-action-nocturne-contre-les-batiments-de-lars-a-bastia/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e78155a8d0d158ab3c0e43",
+   "titre": "Semaine de l’industrie : à Ajaccio, les métiers du nautisme se dévoilent pour susciter des vocations",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Semaine-de-l-industrie-a-Ajaccio-les-metiers-du-nautisme-se-devoilent-pour-susciter-des-vocations_a93727.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781aab58fe051713acccf",
+   "titre": "RCF Corsica lance son Radiodon 2026 avec pour ambition de poursuivre son développement",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/RCF-Corsica-lance-son-Radiodon-2026-avec-pour-ambition-de-poursuivre-son-developpement_a93725.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781d9b6b2ffd3f545d691",
+   "titre": "Journée mondiale du passager : les aéroports corses remercient ceux qui les font vivre",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Journee-mondiale-du-passager-les-aeroports-corses-remercient-ceux-qui-les-font-vivre_a93730.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7ae51fee0ad4274d3"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e7815a95f6ced997ccb0c3",
+   "titre": "Assassinat d’Antoine Sollacaro : Mickaël Ettori condamné à 15 ans de prison",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Assassinat-d-Antoine-Sollacaro-Mickael-Ettori-condamne-a-15-ans-de-prison_a93733.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2A284"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41bcf61fb4e781eca6b7f722f40658ff",
+   "titre": "Autonomie de la Corse : Le pessimisme des nationalistes à la sortie de la réunion à Paris",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-17",
+   "lien": "https://www.corsenetinfos.corsica/Autonomie-de-la-Corse-Le-pessimisme-des-nationalistes-a-la-sortie-de-la-reunion-a-Paris_a93735.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "41bcf61fb4e7813fa1c1c9eb0f0b4654",
    "titre": "Corte - Les forages mobilisés pour alimenter la ville en eau potable",
