@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-18",
+  "exporteLe": "2026-11-19",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1618,
+   "articles": 1629,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1618,
+   "articles": 1629,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,206 @@
   }
  ],
  "articles": [
+  {
+   "id": "41dcf61fb4e7815a8558fd29637bf4d3",
+   "titre": "Appel à manifestation d’intérêt – alimentation durable – Erasmus+ 2027",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-19",
+   "lien": "https://www.isula.corsica/Appel-a-manifestation-d-interet-alimentation-durable-Erasmus-2027_a6354.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41dcf61fb4e78156b0f9d95ab44399b9",
+   "titre": "En raison des fortes pluies, la Haute-Corse passe en vigilance orange crues",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-19",
+   "lien": "https://www.corsenetinfos.corsica/En-raison-des-fortes-pluies-la-Haute-Corse-passe-en-vigilance-orange-crues_a93760.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41dcf61fb4e781a79bc5ce5790481795",
+   "titre": "Corte : Le Plan Communal de Sauvegarde déclenché en raison des crues",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-19",
+   "lien": "https://www.corsenetinfos.corsica/Corte-Le-Plan-Communal-de-Sauvegarde-declenche-en-raison-des-crues_a93761.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2B096"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e781cd806ad33b5c1d7517",
+   "titre": "2e Conférence alimentaire : accès à l’alimentation coopérations et expérimentations, u 19 di nuvembre di u 2026, Bastia",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-18",
+   "lien": "https://www.isula.corsica/2e-Conference-alimentaire-acces-a-l-alimentation-cooperations-et-experimentations-u-19-di-nuvembre-di-u-2026-Bastia_a6343.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb",
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e78195b381ce569b6d0705",
+   "titre": "« Réunion à Paris : les discussions sur l’autonomie de la Corse tournent une nouvelle fois à vide »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-18",
+   "lien": "https://www.corsicainfurmazione.org/2031182/reunion-a-paris-les-discussions-sur-lautonomie-de-la-corse-tournent-une-nouvelle-fois-a-vide/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e78133b0f7c096bcc84eb5",
+   "titre": "Ajaccio : Un concert et des cagnottes pour aider les familles de quatre enfants hospitalisés à Marseille",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Un-concert-et-des-cagnottes-pour-aider-les-familles-de-quatre-enfants-hospitalises-a-Marseille_a93712.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e7818ab3f4effbd1027e8c",
+   "titre": "Après l'attentat contre les locaux de l'ARS à Bastia, les agents dénoncent « un acte de violence inacceptable »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Apres-l-attentat-contre-les-locaux-de-l-ARS-a-Bastia-les-agents-denoncent-un-acte-de-violence-inacceptable_a93750.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e7818985ebe6ad0d9badd1",
+   "titre": "Précarité énergétique : en Corse, des aides existent mais restent parfois méconnues",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Precarite-energetique-en-Corse-des-aides-existent-mais-restent-parfois-meconnues_a93751.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78147baa0fa79d06de179",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e781baa580c37fb4c1adc7",
+   "titre": "« Vous allez changer la Corse » : le prix Chloé Aldrovandi récompense les élèves du collège Giraud à Bastia",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Vous-allez-changer-la-Corse-le-prix-Chloe-Aldrovandi-recompense-les-eleves-du-college-Giraud-a-Bastia_a93747.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e78138b930e2ca48e3437e",
+   "titre": "Sartène : Deux blessés dans un accident de la route, la RT40 coupée à la circulation",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/Sartene-Deux-blesses-dans-un-accident-de-la-route-la-RT40-coupee-a-la-circulation_a93756.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2A272"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ccf61fb4e7810eba45d4a42ad2fab7",
+   "titre": "Attentat contre l’ARS : L’UD CGT de Haute-Corse apporte son soutien aux personnels",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-18",
+   "lien": "https://www.corsenetinfos.corsica/notes/Attentat-contre-l-ARS-L-UD-CGT-de-Haute-Corse-apporte-son-soutien-aux-personnels_b98744406.html",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "41ccf61fb4e78114ada3de884b7efd9c",
    "titre": "Sessione urdinaria di l'Assemblea di Corsica di u 27 di nuvembre di u 2026",
