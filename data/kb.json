@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-19",
+  "exporteLe": "2026-11-20",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1629,
+   "articles": 1642,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1629,
+   "articles": 1642,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,242 @@
   }
  ],
  "articles": [
+  {
+   "id": "41ecf61fb4e7819bafbcc3f2bc488fc5",
+   "titre": "Cullocchiu cumpitenzi psicusuciali : \"Benistà è saluta mintali\", u 20 di nuvembri di u 2026 in Aiacciu",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-20",
+   "lien": "https://www.isula.corsica/Cullocchiu-cumpitenzi-psicusuciali-Benista-e-saluta-mintali--u-20-di-nuvembri-di-u-2026-in-Aiacciu_a6314.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e78192b42cc5e7ef2f01bd",
+   "titre": "« Libertà per i patriotti » : Voce Naziunale interpelle l’Exécutif sur l’amnistie des militants corses",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-20",
+   "lien": "https://www.corsicainfurmazione.org/2031200/liberta-per-i-patriotti-voce-naziunale-interpelle-lexecutif-sur-lamnistie-des-militants-corses/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e781dbbff7ed7784cd9106",
+   "titre": "Solution politique : Scelta Patriotta veut renouer avec le rapport de force face à l’État français",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-20",
+   "lien": "https://www.corsicainfurmazione.org/2031202/solution-politique-scelta-patriotta-veut-renouer-avec-le-rapport-de-force-face-a-letat-francais/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e781a18038f9945590a583",
+   "titre": "« La solution politique doit passer par la fin du FIJAIT », demande la motion de Chjama à l’unità",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-20",
+   "lien": "https://www.corsicainfurmazione.org/2031205/motionfijait2026/2026/",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e7815c8909eccb7959002e",
+   "titre": "« Élections professionnelles du 10 décembre : le STC mobilise plusieurs centaines de candidats dans toute la Corse »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-20",
+   "lien": "https://www.corsicainfurmazione.org/2031219/elections-professionnelles-du-10-decembre-le-stc-mobilise-plusieurs-centaines-de-candidats-dans-toute-la-corse/2026/",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e781bba2afcc3c00fdde77",
+   "titre": "Le journal Arritti fête ses 60 ans avec une journée spéciale à Biguglia",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/Le-journal-Arritti-fete-ses-60-ans-avec-une-journee-speciale-a-Biguglia_a93771.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B037"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e78129bb91d61cda8be9f2",
+   "titre": "Andy Delort quitte l’AC Ajaccio et rejoint Eccica-Suarella en Régional 2",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/Andy-Delort-quitte-l-AC-Ajaccio-et-rejoint-Eccica-Suarella-en-Regional-2_a93779.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2A004",
+    "2A104"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781a2bfddd6943b781194"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e7813ba2f1f7c5bff233fb",
+   "titre": "Vents violents : d'importantes perturbations dans les transports en Corse ce vendredi",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/Vents-violents-d-importantes-perturbations-dans-les-transports-en-Corse-ce-vendredi_a93781.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7",
+    "3f4cf61fb4e781b7ae51fee0ad4274d3"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e78146823dfce10277046c",
+   "titre": "Bastia - Une vingtaine de véhicules vandalisés sur le quai des Martyrs",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-Une-vingtaine-de-vehicules-vandalises-sur-le-quai-des-Martyrs_a93783.html",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781109ff8c06781d03b98"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41dcf61fb4e7819489b9cf3e096317c1",
+   "titre": "Bastia - Une journée pour accompagner les professionnels de la musique à l'Alb'Oru",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-19",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-Une-journee-pour-accompagner-les-professionnels-de-la-musique-a-l-Alb-Oru_a93701.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41dcf61fb4e781bf90b0ef5322f206e0",
+   "titre": "Élections professionnelles : le STC veut conforter « sa place de première force syndicale de l’île »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-19",
+   "lien": "https://www.corsenetinfos.corsica/Elections-professionnelles-le-STC-veut-conforter-sa-place-de-premiere-force-syndicale-de-l-ile_a93765.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9",
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41dcf61fb4e781ed889ef54461f7ba25",
+   "titre": "Porto-Vecchio : la route d’Arca submergée après un nouvel épisode pluvieux",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-19",
+   "lien": "https://www.corsenetinfos.corsica/Porto-Vecchio-la-route-d-Arca-submergee-apres-un-nouvel-episode-pluvieux_a93766.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A247"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41dcf61fb4e781afaffedf19df61b1eb",
+   "titre": "À Bastia, une nouvelle école pour former les futurs infirmiers de bloc opératoire",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-19",
+   "lien": "https://www.corsenetinfos.corsica/A-Bastia-une-nouvelle-ecole-pour-former-les-futurs-infirmiers-de-bloc-operatoire_a93767.html",
+   "genre": "",
+   "rubrique": "Santé",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78136b475fe20239d08c7"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "41dcf61fb4e7815a8558fd29637bf4d3",
    "titre": "Appel à manifestation d’intérêt – alimentation durable – Erasmus+ 2027",
