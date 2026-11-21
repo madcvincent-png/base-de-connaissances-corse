@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-20",
+  "exporteLe": "2026-11-21",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1642,
+   "articles": 1648,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1642,
+   "articles": 1648,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,111 @@
   }
  ],
  "articles": [
+  {
+   "id": "41ecf61fb4e781b59759f72e4c6a891a",
+   "titre": "SC Bastia : face à Villefranche Beaujolais, l’occasion de rebondir à Furiani",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-face-a-Villefranche-Beaujolais-l-occasion-de-rebondir-a-Furiani_a93784.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B120",
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e781749070e2120c1d42b9",
+   "titre": "En Corse, l’illettrisme se cache derrière les gestes du quotidien",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/En-Corse-l-illettrisme-se-cache-derriere-les-gestes-du-quotidien_a93785.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e781eeb172ce95aa40c8f4",
+   "titre": "Bus ajacciens : Jean-Baptiste Bartoli, ancien des Chemins de Fer de la Corse, appelé à remettre la Muvitarra sur les rails",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/Bus-ajacciens-Jean-Baptiste-Bartoli-ancien-des-Chemins-de-Fer-de-la-Corse-appele-a-remettre-la-Muvitarra-sur-les-rails_a93789.html",
+   "genre": "",
+   "rubrique": "Social",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e781d0ad45fbaef00fa158",
+   "titre": "« Donne in Tempesta » : Pièce d'Orlando Furioso dans le cadre de la journée internationale contre les violences faites aux femmes",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/notes/Donne-in-Tempesta-Piece-d-Orlando-Furioso-dans-le-cadre-de-la-journee-internationale-contre-les-violences-faites-aux_b98762304.html",
+   "genre": "",
+   "rubrique": "Société",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e7816c91cbc44d90641d18",
+   "titre": "SC Bastia : Ghislain Printant nouvel entraîneur du Sporting",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-Ghislain-Printant-nouvel-entraineur-du-Sporting_a93798.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41ecf61fb4e78174a620ce4e3d2962c6",
+   "titre": "Bastia - Trois blessés légers dans deux accidents de la circulation",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-20",
+   "lien": "https://www.corsenetinfos.corsica/Bastia-Trois-blesses-legers-dans-deux-accidents-de-la-circulation_a93800.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "41ecf61fb4e7819bafbcc3f2bc488fc5",
    "titre": "Cullocchiu cumpitenzi psicusuciali : \"Benistà è saluta mintali\", u 20 di nuvembri di u 2026 in Aiacciu",
