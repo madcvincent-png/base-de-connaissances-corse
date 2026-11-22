@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-21",
+  "exporteLe": "2026-11-22",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1648,
+   "articles": 1656,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1648,
+   "articles": 1656,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,149 @@
   }
  ],
  "articles": [
+  {
+   "id": "420cf61fb4e78122b050cbfc56e4ac97",
+   "titre": "Logement, intelligence artificielle et investissements : l’économie corse au cœur des échanges à Ajaccio",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-22",
+   "lien": "https://www.corsenetinfos.corsica/Logement-intelligence-artificielle-et-investissements-l-economie-corse-au-coeur-des-echanges-a-Ajaccio_a93804.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "420cf61fb4e781cdb993d6d6faa90033",
+   "titre": "La précarité et la santé en Corse au cœur de la deuxième conférence alimentaire",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-22",
+   "lien": "https://www.corsenetinfos.corsica/La-precarite-et-la-sante-en-Corse-au-coeur-de-la-deuxieme-conference-alimentaire_a93763.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781f9aa39e51b64e4581c",
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41fcf61fb4e78103b4a0dcb44c909b94",
+   "titre": "Les contre-pouvoirs du FLNC dans les années 80 – #Archives #Corse –",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-22",
+   "lien": "https://www.corsicainfurmazione.org/104570/histoire-contre-pouvoir-flnc-annee80/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41fcf61fb4e7814eb9eafb1f97096b96",
+   "titre": "Collectivités corses : quand l’ordre des PDF simplifie les démarches publiques",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-21",
+   "lien": "https://www.corsenetinfos.corsica/Collectivites-corses-quand-l-ordre-des-PDF-simplifie-les-demarches-publiques_a93799.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41fcf61fb4e7816596a5d57913130e6b",
+   "titre": "SC Bastia : la confiance retrouvée, l’héritage de Miché Moretti pour Ghislain Printant ?",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-21",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-la-confiance-retrouvee-l-heritage-de-Miche-Moretti-pour-Ghislain-Printant_a93811.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41fcf61fb4e7811890b1f2fa135b1cc7",
+   "titre": "« FIJAIT, incarcération et engagements non tenus : la contestation s’organise autour de Stéphane Ori »",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-21",
+   "lien": "https://www.corsicainfurmazione.org/2031241/fijait-incarceration-et-engagements-non-tenus-la-contestation-sorganise-autour-de-stephane-ori/2026/",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a910ae9719f470365"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41fcf61fb4e781d4857fe9126d918ebe",
+   "titre": "Ligue 3 : quatre buts et une victoire (4-2) pour le SC Bastia face à Villefranche !",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-21",
+   "lien": "https://www.corsenetinfos.corsica/Ligue-3-quatre-buts-et-une-victoire-4-2-pour-le-SC-Bastia-face-a-Villefranche-_a93808.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "41fcf61fb4e78193b312d3cf27a391de",
+   "titre": "Dénutrition des personnes âgées : en Corse, mieux repérer pour mieux prévenir",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-21",
+   "lien": "https://www.corsenetinfos.corsica/Denutrition-des-personnes-agees-en-Corse-mieux-reperer-pour-mieux-prevenir_a93790.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "41ecf61fb4e781b59759f72e4c6a891a",
    "titre": "SC Bastia : face à Villefranche Beaujolais, l’occasion de rebondir à Furiani",
