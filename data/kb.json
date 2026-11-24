@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-23",
+  "exporteLe": "2026-11-24",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1661,
+   "articles": 1669,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1661,
+   "articles": 1669,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,146 @@
   }
  ],
  "articles": [
+  {
+   "id": "421cf61fb4e781548ff6c59ef2407468",
+   "titre": "Orange days : A Cullettività di Corsica mubilizata contr’à e viulenze fatte à e donne",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-23",
+   "lien": "https://www.isula.corsica/Orange-days-A-Cullettivita-di-Corsica-mubilizata-contr-a-e-viulenze-fatte-a-e-donne_a6347.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e7818998f3f072baeeb47c",
+   "titre": "Vents violents : plusieurs interventions des pompiers de Haute-Corse dans la nuit",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/Vents-violents-plusieurs-interventions-des-pompiers-de-Haute-Corse-dans-la-nuit_a93823.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e781769672ebfdbbab1da3",
+   "titre": "Ajaccio – Un restaurant visé par un incendie criminel à Mezzavia, une enquête ouverte",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Un-restaurant-vise-par-un-incendie-criminel-a-Mezzavia-une-enquete-ouverte_a93827.html",
+   "genre": "",
+   "rubrique": "Société",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e78103b38bdfc3a50cbb17",
+   "titre": "Bocognano – Le tunnel fermé à la circulation toutes les nuits jusqu’à vendredi",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/Bocognano-Le-tunnel-ferme-a-la-circulation-toutes-les-nuits-jusqu-a-vendredi_a93834.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [
+    "2A040"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e781caaba7eb8d49631b45",
+   "titre": "La Nuit de l’Orientation : deux rendez-vous pour découvrir les métiers en Corse",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/La-Nuit-de-l-Orientation-deux-rendez-vous-pour-decouvrir-les-metiers-en-Corse_a93835.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e781b990fafc0ee4751b42",
+   "titre": "SC Bastia (Ghislain Printant) : « Refaire du Sporting ce qu’il était dans le passé ! »",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/SC-Bastia-Ghislain-Printant-Refaire-du-Sporting-ce-qu-il-etait-dans-le-passe-_a93836.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e781d4a513f0fdab3d798c",
+   "titre": "Per Campà in Pace : un premier logement social rénové et attribué à Ajaccio",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/Per-Campa-in-Pace-un-premier-logement-social-renove-et-attribue-a-Ajaccio_a93829.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7815b90f5ce553ac62289"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "421cf61fb4e7811e9e00c9b1aaee1b91",
+   "titre": "Air Corsica : cinq ATR toujours au sol, un huitième Airbus en 2027 et deux nouvelles lignes vers Bordeaux",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-23",
+   "lien": "https://www.corsenetinfos.corsica/Air-Corsica-cinq-ATR-toujours-au-sol-un-huitieme-Airbus-en-2027-et-deux-nouvelles-lignes-vers-Bordeaux_a93840.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814a8c3dd45317c8adf7"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "421cf61fb4e78106bfdbc1828441e0f4",
    "titre": "Journée internationale pour l’élimination des violences faites aux femmes et Orange days",
