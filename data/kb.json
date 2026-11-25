@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-24",
+  "exporteLe": "2026-11-25",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1669,
+   "articles": 1673,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1669,
+   "articles": 1673,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,74 @@
   }
  ],
  "articles": [
+  {
+   "id": "423cf61fb4e781ecb99bc1c726bb2457",
+   "titre": "Sapeurs-pompiers : la question du financement au cœur d'une mobilisation en Haute-Corse ce mercredi",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-24",
+   "lien": "https://www.corsenetinfos.corsica/Sapeurs-pompiers-la-question-du-financement-au-coeur-d-une-mobilisation-en-Haute-Corse-ce-mercredi_a93849.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781ed9727e1f2ced79ac9"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "422cf61fb4e7819da9a8cf5047094c85",
+   "titre": "Invechjà Quì, i servizii in mossa : les prochaines journées d'information sur les dispositifs à destination des personnes âgées",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-24",
+   "lien": "https://www.isula.corsica/Invechja-Qui-i-servizii-in-mossa-les-prochaines-journees-d-information-sur-les-dispositifs-a-destination-des-personnes_a5383.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "422cf61fb4e781c9a0c6e74e6f6b670e",
+   "titre": "A maghjina - A magia di a notte",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-24",
+   "lien": "https://www.corsenetinfos.corsica/A-maghjina-A-magia-di-a-notte_a93842.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "422cf61fb4e781a7b21ddbb68c4e1420",
+   "titre": "A Vaghjimata : quand l’Animu s’anime pour la littérature corse à Portovechju",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-24",
+   "lien": "https://www.corsenetinfos.corsica/A-Vaghjimata-quand-l-Animu-s-anime-pour-la-litterature-corse-a-Portovechju_a93504.html",
+   "genre": "",
+   "rubrique": "Langue corse",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e78171862ff05c4402c71a"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "421cf61fb4e781548ff6c59ef2407468",
    "titre": "Orange days : A Cullettività di Corsica mubilizata contr’à e viulenze fatte à e donne",
