@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-25",
+  "exporteLe": "2026-11-26",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1673,
+   "articles": 1679,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1673,
+   "articles": 1679,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,113 @@
   }
  ],
  "articles": [
+  {
+   "id": "424cf61fb4e781c2937cc8ec578f6df1",
+   "titre": "Mubilità, a vostra leia di nutizie pè e strade è i trasporti nantu à WhatsApp",
+   "source": "Autre",
+   "typeSource": "Document officiel / communiqué",
+   "date": "2026-11-26",
+   "lien": "https://www.isula.corsica/Mubilita-a-vostra-leia-di-nutizie-pe-e-strade-e-i-trasporti-nantu-a-WhatsApp_a6376.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781b7b74ad59c7c78afdb"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "424cf61fb4e7818f9e92f84846f56dff",
+   "titre": "Les sapeurs-pompiers de Lisula et de Calvi mobilisés pour faire entendre leurs revendications",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-26",
+   "lien": "https://www.corsenetinfos.corsica/Les-sapeurs-pompiers-de-Lisula-et-de-Calvi-mobilises-pour-faire-entendre-leurs-revendications_a93880.html",
+   "genre": "",
+   "rubrique": "Environnement",
+   "lieux": [],
+   "communes": [
+    "2B050"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "424cf61fb4e78171b157e97420db7816",
+   "titre": "Ajaccio : la gendarmerie de Corse célèbre la Sainte-Geneviève",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-26",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-la-gendarmerie-de-Corse-celebre-la-Sainte-Genevieve_a93881.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "424cf61fb4e7818e805ffc38388e92ab",
+   "titre": "Biguglia : « Un nouveau visage du totalitarisme ? » en débat ce jeudi dans le cadre de Camera pulitica",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-26",
+   "lien": "https://www.corsenetinfos.corsica/Biguglia-Un-nouveau-visage-du-totalitarisme-en-debat-ce-jeudi-dans-le-cadre-de-Camera-pulitica_a93883.html",
+   "genre": "",
+   "rubrique": "Économie",
+   "lieux": [],
+   "communes": [
+    "2B037"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78138a9a5d5b1753c6f53"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "423cf61fb4e78166aed3c52e2a5156c7",
+   "titre": "Porto-Vecchio - Le Casadelmar dans le top 1 000 des restaurants du monde, selon La Liste",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-25",
+   "lien": "https://www.corsenetinfos.corsica/Porto-Vecchio-Le-Casadelmar-dans-le-top-1-000-des-restaurants-du-monde-selon-La-Liste_a93869.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2A247"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "423cf61fb4e7817abb22e3529a5d1c91",
+   "titre": "Furiani - La jeunesse célèbre l'inauguration du stade Armand-Cesari rénové",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-25",
+   "lien": "https://www.corsenetinfos.corsica/Furiani-La-jeunesse-celebre-l-inauguration-du-stade-Armand-Cesari-renove_a93875.html",
+   "genre": "",
+   "rubrique": "Sports",
+   "lieux": [],
+   "communes": [
+    "2B120"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e7817e9ad3fbd6f955cce0",
+    "3f4cf61fb4e781bd8c96e541dcfb84df"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "423cf61fb4e781ecb99bc1c726bb2457",
    "titre": "Sapeurs-pompiers : la question du financement au cœur d'une mobilisation en Haute-Corse ce mercredi",
