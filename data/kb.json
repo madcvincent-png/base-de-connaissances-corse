@@ -1,7 +1,7 @@
 {
  "meta": {
   "profil": "public",
-  "exporteLe": "2026-11-26",
+  "exporteLe": "2026-11-27",
   "compteurs": {
    "communes": 360,
    "faits": 42,
@@ -9,7 +9,7 @@
    "roles": 6,
    "personnes": 94,
    "dossiers": 59,
-   "articles": 1679,
+   "articles": 1683,
    "notes": 5,
    "documents": 32,
    "drones": 198
@@ -21,7 +21,7 @@
    "roles": 11,
    "personnes": 272,
    "dossiers": 92,
-   "articles": 1679,
+   "articles": 1683,
    "notes": 14,
    "documents": 32,
    "drones": 198
@@ -7276,6 +7276,76 @@
   }
  ],
  "articles": [
+  {
+   "id": "425cf61fb4e7817f87dff3f378db422d",
+   "titre": "« La rupture entre les deux FLNC devient officielle à Borgu » – Tempi fà, Tempi d’Oghje",
+   "source": "Autre",
+   "typeSource": "Presse d'opinion",
+   "date": "2026-11-27",
+   "lien": "https://www.corsicainfurmazione.org/2030619/la-rupture-entre-les-deux-flnc-devient-officielle-a-borgu-tempi-fa-tempi-doghje/2026/",
+   "genre": "",
+   "rubrique": "Politique",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e781989decd5d866cf006d"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "424cf61fb4e781839cbbc1a065c645dc",
+   "titre": "Ajaccio - Réunis autour de l’éducation artistique et culturelle, les acteurs dessinent les prochaines étapes",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-26",
+   "lien": "https://www.corsenetinfos.corsica/Ajaccio-Reunis-autour-de-l-education-artistique-et-culturelle-les-acteurs-dessinent-les-prochaines-etapes_a93885.html",
+   "genre": "",
+   "rubrique": "Justice",
+   "lieux": [],
+   "communes": [
+    "2A004"
+   ],
+   "dossiers": [],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "424cf61fb4e781de94ebf716fb910070",
+   "titre": "EN IMAGES - Alerte au colis piégé à bord d’A Galeotta : le port de Bastia en exercice de sûreté",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-26",
+   "lien": "https://www.corsenetinfos.corsica/EN-IMAGES-Alerte-au-colis-piege-a-bord-d-A-Galeotta-le-port-de-Bastia-en-exercice-de-surete_a93888.html",
+   "genre": "",
+   "rubrique": "Transports",
+   "lieux": [],
+   "communes": [
+    "2B033"
+   ],
+   "dossiers": [
+    "3f4cf61fb4e78139b400cca70d44ea06"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
+  {
+   "id": "424cf61fb4e781299351e59c0715657c",
+   "titre": "Le Défi des Restos : les chefs corses invités à mettre la cuisine durable au menu",
+   "source": "Corse Net Infos",
+   "typeSource": "Site d'information",
+   "date": "2026-11-26",
+   "lien": "https://www.corsenetinfos.corsica/Le-Defi-des-Restos-les-chefs-corses-invites-a-mettre-la-cuisine-durable-au-menu_a93894.html",
+   "genre": "",
+   "rubrique": "Institutions",
+   "lieux": [],
+   "communes": [],
+   "dossiers": [
+    "3f4cf61fb4e7814bbda6e3605196e60f"
+   ],
+   "personnes": [],
+   "traitement": "À dépouiller"
+  },
   {
    "id": "424cf61fb4e781c2937cc8ec578f6df1",
    "titre": "Mubilità, a vostra leia di nutizie pè e strade è i trasporti nantu à WhatsApp",
